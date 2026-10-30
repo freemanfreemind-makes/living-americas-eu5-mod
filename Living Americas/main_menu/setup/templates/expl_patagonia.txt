@@ -1,0 +1,22 @@
+discovered_regions = {
+	la_plata_region
+}
+
+discovered_areas = {
+	andes_sea_zones_area
+	la_plata_sea_zones_area
+	moqoit_area
+	cuyo_area
+	atacama_area
+	qullaw_area
+	ngulumapu_area
+}
+
+discovered_provinces = {
+	quitu_coastal_sea_zones_province
+	chala_coastal_sea_zones_province
+	ishma_coastal_sea_zones_province
+	atacama_coastal_sea_zones_province
+	cuyo_coastal_sea_zones_province
+	xllang_coastal_sea_zones_province
+}

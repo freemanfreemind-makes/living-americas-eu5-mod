@@ -1,0 +1,259 @@
+international_organization_manager = {
+	#################################################################
+	# 					Tribal Confederation						#
+	#################################################################
+	#Confederation against Cahokia, evidence shows city was attacked, testing if this works.
+	#add_international_organization = {
+		#type = tribal_confederation
+		#creation_date = 1337.1.1
+		#members = { WZZ UMO PPK KAW PIA WEA KKH KHK NCH WGH TSW PTW CYS KSK PEO TMW CSQ UGX }
+	#}
+
+	#Trialing cultural confederations to add some balance without a mix of alliances
+
+	#Wendat
+	add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { ARN AGJ ATG TRT AGW TIO ATC }
+		}
+
+	#Iroqois
+	add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { ADR ONG KEN ERI HON WRO OSG MAS STD }
+		}
+
+	Anishinabe
+	add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { OJI ODW MMQ BDK NKW MSG NPS TMG ABT WSK }
+		}
+
+	#Shawnee
+	add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { KIW MSK PKW HAT MKC CLG KPK OSK }
+		}
+
+	#Abenaki
+	add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { MIK SOK PCK PNS PEN MLS PQD }
+		}
+
+	#Massachusett
+	#add_international_organization = {
+	#	type = tribal_confederation
+	#	creation_date = 1337.1.1
+	#	members = { MSC PCT PQT WMG NRG QRP }
+	#	}
+
+	#Lenape
+	add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { MNS UNA MCN UNL }
+		}
+
+	#Powhatan
+	#add_international_organization = {
+	#	type = tribal_confederation
+	#	creation_date = 1337.1.1
+	#	members = { RPP PML TSN DOE NTK NSM CAA PSC ACW }
+	#	}
+
+	#Skarureh
+	add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { SKR NTT }
+		}
+
+	#Tutelo
+		#add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { TTL WCM CFQ JOA MTN OFO TKS TSO MNC }
+		}
+
+	Cherokee
+		add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { GWY GDW OTL }
+		}
+
+	#Muskogee
+		#add_international_organization = {
+	#	type = tribal_confederation
+	#	creation_date = 1337.1.1
+	#	members = { MCG CSB GUL YMS HIT APA EUF CPQ TOA OCT COW TUC COO ALA KST KSK }
+	#	}
+
+	Chickasaw Choctaw
+		#add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { CHS CTT MBL ACL CHC QUZ PCH }
+		}
+
+	#Timucua
+		add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { CLS TMC TBG AIX }
+		}
+
+	#Chitimacha
+		add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { CTI BYG }
+		}
+
+	#Atakapa
+		add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { ISH QMG TWK }
+		}
+
+	#Natchez
+		add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { NCZ AVY QGM ANL COL CSQ }
+		}
+
+	#Dhegiha
+		add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { UMO WZZ KAW UGX PPK }
+		}
+
+	Myaamia
+		add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { PIA AKG PEP MCT PEO WEA KKH KHK TMW }
+		}
+
+	#Chiwere
+		add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { NCH WGH HCK BXJ }
+		}
+
+	#Caddo
+	#	#add_international_organization = {
+	#	type = tribal_confederation
+	#	creation_date = 1337.1.1
+	#	members = { CAD KIH NST KDW TUA CYS TVY KTK PTW KIA TSW SII SHH }
+	#	}
+
+	Dakota
+		#add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { LKT NDA BKT STW WKH WPW IUW IKW }
+		}
+
+	#Tsetsehasahese
+		add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { TTS SOO }
+		}
+
+	#Hinonoeitiit
+		add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { HNO NWN HAA }
+		}
+
+	#Apsaalooke Hiraaca
+		add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { HIR ASH ASP NUE }
+		}
+
+	#Siksika
+		add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { SKS PKN AKA }
+		}
+
+	#Cree - Plains
+		add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { MMW MYN NHT AKH NHA }
+		}
+
+	#Cree - Woodland
+		add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { ILI INN IYN IYY }
+		}
+
+	#Cree - Eastern
+		add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { ILN INU NKP BTK }
+		}
+
+	#Inuit
+		add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { INT DRT INP MMT KGU KVG }
+		}
+
+	#Pueblo - Keres
+		add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { ACO TEY ISL KER }
+		}
+
+	#Pueblo - Tanoan
+		add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { TAO TST OHK TNN }
+		}
+
+	#Pueblo - Desert
+		add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { HOP HHK ZNI }
+		}
+
+	#Nuuchi Nuwu
+		add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { NUW NWV }
+		}
+
+	#Coahuilteco
+		add_international_organization = {
+		type = tribal_confederation
+		creation_date = 1337.1.1
+		members = { COH1 COH2 COH3 COH4 COH6 }
+		}
+
+}

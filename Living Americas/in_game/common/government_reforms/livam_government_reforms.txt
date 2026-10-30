@@ -1,0 +1,27 @@
+﻿TRY_REPLACE:haudenosaunee_clan_mothers = {
+	government = tribe
+	potential = {
+		OR = {
+			culture = { has_culture_group = culture_group:haudenosaunee_group }
+			culture = { has_culture_group = culture_group:wendat_group }
+			culture = { has_culture_group = culture_group:iroquoian_group }
+			culture = { has_culture_group = culture_group:skarureh_group }
+		}
+	}
+
+	on_activate = {
+		change_heir_selection = heir_selection:tribal_matrilineal
+	}
+
+	locked = {
+		tribal_cohesion < 80
+	}
+
+	country_modifier = {
+		global_estate_target_satisfaction = small_permanent_target_satisfaction
+		monthly_towards_traditionalist = societal_value_monthly_move
+		monthly_towards_communalism = societal_value_monthly_move
+		cultural_tradition = 0.1
+	}
+	years = 1
+}

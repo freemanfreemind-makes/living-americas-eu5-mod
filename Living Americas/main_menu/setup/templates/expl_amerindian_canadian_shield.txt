@@ -1,0 +1,26 @@
+discovered_regions = {
+}
+
+discovered_areas = {
+	labrador_area
+	nunavik_area
+	jamesie_area
+	quebec_area
+	laurentian_area
+	lower_canada_area
+	eastern_ontario_area
+	northern_ontario_area
+	northwestern_ontario_area
+	greenstone_belt_area
+	james_bay_lowlands_area
+	keewatin_area
+	keewatin_n_area
+	hudson_bay_sea_zones_area
+	labrador_sea_area
+	great_lakes_sea_zones_area
+}
+
+discovered_provinces = {
+
+}
+

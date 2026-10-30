@@ -1,0 +1,24 @@
+discovered_regions = {
+}
+
+
+discovered_areas = {
+	wisconsin_area
+	superior_area
+	northwestern_ontario_area
+	northern_ontario_area
+	eastern_ontario_area
+	western_ontario_area
+	haudenosaunee_area
+	westsylvania_area
+	ohio_area
+	michigan_area
+	indiana_area
+	illinois_area
+	iowa_area
+	missouri_area
+	great_lakes_sea_zones_area
+}
+discovered_provinces = {
+
+}

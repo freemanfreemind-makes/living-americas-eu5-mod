@@ -1,0 +1,28 @@
+discovered_regions = {
+}
+
+discovered_areas = {
+	missouri_area
+	illinois_area
+	indiana_area
+	michigan_area
+	northwestern_ontario_area
+	western_ontario_area
+	northern_ontario_area
+	great_lakes_sea_zones_area
+	greenstone_belt_area
+	james_bay_lowlands_area
+	keewatin_area
+	wisconsin_area
+	superior_area
+	iowa_area
+	red_river_area
+}
+
+discovered_provinces = {
+	oceko_sipiy_province
+	atikaki_province
+	nunatonowago_province
+	pikwitonei_province
+	kamisak_province
+}

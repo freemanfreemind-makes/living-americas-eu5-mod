@@ -1,0 +1,19 @@
+discovered_regions = {
+}
+
+discovered_areas = {
+	illinois_area
+	indiana_area
+	kentucky_area
+	tennessee_area
+	missouri_area
+	arkansas_area
+	louisiana_area
+	mississippi_area
+	alabama_area
+	georgia_us_area
+}
+
+discovered_provinces = {
+
+}

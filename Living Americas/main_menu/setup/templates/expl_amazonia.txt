@@ -1,0 +1,16 @@
+discovered_regions = {
+	brazil_region
+	chaco_region
+}
+
+discovered_areas = {
+	guayana_area
+	pampa_area
+	orinucu_area
+	guayana_sea_zones_area
+	brazil_sea_zones_area
+}
+
+discovered_provinces = {
+
+}

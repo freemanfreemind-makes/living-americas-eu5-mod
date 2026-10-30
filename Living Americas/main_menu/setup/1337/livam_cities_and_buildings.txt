@@ -1,0 +1,92 @@
+locations={
+
+#North America
+	coosa = { rank = town 		town_setup = east_coast_town }
+	capachequi = { rank = town 		town_setup = east_coast_town }
+	toa = { rank = town 		town_setup = east_coast_small_town }
+	ocute = { rank = town 		town_setup = east_coast_town }
+	atahachi = { rank = town 		town_setup = east_coast_town }
+	cofitachequi = { rank = town 		town_setup = east_coast_town }
+	joara = { rank = town 		town_setup = east_coast_town }
+	powhatan = { rank = town 		town_setup = east_coast_small_town }
+	shawmut = { rank = town 		town_setup = east_coast_small_town }
+	erie = { rank = town 		town_setup = east_coast_small_town }
+	niagara = { rank = town 		town_setup = east_coast_town }
+	quigualtam = { rank = town 		town_setup = mississippian_town }
+	quizquiz = { rank = town 		town_setup = mississippian_town }
+	natchez = { rank = town 		town_setup = mississippian_small_town }
+	pacaha = { rank = town 		town_setup = mississippian_small_town }
+	casqui = { rank = town 		town_setup = mississippian_small_town }
+	coligua = { rank = town 		town_setup = mississippian_small_town }
+	obion = { rank = town 		town_setup = mississippian_town }
+
+	#Ppanka
+	#kaskaskia = { rank = rural_settlement		town_setup = warrior_tribe_military_settlement }
+	#ochechiton = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+
+	#Cahokia
+	cahokia = { rank = city town_setup = south_east_woodlands_city }
+
+# Nomadic Tribes
+
+# Mesoamerica
+	#Tamauliteco
+	pantlan = { rank = rural_settlement		town_setup = warrior_tribe_military_settlement }
+	mante = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	tula = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	maratine = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+
+	#Cuauchichil
+	guanchenis = { rank = rural_settlement		town_setup = warrior_tribe_military_settlement }
+	mazatepec = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	ma_tehua_llan = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	mazatlpilli = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+
+	#Zain
+	zain = { rank = rural_settlement		town_setup = warrior_tribe_military_settlement }
+	yuac = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	papanton = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	cuencame = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+
+	#Tepehuan
+	#mezquital = { rank = rural_settlement		town_setup = warrior_tribe_military_settlement }
+
+# South America
+	#Nandeva
+	nandeva = { rank = rural_settlement		town_setup = warrior_tribe_military_settlement }
+	umbu = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	ibicui = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	patos = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	jacui = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	tupancireta = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	uruguay = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	yguazu = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+
+	#Ava
+	samaipata = { rank = rural_settlement		town_setup = warrior_tribe_military_settlement }
+	tomina = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	huacareta = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	pomabamba = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+
+	#Aimore
+	#urucu = { rank = rural_settlement		town_setup = warrior_tribe_military_settlement }
+	#aimore = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	#malalis = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	#nanuque = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	#borun = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+
+	#Kiriri
+	#kariri = { rank = rural_settlement		town_setup = warrior_tribe_military_settlement }
+	#arakaiu = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	#karapoto = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	#kiriri = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	#yapuata = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+
+	#Potiguara
+	#potiguara = { rank = rural_settlement		town_setup = warrior_tribe_military_settlement }
+	#kaaysara = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	#paraiba = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	#monxoro = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	#payaku = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+
+}

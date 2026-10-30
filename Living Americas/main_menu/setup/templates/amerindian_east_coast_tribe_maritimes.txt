@@ -1,0 +1,60 @@
+starting_technology_level = 0
+government = {
+	type = tribe
+	heir_selection = tribal_oldest_male
+	
+	centralization_vs_decentralization = 80
+	traditionalist_vs_innovative = -70
+	spiritualist_vs_humanist = -60
+	aristocracy_vs_plutocracy = -80
+	serfdom_vs_free_subjects = 50
+	mercantilism_vs_free_trade = 50
+	belligerent_vs_conciliatory = 100
+	quality_vs_quantity = -75
+	offensive_vs_defensive = 50
+	land_vs_naval = -90
+	capital_economy_vs_traditional_economy = 100
+	individualism_vs_communalism = 60
+	outward_vs_inward = 50
+
+	parliament = {
+		parliament_type = assembly
+	}
+
+	laws = {
+		marriage_law = polygyny
+		heir_religion_law = heir_same_religion
+	}
+
+	privilege = {
+		tribes_tribal_levies
+		tribes_allow_gatherings
+	}
+
+}
+
+discovered_areas = {
+	hudson_area
+	haudenosaunee_area
+	southern_new_england_area
+	massachusetts_area
+	vermont_area
+	new_hampshire_area
+	lower_canada_area
+	maine_area
+	new_brunswick_area
+	acadia_area
+	prince_edward_island_area
+	newfoundland_area
+	quebec_area
+	laurentian_area
+	lower_canada_area
+	eastern_ontario_area
+	canadian_atlantic_coast_area
+}
+
+discovered_provinces = {
+	new_england_coast_province
+	nauset_coast_province
+	long_island_coast_province
+}

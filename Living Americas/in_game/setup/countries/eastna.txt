@@ -1,0 +1,292 @@
+﻿#XXX = {
+#	color =
+#	color2 =
+
+#	culture_definition = _culture
+#	religion_definition =
+
+#
+#}
+
+#Ilnu
+ILN = {
+	color = map_ilnu
+	color2 = rgb { 151 90 161 }
+
+	culture_definition = ilnu_culture
+	religion_definition = midewiwin_religion
+
+}
+
+#Innu
+INU = {
+	color = map_innu
+	color2 = rgb { 212 129 225 }
+
+	culture_definition = innu_culture
+	religion_definition = midewiwin_religion
+
+}
+
+#Beothuk
+BTK = {
+	color = map_beothuk
+	color2 = rgb { 112 98 114 }
+
+	culture_definition = beothuk_culture
+	religion_definition = midewiwin_religion
+
+}
+
+#Dorset
+DRT = {
+	color = map_dorset
+	color2 = rgb { 160 116 245 }
+
+	culture_definition = dorset_culture
+	religion_definition = totemism
+
+}
+
+#Naskapi
+NKP = {
+	color = map_naskapi
+	color2 = rgb { 233 186 240 }
+
+	culture_definition = naskapi_culture
+	religion_definition = midewiwin_religion
+
+}
+
+#Iyiyiyu
+IYY = {
+	color = map_iyiyiyu
+	color2 = rgb { 233 136 193 }
+
+	culture_definition = iyiyiyu_culture
+	religion_definition = midewiwin_religion
+
+}
+
+#Iyiniyu
+IYN = {
+	color = map_iyiniyu
+	color2 = rgb { 135 76 111 }
+
+	culture_definition = iyiniyu_culture
+	religion_definition = midewiwin_religion
+
+}
+
+#Ilili
+ILI = {
+	color = map_ilili
+	color2 = rgb { 176 67 196 }
+
+	culture_definition = ilili_culture
+	religion_definition = midewiwin_religion
+
+}
+
+#Innini
+INN = {
+	color = map_innini
+	color2 = rgb { 170 97 146 }
+
+	culture_definition = innini_culture
+	religion_definition = midewiwin_religion
+
+}
+
+#Nehina
+NHA = {
+	color = map_nehina
+	color2 = rgb { 151 164 205}
+
+	culture_definition = nehina_culture
+	religion_definition = midewiwin_religion
+
+}
+
+#Nihithaw
+NHT = {
+	color = map_nihithaw
+	color2 = hsv { 0.24 0.86 0.38 }
+
+	culture_definition = nihithaw_culture
+	religion_definition = midewiwin_religion
+
+}
+
+#Inuit
+INT = {
+	color = map_inuit
+	color2 = rgb { 21 132 102 }
+
+	culture_definition = inuit_culture
+	religion_definition = inuit_religion
+
+}
+
+#Tsuu'tina
+TTI = {
+	color = map_tsuutina
+	color2 = rgb { 234 208 112 }
+
+	culture_definition = tsuutina_culture
+	religion_definition = dene_shamanism
+
+}
+
+#Siksika
+SKS = {
+	color = map_siksika
+	color2 = rgb { 130 2 77 }
+
+	culture_definition = siksika_culture
+	religion_definition = midewiwin_religion
+
+}
+
+#Akinaa
+AKA = {
+	color = map_akainaa
+	color2 = rgb { 225 7 137 }
+
+	culture_definition = akainaa_culture
+	religion_definition = midewiwin_religion
+
+}
+
+#Piikani
+PKN = {
+	color = map_piikani
+	color2 = rgb { 192 124 152 }
+
+	culture_definition = piikani_culture
+	religion_definition = midewiwin_religion
+
+}
+
+#Mahmikiwini
+MMW = {
+	color = map_mahmikiwini
+	color2 = rgb { 169 196 149 }
+
+	culture_definition = mahmikiwini_culture
+	religion_definition = midewiwin_religion
+
+}
+
+#Matiyinini
+MYN = {
+	color = map_matiyinini
+	color2 = rgb { 69 109 119 }
+
+	culture_definition = matiyinini_culture
+	religion_definition = midewiwin_religion
+
+}
+
+#Asinikawithini
+AKH = {
+	color = map_asinikawithini
+	color2 = rgb { 101 135 9 }
+
+	culture_definition = asinikawithini_culture
+	religion_definition = midewiwin_religion
+
+}
+
+#Niitsítapi
+KTX1 = {
+	color = map_stoney
+	color2 = hsv { 0.03 0.50 0.38 }
+
+	culture_definition = ktunaxa_culture
+	religion_definition = salishan_totemism
+}
+
+#Coahuilteco
+#COH = {
+#	color = map_coahuilteco
+#	color2 = rgb { 100 036 036 }
+#
+#	culture_definition = coahuilteco_culture
+#	religion_definition = coahuilteco_religion
+#}
+
+#Alazapa
+COH1 = {
+	color = map_alazapa
+	color2 = rgb { 220 90 6 }
+
+	culture_definition = coahuilteco_culture
+	religion_definition = coahuilteco_religion
+
+}
+
+
+#Chisos
+COH2 = {
+	color = map_chisos
+	color2 = rgb { 205 180 50 }
+
+	culture_definition = coahuilteco_culture
+	religion_definition = coahuilteco_religion
+
+}
+
+
+#Cacaxtles
+COH3 = {
+	color = map_cacaxtles
+	color2 = rgb { 010 156 116 }
+
+	culture_definition = coahuilteco_culture
+	religion_definition = coahuilteco_religion
+
+}
+
+
+#Payeye
+COH4 = {
+	color = map_payeye
+	color2 = rgb { 221 122 107 }
+
+	culture_definition = coahuilteco_culture
+	religion_definition = coahuilteco_religion
+
+}
+
+
+#Tickanwatic
+COH5 = {
+	color = map_tickanwatic
+	color2 = rgb { 000 236 156 }
+
+	culture_definition = tickanwatic_culture
+	religion_definition = great_plains_shamanism
+
+}
+
+
+#Tokonohono
+COH6 = {
+	color = map_tokonohono
+	color2 = rgb { 6 192 22 }
+
+	culture_definition = coahuilteco_culture
+	religion_definition = coahuilteco_religion
+
+}
+
+#Lepai Ndé
+LPN = {
+	color = map_lepai_nde
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = lepai_nde_culture
+	religion_definition = dene_shamanism
+
+}

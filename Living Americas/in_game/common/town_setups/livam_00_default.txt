@@ -1,0 +1,45 @@
+﻿#########################
+#Living Americas Mod City Setups
+#########################
+
+south_east_woodlands_city = {
+	temple = 1
+	granary = 1
+	marketplace = 1
+	pottery_guild = 1
+	city_walls = 1
+}
+
+mississippian_town = {
+	temple = 1
+	market_village = 1
+	stone_quarry = 1
+	tools_guild = 1
+}
+
+mississippian_small_town = {
+	temple = 1
+	market_village = 1
+}
+
+east_coast_town = {
+	market_village = 1
+	stone_quarry = 1
+	tools_guild = 1
+}
+
+east_coast_small_town = {
+	market_village = 1
+}
+
+warrior_tribe_military_settlement = {
+	warrior_society = 1
+	market_village = 1
+	stone_quarry = 1
+	tools_guild = 1
+}
+
+warrior_tribe_rural_settlement = {
+	forest_village = 1
+	lumber_mill = 1
+}

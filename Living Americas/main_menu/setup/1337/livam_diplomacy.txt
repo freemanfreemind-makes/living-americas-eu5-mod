@@ -1,0 +1,41 @@
+diplomacy_manager = {
+
+#----------------------east north america (non-PCN Factions)-------------------------
+
+    rival = { first = WZZ second = CHK }
+    rival = { first = UMO second = CHK }
+    rival = { first = PPK second = CHK }
+    rival = { first = KAW second = CHK }
+    rival = { first = PIA second = CHK }
+    rival = { first = WEA second = CHK }
+    rival = { first = PEO second = CHK }
+    rival = { first = TMW second = CHK }
+    rival = { first = KKH second = CHK }
+    rival = { first = KHK second = CHK }
+    rival = { first = NCH second = CHK }
+    rival = { first = WGH second = CHK }
+    rival = { first = TSW second = CHK }
+    rival = { first = PTW second = CHK }
+    rival = { first = CYS second = CHK }
+    rival = { first = KSK second = CHK }
+    rival = { first = UGX second = CHK }
+
+#Mesoamerica setup---- main goal, allow Tenochtitlan to be more likely to succeed in forming Mexica/Aztec empire.
+
+#-------------Mesoamerica------------
+    dependency = { first = TEP second = TNC subject_type = tributary }
+    dependency = { first = TEP second = TCP subject_type = tributary }
+    scripted_mutual = { first = TNC second = XCH type = alliance }
+
+#Army Based Northern Mexico States - rely on one another to not get swarmed in early game
+    scripted_mutual = { first = GUX second = GUC type = alliance }
+    scripted_mutual = { first = ZAC second = ZAI type = alliance }
+    scripted_mutual = { first = GUC second = TML type = alliance }
+
+#South America setup---- main goal, allow Qusqu to be more likely to succeed in forming inca empire.
+    #dependency = { first = CSU second = PIG subject_type = tributary }
+    #dependency = { first = CSU second = CNC subject_type = tributary }
+    dependency = { first = CSU second = KKE subject_type = tributary }
+    scripted_mutual = { first = CSU second = AYA type = alliance }
+
+}

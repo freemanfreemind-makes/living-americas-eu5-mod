@@ -1,0 +1,229 @@
+locations={
+
+#Eastern North America
+
+
+#Dhegiha
+peewareewa = {
+	define_pop = {	type = tribesmen	size = 1.245	culture = peewareewa_culture	religion = mississippian_ceremonial }
+}
+peoria = {
+	define_pop = {	type = peasants	size = 1.000	culture = peewareewa_culture	religion = mississippian_ceremonial }
+	define_pop = {	type = tribesmen	size = 0.493	culture = peewareewa_culture	religion = mississippian_ceremonial }
+}
+sangamon = {
+	define_pop = {	type = tribesmen	size = 1.358	culture = kahokiaki_culture	religion = mississippian_ceremonial }
+}
+cahokia = {
+	define_pop = {	type = tribesmen	size = 1.276	culture = kahokiaki_culture	religion = mississippian_ceremonial }
+}
+amonokoa = {
+	define_pop = {	type = tribesmen	size = 0.540	culture = peewareewa_culture	religion = mississippian_ceremonial }
+}
+macoupin = {
+	define_pop = {	type = tribesmen	size = 1.648	culture = inoka_culture	religion = mississippian_ceremonial }
+}
+tamaroa = {
+	define_pop = {	type = tribesmen	size = 1.370	culture = inoka_culture	religion = mississippian_ceremonial }
+}
+wyaconda = {
+	define_pop = {	type = tribesmen	size = 0.883	culture = osage_culture	religion = mississippian_ceremonial }
+}
+oahaha = {
+	define_pop = {	type = tribesmen	size = 0.883	culture = inoka_culture	religion = mississippian_ceremonial }
+}
+emasulia = {
+	define_pop = {	type = tribesmen	size = 0.883	culture = omaha_culture	religion = mississippian_ceremonial }
+}
+chariton = {
+	define_pop = {	type = tribesmen	size = 0.890	culture = osage_culture	religion = mississippian_ceremonial }
+}
+meramec = {
+	define_pop = {	type = tribesmen	size = 0.883	culture = kansa_culture	religion = mississippian_ceremonial }
+}
+pahatsi = {
+	define_pop = {	type = tribesmen	size = 0.563	culture = kansa_culture	religion = mississippian_ceremonial }
+}
+tanwakanwakaghe = {
+	define_pop = {	type = tribesmen	size = 0.673	culture = omaha_culture	religion = mississippian_ceremonial }
+}
+moingwena = {
+	define_pop = {	type = tribesmen	size = 0.883	culture = osage_culture	religion = mississippian_ceremonial }
+}
+
+
+
+# Beothuk
+miquelon = {
+	define_pop = {	type = tribesmen	size = 0.183	culture = beothuk_culture	religion = midewiwin_religion }
+}
+
+# Dorset
+tupirvialuit = {
+	define_pop = {	type = tribesmen	size = 0.183	culture = dorset_culture	religion = totemism }
+}
+koroc = {
+	define_pop = {	type = tribesmen	size = 0.183	culture = dorset_culture	religion = totemism }
+}
+
+
+# Mesoamerica
+
+#Tamauliteco
+pantlan = {
+	define_pop = {	type = soldiers	size = 0.200	culture = tamauliteco_culture	religion = coahuilteco_religion }
+	define_pop = {	type = nobles	size = 0.140	culture = tamauliteco_culture	religion = coahuilteco_religion }
+	define_pop = {	type = peasants	size = 5.140	culture = tamauliteco_culture	religion = coahuilteco_religion }
+}
+mante = {
+	define_pop = {	type = peasants	size = 5.140	culture = tamauliteco_culture	religion = coahuilteco_religion }
+}
+tula = {
+	define_pop = {	type = peasants	size = 5.140	culture = tamauliteco_culture	religion = coahuilteco_religion }
+}
+maratine = {
+	define_pop = {	type = peasants	size = 5.140	culture = tamauliteco_culture	religion = coahuilteco_religion }
+}
+
+#Cuauchichil
+guanchenis = {
+	define_pop = {	type = soldiers	size = 0.200	culture = guachichil_culture	religion = chichimecah_religion }
+	define_pop = {	type = nobles	size = 0.140	culture = guachichil_culture	religion = chichimecah_religion }
+	define_pop = {	type = peasants	size = 5.140	culture = guachichil_culture	religion = chichimecah_religion }
+}
+mazatepec = {
+	define_pop = {	type = peasants	size = 5.140	culture = guachichil_culture	religion = chichimecah_religion }
+}
+ma_tehua_llan = {
+	define_pop = {	type = peasants	size = 5.140	culture = guachichil_culture	religion = chichimecah_religion }
+}
+mazatlpilli = {
+	define_pop = {	type = peasants	size = 5.140	culture = guachichil_culture	religion = chichimecah_religion }
+}
+
+#Zain
+zain = {
+	define_pop = {	type = soldiers	size = 0.200	culture = zacatecah_culture	religion = chichimecah_religion }
+	define_pop = {	type = nobles	size = 0.140	culture = zacatecah_culture	religion = chichimecah_religion }
+	define_pop = {	type = peasants	size = 5.140	culture = zacatecah_culture	religion = chichimecah_religion }
+}
+yuac = {
+	define_pop = {	type = peasants	size = 5.140	culture = zacatecah_culture	religion = chichimecah_religion }
+}
+papanton = {
+	define_pop = {	type = peasants	size = 5.140	culture = zacatecah_culture	religion = chichimecah_religion }
+}
+cuencame = {
+	define_pop = {	type = peasants	size = 5.140	culture = zacatecah_culture	religion = chichimecah_religion }
+}
+
+
+
+# South America
+
+#Nandeva
+nandeva = {
+	define_pop = {	type = soldiers	size = 0.200	culture = ava_culture	religion = tunpa_religion }
+	define_pop = {	type = nobles	size = 0.140	culture = ava_culture	religion = tunpa_religion }
+	define_pop = {	type = peasants	size = 5.140	culture = ava_culture	religion = tunpa_religion }
+}
+umbu = {
+	define_pop = {	type = peasants	size = 3.140	culture = ava_culture	religion = tunpa_religion }
+	define_pop = {	type = tribesmen	size = 5.140	culture = ava_culture	religion = tunpa_religion }
+}
+tupancireta = {
+	define_pop = {	type = peasants	size = 3.140	culture = ava_culture	religion = tunpa_religion }
+}
+patos = {
+	define_pop = {	type = peasants	size = 3.140	culture = ava_culture	religion = tunpa_religion }
+}
+jacui = {
+	define_pop = {	type = peasants	size = 3.140	culture = ava_culture	religion = tunpa_religion }
+}
+ibicui = {
+	define_pop = {	type = peasants	size = 3.140	culture = ava_culture	religion = tunpa_religion }
+}
+uruguay = {
+	define_pop = {	type = peasants	size = 3.140	culture = ava_culture	religion = tunpa_religion }
+}
+
+
+
+#Ava
+samaipata = {
+	define_pop = {	type = soldiers	size = 0.200	culture = ava_culture	religion = tunpa_religion }
+	define_pop = {	type = nobles	size = 0.140	culture = ava_culture	religion = tunpa_religion }
+	define_pop = {	type = peasants	size = 5.140	culture = ava_culture	religion = tunpa_religion }
+}
+tomina = {
+	define_pop = {	type = peasants	size = 5.140	culture = ava_culture	religion = tunpa_religion }
+}
+huacareta = {
+	define_pop = {	type = peasants	size = 5.140	culture = ava_culture	religion = tunpa_religion }
+}
+pomabamba = {
+	define_pop = {	type = peasants	size = 5.140	culture = ava_culture	religion = tunpa_religion }
+}
+
+#Aimoré
+urucu = {
+	define_pop = {	type = soldiers	size = 0.200	culture = kren_culture	religion = doi_wahire_religion }
+	define_pop = {	type = nobles	size = 0.140	culture = kren_culture	religion = doi_wahire_religion }
+	define_pop = {	type = peasants	size = 5.140	culture = kren_culture	religion = doi_wahire_religion }
+}
+aimore = {
+	define_pop = {	type = peasants	size = 5.140	culture = kren_culture	religion = doi_wahire_religion }
+}
+malalis = {
+	define_pop = {	type = peasants	size = 5.140	culture = kren_culture	religion = doi_wahire_religion }
+}
+nanuque = {
+	define_pop = {	type = peasants	size = 5.140	culture = kren_culture	religion = doi_wahire_religion }
+}
+borun = {
+	define_pop = {	type = peasants	size = 5.140	culture = kren_culture	religion = doi_wahire_religion }
+}
+
+#Kiriri
+kariri = {
+	define_pop = {	type = soldiers	size = 0.200	culture = kiriri_culture	religion = jurema_religion }
+	define_pop = {	type = nobles	size = 0.140	culture = kiriri_culture	religion = jurema_religion }
+	define_pop = {	type = peasants	size = 5.140	culture = kiriri_culture	religion = jurema_religion }
+}
+arakaiu = {
+	define_pop = {	type = peasants	size = 5.140	culture = kiriri_culture	religion = jurema_religion }
+}
+karapoto = {
+	define_pop = {	type = peasants	size = 5.140	culture = kiriri_culture	religion = jurema_religion }
+}
+kiriri = {
+	define_pop = {	type = peasants	size = 5.140	culture = kiriri_culture	religion = jurema_religion }
+}
+yapuata = {
+	define_pop = {	type = peasants	size = 5.140	culture = kiriri_culture	religion = jurema_religion }
+}
+
+#Potiguara
+potiguara = {
+	define_pop = {	type = soldiers	size = 0.200	culture = potiguara_culture	religion = namandu_religion }
+	define_pop = {	type = nobles	size = 0.140	culture = potiguara_culture	religion = namandu_religion }
+	define_pop = {	type = peasants	size = 5.140	culture = potiguara_culture	religion = namandu_religion }
+}
+kaaysara = {
+	define_pop = {	type = peasants	size = 5.140	culture = potiguara_culture	religion = namandu_religion }
+}
+paraiba = {
+	define_pop = {	type = peasants	size = 5.140	culture = potiguara_culture	religion = namandu_religion }
+}
+monxoro = {
+	define_pop = {	type = peasants	size = 5.140	culture = potiguara_culture	religion = namandu_religion }
+}
+payaku = {
+	define_pop = {	type = peasants	size = 5.140	culture = potiguara_culture	religion = namandu_religion }
+}
+utuva = {
+	define_pop = {	type = peasants	size = 5.140	culture = potiguara_culture	religion = namandu_religion }
+}
+
+}
+

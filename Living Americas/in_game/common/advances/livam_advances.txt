@@ -1,0 +1,115 @@
+﻿#####################
+# Nomadic New World Factions
+#####################
+
+# Based on the steppe_horde government techs
+# modified to be applicable to an american context with low development
+
+############################
+# age_1_traditions (1337)
+############################
+#TAG_ADVANCE_ONE = {
+#	age = age_1_traditions
+#	potential = { has_or_had_tag = TAG }
+#	requires = feudalism_advance
+#	requires = legalism_advance
+#	requires = written_alphabet
+#}
+
+war_bands_livam = {
+	age = age_1_traditions
+	icon = warriors_unity
+
+	potential = {
+		government_type = government_type:tribe
+		country_type = army
+		exists = capital
+		NOT = { is_subject_type = colonial_nation }
+		original_capital ?= {
+			OR = {
+			sub_continent = sub_continent:north_america
+			sub_continent = sub_continent:south_america
+			}
+		}
+	}
+
+	requires = metallurgy
+
+	army_light_infantry_reinforce_cost_modifier = -0.33
+	army_light_infantry_maintenance_cost_modifier = -0.33
+
+	army_heavy_infantry_reinforce_cost_modifier = -0.33
+	army_heavy_infantry_maintenance_cost_modifier = -0.33
+
+	always_allow_army_levies = yes
+
+	#starting_technology_level = 1
+}
+
+warrior_society_advance_livam = {
+	age = age_1_traditions
+	icon = warrior_lodge
+
+	potential = {
+		government_type = government_type:tribe
+		country_type = army
+		exists = capital
+		NOT = { is_subject_type = colonial_nation }
+		original_capital ?= {
+			OR = {
+			sub_continent = sub_continent:north_america
+			sub_continent = sub_continent:south_america
+			}
+		}
+	}
+
+	requires = war_bands_livam
+
+	unlock_building = warrior_society
+	levy_maintenance_modifier = -0.5
+	enable_taxation = yes
+	tribes_estate_min_tax = 0.15
+	tribes_estate_max_tax = 0.20
+
+	#starting_technology_level = 1
+}
+
+
+
+
+############################
+# age_2_renaissance (1337-1437)
+############################
+#TAG_ADVANCE_TWO = {
+#	age = age_2_renaissance
+#	potential = { has_or_had_tag = TAG }
+
+#}
+############################
+# age_3_discovery (1437-1537)
+############################
+#TAG_ADVANCE_THREE = {
+#	age = age_3_discovery
+#	potential = { has_or_had_tag = TAG }
+#}
+############################
+# age_4_reformation (1537-1637)
+############################
+#TAG_ADVANCE_FOUR = {
+#	age = age_4_reformation
+#	potential = { has_or_had_tag = TAG }
+#}
+############################
+# age_5_absolutism (1637-1737)
+############################
+#TAG_ADVANCE_FIVE = {
+#	age = age_5_absolutism
+#	potential = { has_or_had_tag = TAG }
+#}
+############################
+# age_6_revolutions (1737-1837)
+############################
+#TAG_ADVANCE_SIX = {
+#	age = age_6_revolutions
+#	potential = { has_or_had_tag = TAG }
+#}

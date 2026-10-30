@@ -1,0 +1,24 @@
+discovered_regions = {
+}
+
+discovered_areas = {
+	texas_area
+	louisiana_area
+	arkansas_area
+	missouri_area
+	illinois_area
+	wisconsin_area
+	superior_area
+	iowa_area
+	red_river_area
+	saskatchewan_area
+	upper_missouri_area
+	badlands_area
+	central_plains_area
+	high_plains_area
+	natahende_area
+}
+
+discovered_provinces = {
+
+}

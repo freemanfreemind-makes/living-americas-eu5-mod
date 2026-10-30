@@ -1,0 +1,25 @@
+discovered_regions = {
+}
+
+
+discovered_areas = {
+	florida_area
+	alabama_area
+	mississippi_area
+	tennessee_area
+	kentucky_area
+	west_virginia_area
+	virginia_area
+	north_carolina_area
+	south_carolina_area
+	georgia_us_area
+}
+discovered_provinces = {
+	mid_atlantic_coast_province
+	roanoke_coast_province
+	carolinas_coast_province
+	east_florida_coast_province
+	west_florida_coast_province
+	eastern_gulf_coast_province
+	jazz_coast
+}

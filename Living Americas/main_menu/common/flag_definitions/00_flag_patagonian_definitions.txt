@@ -1,0 +1,139 @@
+﻿MPC = { # Mapuche
+	flag_definition = {
+		coa = MPC
+		priority = 1
+		
+		}
+		
+		flag_definition = {
+		coa = MPC_reformed
+		priority = 2
+		trigger = {
+			coa_def_republic_trigger = yes
+			
+		}
+	}	
+	
+	flag_definition = {
+		coa = MPC_reformed
+		priority = 2
+		trigger = {
+			coa_def_monarchy_trigger = yes
+			
+		}
+	}	
+	
+	flag_definition = {
+		coa = MPC_reformed
+		priority = 2
+		trigger = {
+			coa_def_theocracy_trigger = yes
+			
+		}
+	}	
+}
+
+KWS = { # kawesqar
+	flag_definition = {
+		coa = KWS_FLAG
+		priority = 10001
+	}	
+}
+
+POY = { # Poyas
+	flag_definition = {
+		coa = POY_FLAG
+		priority = 10001
+	}	
+}
+
+COS = { # Chonos
+	flag_definition = {
+		coa = COS_FLAG
+		priority = 10001
+	}	
+}
+
+WUA = { # Wuarpes
+	flag_definition = {
+		coa = WUA_FLAG
+		priority = 10001
+	}	
+}
+
+CUN = { # Cuncos
+	flag_definition = {
+		coa = CUN_FLAG
+		priority = 10001
+	}	
+}
+
+HET = { # Het
+	flag_definition = {
+		coa = HET_FLAG
+		priority = 10001
+	}	
+}
+
+AOI = { # Aonikenk
+	flag_definition = {
+		coa = AOI_FLAG
+		priority = 10001
+	}	
+}
+
+SEK = { # Selknam
+	flag_definition = {
+		coa = SEK_FLAG
+		priority = 10001
+	}	
+}
+
+YGH = { # Yaghan
+	flag_definition = {
+		coa = YGH_FLAG
+		priority = 10001
+	}	
+}
+
+GKN = { # Gunnuna
+	flag_definition = {
+		coa = GKN_FLAG
+		priority = 10001
+	}	
+}
+
+PIK = { # Pikumche
+	flag_definition = {
+		coa = PIK_FLAG
+		priority = 10001
+	}	
+}
+
+PHS = { # Pehuenches
+	flag_definition = {
+		coa = PHS_FLAG
+		priority = 10001
+	}	
+}
+
+WLE = { # Williches
+	flag_definition = {
+		coa = WLE_FLAG
+		priority = 10001
+	}	
+}
+
+CGS = { # Changos
+	flag_definition = {
+		coa = CGS_FLAG
+		priority = 10001
+	}	
+}
+
+RPN = { # Rapa nui
+	flag_definition = {
+		coa = RPN_FLAG
+		priority = 10001
+	}	
+}

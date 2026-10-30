@@ -1,0 +1,209 @@
+MPC = { # Mapuche - Lautaro flag inspired (arranged to work in a 3:2 canvas)
+	pattern = "pattern_solid.dds"
+	color1 = hsv360 	{	356 	70	60	} 
+	color2 = "black_secondary"
+	color3 = "white_secondary"
+	color4 = "blue_light"
+
+	colored_emblem = {
+		texture = "ce_star_mapuche_gunelve_bordered.dds"
+		color1 = color4
+		color2 = color2
+		color3 = color3
+	}	
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = color2
+		color2 = color2
+		instance = { position = { 0.95 0.5 } scale = { 0.11 0.085 } }				
+		instance = { position = { 0.05 0.5 } scale = { 0.11 0.085 } }						
+	}	
+}
+MPC_Kultrun = { # Mapuche
+	pattern = "pattern_solid.dds"
+	color1 = hsv360 	{	185		42		42	} 
+	color2 = hsv360 	{	35		5		94	}
+
+	textured_emblem = {
+		texture = "te_mapuche_kultrun.dds"
+		instance = { position = { 0.5 0.5 } scale = { 0.8 0.8 } }				
+	}			
+	colored_emblem = {
+		texture = "ce_border_stripes_andean_02.dds"
+		color1 = "black"
+		color2 = "white"
+	}	
+}
+
+MPC_reformed = { # Mapuche
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "white"
+
+	colored_emblem = {
+		texture = "ce_gunelve.dds"
+		color1 = color2
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}
+
+KWS_FLAG = { # Kawesqar
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+
+	textured_emblem = {
+		texture = "te_kawesqar.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}
+
+AOI_FLAG = { # Aonikenk
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+
+	textured_emblem = {
+		texture = "te_aonikenk.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}
+
+SEK_FLAG = { # Selknam
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+
+	textured_emblem = {
+		texture = "te_selknam.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}
+
+YGH_FLAG = { # Yaghan
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+
+	textured_emblem = {
+		texture = "te_yaghan.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}
+
+GKN_FLAG = { # gununa Kune
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+
+	textured_emblem = {
+		texture = "te_puelche.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}
+
+GKN_FLAG = { # gununa Kune
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+
+	textured_emblem = {
+		texture = "te_puelche.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}
+
+PIK_FLAG = { # Pikumche
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+
+	textured_emblem = {
+		texture = "te_pikumche.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}
+
+PHS_FLAG = { # Pehuenche
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+
+	textured_emblem = {
+		texture = "te_pehuenche.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}
+
+WLE_FLAG = { # Williche
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+
+	textured_emblem = {
+		texture = "te_williche.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}
+
+CGS_FLAG = { # Changos
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+
+	textured_emblem = {
+		texture = "te_changos.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}
+
+RPN_FLAG = { # Rapa nui
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+
+	textured_emblem = {
+		texture = "te_rapanui.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}
+
+WUA_FLAG = { # Wuarpe
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+
+	textured_emblem = {
+		texture = "te_wuarpe.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}
+
+HET_FLAG = { # HET
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+
+	textured_emblem = {
+		texture = "te_het.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}
+
+
+POY_FLAG = { # Poyas
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+
+	textured_emblem = {
+		texture = "te_poyas.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}
+
+CUN_FLAG = { # Cuncos
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+
+	textured_emblem = {
+		texture = "te_cuncos.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}
+
+COS_FLAG = { # Chonos
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+
+	textured_emblem = {
+		texture = "te_chonos.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}

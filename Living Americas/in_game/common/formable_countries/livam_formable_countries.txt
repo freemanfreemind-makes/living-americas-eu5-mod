@@ -1,0 +1,563 @@
+﻿#Coahuilteco
+COH0_f = {
+
+	level = 2
+	required_locations_fraction = 0.75
+	rule = plausible
+
+	potential = {
+	culture = culture:coahuilteco_culture
+	}
+
+	allow = {
+	}
+
+	name = COH0
+	flag = COH0
+	adjective = COH0_ADJ
+	tag = COH0
+	color = map_coahuilteco
+	locations = {
+		coospacam
+		pilon
+		huajuco
+		cuanales
+		gualeguas
+		alazapa
+		tilijais
+		masacuajulam
+		cachopostales
+		tsel_tatli_dsha
+		koke_metchesko_laha
+		cabias
+		yeme
+		chichitames
+		cauitaome
+		chisos
+		espopolames
+		muruam
+		gueiquesales
+		aranama
+		chayopin
+		yanaguana
+		saxop_wan_pupako
+		atajal
+		tchesha
+		ndawe_qoha
+		bobole
+		tu_sis_nde
+		tonkawa
+		tickanwatic
+		tza_wan_pupako
+		ajehuac_yana
+		sana_tx
+		cantona
+		toho
+		palaquechare
+		yojuane
+		mayeye
+		patiri
+	}
+
+	form_effect = {
+	}
+}
+
+#Ktunaxa
+KTX0_f = {
+
+    level = 2
+    required_locations_fraction = 0.75
+    rule = plausible
+
+    potential = {
+    culture = culture:ktunaxa_culture
+	}
+
+    allow = {
+	}
+
+	name = KTX0
+	flag = KTX0
+	adjective = KTX0_ADJ
+	tag = KTX0
+	color = map_ktunaxan
+	locations = {
+		yaqan_nukiy
+		aq_am
+		akisq_nuk
+		akinkumasnuqit
+		ainu_nik
+		ktunwakanmituk
+		yakyu_ki
+		kananmituk
+		kinbasket
+		aqyam_nup
+		akinka_nup
+		mokowan
+		okotoks
+		ya_kti_ki
+		shunda
+		wabamun
+		aknuq_uk
+		kananaskis
+		netook
+		waskasoo
+		aqanqmi
+	}
+
+	form_effect = {
+	}
+}
+
+#Illiniwek (Illinois Conf.) - T3
+IWK0_f ={
+    level = 3
+    required_locations_fraction = 0.75
+    rule = historical
+
+    potential = {
+		OR = {
+		culture = { has_culture_group = culture_group:myaamia_group }
+		culture = { has_culture_group = culture_group:chiwere_group }
+		}
+	}
+
+    allow = {
+	}
+
+	name = IWK0
+	flag = IWK0
+	adjective = IWK0_ADJ
+	tag = IWK0
+	color = map_inoka
+
+	provinces = {
+		checagou_province
+		peoria_province
+		cahokia_province
+		mengakonkia_province
+		mitchigamea_province
+		tamaroa_province
+		chucalissa_province
+
+	}
+	locations = {
+		peewareewa
+		moingwena
+		st_francois_mts
+		chepoussa
+		towosaghy
+		charquis
+		obion
+		hatchie
+		chewalla
+	}
+
+	form_effect = {
+	}
+}
+
+#Caddo - T2
+CAD0_f ={
+    level = 2
+    required_locations_fraction = 0.75
+    rule = plausible
+
+    potential = {
+		culture = culture:caddo_culture
+	}
+
+    allow = {
+	}
+
+	name = CAD0
+	flag = CAD0
+	adjective = CAD0_ADJ
+	tag = CAD0
+	color = map_caddo
+	provinces = {
+		nachawi_province
+		nacogdoches_province
+		tsoto_province
+		natchitoches_province
+		ouachita_province
+	}
+
+	form_effect = {
+	}
+}
+
+#Dakota - T2
+DKT0_f ={
+    level = 2
+    required_locations_fraction = 0.5
+    rule = plausible
+
+    potential = {
+		culture = { has_culture_group = culture_group:dakota_group }
+	}
+
+    allow = {
+	}
+
+	name = DKT0
+	flag = DKT0
+	adjective = DKT0_ADJ
+	tag = DKT0
+	color = map_nakoda
+	locations = {
+		gawakomitigweia kinosota kiyuska maitomoni_ohe mekinock mihkwakamiwi_sipiy minnewaukan
+		mirixubaash mnisaton pembina sipiweske tchan_sansan winnipeg
+		aowa igmu kampeska mnihaha monona oyate_shisha shetek tchankasndata unkpatina
+		chanshayapi kandiyohi mahkato mustinka tewaukon tipsinah
+		inyanshashawatpa ocheyedan owatonna watonwan
+		ginebig kayeskikan minnewawa misi_zaaga_igan wabezi
+		kinnickinnic mathoskabde minnetonka mishkwagokag odaawaa
+		hahatououadeba lahontan wapkawazioju
+		hahawakpa hokah sappah waumandee
+	}
+
+	form_effect = {
+	}
+}
+
+#Muskogee - T3
+MCG0_f ={
+    level = 3
+    required_locations_fraction = 0.6
+    rule = plausible
+
+    potential = {
+		culture = { has_culture_group = culture_group:muskogee_group }
+	}
+
+    allow = {
+	}
+
+	name = MCG0
+	flag = MCG0
+	adjective = MCG0_ADJ
+	tag = MCG0
+	color = map_muskogee
+	locations = {
+		apafalaya koasati apotaka_hacha cussate cussate chuwalee tullahoma choate cootcla bledsoe sequatchie
+		coosa talimachusi ulibahali itaba utsutigway apica tuasi callamaco
+		ohatchee chatanugi ishtaboli hytop
+		atahachi piachi humati caxa mabila zabusta casiste talisi
+		abihka pakana wakokai uchee
+		etoho coweta kealedji pakanahuili tussahaw tuckabutche tescuntee chatahoochee kasihta
+		hitchauta eufaula omusee
+		capachequi alapaha sawokli
+		toa hitchiti ocmulgee
+		ocute cofaqui ichisi altamaha oconee ohoopee
+		pallachacola uzachile mikasuki alapahoochee
+		apalachee anhayca azile
+		tacatacaru tamathli tybee ossabaw sapelo canoochee
+		daguwanalahi aniyutsi spithota tombigby kaskinampo warioto
+		combahee kiawah coosaw wimbee
+		kiokee wahachee kosalu selkehatchie ogeechee saluda generostee enoree
+	}
+
+	form_effect = {
+	}
+}
+
+#Erielhonan - T2
+ERI0_f ={
+    level = 2
+    required_locations_fraction = 0.6
+    rule = historical
+
+    potential = {
+		culture = { has_culture_group = culture_group:iroquoian_group }
+	}
+
+    allow = {
+	}
+
+	name = ERI0
+	flag = ERI0
+	adjective = ERI0_ADJ
+	tag = ERI0
+	color = map_erielhonan
+	provinces = {
+		erie_province
+		cuyahoga_province
+		wenro_province
+	}
+
+	form_effect = {
+	}
+}
+
+#Chonnonton - T2
+CNT0_f ={
+    level = 2
+    required_locations_fraction = 0.5
+    rule = historical
+
+    potential = {
+		culture = { has_culture_group = culture_group:iroquoian_group }
+	}
+
+    allow = {
+	}
+
+	name = CNT0
+	flag = CNT0
+	adjective = CNT0_ADJ
+	tag = CNT0
+	color = map_aondironon
+	provinces = {
+		ganatchio_province
+		niagara_province
+		wenro_province
+	}
+
+	form_effect = {
+	}
+}
+
+#Quendat/Wendat - T2
+WDT0_f ={
+    level = 2
+    required_locations_fraction = 0.6
+    rule = historical
+
+    potential = {
+		culture = { has_culture_group = culture_group:wendat_group }
+	}
+
+    allow = {
+	}
+
+	name = WDT0
+	flag = WDT0
+	adjective = WDT0_ADJ
+	tag = WDT0
+	color = map_wendat
+	provinces = {
+		ehwae_province
+		wendake_province
+		tkaronto_province
+		kawartha_province
+		quinte_province
+		cataraqui_province
+	}
+
+	form_effect = {
+	}
+}
+
+#Powhatan - T2
+PHT0_f ={
+    level = 2
+    required_locations_fraction = 0.6
+    rule = plausible
+
+    potential = {
+		culture = { has_culture_group = culture_group:powhatan_group }
+	}
+
+    allow = {
+	}
+
+	name = PHT0
+	flag = PHT0
+	adjective = PHT0_ADJ
+	tag = PHT0
+	color = map_powhatan
+	provinces = {
+		roanoke_province
+		powhatan_province
+		chesapeake_province
+		tsenacommacah_province
+		potomac_province
+		nanticoke_province
+		doeg_province
+	}
+
+	form_effect = {
+	}
+}
+
+#Massachusett - T2
+MSC0_f ={
+    level = 2
+    required_locations_fraction = 0.6
+    rule = plausible
+
+    potential = {
+		culture = { has_culture_group = culture_group:massachusett_group }
+	}
+
+    allow = {
+	}
+
+	name = MSC0
+	flag = MSC0
+	adjective = MSC0_ADJ
+	tag = MSC0
+	color = map_massachusett
+	provinces = {
+		massachusetts_province
+		nauset_province
+		narraganset_province
+		connecticut_province
+	}
+
+	form_effect = {
+	}
+}
+
+#Cherokee - T2
+CHK0_f ={
+    level = 2
+    required_locations_fraction = 0.6
+    rule = historical
+
+    potential = {
+		culture = { has_culture_group = culture_group:cherokee_group }
+	}
+
+    allow = {
+	}
+
+	name = CHK0
+	flag = CHK0
+	adjective = CHK0_ADJ
+	tag = CHK0
+	color = map_cherokee
+	provinces = {
+		tanasi_province
+		hogohega_province
+		kituwa_province
+		keowee_province
+		tugaloo_province
+		coosa_province
+	}
+
+	form_effect = {
+	}
+}
+
+#Opata - T2
+OPT0_f ={
+    level = 2
+    required_locations_fraction = 0.6
+    rule = plausible
+
+    potential = {
+		culture = culture:opata_culture
+	}
+
+    allow = {
+	}
+
+	name = OPT0
+	flag = OPT0
+	adjective = OPT0_ADJ
+	tag = OPT0
+	color = map_opata
+	locations = {
+		cucurpe
+		batuco
+		babicora papigochic cosihuiriachi sahuaripa
+		aritpa aconchi corodehuachi
+		oposura hue_hue_ri_gi_ta
+	}
+
+	form_effect = {
+	}
+}
+
+#Chickasaw-Choctaw - T2
+CHS0_f ={
+    level = 2
+    required_locations_fraction = 0.6
+    rule = plausible
+
+    potential = {
+		culture = { has_culture_group = culture_group:chickasaw_choctaw_group }
+	}
+
+    allow = {
+	}
+
+	name = CHS0
+	flag = CHS0
+	adjective = CHS0_ADJ
+	tag = CHS0
+	color = map_chickasaw_choctaw
+	locations = {
+		quigate pacaha
+		quizquiz taposa chucalissa chatata ongoulastoga
+		hogehege napochi buddahatchie yaneka tchoukafala sacchuma
+		taliepacana consha tombigbee escatawppa tohome okeloussa eiowane eianamogola
+		biloxi pascagoula
+		patsaliga conecuh pensacola mobile
+		chatot chootawatchee watappo choctawhatchee
+	}
+
+	form_effect = {
+	}
+}
+
+#Mississippi - T2
+MPI0_f ={
+    level = 2
+    required_locations_fraction = 0.6
+    rule = plausible
+
+    potential = {
+		culture = { has_culture_group = culture_group:natchez_group }
+	}
+
+    allow = {
+	}
+
+	name = MPI0
+	flag = MPI0
+	adjective = MPI0_ADJ
+	tag = MPI0
+	color = map_natchez
+	locations = {
+		casqui cayas
+		guachoyo anilco ayays tutilpinco utiangue
+		coligua calpista palisema
+		kisatchie catahoula tensas tunica
+		quigualtam tiou yazoo koroa
+		natchez chittaloosa houma mosco chicksawhe capino caftacha
+	}
+
+	form_effect = {
+	}
+}
+
+#Wuarpe - WUA
+WUA ={
+    level = 2
+    required_locations_fraction = 0.6
+    rule = plausible
+
+    potential = {
+		culture = culture:warpe_culture
+	}
+
+    allow = {
+	}
+
+	name = WUA
+	flag = WUA
+	adjective = WUA_ADJ
+	tag = WUA
+	color = map_warpe
+	locations = {
+		jaurua uco millcayac guentota huanacache uspallata zonda sankancete angualasto pivn_man_antu jachal ullum
+
+	}
+
+	form_effect = {
+	}
+}
