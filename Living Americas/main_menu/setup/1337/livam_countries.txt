@@ -9245,8 +9245,8 @@ countries = {
 	#Settled Pop based
 	CBY = {
 		own_control_core = {
-			uyo_uyo tampo puquina ichuna churajon
-			#arequipa yanque
+			tampo puquina
+			#arequipa yanque uyo_uyo ichuna churajon
 		}
 
 		include = "andean_tribe"
