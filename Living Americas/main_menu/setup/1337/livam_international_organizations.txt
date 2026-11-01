@@ -75,11 +75,11 @@ international_organization_manager = {
 		}
 
 	#Tutelo
-		#add_international_organization = {
-		type = tribal_confederation
-		creation_date = 1337.1.1
-		members = { TTL WCM CFQ JOA MTN OFO TKS TSO MNC }
-		}
+	#	#add_international_organization = {
+	#	type = tribal_confederation
+	#	creation_date = 1337.1.1
+	#	members = { TTL WCM CFQ JOA MTN OFO TKS TSO MNC }
+	#	}
 
 	Cherokee
 		add_international_organization = {
@@ -95,12 +95,12 @@ international_organization_manager = {
 	#	members = { MCG CSB GUL YMS HIT APA EUF CPQ TOA OCT COW TUC COO ALA KST KSK }
 	#	}
 
-	Chickasaw Choctaw
-		#add_international_organization = {
-		type = tribal_confederation
-		creation_date = 1337.1.1
-		members = { CHS CTT MBL ACL CHC QUZ PCH }
-		}
+	#Chickasaw Choctaw
+	#	#add_international_organization = {
+	#	type = tribal_confederation
+	#	creation_date = 1337.1.1
+	#	members = { CHS CTT MBL ACL CHC QUZ PCH }
+	#	}
 
 	#Timucua
 		add_international_organization = {
@@ -158,12 +158,12 @@ international_organization_manager = {
 	#	members = { CAD KIH NST KDW TUA CYS TVY KTK PTW KIA TSW SII SHH }
 	#	}
 
-	Dakota
-		#add_international_organization = {
-		type = tribal_confederation
-		creation_date = 1337.1.1
-		members = { LKT NDA BKT STW WKH WPW IUW IKW }
-		}
+	#Dakota
+	#	#add_international_organization = {
+	#	type = tribal_confederation
+	#	creation_date = 1337.1.1
+	#	members = { LKT NDA BKT STW WKH WPW IUW IKW }
+	#	}
 
 	#Tsetsehasahese
 		add_international_organization = {

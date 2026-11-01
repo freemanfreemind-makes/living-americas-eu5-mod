@@ -23,7 +23,7 @@
 			boy = {
 				1 = male_syrian_hair_curly_regular
 				1 = boy_short_hair_a
-				3 = boy_aztec_bob_short
+				#3 = boy_aztec_bob_short
 				1 = boy_german_hair_bob_short
 			}
 			adolescent_boy = boy

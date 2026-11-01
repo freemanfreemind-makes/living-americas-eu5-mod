@@ -10424,30 +10424,30 @@ countries = {
 	#}
 
 	#Diaguitas - DGT
-	DGT = {
-		type = pop
-		add_pops_from_locations = {
-			kellollampu pissis kolla antofalla fiambalao
+	#DGT = {
+	#	type = pop
+	#	add_pops_from_locations = {
+	#		kellollampu pissis kolla antofalla fiambalao
 
-		}
+	#	}
 
-		discovered_areas = {
-			ngulumapu_area
-			moqoit_area
-			cuyo_area
-			atacama_area
-			qullaw_area
-			andes_sea_zones_area
-		}
+	#	discovered_areas = {
+	#		ngulumapu_area
+	#		moqoit_area
+	#		cuyo_area
+	#		atacama_area
+	#		qullaw_area
+	#		andes_sea_zones_area
+	#	}
 
-		include = "amerindian_tribe"
-		government = {
-			ruler = random
-		}
+	#	include = "amerindian_tribe"
+	#	government = {
+	#		ruler = random
+	#	}
 
-		capital = pissis
+	#	capital = pissis
 
-	}
+	#}
 
 	#Lickanantay - LCN
 	LCN = {

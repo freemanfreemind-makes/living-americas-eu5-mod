@@ -308,16 +308,16 @@ LCN = {
 	
 }
 
-DGT = {
-	color = map_diaguitas
-	color2 = rgb { 214 223 0 }
+#DGT = {
+#	color = map_diaguitas
+#	color2 = rgb { 214 223 0 }
 
-	culture_definition = williche_culture
-	religion_definition = tain_feyentun_religion
-	description_category = administrative
-	difficulty = 3
+#	culture_definition = williche_culture
+#	religion_definition = tain_feyentun_religion
+#	description_category = administrative
+#	difficulty = 3
 
-}
+#}
 
 #CQY = {
 #	color = map_chiquiyanes
