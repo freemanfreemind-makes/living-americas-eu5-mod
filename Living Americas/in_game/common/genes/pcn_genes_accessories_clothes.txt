@@ -1,0 +1,157 @@
+﻿accessory_genes = {
+
+	INJECT_OR_CREATE:clothes = {
+
+		pcn_commoner = {
+			index = 200
+			male = {
+				1 = male_clothes_iroquois_low_beadwork_shirt
+			}
+			female = {
+				1 = female_clothes_iroquois_common_overcoat
+			}
+			boy = {
+				1 = male_clothes_iroquois_low_beadwork_shirt
+			}
+			girl = {
+				1 = female_clothes_iroquois_common_overcoat
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {
+				1 = infant_cloth_swaddle_basic
+			}
+		}
+
+		pcn_low_nobility = {
+			index = 201
+			male = {
+				1 = male_clothes_iroquois_low_beadwork
+				1 = male_clothes_iroquois_low_beadwork_shirt
+			}
+			female = {
+				1 = female_clothes_iroquois_noble_overcoat
+			}
+			boy = {
+				1 = male_clothes_iroquois_low_beadwork_shirt
+			}
+			girl = {
+				1 = female_clothes_iroquois_common_overcoat
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {
+				1 = infant_cloth_swaddle_basic
+			}
+		}
+
+		pcn_high_nobility = {
+			index = 202
+			male = {
+				1 = male_clothes_iroquois_low_beadwork
+				1 = male_clothes_iroquois_royal_bear_hunter
+			}
+			female = {
+				1 = female_clothes_iroquois_noble_overcoat
+			}
+			boy = {
+				1 = male_clothes_iroquois_low_beadwork
+			}
+			girl = {
+				1 = female_clothes_iroquois_noble_overcoat
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {
+				1 = infant_cloth_swaddle_iroquois_noble
+			}
+		}
+
+		pcn_royalty = {
+			index = 203
+			male = {
+				1 = male_clothes_iroquois_royal_bear_hunter
+			}
+			female = {
+				1 = female_clothes_iroquois_noble_overcoat
+			}
+			boy = {
+				1 = male_clothes_iroquois_low_beadwork
+			}
+			girl = {
+				1 = female_clothes_iroquois_noble_overcoat
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {
+				1 = infant_cloth_swaddle_iroquois_noble
+			}
+		}
+
+		pcn_imperial = {
+			index = 204
+			male = {
+				1 = male_clothes_iroquois_imperial_shirt
+			}
+			female = {
+				1 = female_clothes_iroquois_noble_overcoat
+			}
+			boy = {
+				1 = male_clothes_iroquois_high_beadscarf
+			}
+			girl = {
+				1 = female_clothes_iroquois_noble_overcoat
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {
+				1 = infant_cloth_swaddle_iroquois_noble
+			}
+		}
+
+		#pcn_clergy = {
+		#	index = 205
+		#	male = {
+		#		1 = male_clothes_iroquois_doctor_cape
+		#	}
+		#	female = {
+		#		1 = female_clothes_iroquois_noble_overcoat
+		#	}
+		#	boy = {
+		#		1 = male_clothes_iroquois_low_beadwork_shirt
+		#	}
+		#	girl = {
+		#		1 = female_clothes_iroquois_common_overcoat
+		#	}
+		#	adolescent_boy = boy
+		#	adolescent_girl = girl
+		#	infant = {
+		#		1 = infant_cloth_swaddle_basic
+		#	}
+		#}
+
+		pcn_war = {
+			index = 206
+			male = {
+				1 = male_clothes_ashanti_war_scale_armor
+				1 = male_clothes_iroquois_royal_bear_hunter
+				1 = male_clothes_iroquois_low_beadwork_shirt
+			}
+			female = {
+				1 = female_clothes_iroquois_noble_overcoat
+			}
+			boy = {
+				1 = male_clothes_iroquois_low_beadwork_shirt
+			}
+			girl = {
+				1 = female_clothes_iroquois_noble_overcoat
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {
+				1 = infant_cloth_swaddle_basic
+			}
+		}
+	}
+
+}
