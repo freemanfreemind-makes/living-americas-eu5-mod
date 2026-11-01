@@ -2,7 +2,7 @@
 
 	INJECT_OR_CREATE:hair_styles = {
 	pcn_hair = {
-			index = 100
+			index = 1000
 			male = {
 				1 = male_hair_aztec_hair_bob_long
 				1 = male_german_hair_crown_long_back

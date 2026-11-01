@@ -3,7 +3,7 @@
 	INJECT_OR_CREATE:headwear = {
 
 		pcn_commoner = {
-			index = 200
+			index = 2000
 			male = {
 				3 = empty
 				1 = male_headwear_chinese_low_straw_hat
@@ -27,7 +27,7 @@
 		}
 
 		pcn_low_nobility = {
-			index = 201
+			index = 2001
 			male = {
 				1 = male_headwear_iroquois_low_headband
 				2 = male_headwear_chinese_low_straw_hat
@@ -49,7 +49,7 @@
 		}
 
 		pcn_high_nobility = {
-			index = 202
+			index = 2002
 			male = {
 				1 = male_headwear_ashanti_war_scale_cap
 				1 = male_headwear_chinese_low_straw_hat
@@ -73,7 +73,7 @@
 		}
 
 		pcn_royalty = {
-			index = 203
+			index = 2003
 			male = {
 				1 = male_headwear_iroquois_royal_leather_crown
 				1 = male_headwear_german_elector_cap_ermine
@@ -93,7 +93,7 @@
 		}
 
 		pcn_imperial = {
-			index = 204
+			index = 2004
 			male = {
 				1 = male_headwear_iroquois_imperial_silver_crown
 				1 = male_headwear_german_elector_cap_ermine
@@ -113,7 +113,7 @@
 		}
 
 		#pcn_clergy = {
-		#	index = 205
+		#	index = 2005
 		#	male = {
 		#		1 = male_headwear_iroquois_falsefacemask
 		#	}
@@ -132,7 +132,7 @@
 		#}
 
 		pcn_war = {
-			index = 206
+			index = 2006
 			male = {
 				1 = male_headwear_ashanti_war_scale_cap
 				2 = male_headwear_chinese_low_straw_hat

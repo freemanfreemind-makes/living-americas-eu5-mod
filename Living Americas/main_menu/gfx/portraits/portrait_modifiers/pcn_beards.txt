@@ -1,7 +1,6 @@
 ﻿pcn_beards = {
 	usage = game
 	selection_behavior = weighted_random
-	fallback = default_beard
     priority = 1
 
 	pcn_beards = {

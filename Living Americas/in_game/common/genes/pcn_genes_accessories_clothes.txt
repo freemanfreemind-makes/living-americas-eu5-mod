@@ -3,7 +3,7 @@
 	INJECT_OR_CREATE:clothes = {
 
 		pcn_commoner = {
-			index = 200
+			index = 2000
 			male = {
 				1 = male_clothes_iroquois_low_beadwork_shirt
 			}
@@ -24,7 +24,7 @@
 		}
 
 		pcn_low_nobility = {
-			index = 201
+			index = 2001
 			male = {
 				1 = male_clothes_iroquois_low_beadwork
 				1 = male_clothes_iroquois_low_beadwork_shirt
@@ -46,7 +46,7 @@
 		}
 
 		pcn_high_nobility = {
-			index = 202
+			index = 2002
 			male = {
 				1 = male_clothes_iroquois_low_beadwork
 				1 = male_clothes_iroquois_royal_bear_hunter
@@ -68,7 +68,7 @@
 		}
 
 		pcn_royalty = {
-			index = 203
+			index = 2003
 			male = {
 				1 = male_clothes_iroquois_royal_bear_hunter
 			}
@@ -89,7 +89,7 @@
 		}
 
 		pcn_imperial = {
-			index = 204
+			index = 2004
 			male = {
 				1 = male_clothes_iroquois_imperial_shirt
 			}
@@ -110,7 +110,7 @@
 		}
 
 		#pcn_clergy = {
-		#	index = 205
+		#	index = 2005
 		#	male = {
 		#		1 = male_clothes_iroquois_doctor_cape
 		#	}
@@ -131,7 +131,7 @@
 		#}
 
 		pcn_war = {
-			index = 206
+			index = 2006
 			male = {
 				1 = male_clothes_ashanti_war_scale_armor
 				1 = male_clothes_iroquois_royal_bear_hunter

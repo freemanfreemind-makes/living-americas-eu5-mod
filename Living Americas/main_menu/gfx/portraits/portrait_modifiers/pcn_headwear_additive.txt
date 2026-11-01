@@ -1,7 +1,6 @@
 ﻿pcn_headwear_additive = {
 	usage = game
 	selection_behavior = weighted_random
-	fallback = default_headwear_additive
 	priority = 1
 
 	## JEWELERY

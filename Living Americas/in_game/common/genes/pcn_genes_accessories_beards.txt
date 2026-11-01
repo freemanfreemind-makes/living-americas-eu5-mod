@@ -1,7 +1,8 @@
 ﻿accessory_genes = {
 
-	INJECT_OR_CREATE:pcn_beards = {
-			index = 100
+	INJECT_OR_CREATE:beards = {
+	pcn_beards = {
+			index = 1000
 			male = {
 				60 = empty
 				10 = beard_german_long_01
