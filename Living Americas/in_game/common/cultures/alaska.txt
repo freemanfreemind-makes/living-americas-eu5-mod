@@ -158,7 +158,7 @@ tanaina_culture = {
 	
 	color = map_tanaina
 	
-	tags = { native_american_tag north_american_gfx american_gfx }
+	tags = { native_american_tag pcn_gfx north_american_gfx american_gfx }
 
 	
 	opinions = {

@@ -30,9 +30,9 @@
 			index = 2001
 			male = {
 				1 = male_headwear_iroquois_low_headband
-				2 = male_headwear_chinese_low_straw_hat
-				1 = male_headwear_aztec_low_turban
-				3 = empty
+				3 = male_headwear_chinese_low_straw_hat
+				#1 = male_headwear_aztec_low_turban
+				2 = empty
 			}
 			female = {
 				1 = empty

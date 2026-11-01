@@ -4,11 +4,13 @@
 	pcn_beards = {
 			index = 1000
 			male = {
-				60 = empty
-				10 = beard_german_long_01
-				15 = beard_german_short_01
+				25 = empty
+				1 = beard_german_long_01
+				1 = beard_german_short_01
 				5 = beard_german_goatee_02
-				10 = beard_asian_full_manchu
+				2 = beard_german_mustache_01
+				1 = beard_german_mustache_02
+				1 = beard_asian_full_manchu
 			}
 			female = {
 				1 = empty
