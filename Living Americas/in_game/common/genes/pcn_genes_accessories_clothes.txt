@@ -133,9 +133,9 @@
 		pcn_war = {
 			index = 2006
 			male = {
-				1 = male_clothes_ashanti_war_scale_armor
+				#1 = male_clothes_ashanti_war_scale_armor
 				1 = male_clothes_iroquois_royal_bear_hunter
-				1 = male_clothes_iroquois_low_beadwork_shirt
+				#1 = male_clothes_iroquois_low_beadwork_shirt
 			}
 			female = {
 				1 = female_clothes_iroquois_noble_overcoat

@@ -134,12 +134,12 @@
 		pcn_war = {
 			index = 2006
 			male = {
-				1 = male_headwear_ashanti_war_scale_cap
-				2 = male_headwear_chinese_low_straw_hat
+				#1 = male_headwear_ashanti_war_scale_cap
+				1 = male_headwear_chinese_low_straw_hat
 			}
 			female = {
 				1 = male_headwear_chinese_low_straw_hat
-				1 = empty
+				2 = empty
 			}
 			boy = {
 				1 = empty
