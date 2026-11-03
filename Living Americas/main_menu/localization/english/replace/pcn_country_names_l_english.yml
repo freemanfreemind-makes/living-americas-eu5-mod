@@ -70,10 +70,21 @@
  TQN_ADJ: "Tsilhqot'in"
  WST: "Wet'suwet'en"
  WST_ADJ: "Wet'suwet'en"
+
  DKL: "Dakelh"
  DKL_ADJ: "Dakelh"
+ DKL1: "Ulkatchot'en"
+ DKL1_ADJ: "Ulkatchot'en"
+ DKL2: "Nadleht'en"
+ DKL2_ADJ: "Nadleht'en"
+
  SWP: "Secwépemc"
  SWP_ADJ: "Secwépemc"
+ SWP1: "Texqa'kallt"
+ SWP1_ADJ: "Texqa'kallt"
+ SWP2: "Stlemhulehamuk"
+ SWP2_ADJ: "Stlemhulehamuk"
+
  SLX: "Syilix"
  SLX_ADJ: "Syilix"
  SNX: "Sinixt"

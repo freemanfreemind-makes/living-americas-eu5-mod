@@ -272,9 +272,9 @@ countries = {
 		own_control_core = {
 			nuxalc kitasoo
 		}
-		own_control_conquered = {
-		ulkatchot_en
-		}
+		#own_control_conquered = {
+		#ulkatchot_en
+		#}
 
 		court_language = wakashan_language
 		capital = nuxalc
@@ -617,9 +617,9 @@ countries = {
 		own_control_core = {
 		leel_watr_ool tsala_ihmec st_at_imcets
 		}
-		own_control_conquered = {
-		llenllenet_ten
-		}
+		#own_control_conquered = {
+		#llenllenet_ten
+		#}
 
 		court_language = salishan_language
 		capital = leel_watr_ool
@@ -645,9 +645,9 @@ countries = {
 		yunesit_in tl_etinqox_t_in elhdaqox_t_in tsi_del_del tl_esqox
 		}
 
-	own_control_conquered = {
-		esk_el stswecen_c
-		}
+	#own_control_conquered = {
+		#esk_el stswecen_c
+	#}
 
 		court_language = nadene_language
 		capital = yunesit_in
@@ -666,9 +666,9 @@ countries = {
 	own_control_core = {
 		wet_suwet_en sguuxs hagwilget witset ts_il_kaz_koh nee_tahi_buhn skin_tyee
 		}
-	own_control_conquered = {
-		nechakot_en
-	}
+	#own_control_conquered = {
+	#	nechakot_en
+	#}
 
 		court_language = nadene_language
 		capital = wet_suwet_en
@@ -685,12 +685,13 @@ countries = {
 #Dakelh
 	DKL = {
 	own_control_core = {
-		lheidlit_en yekooche tl_azt_en khelhghubunt_en a_taw_bun_kut_en nak_azdlit_en nat_oot_en nadleh_whuten nadleht_en cheslattat_en
+		nadleh_whuten yekooche nat_oot_en nak_azdlit_en tl_azt_en a_taw_bun_kut_en khelhghubunt_en
+		#lheidlit_en  nadleht_en cheslattat_en
 		}
 
-	our_cores_conquered_by_others = {
-		goat_creek nadleht_en nazkot_en lhoosk_uzt_en ulkatchot_en nechakot_en saik_uz
-	}
+	#our_cores_conquered_by_others = {
+	#	goat_creek nadleht_en nazkot_en lhoosk_uzt_en ulkatchot_en nechakot_en saik_uz
+	#}
 
 		court_language = nadene_language
 		capital = nadleh_whuten
@@ -704,14 +705,49 @@ countries = {
 		}
 	}
 
+#Ulkatchot'en
+	DKL1 = {
+	own_control_core = {
+		lheidlit_en saik_uz nazkot_en lhoosk_uzt_en cheslattat_en ulkatchot_en  nechakot_en
+		}
+
+		court_language = nadene_language
+		capital = lheidlit_en
+
+		include = "amerindian_northwest_interior"
+		include = "expl_pcn_north_interior"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+#Nadleht'en
+	DKL2 = {
+	own_control_core = {
+		nadleht_en goat_creek lanezi crescent_spur willmore hutton
+		}
+
+		court_language = nadene_language
+		capital = nadleht_en
+
+		include = "amerindian_northwest_interior"
+		include = "expl_pcn_north_interior"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
 #Secwépemc
 	SWP = {
 		own_control_core = {
-		tk_emlups stil_qw qw_ewt simpcw st_uxwtews skitsetsen sk_atsin splatsin karluk_peak monashee cariboo crescent_spur willmore hutton
-		}
-
-		our_cores_conquered_by_others = {
-		llenllenet_ten kinbasket moose_river xat_sull sexqeltqin llenllenet_ten stswecen_c esk_el lanezi
+		tk_emlups stil_qw qw_ewt st_uxwtews skitsetsen sk_atsin splatsin
+		#llenllenet_ten esk_el stswecen_c xat_sull sexqeltqin simpcw
+		#lanezi goat_creek crescent_spur willmore hutton
+		#moose_river kinbasket mica_creek karluk_peak monashee cariboo
 		}
 
 		court_language = salishan_language
@@ -724,6 +760,42 @@ countries = {
 			ruler = random
 		}
 	}
+
+#Texqa'kallt
+	SWP1 = {
+		own_control_core = {
+		moose_river kinbasket mica_creek karluk_peak monashee cariboo
+		}
+
+		court_language = salishan_language
+		capital = skitsetsen
+
+		include = "amerindian_northwest_interior"
+		include = "expl_pcn_north_mountain"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Stlemhulehamuk
+	SWP2 = {
+		own_control_core = {
+		llenllenet_ten esk_el stswecen_c xat_sull sexqeltqin
+		#simpcw
+		}
+
+		court_language = salishan_language
+		capital = llenllenet_ten
+
+		include = "amerindian_northwest_interior"
+		include = "expl_pcn_north_mountain"
+
+		government = {
+			ruler = random
+		}
+	}
+
 
 #Syilix
 	SLX = {
@@ -752,9 +824,9 @@ countries = {
 		enselxcin snk_mip ntiltxitk illecillewaet swarakxen
 		}
 
-		own_control_conquered = {
-		mica_creek
-		}
+		#own_control_conquered = {
+		#mica_creek
+		#}
 		our_cores_conquered_by_others = {
 		stxtilusten q_espiea
 		}
@@ -775,9 +847,9 @@ countries = {
 		own_control_core = {
 		yaqan_nukiy aq_am akisq_nuk akinkumasnuqit ainu_nik ktunwakanmituk yakyu_ki kananmituk aqanqmi aknuq_uk
 		}
-		own_control_conquered = {
-		kinbasket
-		}
+		#own_control_conquered = {
+		#kinbasket
+		#}
 		our_cores_conquered_by_others = {
 		aqyam_nup akinka_nup mokowan okotoks ya_kti_ki shunda wabamun kananaskis netook waskasoo
 		}

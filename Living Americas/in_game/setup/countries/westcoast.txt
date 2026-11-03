@@ -379,9 +379,45 @@ DKL = {
 	religion_definition = dene_religion
 }
 
+#Ulkachot'en
+DKL1 = {
+	color = map_dakelh1
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = dakelh_culture
+	religion_definition = dene_religion
+}
+
+#Nadleht'en
+DKL2 = {
+	color = map_dakelh2
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = dakelh_culture
+	religion_definition = dene_religion
+}
+
 #Secwépemc
 SWP = {
 	color = map_shuswap
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = shuswap_culture
+	religion_definition = salishan_totemism
+}
+
+#Texqa'kallt
+SWP1 = {
+	color = map_shuswap3
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = shuswap_culture
+	religion_definition = salishan_totemism
+}
+
+#Stlemhulehamuk
+SWP2 = {
+	color = map_shuswap2
 	color2 = rgb { 39 228 191 }
 
 	culture_definition = shuswap_culture

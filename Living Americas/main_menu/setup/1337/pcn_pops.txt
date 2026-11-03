@@ -2827,7 +2827,10 @@ sk_atsin = {
 	define_pop = {	type = tribesmen	size = 1.120	culture = shuswap_culture	religion = salishan_totemism }
 }
 skitsetsen = {
-	define_pop = {	type = tribesmen	size = 1.120	culture = shuswap_culture	religion = salishan_totemism }
+	define_pop = {	type = nobles	size = 0.020	culture = shuswap_culture	religion = salishan_totemism }
+	define_pop = {	type = clergy	size = 0.050	culture = shuswap_culture	religion = salishan_totemism }
+	define_pop = {	type = burghers	size = 0.400	culture = shuswap_culture	religion = salishan_totemism }
+	define_pop = {	type = peasants	size = 2.000	culture = shuswap_culture	religion = salishan_totemism }
 }
 st_uxwtews = {
 	define_pop = {	type = peasants	size = 1.000	culture = shuswap_culture	religion = salishan_totemism }
@@ -2836,10 +2839,7 @@ splatsin = {
 	define_pop = {	type = tribesmen	size = 1.120	culture = shuswap_culture	religion = salishan_totemism }
 }
 tk_emlups = {
-	define_pop = {	type = nobles	size = 0.020	culture = shuswap_culture	religion = salishan_totemism }
-	define_pop = {	type = clergy	size = 0.050	culture = shuswap_culture	religion = salishan_totemism }
-	define_pop = {	type = burghers	size = 0.400	culture = shuswap_culture	religion = salishan_totemism }
-	define_pop = {	type = peasants	size = 2.000	culture = shuswap_culture	religion = salishan_totemism }
+	define_pop = {	type = tribesmen	size = 1.120	culture = shuswap_culture	religion = salishan_totemism }
 }
 qw_ewt = {
 	define_pop = {	type = peasants	size = 1.000	culture = shuswap_culture	religion = salishan_totemism }

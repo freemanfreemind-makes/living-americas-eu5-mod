@@ -35,6 +35,7 @@ countries = {
 		# Isolationist: internally focused, avoid foreign entanglement
 		#MNG = { ai_personality = ai_isolationist }  # Ming China
 		INT = { ai_personality = ai_isolationist }  # Inuit
+		ADR = { ai_personality = ai_isolationist }  # neutral
 
 		# Friendly: diplomacy-first, build alliances and accept fair peace
 		#PAP = { ai_personality = ai_friendly }  # Papal States

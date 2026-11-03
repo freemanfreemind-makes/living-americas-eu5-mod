@@ -291,10 +291,10 @@ ERI0_f ={
 	}
 }
 
-#Chonnonton - T2
+#Chonnonton - T2 Hatiwendahronkha
 CNT0_f ={
     level = 2
-    required_locations_fraction = 0.5
+    required_locations_fraction = 0.8
     rule = historical
 
     potential = {
@@ -312,7 +312,6 @@ CNT0_f ={
 	provinces = {
 		ganatchio_province
 		niagara_province
-		wenro_province
 	}
 
 	form_effect = {

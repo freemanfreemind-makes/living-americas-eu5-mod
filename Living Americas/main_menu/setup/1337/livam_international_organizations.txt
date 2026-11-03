@@ -25,7 +25,7 @@ international_organization_manager = {
 		members = { ADR ONG KEN ERI HON WRO OSG MAS STD }
 		}
 
-	Anishinabe
+	#Anishinabe
 	add_international_organization = {
 		type = tribal_confederation
 		creation_date = 1337.1.1
@@ -81,7 +81,7 @@ international_organization_manager = {
 	#	members = { TTL WCM CFQ JOA MTN OFO TKS TSO MNC }
 	#	}
 
-	Cherokee
+	#Cherokee
 		add_international_organization = {
 		type = tribal_confederation
 		creation_date = 1337.1.1
@@ -137,7 +137,7 @@ international_organization_manager = {
 		members = { UMO WZZ KAW UGX PPK }
 		}
 
-	Myaamia
+	#Myaamia
 		add_international_organization = {
 		type = tribal_confederation
 		creation_date = 1337.1.1
