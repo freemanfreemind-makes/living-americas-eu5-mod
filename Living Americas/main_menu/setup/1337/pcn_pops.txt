@@ -939,16 +939,20 @@ goat_creek = {
 	define_pop = {	type = tribesmen	size = 1.212	culture = dakelh_culture	religion = dene_religion }
 }
 lanezi = {
-	define_pop = {	type = tribesmen	size = 1.212	culture = shuswap_culture	religion = salishan_totemism }
+	define_pop = {	type = tribesmen	size = 0.300	culture = shuswap_culture	religion = salishan_totemism }
+	define_pop = {	type = tribesmen	size = 0.300	culture = dakelh_culture	religion = salishan_totemism }
 }
 crescent_spur = {
-	define_pop = {	type = tribesmen	size = 1.212	culture = shuswap_culture	religion = salishan_totemism }
+	define_pop = {	type = tribesmen	size = 0.300	culture = shuswap_culture	religion = salishan_totemism }
+	define_pop = {	type = tribesmen	size = 0.300	culture = dakelh_culture	religion = salishan_totemism }
 }
 willmore = {
-	define_pop = {	type = tribesmen	size = 1.212	culture = shuswap_culture	religion = salishan_totemism }
+	define_pop = {	type = tribesmen	size = 0.300	culture = shuswap_culture	religion = salishan_totemism }
+	define_pop = {	type = tribesmen	size = 0.300	culture = dakelh_culture	religion = salishan_totemism }
 }
 hutton = {
-	define_pop = {	type = tribesmen	size = 1.212	culture = shuswap_culture	religion = salishan_totemism }
+	define_pop = {	type = tribesmen	size = 0.300	culture = shuswap_culture	religion = salishan_totemism }
+	define_pop = {	type = tribesmen	size = 0.300	culture = dakelh_culture	religion = salishan_totemism }
 }
 dakelh_range = {
 }

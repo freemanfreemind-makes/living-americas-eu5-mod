@@ -707,7 +707,8 @@ countries = {
 
 #Ulkatchot'en
 	DKL1 = {
-	own_control_core = {
+	type = pop
+		add_pops_from_locations = {
 		lheidlit_en saik_uz nazkot_en lhoosk_uzt_en cheslattat_en ulkatchot_en  nechakot_en
 		}
 
@@ -725,12 +726,31 @@ countries = {
 
 #Nadleht'en
 	DKL2 = {
-	own_control_core = {
+	type = pop
+		add_pops_from_locations = {
 		nadleht_en goat_creek lanezi crescent_spur willmore hutton
 		}
 
 		court_language = nadene_language
 		capital = nadleht_en
+
+		include = "amerindian_northwest_interior"
+		include = "expl_pcn_north_interior"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+#Tse'khene
+	SKN0 = {
+	type = pop
+		add_pops_from_locations = {
+		tsekani ingenika mesilinka yutuwichan hominka takla tse_khene williston kwadacha thutade
+		}
+
+		court_language = nadene_language
 
 		include = "amerindian_northwest_interior"
 		include = "expl_pcn_north_interior"
@@ -763,8 +783,10 @@ countries = {
 
 #Texqa'kallt
 	SWP1 = {
-		own_control_core = {
+	type = pop
+		add_pops_from_locations = {
 		moose_river kinbasket mica_creek karluk_peak monashee cariboo
+		lanezi crescent_spur willmore hutton
 		}
 
 		court_language = salishan_language
@@ -780,9 +802,10 @@ countries = {
 
 #Stlemhulehamuk
 	SWP2 = {
-		own_control_core = {
+	type = pop
+		add_pops_from_locations = {
 		llenllenet_ten esk_el stswecen_c xat_sull sexqeltqin
-		#simpcw
+		simpcw
 		}
 
 		court_language = salishan_language
@@ -845,17 +868,36 @@ countries = {
 #Ktunaxa
 	KTX = {
 		own_control_core = {
-		yaqan_nukiy aq_am akisq_nuk akinkumasnuqit ainu_nik ktunwakanmituk yakyu_ki kananmituk aqanqmi aknuq_uk
+		akisq_nuk ainu_nik ktunwakanmituk yakyu_ki aknuq_uk
+		#yaqan_nukiy aq_am akinkumasnuqit aqanqmi kananmituk
 		}
-		#own_control_conquered = {
-		#kinbasket
-		#}
+
 		our_cores_conquered_by_others = {
 		aqyam_nup akinka_nup mokowan okotoks ya_kti_ki shunda wabamun kananaskis netook waskasoo
 		}
 
 		court_language = ktunaxa_language
 		capital = ktunwakanmituk
+
+		include = "amerindian_northwest_interior"
+		include = "expl_pcn_north_mountain"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Ksanka
+	KTX2 = {
+		own_control_core = {
+		yaqan_nukiy aq_am akinkumasnuqit aqanqmi kananmituk
+		}
+
+		our_cores_conquered_by_others = {
+		aqyam_nup akinka_nup mokowan okotoks ya_kti_ki shunda wabamun kananaskis netook waskasoo
+		}
+
+		court_language = ktunaxa_language
 
 		include = "amerindian_northwest_interior"
 		include = "expl_pcn_north_mountain"
@@ -1028,11 +1070,28 @@ countries = {
 #Saleesh
 	SLH = {
 		own_control_core = {
-		saleesh epixyu hungry_horse bad_rock niarada missoula turah bitterroot deer_lodge granite
+		#saleesh epixyu hungry_horse bad_rock niarada
+		missoula turah bitterroot deer_lodge granite
 		}
 
 		court_language = salishan_language
-		capital = saleesh
+
+		include = "amerindian_northwest_interior"
+		include = "expl_pcn_central_mountain"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Tunaxe
+	SLH1 = {
+		own_control_core = {
+		saleesh epixyu hungry_horse bad_rock niarada
+		#missoula turah bitterroot deer_lodge granite
+		}
+
+		court_language = salishan_language
 
 		include = "amerindian_northwest_interior"
 		include = "expl_pcn_central_mountain"

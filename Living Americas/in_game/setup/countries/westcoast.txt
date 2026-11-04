@@ -397,6 +397,15 @@ DKL2 = {
 	religion_definition = dene_religion
 }
 
+#Tse'khene
+SKN0 = {
+	color = map_sekani
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = sekani_culture
+	religion_definition = dene_religion
+}
+
 #Secwépemc
 SWP = {
 	color = map_shuswap
@@ -445,6 +454,15 @@ SNX = {
 #Ktunaxa
 KTX = {
 	color = map_ktunaxan
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = ktunaxa_culture
+	religion_definition = salishan_totemism
+}
+
+#Ksanka
+KTX2 = {
+	color = map_ktunaxa2
 	color2 = rgb { 39 228 191 }
 
 	culture_definition = ktunaxa_culture
@@ -535,6 +553,15 @@ QLP = {
 #Saleesh
 SLH = {
 	color = map_saleesh
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = saleesh_culture
+	religion_definition = salishan_totemism
+}
+
+#Tunaxe
+SLH1 = {
+	color = map_saleesh1
 	color2 = rgb { 39 228 191 }
 
 	culture_definition = saleesh_culture

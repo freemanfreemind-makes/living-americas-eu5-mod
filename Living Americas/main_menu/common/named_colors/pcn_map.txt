@@ -12,4 +12,6 @@ map_shuswap2 = rgb { 55 75 28 }
 map_shuswap3 = rgb { 55 95 28 }
 map_dakelh1 = rgb { 68 252 47 }
 map_dakelh2 = rgb { 68 252 67 }
+map_ktunaxa2 = hsv { 0.91 0.68 0.38 }
+map_saleesh1 = rgb { 58 90 65 }
 }
