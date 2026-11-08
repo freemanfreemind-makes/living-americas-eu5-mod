@@ -2,7 +2,7 @@
 	"name":	"Living Americas 1.10",
 	"id":	"TheOneWhoIs.LivingAmericas",
 	"version":	"1.10",
-	"supported_game_version":	"1.4.6",
+	"supported_game_version":	"1.4.7",
 	"short_description":	"Now includes all content from Pacific Coast Nations. Fills out the new world with many historic and culture based nations to both prevent colonising nations from ahistorically conquering the entirety of the continents 200 years in. Originally developed for personal use and testing of my PCN mod, this project developed a life of it's own and I hope others enjoy it as much as I have. Fair warning: this mod is likely to conflict with other mods that add in factions. Requires a decent CPU to handle the extra factions. Consider my PCN mod for a lighter experience if this is too heavy",
 	"tags":	["Gameplay", "Historical", "Map", "Overhaul"],
 	"relationships":	[],
