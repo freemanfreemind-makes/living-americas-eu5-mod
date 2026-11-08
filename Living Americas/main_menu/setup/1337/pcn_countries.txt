@@ -47,7 +47,8 @@ countries = {
 	TSA = {
 
 		own_control_core = {
-			klikitat stlpulmsh wishram
+			klikitat stlpulmsh
+			#wishram
 		}
 
 		court_language = salishan_language
@@ -139,8 +140,8 @@ countries = {
 
 	#Lhaq'temish
 	LHQ = {
-		type = pop
-		add_pops_from_locations = {
+
+		own_control_core = {
 			lhaq_temish
 		}
 
@@ -371,7 +372,7 @@ countries = {
 		}
 
 		court_language = nadene_language
-		capital = shtax_heen
+		capital = jilkaat
 
 		include = "amerindian_northwest_coast"
 		include = "expl_pcn_north_coast_alaska"
@@ -771,7 +772,7 @@ countries = {
 		}
 
 		court_language = salishan_language
-		capital = tk_emlups
+		capital = skitsetsen
 
 		include = "amerindian_northwest_interior"
 		include = "expl_pcn_north_mountain"
@@ -2298,6 +2299,343 @@ TXW = {
 			ruler = random
 		}
 	}
+
+#Nahani
+NHN0 = {
+		type = pop
+		add_pops_from_locations = {
+		chiyone
+		}
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast_alaska"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+#Kaska
+KSK0 = {
+		type = pop
+		add_pops_from_locations = {
+		tsay_iona ozanna tyagacho teslin_trail tuchitua ross_river
+		}
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast_alaska"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+#Dan'ki
+DKI0 = {
+		type = pop
+		add_pops_from_locations = {
+		pelly_river pelly_faro carmacks hucha_hudan mayo donjek white_horse
+		}
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast_alaska"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+#Dan'ke
+DKE0 = {
+		type = pop
+		add_pops_from_locations = {
+		kluane asheyi kwachal ta_an
+		}
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast_alaska"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+#Ahtna
+AHT0 = {
+		type = pop
+		add_pops_from_locations = {
+		matanuska mendetna gakona klutina chitina atnatuu slana
+		}
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast_alaska"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+#Nabesna
+NBS0 = {
+		type = pop
+		add_pops_from_locations = {
+		tanacross tetlin northway
+		}
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast_alaska"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+#Han Hwech'in
+HHW0 = {
+		type = pop
+		add_pops_from_locations = {
+		eagle sixtymile upper_yukon bonanza klondike na_choo_ndek
+		}
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast_alaska"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+#Gwich'in
+GWN0 = {
+		type = pop
+		add_pops_from_locations = {
+		circle birch_creek venetie chalkyitsik
+		}
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast_alaska"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+#Tanana
+TNN0 = {
+		type = pop
+		add_pops_from_locations = {
+		minto nenana chena salcha deltana goodpaster paxson kahiltna cantwell denali kantishna anderson
+		}
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast_alaska"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+#Denaakk'e
+DNK0 = {
+		type = pop
+		add_pops_from_locations = {
+		beaver manley rampart allakaket tanana grant_creek birches ruby koyukuk kaltag grayling
+		}
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast_alaska"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+#Dex Xit'an
+DXN0 = {
+		type = pop
+		add_pops_from_locations = {
+		deloy_ges deloy_chet chuathbaluk qipcarpak tovisq_ol digenegh
+		}
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast_alaska"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+#Timbisha
+TMB0 = {
+		type = pop
+		add_pops_from_locations = {
+		timbisha tumpisa fish_lake
+		}
+
+		include = "amerindian_tribe"
+
+		discovered_regions = {
+		west_coast_region
+		great_plains_region
+		aridoamerica_region
+		}
+
+		government = {
+			ruler = random
+		}
+}
+
+#Wiyimpih-deka
+WPD0 = {
+		type = pop
+		add_pops_from_locations = {
+		akamba tsaiduka kutsipiuti kawich
+		}
+
+		include = "amerindian_tribe"
+
+		discovered_regions = {
+		west_coast_region
+		great_plains_region
+		aridoamerica_region
+		}
+
+		government = {
+			ruler = random
+		}
+}
+
+#Wata-deka
+WDK0 = {
+		type = pop
+		add_pops_from_locations = {
+		watatikka mahaguatikka tsogwiyuyugi kuyatikka tipatikka
+		}
+
+		include = "amerindian_tribe"
+
+		discovered_regions = {
+		west_coast_region
+		great_plains_region
+		aridoamerica_region
+		}
+
+		government = {
+			ruler = random
+		}
+}
+
+#Kusiutta
+KST0 = {
+		type = pop
+		add_pops_from_locations = {
+		seuhubeogoi pierruiat tooele unkagarit koosharem pio_gwut
+		}
+
+		include = "amerindian_tribe"
+
+		discovered_regions = {
+		west_coast_region
+		great_plains_region
+		aridoamerica_region
+		}
+
+		government = {
+			ruler = random
+		}
+}
+
+#Teta-deka
+TDK0 = {
+		type = pop
+		add_pops_from_locations = {
+		buenaventura morgan yoov_we_teuh randolph
+		}
+
+		include = "amerindian_tribe"
+
+		discovered_regions = {
+		west_coast_region
+		great_plains_region
+		aridoamerica_region
+		}
+
+		government = {
+			ruler = random
+		}
+}
+
+#Kuhtsutuuka
+KTU0 = {
+		type = pop
+		add_pops_from_locations = {
+		aashbikkaashee iisaxpuatahcheeaashe ishpiialawaache
+		}
+
+		include = "amerindian_tribe"
+
+		discovered_regions = {
+		west_coast_region
+		great_plains_region
+		aridoamerica_region
+		}
+
+		government = {
+			ruler = random
+		}
+}
+
+#Yapahruka
+YRK0 = {
+		type = pop
+		add_pops_from_locations = {
+		binmatshua cuthuhogwa aashbiliihkupe buaxaxxaashe
+		}
+
+		include = "amerindian_tribe"
+
+		discovered_regions = {
+		west_coast_region
+		great_plains_region
+		aridoamerica_region
+		}
+
+		government = {
+			ruler = random
+		}
+}
+
+#Hupe
+HUP0 = {
+		type = pop
+		add_pops_from_locations = {
+		nataeosueti onnikisisaahtaayi mahpahpahazhhah aashise
+		}
+
+		include = "amerindian_tribe"
+
+		discovered_regions = {
+		west_coast_region
+		great_plains_region
+		aridoamerica_region
+		}
+
+		government = {
+			ruler = random
+		}
+}
+
 
 }
 }

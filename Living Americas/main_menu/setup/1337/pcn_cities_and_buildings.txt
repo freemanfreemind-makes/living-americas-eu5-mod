@@ -1,7 +1,7 @@
 locations={
 	#Westcoast
 	#kiis_gwaay = { rank = town 		town_setup = westcoast_coastal_town }
-	shtax_heen = { rank = town 		town_setup = westcoast_coastal_town }
+	jilkaat = { rank = town 		town_setup = westcoast_coastal_town }
 	#sm_algyax = { rank = town 		town_setup = westcoast_coastal_town }
 	#haisla = { rank = town 		town_setup = westcoast_coastal_town }
 	#heiltsuk = { rank = town 		town_setup = westcoast_coastal_town }

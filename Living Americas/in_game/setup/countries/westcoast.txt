@@ -1145,6 +1145,177 @@ YPG = {
 	religion_definition = yupik_shamanism
 }
 
+#Nahani
+NHN0 = {
+	color = map_nahani
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = nahani_culture
+	religion_definition = dene_shamanism
+}
+
+#Kaska
+KSK0 = {
+	color = map_kaska
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = kaska_culture
+	religion_definition = dene_shamanism
+}
+
+#Dan'ki
+DKI0 = {
+	color = map_dan_ki
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = dan_ki_culture
+	religion_definition = dene_shamanism
+}
+
+#Dan'ke
+DKE0 = {
+	color = map_dan_ke
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = dan_ke_culture
+	religion_definition = dene_shamanism
+}
+
+#Ahtna
+AHT0 = {
+	color = map_ahtna
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = ahtna_culture
+	religion_definition = dene_shamanism
+}
+
+#Nabesna
+NBS0 = {
+	color = map_nabesna
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = nabesna_culture
+	religion_definition = dene_shamanism
+}
+
+#Han Hwech'in
+HHW0 = {
+	color = map_haen
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = haen_culture
+	religion_definition = dene_shamanism
+}
+
+#Gwich'in
+GWN0 = {
+	color = map_gwichin
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = gwichin_culture
+	religion_definition = dene_shamanism
+}
+
+#Tanana
+TNN0 = {
+	color = map_tanana
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = tanana_culture
+	religion_definition = dene_shamanism
+}
+
+#Denaakk'e
+DNK0 = {
+	color = map_koyukon
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = koyukon_culture
+	religion_definition = dene_shamanism
+}
+
+#Dex Xit'an
+DXN0 = {
+	color = map_ingalik
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = ingalik_culture
+	religion_definition = dene_shamanism
+}
+
+#Timbisha
+TMB0 = {
+	color = map_timbisha
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = timbisha_culture
+	religion_definition = paiute_shamanism
+}
+
+#Wiyimpih-deka
+WPD0 = {
+	color = map_wiyimpihtikka
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = wiyimpihtikka_culture
+	religion_definition = paiute_shamanism
+}
+
+#Wata-deka
+WDK0 = {
+	color = map_watatikka
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = watatikka_culture
+	religion_definition = paiute_shamanism
+}
+
+#Kusiutta
+KST0 = {
+	color = map_kusiutta
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = kusiutta_culture
+	religion_definition = paiute_shamanism
+}
+
+#Teta-deka
+TDK0 = {
+	color = map_tetadeka
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = tetadeka_culture
+	religion_definition = paiute_shamanism
+}
+
+#Kuhtsutuuka
+KTU0 = {
+	color = map_kotsoteka
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = kuhtsutuuka_culture
+	religion_definition = paiute_shamanism
+}
+
+#Yapahruka
+YRK0 = {
+	color = map_yamparika
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = yapahruka_culture
+	religion_definition = paiute_shamanism
+}
+
+#Hupe
+HUP0 = {
+	color = map_hupe
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = hupe_culture
+	religion_definition = paiute_shamanism
+}
+
 
 ##Optional from here###
 #Kumeyaay

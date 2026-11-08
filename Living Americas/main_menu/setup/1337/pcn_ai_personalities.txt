@@ -37,8 +37,8 @@ countries = {
 
 		# Friendly: diplomacy-first, build alliances and accept fair peace
 		#PAP = { ai_personality = ai_friendly }  # Papal States
-		CNK = { ai_personality = ai_friendly } #Chinook
-		LWT = { ai_personality = ai_friendly } #St'át'imc
+		#CNK = { ai_personality = ai_friendly } #Chinook
+		#LWT = { ai_personality = ai_friendly } #St'át'imc
 
 	}
 }
