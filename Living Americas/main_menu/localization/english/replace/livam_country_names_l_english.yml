@@ -28,6 +28,8 @@
  NHT_ADJ: "Nihithaw"
  INT: "Inuit"
  INT_ADJ: "Inuit"
+
+# Great Plains
  TTI: "Tsuu'tina"
  TTI_ADJ: "Tsuu'tina"
  SKS: "Siksika"
@@ -44,9 +46,47 @@
  AKH_ADJ: "Asinikawithini"
  KTX1: "Niitsítapi"
  KTX1_ADJ: "Niitsítapi"
- COH: "Coahuilteco"
- COH: "Coahuilteco"
- COH_ADJ: "Coahuilteco"
+ LPN: "Lepai Ndé"
+ LPN_ADJ: "Lepai Ndé"
+
+#added v1.10
+ KWA0: "Ka'igwu"
+ KWA0_ADJ: "Ka'igwu"
+ YTD0: "Yat Tindé"
+ YTD0_ADJ: "Yat Tindé"
+ HND0: "Hendé"
+ HND0_ADJ: "Hendé"
+ TND0: "Tindé"
+ TND0_ADJ: "Tindé"
+ IDE0: "Indé"
+ IDE0_ADJ: "Indé"
+ NHI0: "Nuuchi"
+ NHI0_ADJ: "Nuuchi"
+ NDH0: "Naadahendé"
+ NDH0_ADJ: "Naadahendé"
+ TAN0: "Tanoan"
+ TAN0_ADJ: "Tanoan"
+ DSL0: "Denesoliné"
+ DSL0_ADJ: "Denesoliné"
+ DNZ0: "Dane-zaa"
+ DNZ0_ADJ: "Dane-zaa"
+ DZA0: "Dunezza"
+ DZA0_ADJ: "Dunezza"
+ TTN0: "Tsatsaotine"
+ TTN0_ADJ: "Tsatsaotine"
+ DHC0: "Dehcho"
+ DHC0_ADJ: "Dehcho"
+ TCH0: "Tlicho"
+ TCH0_ADJ: "Tlicho"
+ SHT0: "Sahtu"
+ SHT0_ADJ: "Sahtu"
+ IUT0: "Inuiannait"
+ IUT0_ADJ: "Inuiannait"
+ INV0: "Inuviluq"
+ INV0_ADJ: "Inuviluq"
+
+#Aridoamerica
+
  COH1: "Alazapa"
  COH1_ADJ: "Alazapa"
  COH2: "Chisos"
@@ -59,8 +99,6 @@
  COH5_ADJ: "Tickanwatic"
  COH6: "Tokonohono"
  COH6_ADJ: "Tokonohono"
- LPN: "Lepai Ndé"
- LPN_ADJ: "Lepai Ndé"
 
  #Formables
 

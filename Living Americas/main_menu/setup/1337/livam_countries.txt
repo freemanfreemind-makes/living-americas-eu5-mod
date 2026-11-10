@@ -3497,6 +3497,153 @@ countries = {
 		capital = iqaluit
 	}
 
+#Denesoliné
+DSL0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			sakawyiniw thilane_hot_ine ot_esh_otchore methye misekumaw gani_koe tipinuwak athabasca kai_theli_ke_hot_inne tethul tazin tatinnai nueltin mistahi thlewiaza kasba dubawnt abitau thoa natalkai klewi deskenetlata tronka_chua thubun lutselk_e nonacho tatsan
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_arctic_interior"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Dane-zaa
+DNZ0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			ksituan mushikitee wabasca mikkwa
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_arctic_interior"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Dunezza
+DZA0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			unjegah tsa_tinne chinchaga beatton
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_arctic_interior"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Tsatsaotine
+TTN0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			soombak_e utsingi kahochella
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_arctic_interior"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Dehcho
+DHC0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			ford_liard nahanni wrigley fort_simpson jean_marie_river kakisa tucho tu_nedhe
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_arctic_interior"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Tlicho
+TCH0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			hottah_ti game_ti wha_ti wekwee_ti wecho tidee
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_arctic_interior"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Sahtu
+SHT0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			good_hope norman_wells tuyetah tulita blackwater
+			colville tirato ehdacho tugacho edaula
+			mahony deline sahoyue turili kwita_tla
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_arctic_interior"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Inuiannait
+IUT0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			kamut kogluktok qurliqtuq
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_amerindian_arctic"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Inuviluq
+INV0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			aklaviq inuviq tuktoyukiuq
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_amerindian_arctic"
+
+		government = {
+			ruler = random
+		}
+	}
+
+
 #Mahmikiwini
 	MMW = {
 		own_control_core = {
@@ -3701,6 +3848,177 @@ countries = {
 		government = {
 			ruler = random
 			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+
+#Ka'igwu
+KWA0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			kyaiyesisahtai baashalapache aluutashe huupalikooche xuahceesh_annappiio skaapirox aahkawirahkata iichiilikaaashaashe ksai_yohe wit_anowi_yohe notameohmeshehse
+		}
+
+		include = "amerindian_tribe"
+
+
+		discovered_regions = {
+			great_plains_region
+			west_coast_region
+			aridoamerica_region
+		}
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Yat Tindé
+YTD0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			paiyo_he ohktouna wotapio hisse_yoyi_yoe oevemanaho minii_yohe
+		}
+
+		include = "amerindian_tribe"
+
+		discovered_regions = {
+			great_plains_region
+			west_coast_region
+			aridoamerica_region
+		}
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Hendé
+HND0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			so_taeo_o nih_iitkotousi_l ce_eiinox neenowuxoote_i niineniiniicie wasin_wakpa
+		}
+
+		include = "amerindian_tribe"
+
+		discovered_regions = {
+			great_plains_region
+			west_coast_region
+			aridoamerica_region
+		}
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Tindé
+TND0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			beesowuunenno phankeska_wakpa ononio_he veoneohe mano_iyo_he ponoeohe
+		}
+
+		include = "amerindian_tribe"
+
+		discovered_regions = {
+			great_plains_region
+			west_coast_region
+			aridoamerica_region
+		}
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Indé
+IDE0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			meneeohe medicine_bow hehvaitaneo
+		}
+
+		include = "amerindian_tribe"
+
+		discovered_regions = {
+			great_plains_region
+			west_coast_region
+			aridoamerica_region
+		}
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Nuuchi
+NHI0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			pahva_nits toompahnahwach cumumba sahpeech yoowetum
+			wasatch uncompaghre
+			nuchiu tavaputs yapudttka uintah taveewach pahdteeahnooch
+			ouray dagett moffat routt savery basawunena
+		}
+
+		include = "amerindian_tribe"
+
+		discovered_regions = {
+			great_plains_region
+			west_coast_region
+			aridoamerica_region
+		}
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Naadahendé
+NDH0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			tinde apispaha mutsisooni_yohe heeyoteyoo
+		}
+
+		include = "amerindian_tribe"
+
+		discovered_regions = {
+			great_plains_region
+			west_coast_region
+			aridoamerica_region
+		}
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Tanoan
+TAN0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			na_isha taviwac kahpota moghwachi
+		}
+
+		discovered_regions = {
+			great_plains_region
+			west_coast_region
+			aridoamerica_region
+		}
+
+		government = {
+			ruler = random
 		}
 	}
 
@@ -4349,7 +4667,7 @@ countries = {
 	NWV = {
 		type = pop
 		add_pops_from_locations = {
-			havasu ivanpah moapa
+			havasu ivanpah moapa pah_rimpi
 		}
 
 		include = "amerindian_tribe_northwestern"

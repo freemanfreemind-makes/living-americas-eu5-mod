@@ -2417,6 +2417,7 @@ GWN0 = {
 		type = pop
 		add_pops_from_locations = {
 		circle birch_creek venetie chalkyitsik
+		mackenzie tsiigehtchik
 		}
 
 		include = "amerindian_northwest_coast"

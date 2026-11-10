@@ -288,5 +288,159 @@ LPN = {
 
 	culture_definition = lepai_nde_culture
 	religion_definition = dene_shamanism
+}
 
+#added v1.10
+
+#Ka'igwu
+KWA0 = {
+	color = map_kaigwu
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = kaigwu_culture
+	religion_definition = great_plains_shamanism
+}
+
+#Yat Tindé
+YTD0 = {
+	color = map_yattinde
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = yattinde_culture
+	religion_definition = great_plains_shamanism
+}
+
+#Hendé
+HND0 = {
+	color = map_hende
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = hende_culture
+	religion_definition =
+}
+
+#Tindé
+TND0 = {
+	color = map_tinde
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = tinde_culture
+	religion_definition = dene_shamanism
+}
+
+#Indé
+IDE0 = {
+	color = map_inde
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = inde_culture
+	religion_definition = dene_shamanism
+}
+
+#Nuuchi
+NHI0 = {
+	color = map_nuuchi
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = nuuchi_culture
+	religion_definition = paiute_shamanism
+}
+
+#Naadahendé
+NDH0 = {
+	color = map_naadahende
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = naadahende_culture
+	religion_definition = dene_shamanism
+}
+
+#Tanoan
+TAN0 = {
+	color = map_tanoan
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = tanoan_culture
+	religion_definition = paiute_shamanism
+}
+
+#Denesoliné
+DSL0 = {
+	color = map_denesoline
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = denesoline_culture
+	religion_definition = dene_shamanism
+}
+
+#Dane-zaa
+DNZ0 = {
+	color = map_danezaa
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = danezaa_culture
+	religion_definition = dene_shamanism
+}
+
+#Dunezza
+DZA0 = {
+	color = map_dunezza
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = dunezza_culture
+	religion_definition = dene_shamanism
+}
+
+#Tsatsaotine
+TTN0 = {
+	color = map_tsatsaotine
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = tsatsaotine_culture
+	religion_definition = dene_shamanism
+}
+
+#Dehcho
+DHC0 = {
+	color = map_dehcho
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = dehcho_culture
+	religion_definition = dene_shamanism
+}
+
+#Tlicho
+TCH0 = {
+	color = map_tlicho
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = tlicho_culture
+	religion_definition = dene_shamanism
+}
+
+#Sahtu
+SHT0 = {
+	color = map_sahtu
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = sahtu_culture
+	religion_definition = dene_shamanism
+}
+
+#Inuiannait
+IUT0 = {
+	color = map_inuinnait
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = inuinnait_culture
+	religion_definition = inuit_religion
+}
+
+#Inuviluq
+INV0 = {
+	color = map_inuviluq
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = inuviluq_culture
+	religion_definition = inuit_religion
 }
