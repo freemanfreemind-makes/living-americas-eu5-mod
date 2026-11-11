@@ -3354,8 +3354,8 @@ countries = {
 		type = pop
 
 		add_pops_from_locations = {
-		tessuialluk aillik kaipokok agvituk ukasikalik nunainguk aulatsivik okak napaktok kingmirtok kuujjuaq nastapoka wiyashakimi qingaaluk kuujjuarapik navchak tupirvialuit kangiqsualujjuaq qurlutuq qikirtajuaq sanikiluaq
-		#koroc tupialuviniq
+		tessuialluk aillik kaipokok agvituk ukasikalik nunainguk aulatsivik okak napaktok kingmirtok kuujjuaq nastapoka wiyashakimi qingaaluk kuujjuarapik navchak  kangiqsualujjuaq qurlutuq qikirtajuaq sanikiluaq tupialuviniq
+		#koroc tupirvialuit
 		}
 
 		include = "amerindian_tribe"
