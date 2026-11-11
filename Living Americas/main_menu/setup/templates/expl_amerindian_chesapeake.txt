@@ -1,6 +1,3 @@
-discovered_regions = {
-}
-
 discovered_areas = {
 	north_carolina_area
 	virginia_area
@@ -11,8 +8,4 @@ discovered_areas = {
 	southern_new_england_area
 	massachusetts_area
 	east_coast_sea_zones_area
-}
-
-discovered_provinces = {
-
 }

@@ -66,6 +66,7 @@
  NDH0_ADJ: "Naadahendé"
  TAN0: "Tanoan"
  TAN0_ADJ: "Tanoan"
+
  DSL0: "Denesoliné"
  DSL0_ADJ: "Denesoliné"
  DNZ0: "Dane-zaa"
@@ -85,6 +86,52 @@
  INV0: "Inuviluq"
  INV0_ADJ: "Inuviluq"
 
+ YLI0: "Yoli"
+ YLI0_ADJ: "Yoli"
+ TBS0: "Toboso"
+ TBS0_ADJ: "Toboso"
+ ITL0: "Irritila"
+ ITL0_ADJ: "Irritila"
+ EKG0: "Esto'k Gna"
+ EKG0_ADJ: "Esto'k Gna"
+ KNW0: "Karankawa"
+ KNW0_ADJ: "Karankawa"
+ OTL0: "Otomitl"
+ OTL0_ADJ: "Otomitl"
+ UZA0: "Uza"
+ UZA0_ADJ: "Uza"
+ NYI0: "Náayeri"
+ NYI0_ADJ: "Náayeri"
+ CCM0: "Cochimi"
+ CCM0_ADJ: "Cochimi"
+ CMC0: "Comcaac"
+ CMC0_ADJ: "Comcaac"
+
+# Possible future use... very small factions, may not be worth the performance hit.
+
+ HLP0: "Hualapai"
+ HLP0_ADJ: "Hualapai"
+ YVP0: "Yavapai"
+ YVP0_ADJ: "Yavapai"
+ XLD0: "Xalychidom"
+ XLD0_ADJ: "Xalychidom"
+ KWT0: "Kwatsáan"
+ KWT0_ADJ: "Kwatsáan"
+ PPH0: "Piipaash"
+ PPH0_ADJ: "Piipaash"
+ KYY0: "Kumeyaay"
+ KYY0_ADJ: "Kumeyaay"
+ PAI0: "Paipai"
+ PAI0_ADJ: "Paipai"
+ KLW0: "Ko'leew"
+ KLW0_ADJ: "Ko'leew"
+ MGI0: "Mongui"
+ MGI0_ADJ: "Mongui"
+ GCA0: "Guaicura"
+ GCA0_ADJ: "Guaicura"
+ PCU0: "Pericu"
+ PCU0_ADJ: "Pericu"
+
 #Aridoamerica
 
  COH1: "Alazapa"
@@ -99,6 +146,9 @@
  COH5_ADJ: "Tickanwatic"
  COH6: "Tokonohono"
  COH6_ADJ: "Tokonohono"
+
+
+#
 
  #Formables
 

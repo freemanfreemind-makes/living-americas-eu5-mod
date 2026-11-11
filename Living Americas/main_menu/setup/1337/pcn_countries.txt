@@ -729,7 +729,7 @@ countries = {
 	DKL2 = {
 	type = pop
 		add_pops_from_locations = {
-		nadleht_en goat_creek lanezi crescent_spur willmore hutton
+		nadleht_en goat_creek
 		}
 
 		court_language = nadene_language
@@ -2320,7 +2320,7 @@ NHN0 = {
 KSK0 = {
 		type = pop
 		add_pops_from_locations = {
-		tsay_iona ozanna tyagacho teslin_trail tuchitua ross_river
+		tsay_iona ozanna tyagacho tuchitua ross_river
 		}
 
 		include = "amerindian_northwest_coast"

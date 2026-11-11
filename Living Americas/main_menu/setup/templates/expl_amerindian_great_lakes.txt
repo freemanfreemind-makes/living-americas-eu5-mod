@@ -1,7 +1,3 @@
-discovered_regions = {
-}
-
-
 discovered_areas = {
 	wisconsin_area
 	superior_area
@@ -18,7 +14,4 @@ discovered_areas = {
 	iowa_area
 	missouri_area
 	great_lakes_sea_zones_area
-}
-discovered_provinces = {
-
 }

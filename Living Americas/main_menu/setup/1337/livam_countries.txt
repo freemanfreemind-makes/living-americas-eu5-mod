@@ -3335,7 +3335,8 @@ countries = {
 
 		add_pops_from_locations = {
 			gosaoie nogamsig amasipukwek sibook maqtewey nukamkiajijk mollyhuajeck mekwiskajk akilasiewakik walnaypek upsukdaskooch wipetikil naskwotchu mekapisk eimastukwek wli_qospem pgotapesg meelpaeg kutapuskuj epwikek
-			belle_isle baie_verte placentia bacalhieu cape_spear cape_race miquelon
+			belle_isle baie_verte placentia bacalhieu cape_spear cape_race
+			#miquelon
 		}
 
 		include = "amerindian_east_coast_tribe_maritimes"
@@ -3354,7 +3355,7 @@ countries = {
 
 		add_pops_from_locations = {
 		tessuialluk aillik kaipokok agvituk ukasikalik nunainguk aulatsivik okak napaktok kingmirtok kuujjuaq nastapoka wiyashakimi qingaaluk kuujjuarapik navchak tupirvialuit kangiqsualujjuaq qurlutuq qikirtajuaq sanikiluaq
-		koroc tupialuviniq
+		#koroc tupialuviniq
 		}
 
 		include = "amerindian_tribe"
@@ -4011,6 +4012,8 @@ TAN0 = {
 			na_isha taviwac kahpota moghwachi
 		}
 
+		include = "amerindian_tribe"
+
 		discovered_regions = {
 			great_plains_region
 			west_coast_region
@@ -4627,6 +4630,157 @@ TAN0 = {
 			ruler = random
 		}
 	}
+
+#Yoli
+YLI0 = {
+		type = pop
+		add_pops_from_locations = {
+			tehua namiquipa xicahua yoli coyame tu_e_dine_de julime pinanaca dzithinahnde
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Toboso
+TBS0 = {
+		type = pop
+		add_pops_from_locations = {
+			cacalotito sisimbles
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Irritila
+ITL0 = {
+		type = pop
+		add_pops_from_locations = {
+			osatayogliglas guazapayogliglas
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Esto'k Gna
+EKG0 = {
+		type = pop
+		add_pops_from_locations = {
+			estok_gna tugumlepen tinapihuaya piguique cacaxtles
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Karankawa
+KNW0 = {
+		type = pop
+		add_pops_from_locations = {
+			copane mariame karankawa capoque
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Otomitl
+OTL0 = {
+		type = pop
+		add_pops_from_locations = {
+			otomi
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Uza
+UZA0 = {
+		type = pop
+		add_pops_from_locations = {
+			tangamanga huaxcama pame uza tanchaycha jalpan
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Náayeri
+NYI0 = {
+		type = pop
+		add_pops_from_locations = {
+			acaponeta nayarit
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Cochimi
+CCM0 = {
+		type = pop
+		add_pops_from_locations = {
+			nakipa cochimi mti_pa cadegomo
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Comcaac
+CMC0 = {
+		type = pop
+		add_pops_from_locations = {
+			xiica_xnaai_iic_coii comcaac tahejoc xiica_hai_iic_coii
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
 
 
 

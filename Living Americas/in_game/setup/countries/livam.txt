@@ -316,7 +316,8 @@ HND0 = {
 	color2 = rgb { 198 166 100 }
 
 	culture_definition = hende_culture
-	religion_definition =
+	religion_definition = dene_shamanism
+
 }
 
 #Tindé
@@ -326,6 +327,7 @@ TND0 = {
 
 	culture_definition = tinde_culture
 	religion_definition = dene_shamanism
+
 }
 
 #Indé
@@ -444,3 +446,94 @@ INV0 = {
 	culture_definition = inuviluq_culture
 	religion_definition = inuit_religion
 }
+
+#Yoli
+YLI0 = {
+	color = map_yoli
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = yoli_culture
+	religion_definition = cahita_religion
+}
+
+#Toboso
+TBS0 = {
+	color = map_toboso
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = toboso_culture
+	religion_definition = tepehuan_religion
+}
+
+#Irritila
+ITL0 = {
+	color = map_irritila
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = irritila_culture
+	religion_definition = irritila_religion
+}
+
+#Esto'k Gna
+EKG0 = {
+	color = map_comecrudo
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = comecrudo_culture
+	religion_definition = coahuilteco_religion
+}
+
+#Karankawa
+KNW0 = {
+	color = map_karankawa
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = karankawa_culture
+	religion_definition = karankawa_religion
+}
+
+#Otomitl
+OTL0 = {
+	color = map_tonala
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = otomanguean_culture
+	religion_definition = chichimecah_religion
+}
+
+#Uza
+UZA0 = {
+	color = color_nahuatl
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = nahua_culture
+	religion_definition = nahuatl
+}
+
+#Náayeri
+NYI0 = {
+	color = map_naayeri
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = naayeri_culture
+	religion_definition = chichimecah_religion
+}
+
+#Cochimi
+CCM0 = {
+	color = map_cochimi
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = cochimi_culture
+	religion_definition = yuman_religion
+}
+
+#Comcaac
+CMC0 = {
+	color = map_seri
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = seri_culture
+	religion_definition = seri_religion
+}
+

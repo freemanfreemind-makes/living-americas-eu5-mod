@@ -1,6 +1,3 @@
-discovered_regions = {
-}
-
 discovered_areas = {
 	hudson_area
 	haudenosaunee_area

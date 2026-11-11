@@ -1,5 +1,4 @@
 discovered_areas = {
-	#andes_region
 	quitu_area
 	puna_area
 	suni_area
@@ -12,8 +11,6 @@ discovered_areas = {
 }
 
 discovered_provinces = {
-	#andes_region
-	#andes_sea_zones_area
 	quitu_coastal_sea_zones_province
 	chala_coastal_sea_zones_province
 	ishma_coastal_sea_zones_province
