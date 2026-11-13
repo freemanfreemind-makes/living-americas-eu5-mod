@@ -1,0 +1,136 @@
+﻿la_arctic_headwear = {
+	usage = game
+	selection_behavior = weighted_random
+	priority = 100
+
+	## Arctic Nations ##
+	la_arctic_commoner = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear
+				template = la_arctic_commoner
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				portrait_commoner_trigger = { CULTURE_GFX = la_arctic_gfx }
+			}
+		}
+	}
+
+	la_arctic_low_nobility = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear
+				template = la_arctic_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_low_nobility_trigger = { CULTURE_GFX = la_arctic_gfx }
+			}
+		}
+	}
+
+	la_arctic_high_nobility = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear
+				template = la_arctic_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				portrait_high_nobility_trigger = { CULTURE_GFX = la_arctic_gfx }
+			}
+		}
+	}
+
+	la_arctic_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear
+				template = la_arctic_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				portrait_royalty_trigger = { CULTURE_GFX = la_arctic_gfx }
+			}
+		}
+	}
+
+	la_arctic_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear
+				template = la_arctic_imperial
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 500
+				portrait_imperial_trigger = { CULTURE_GFX = la_arctic_gfx }
+			}
+		}
+	}
+
+	#la_arctic_clergy = {
+	#	dna_modifiers = {
+	#		accessory = {
+	#			mode = add
+	#			gene = headwear
+	#			template = la_arctic_clergy
+	#			range = { 0 1 } # For the randomness to work correctly
+	#		}
+	#	}
+	#	weight = {
+	#		base = 0
+	#		modifier = {
+	#			add = 1000
+	#			portrait_clergy_trigger = {	RELIGION_GFX = la_arctic_gfx }
+	#		}
+	#	}
+	#}
+
+	la_arctic_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear
+				template = la_arctic_war
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				exists = this
+				portrait_clothing_trigger = { CULTURE_FLAG = la_arctic_gfx }
+				portrait_wear_helmet_trigger = yes
+				NOT = { any_ruling_countries = { country_rank_level >= 3 } } # lower than kingdom
+			}
+		}
+	}
+
+}

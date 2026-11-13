@@ -691,7 +691,7 @@ countries = {
 		}
 		own_control_conquered = {
 		chepoussa ochechiton st_francois_mts
-		kaskaskia
+		#kaskaskia
 		}
 
 		include = "amerindian_tribe_settled"
@@ -2301,15 +2301,17 @@ countries = {
 			peewareewa
 			meramec
 			pahatsi
+			kaskaskia
 		}
 
 		our_cores_conquered_by_others = {
 			tamaroa
 			peewareewa
 			meramec
-			kaskaskia kaskankaham chepoussa ochechiton st_francois_mts
+			kaskankaham chepoussa ochechiton st_francois_mts
 			nudarcha wimihsoorita nodaway
 			peoria
+			#kaskaskia
 		}
 
 		starting_technology_level = 1
@@ -4752,7 +4754,7 @@ NYI0 = {
 	}
 
 #Cochimi
-CCM0 = {
+CMI0 = {
 		type = pop
 		add_pops_from_locations = {
 			nakipa cochimi mti_pa cadegomo
@@ -4771,6 +4773,171 @@ CMC0 = {
 		type = pop
 		add_pops_from_locations = {
 			xiica_xnaai_iic_coii comcaac tahejoc xiica_hai_iic_coii
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Hualapai
+HLP0 = {
+		type = pop
+		add_pops_from_locations = {
+			havasubaaja hwalbay aha_macav
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Yavapai
+YVP0 = {
+		type = pop
+		add_pops_from_locations = {
+			dolkabaya yavpe wipukba
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Xalychidom
+XLD0 = {
+		type = pop
+		add_pops_from_locations = {
+			halchidoma
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Kwatsáan
+KWT0 = {
+		type = pop
+		add_pops_from_locations = {
+			kwatsaan
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Piipaash
+PPH0 = {
+		type = pop
+		add_pops_from_locations = {
+			piipash
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Kumeyaay
+KMY0 = {
+		type = pop
+		add_pops_from_locations = {
+			kumeyaay
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Paipai
+PPI0 = {
+		type = pop
+		add_pops_from_locations = {
+			akwaala
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Ko'leew
+KLW0 = {
+		type = pop
+		add_pops_from_locations = {
+			koleeu
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Mongui
+MGI0 = {
+		type = pop
+		add_pops_from_locations = {
+			monqui
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Guaicura
+GCA0 = {
+		type = pop
+		add_pops_from_locations = {
+			guaycura
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Pericu
+PIU0 = {
+		type = pop
+		add_pops_from_locations = {
+			yenecamu
 		}
 
 		include = "amerindian_tribe_northwestern"
@@ -10853,8 +11020,8 @@ CMC0 = {
 	CGS = {
 		own_control_core = {
 
-			huasco qupayapu chanaral tatal antofagasta paposo cobija tocopilla iki_iki tarapaca tacna arica chaucalana
-			#kileqollo
+			huasco qupayapu chanaral tatal antofagasta paposo cobija tocopilla iki_iki tarapaca tacna arica
+			#kileqollo chaucalana
 		}
 
 		discovered_areas = {
@@ -10923,23 +11090,19 @@ CMC0 = {
 
 	#Lickanantay - LCN
 	LCN = {
-		own_control_core = {
-			lickanantay susques puma tulor ckara_ama lipi llica loa
-			#cochinoca toara
+		type = pop
+		add_pops_from_locations = {
+			lickanantay susques puma tulor ckara_ama lipi llica loa cochinoca toara
 		}
 
 		discovered_areas = {
-			#patagonia_area
-			#puelmapu_area
 			ngulumapu_area
-			#pampa_area
 			moqoit_area
 			cuyo_area
 			atacama_area
 			qullaw_area
 			chala_area
 			andes_sea_zones_area
-			#la_plata_sea_zones_area
 		}
 
 		include = "amerindian_tribe"
@@ -11061,7 +11224,9 @@ CMC0 = {
 	LYN = {
 		own_control_core = {
 
-			sao_sebastiao gohayo tamoio paraibuna piratininga cunhambebe ita_kua_y y_uasu goana_para mage ararayu_aba kapiwary nheteroia mokaie nova_friburgo marataiama jerubatuba sao_roque
+			marataiama cananeia iguape tamoio gohayo sao_sebastiao cunhambebe ita_kua_y y_uasu goana_para mage nheteroia kapiwary ararayu_aba
+
+			paraibuna piratininga mokaie nova_friburgo jerubatuba sao_roque
 
 		}
 

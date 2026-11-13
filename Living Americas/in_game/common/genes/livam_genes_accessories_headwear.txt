@@ -1,0 +1,166 @@
+﻿accessory_genes = {
+
+	INJECT_OR_CREATE:headwear = {
+
+		la_arctic_commoner = {
+			index = 2100
+			male = {
+				1 = empty
+				1 = male_headwear_chinese_low_straw_hat
+			}
+			female = {
+				1 = empty
+				1 = male_headwear_chinese_low_straw_hat
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		la_arctic_low_nobility = {
+			index = 2101
+			male = {
+				3 = male_headwear_chinese_low_straw_hat
+				1 = male_headwear_german_elector_cap_ermine
+				2 = empty
+			}
+			female = {
+				1 = empty
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		la_arctic_high_nobility = {
+			index = 2102
+			male = {
+				1 = male_headwear_chinese_low_straw_hat
+				1 = male_headwear_german_elector_cap_ermine
+				1 = empty
+			}
+			female = {
+				1 = empty
+				1 = male_headwear_chinese_low_straw_hat
+				1 = male_headwear_german_elector_cap_ermine
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		la_arctic_royalty = {
+			index = 2103
+			male = {
+				1 = male_headwear_iroquois_royal_leather_crown
+				1 = male_headwear_german_elector_cap_ermine
+			}
+			female = {
+				1 = male_headwear_german_elector_cap_ermine
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		la_arctic_imperial = {
+			index = 2104
+			male = {
+				1 = male_headwear_german_elector_cap_ermine
+			}
+			female = {
+				1 = male_headwear_german_elector_cap_ermine
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		#pcn_clergy = {
+		#	index = 2105
+		#	male = {
+		#		1 = male_headwear_iroquois_falsefacemask
+		#	}
+		#	female = {
+		#		1 = empty
+		#	}
+		#	boy = {
+		#		1 = empty
+		#	}
+		#	girl = {
+		#		1 = empty
+		#	}
+		#	adolescent_boy = boy
+		#	adolescent_girl = girl
+		#	infant = {}
+		#}
+
+		la_arctic_war = {
+			index = 2106
+			male = {
+				1 = male_headwear_chinese_low_straw_hat
+			}
+			female = {
+				1 = male_headwear_chinese_low_straw_hat
+				1 = empty
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+	}
+
+	INJECT_OR_CREATE:headwear_additive = {
+		la_arctic_jewellery_low = {
+			index = 110
+			male = {
+				3 = empty
+				1 = male_headwear_aztec_jewellery_01_jade_earrings
+			}
+			female = male
+			boy = male
+			girl = female
+			adolescent_boy = male
+			adolescent_girl = female
+			infant = male
+		}
+	}
+
+}

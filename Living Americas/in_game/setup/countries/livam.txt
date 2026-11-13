@@ -520,7 +520,7 @@ NYI0 = {
 }
 
 #Cochimi
-CCM0 = {
+CMI0 = {
 	color = map_cochimi
 	color2 = rgb { 198 166 100 }
 
@@ -536,4 +536,104 @@ CMC0 = {
 	culture_definition = seri_culture
 	religion_definition = seri_religion
 }
+
+#Hualapai
+HLP0 = {
+	color = map_hualapai
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = hualapai_culture
+	religion_definition = yuman_religion
+}
+
+#Yavapai
+YVP0 = {
+	color = map_yavapai
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = yavapai_culture
+	religion_definition = yuman_religion
+}
+
+#Xalychidom
+XLD0 = {
+	color = map_xalychidom
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = xalychidom_culture
+	religion_definition = yuman_religion
+}
+
+#Kwatsáan
+KWT0 = {
+	color = map_quechan
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = quechan_culture
+	religion_definition = yuman_religion
+}
+
+#Piipaash
+PPH0 = {
+	color = map_piipaash
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = piipaash_culture
+	religion_definition = yuman_religion
+}
+
+#Kumeyaay
+KMY0 = {
+	color = map_kumiai
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = kumiai_culture
+	religion_definition = yuman_religion
+}
+
+#Paipai
+PPI0 = {
+	color = map_paipai
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = paipai_culture
+	religion_definition = yuman_religion
+}
+
+#Ko'leew
+KLW0 = {
+	color = map_kiliwa
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = kiliwa_culture
+	religion_definition = yuman_religion
+}
+
+#Mongui
+MGI0 = {
+	color = map_mongui
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = mongui_culture
+	religion_definition = pericu_religion
+}
+
+#Guaicura
+GCA0 = {
+	color = map_guaicura
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = guaicura_culture
+	religion_definition = pericu_religion
+}
+
+#Pericu
+PIU0 = {
+	color = map_pericu
+	color2 = rgb { 198 166 100 }
+
+	culture_definition = pericu_culture
+	religion_definition = pericu_religion
+}
+
 

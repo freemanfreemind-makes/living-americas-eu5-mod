@@ -1,0 +1,7 @@
+﻿la_arctic_gfx = {
+	priority = 300 # region
+	culture_tag = la_arctic_gfx
+	ethnicities = {
+		10 = la_arctic_ethnicity
+	}
+}

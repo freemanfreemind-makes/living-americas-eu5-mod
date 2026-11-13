@@ -1,0 +1,23 @@
+﻿la_arctic_beards = {
+	usage = game
+	selection_behavior = weighted_random
+    priority = 1
+
+	pcn_beards = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = beards
+				template = la_arctic_beards
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				portrait_clothing_trigger = { CULTURE_FLAG = la_arctic_gfx }
+			}
+		}
+	}
+}

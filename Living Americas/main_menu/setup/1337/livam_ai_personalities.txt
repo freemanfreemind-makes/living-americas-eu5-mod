@@ -19,18 +19,18 @@ countries = {
 
 		# Cautious: risk-averse, prefer safe diplomacy over war
 		#HAB = { ai_personality = ai_cautious }  # Austria / Habsburgs
-		ADR = { ai_personality = ai_cautious }  # neutral
+		#ADR = { ai_personality = ai_cautious }  # neutral
 		NHT = { ai_personality = ai_cautious }
 		MMW = { ai_personality = ai_cautious }
 
 
 		# Opportunistic: exploit others' weaknesses; trade-focused
 		#POR = { ai_personality = ai_opportunistic }  # Portugal
-		TLX = { ai_personality = ai_opportunistic }  # Tlaxcallan - Rival of Tenōchtitlan
-		PEO = { ai_personality = ai_opportunistic }
-		KKA = { ai_personality = ai_opportunistic }
-		CSU = { ai_personality = ai_opportunistic }  # Qusqu/Tiwantinsuyu/Incan Empire
-		TNC = { ai_personality = ai_opportunistic }  # Tenōchtitlan / Aztec Empire
+		#TLX = { ai_personality = ai_opportunistic }  # Tlaxcallan - Rival of Tenōchtitlan
+		#PEO = { ai_personality = ai_opportunistic }
+		#KKA = { ai_personality = ai_opportunistic }
+		#CSU = { ai_personality = ai_opportunistic }  # Qusqu/Tiwantinsuyu/Incan Empire
+		#TNC = { ai_personality = ai_opportunistic }  # Tenōchtitlan / Aztec Empire
 
 		# Isolationist: internally focused, avoid foreign entanglement
 		#MNG = { ai_personality = ai_isolationist }  # Ming China
