@@ -27,5 +27,33 @@
 			adolescent_girl = girl
 			infant = {}
         }
+
+			la_aridoamerica_hair = {
+			index = 1101
+			male = {
+				2 = male_hair_aztec_hair_bob_long
+				2 = male_german_hair_crown_long_back
+				1 = male_german_hair_crown_regular
+			}
+			female = {
+				2 = female_aztec_horn_braid_hair
+				1 = female_iroquois_straight_parted_hair
+				1 = female_hair_long_basic
+				1 = female_deccan_straight_back_hair
+			}
+			girl = {
+				1 = female_hair_long_basic
+			}
+			boy = {
+				3 = boy_aztec_hair_bob_short
+				1 = male_syrian_hair_curly_regular
+				1 = boy_short_hair_a
+				1 = boy_german_hair_bob_short
+			}
+			adolescent_boy = boy
+			adolescent_girl = female
+			infant = {}
+		}
+
     }
 }

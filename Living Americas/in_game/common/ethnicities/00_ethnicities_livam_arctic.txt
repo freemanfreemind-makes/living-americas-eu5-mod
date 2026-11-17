@@ -1,7 +1,7 @@
 ﻿# Receives data from /genes
 # Ethnicity templates are used in other ethnicities and templates in this folder
 
-la_arctic_ethnicity = {
+livam_arctic_ethnicity = {
 	template = "american_ethnicity"
 	
 	skin_color = {

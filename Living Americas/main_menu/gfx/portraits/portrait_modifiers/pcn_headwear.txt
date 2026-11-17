@@ -94,23 +94,23 @@
 		}
 	}
 
-	#pcn_clergy = {
-	#	dna_modifiers = {
-	#		accessory = {
-	#			mode = add
-	#			gene = headwear
-	#			template = pcn_clergy
-	#			range = { 0 1 } # For the randomness to work correctly
-	#		}
-	#	}
-	#	weight = {
-	#		base = 0
-	#		modifier = {
-	#			add = 1000
-	#			portrait_clergy_trigger = {	RELIGION_GFX = pcn_gfx }
-	#		}
-	#	}
-	#}
+	pcn_clergy = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear
+				template = pcn_clergy
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				portrait_clergy_trigger = {	RELIGION_GFX = pcn_gfx }
+			}
+		}
+	}
 
 	pcn_war = {
 		dna_modifiers = {
@@ -132,5 +132,137 @@
 			}
 		}
 	}
+
+# PCN South
+
+	pcn_south_commoner = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear
+				template = pcn_south_commoner
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				portrait_commoner_trigger = { CULTURE_GFX = pcn_south_gfx }
+			}
+		}
+	}
+
+	pcn_south_low_nobility = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear
+				template = pcn_south_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_low_nobility_trigger = { CULTURE_GFX = pcn_south_gfx }
+			}
+		}
+	}
+
+	pcn_south_high_nobility = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear
+				template = pcn_south_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				portrait_high_nobility_trigger = { CULTURE_GFX = pcn_south_gfx }
+			}
+		}
+	}
+
+	pcn_south_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear
+				template = pcn_south_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				portrait_royalty_trigger = { CULTURE_GFX = pcn_south_gfx }
+			}
+		}
+	}
+
+	pcn_south_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear
+				template = pcn_south_imperial
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 500
+				portrait_imperial_trigger = { CULTURE_GFX = pcn_south_gfx }
+			}
+		}
+	}
+
+	pcn_south_clergy = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear
+				template = pcn_south_clergy
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				portrait_clergy_trigger = {	RELIGION_GFX = pcn_south_gfx }
+			}
+		}
+	}
+
+	pcn_south_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear
+				template = pcn_south_war
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				exists = this
+				portrait_clothing_trigger = { CULTURE_FLAG = pcn_south_gfx }
+				portrait_wear_helmet_trigger = yes
+				NOT = { any_ruling_countries = { country_rank_level >= 3 } } # lower than kingdom
+			}
+		}
+	}
+
 
 }

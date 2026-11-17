@@ -13,20 +13,30 @@ file locations
     - in_game/common/scripted_triggers/XX_clothing_triggers.txt     #setting condition triggers, sub culture, estate, birth year, etc.
 
 Order to create:
-1. in_game/common/genes/0X_genes_accessories_XXXX.txt
-    a. pcn_genes_accessories_headwear - hats and jewelery
-    b. pcn_genes_accessories_clothes
-    c. pcn_genes_accessories_hair
-    d. pcn_genes_accessories_beards
 
-2. main_menu/gfx/portraits/portrait_modifiers
-    a. pcn_headwear
-    b. pcn_clothes
-    c. pcn_hair
-    d. pcn_beards
+1. in_game/gfx/graphical_culture_types/
+    a. mod_name_graphical_culture_types.txt #define tag, set priority and ethnicity
 
-3. in_game/common/ethnicities
-    a. 00_ethnicities_pcn - add in new hair genes
+2. in_game/common/genes/0X_genes_accessories_XXXX.txt
+    a. mod_name_genes_accessories_headwear - hats and jewelery
+    b. mod_name_genes_accessories_clothes
+    c. mod_name_genes_accessories_hair
+    d. mod_name_genes_accessories_beards
+
+3. main_menu/gfx/portraits/portrait_modifiers
+    a. mod_name_headwear
+    b. mod_name_clothes
+    c. mod_name_headwear_additive
+    d. mod_name_beards
+
+4. in_game/common/ethnicities
+    a. if needed create new ethnicity by copying existing and modifying.
+    b. 00_ethnicities_mod_name - add in new hair genes
+
+5. in_game/common/cultures/
+    a. region_name.txt #select which cultures will recieve the new clothing set and/or ethnicity
+
+
 
 pcn ethnicity/gfx
 

@@ -1,9 +1,9 @@
-﻿la_arctic_beards = {
+﻿livam_beards = {
 	usage = game
 	selection_behavior = weighted_random
     priority = 1
 
-	pcn_beards = {
+	la_arctic_beards = {
 		dna_modifiers = {
 			accessory = {
 				mode = add

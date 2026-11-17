@@ -101,7 +101,7 @@ nakoda_culture = {
 	
 	color = map_nakoda
 	
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_north_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -115,7 +115,7 @@ tsuutina_culture = {
 	
 	color = map_tsuutina
 	
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_north_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -129,7 +129,7 @@ haaninin_culture = {
 	
 	color = map_haaninin
 	
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_north_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -157,7 +157,7 @@ ashalaho_culture = {
 	
 	color = map_ashalaho
 	
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_north_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -171,7 +171,7 @@ ashshipite_culture = {
 	
 	color = map_ashshipite
 	
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_north_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -185,7 +185,7 @@ tsetsehesahese_culture = {
 	
 	color = map_tsetsehesahese
 	
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_north_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -199,7 +199,7 @@ sotaeoo_culture = {
 	
 	color = map_sotaeoo
 	
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_north_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -213,7 +213,7 @@ lahkota_culture = {
 	
 	color = map_lahkota
 	
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_north_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -227,7 +227,7 @@ ithanktunwan_culture = {
 	
 	color = map_ithanktunwan
 	
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_north_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -241,7 +241,7 @@ ithanktunwanna_culture = {
 	
 	color = map_ithanktunwanna
 	
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_north_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -255,7 +255,7 @@ nanwuinenan_culture = {
 	
 	color = map_nanwuinenan
 	
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_north_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -269,7 +269,7 @@ hinonoeino_culture = {
 	
 	color = map_hinonoeino
 	
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_north_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -283,7 +283,7 @@ hupe_culture = {
 	
 	color = map_hupe
 	
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_north_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -297,7 +297,7 @@ yapahruka_culture = {
 	
 	color = map_yamparika
 	 
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_north_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -311,7 +311,7 @@ kuhtsutuuka_culture = {
 	
 	color = map_kotsoteka
 	
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_north_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -325,7 +325,7 @@ tawakoni_culture = {
 
 	color = map_tawakoni
 
- 	tags = { north_american_gfx american_gfx }
+ 	tags = { north_american_gfx la_south_plains_gfx american_gfx }
 
 	opinions = {
 	}
@@ -339,7 +339,7 @@ kitikitish_culture = {
 	
 	color = map_kitikitish
 	
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_south_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -353,7 +353,7 @@ cayas_culture = {
 	
 	color = map_cayas
 	
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_south_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -367,7 +367,7 @@ taovaya_culture = {
 	
 	color = map_taovaya
 	
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_south_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -381,7 +381,7 @@ kaigwu_culture = {
 	
 	color = map_kaigwu
 	
-	tags = { native_american_tag north_american_gfx american_gfx }
+	tags = { native_american_tag la_north_plains_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -395,7 +395,7 @@ skiri_culture = {
 	
 	color = map_skiri
 	
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_south_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -409,7 +409,7 @@ tsawi_culture = { #https://en.wikipedia.org/wiki/Pawnee_people
 	
 	color = map_tsawi
 	
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_north_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -423,7 +423,7 @@ pitahwarita_culture = {
 	
 	color = map_pitahwarita
 	
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_south_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -437,7 +437,7 @@ kitkehaki_culture = {
 	
 	color = map_kitkehaki
 	
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_south_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -451,7 +451,7 @@ sahnish_culture = {
 	
 	color = map_sahnish
 	
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_north_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -465,7 +465,7 @@ nueta_culture = {
 	
 	color = map_nueta
 	
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_north_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -479,7 +479,7 @@ hiraaca_culture = {
 	
 	color = map_hiraaca
 	
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_north_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -577,7 +577,7 @@ tula_culture = {
 	
 	color = map_tula
 	
-	tags = { native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+	tags = { native_american_tag la_south_plains_gfx north_american_gfx american_gfx gulf_mississippi_coa_gfx }
 
 	opinions = {
 	}
@@ -591,7 +591,7 @@ asinikawithini_culture = {
 	
 	color = map_asinikawithini
 	
-	tags = { native_american_tag north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -619,7 +619,7 @@ tinde_culture = {
 	
 	color = map_tinde
 
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_south_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -633,7 +633,7 @@ hende_culture = { #Chiricahua Apache
 	
 	color = map_hende
 
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_south_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -647,7 +647,7 @@ naadahende_culture = { #Mescalero Apache
 	
 	color = map_naadahende
 
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_south_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -661,7 +661,7 @@ lepai_nde_culture = { #Lipan Apache
 	
 	color = map_lepai_nde
 
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_south_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -675,7 +675,7 @@ yattinde_culture = { #Plains Apache
 	
 	color = map_yattinde
 
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_south_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -689,7 +689,7 @@ inde_culture = { #Western Apache
 	
 	color = map_inde
 
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_south_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}
@@ -703,7 +703,7 @@ tickanwatic_culture = { #Tonkawa People. Language is a simplification to avoid a
 	
 	color = map_tickanwatic
 
-	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+	tags = { native_american_tag la_south_plains_gfx north_american_gfx american_gfx central_plains_coa_gfx }
 
 	opinions = {
 	}

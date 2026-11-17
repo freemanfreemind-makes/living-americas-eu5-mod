@@ -1,7 +1,39 @@
 ﻿la_arctic_gfx = {
-	priority = 300 # region
+	priority = 250 # region
 	culture_tag = la_arctic_gfx
 	ethnicities = {
-		10 = la_arctic_ethnicity
+		10 = livam_arctic_ethnicity
+	}
+}
+
+la_northeast_gfx = {
+	priority = 250 # region
+	culture_tag = la_northeast_gfx
+	ethnicities = {
+		10 = livam_northeast_ethnicity
+	}
+}
+
+la_north_plains_gfx = {
+	priority = 250 # region
+	culture_tag = la_north_plains_gfx
+	ethnicities = {
+		10 = american_ethnicity
+	}
+}
+
+la_south_plains_gfx = {
+	priority = 250 # region
+	culture_tag = la_south_plains_gfx
+	ethnicities = {
+		10 = livam_south_plains_ethnicity
+	}
+}
+
+la_aridoamerica_gfx = {
+	priority = 250 # region
+	culture_tag = la_aridoamerica_gfx
+	ethnicities = {
+		10 = livam_aridoamerican_ethnicity
 	}
 }

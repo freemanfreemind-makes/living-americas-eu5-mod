@@ -152,6 +152,535 @@
 				1 = infant_cloth_swaddle_basic
 			}
 		}
+
+#Northern Great Plains - mostly basic iroquios set with less shirtlessness
+
+		la_north_plains_commoner = {
+			index = 2107
+			male = {
+				1 = male_clothes_iroquois_low_beadwork_shirt
+			}
+			female = {
+				1 = female_clothes_iroquois_common_overcoat
+			}
+			boy = {
+				1 = male_clothes_iroquois_low_beadwork_shirt
+			}
+			girl = {
+				1 = female_clothes_iroquois_common_overcoat
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {
+				1 = infant_cloth_swaddle_basic
+			}
+		}
+
+		la_north_plains_low_nobility = {
+			index = 2108
+			male = {
+				1 = male_clothes_iroquois_low_beadwork
+				1 = male_clothes_iroquois_low_beadwork_shirt
+			}
+			female = {
+				1 = female_clothes_iroquois_noble_overcoat
+			}
+			boy = {
+				1 = male_clothes_iroquois_low_beadwork_shirt
+				1 = male_clothes_iroquois_low_beadwork
+			}
+			girl = {
+				1 = female_clothes_iroquois_common_overcoat
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {
+				1 = infant_cloth_swaddle_basic
+			}
+		}
+
+		la_north_plains_high_nobility = {
+			index = 2109
+			male = {
+				1 = male_clothes_iroquois_high_beadscarf
+				4 = male_clothes_iroquois_low_beadwork
+				1 = male_clothes_iroquois_royal_bear_hunter
+			}
+			female = {
+				1 = female_clothes_iroquois_noble_overcoat
+			}
+			boy = {
+				1 = male_clothes_iroquois_high_beadscarf
+				4 = male_clothes_iroquois_low_beadwork
+			}
+			girl = {
+				1 = female_clothes_iroquois_noble_overcoat
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {
+				1 = infant_cloth_swaddle_iroquois_noble
+			}
+		}
+
+		la_north_plains_royalty = {
+			index = 2110
+			male = {
+				2 = male_clothes_iroquois_royal_bear_hunter
+				1 = male_clothes_iroquois_imperial_shirt
+			}
+			female = {
+				1 = female_clothes_iroquois_noble_overcoat
+			}
+			boy = {
+				1 = male_clothes_iroquois_high_beadscarf
+				4 = male_clothes_iroquois_low_beadwork
+			}
+			girl = {
+				1 = female_clothes_iroquois_noble_overcoat
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {
+				1 = infant_cloth_swaddle_iroquois_noble
+			}
+		}
+
+		la_north_plains_imperial = {
+			index = 2111
+			male = {
+				1 = male_clothes_iroquois_imperial_shirt
+			}
+			female = {
+				1 = female_clothes_iroquois_noble_overcoat
+			}
+			boy = {
+				1 = male_clothes_iroquois_high_beadscarf
+				4 = male_clothes_iroquois_low_beadwork
+			}
+			girl = {
+				1 = female_clothes_iroquois_noble_overcoat
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {
+				1 = infant_cloth_swaddle_iroquois_noble
+			}
+		}
+
+		la_north_plains_clergy = {
+			index = 2112
+			male = {
+				1 = male_clothes_iroquois_royal_bear_hunter
+			}
+			female = {
+				1 = female_clothes_iroquois_noble_overcoat
+			}
+			boy = {
+				1 = male_clothes_iroquois_low_beadwork_shirt
+				4 = male_clothes_iroquois_low_beadwork
+			}
+			girl = {
+				1 = female_clothes_iroquois_common_overcoat
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {
+				1 = infant_cloth_swaddle_basic
+			}
+		}
+
+		la_north_plains_war = {
+			index = 2113
+			male = {
+				1 = male_clothes_iroquois_royal_bear_hunter
+				1 = male_clothes_iroquois_low_beadwork_noshirt
+			}
+			female = {
+				1 = female_clothes_iroquois_noble_overcoat
+			}
+			boy = {
+				1 = male_clothes_iroquois_low_beadwork_shirt
+				1 = male_clothes_iroquois_low_beadwork
+			}
+			girl = {
+				1 = female_clothes_iroquois_noble_overcoat
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {
+				1 = infant_cloth_swaddle_basic
+			}
+		}
+
+# Southern Great Plains - mostly iroquioan set mixed with a few mesoamerican elements & shirtlessness more common.
+
+		la_south_plains_commoner = {
+			index = 2114
+			male = {
+				1 = empty
+				1 = male_clothes_iroquois_low_beadwork_shirt
+			}
+			female = {
+				4 = female_clothes_iroquois_common_overcoat
+				1 = female_clothes_aztec_common_huipilli
+			}
+			boy = {
+				1 = empty
+				1 = male_clothes_iroquois_low_beadwork_shirt
+			}
+			girl = {
+				4 = female_clothes_iroquois_common_overcoat
+				1 = female_clothes_aztec_common_huipilli
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {
+				1 = infant_cloth_swaddle_basic
+			}
+		}
+
+		la_south_plains_low_nobility = {
+			index = 2115
+			male = {
+				1 = male_clothes_iroquois_low_beadwork
+				1 = male_clothes_iroquois_low_beadwork_noshirt
+				1 = male_clothes_iroquois_doctor_cape
+			}
+			female = {
+				4 = female_clothes_iroquois_noble_overcoat
+				1 = female_clothes_aztec_low_noble_huipilli
+			}
+			boy = {
+				1 = male_clothes_iroquois_low_beadwork_shirt
+				1 = male_clothes_iroquois_low_beadwork
+				1 = male_clothes_iroquois_low_beadwork_noshirt
+				1 = empty
+			}
+			girl = {
+				1 = female_clothes_iroquois_common_overcoat
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {
+				1 = infant_cloth_swaddle_basic
+			}
+		}
+
+		la_south_plains_high_nobility = {
+			index = 2116
+			male = {
+				1 = male_clothes_iroquois_high_beadscarf
+				1 = male_clothes_iroquois_low_beadwork
+				1 = male_clothes_aztec_high_tilmatl
+			}
+			female = {
+				3 = female_clothes_iroquois_noble_overcoat
+				1 = female_clothes_aztec_high_noble_huipilli
+			}
+			boy = {
+				1 = male_clothes_iroquois_high_beadscarf
+				1 = male_clothes_iroquois_low_beadwork
+				1 = male_clothes_aztec_low_tilmatl
+			}
+			girl = {
+				3 = female_clothes_iroquois_noble_overcoat
+				1 = female_clothes_aztec_high_noble_huipilli
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {
+				1 = infant_cloth_swaddle_iroquois_noble
+			}
+		}
+
+		la_south_plains_royalty = {
+			index = 2117
+			male = {
+				1 = male_clothes_iroquois_high_beadscarf
+				1 = male_clothes_iroquois_imperial_shirt
+				1 = male_clothes_aztec_royal_tlatoani
+			}
+			female = {
+				2 = female_clothes_iroquois_noble_overcoat
+				1 = female_clothes_aztec_high_noble_huipilli
+			}
+			boy = {
+				1 = male_clothes_iroquois_high_beadscarf
+				1 = male_clothes_iroquois_low_beadwork
+				1 = male_clothes_aztec_high_tilmatl
+			}
+			girl = {
+				2 = female_clothes_iroquois_noble_overcoat
+				1 = female_clothes_aztec_high_noble_huipilli
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {
+				1 = infant_cloth_swaddle_iroquois_noble
+			}
+		}
+
+		la_south_plains_imperial = {
+			index = 2118
+			male = {
+				1 = male_clothes_iroquois_imperial_shirt
+				1 = male_clothes_aztec_royal_tlatoani
+			}
+			female = {
+				2 = female_clothes_iroquois_noble_overcoat
+				1 = female_clothes_aztec_high_noble_huipilli
+			}
+			boy = {
+				1 = male_clothes_iroquois_high_beadscarf
+				1 = male_clothes_aztec_high_tilmatl
+			}
+			girl = {
+				2 = female_clothes_iroquois_noble_overcoat
+				1 = female_clothes_aztec_high_noble_huipilli
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {
+				1 = infant_cloth_swaddle_iroquois_noble
+			}
+		}
+
+		la_south_plains_clergy = {
+			index = 2119
+			male = {
+				1 = male_clothes_iroquois_doctor_cape
+			}
+			female = {
+				2 = female_clothes_iroquois_noble_overcoat
+				1 = female_clothes_aztec_high_noble_huipilli
+			}
+			boy = {
+				1 = male_clothes_iroquois_high_beadscarf
+				1 = male_clothes_iroquois_low_beadwork
+				1 = male_clothes_iroquois_doctor_cape
+			}
+			girl = {
+				2 = female_clothes_iroquois_noble_overcoat
+				1 = female_clothes_aztec_high_noble_huipilli
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {
+				1 = infant_cloth_swaddle_basic
+			}
+		}
+
+		la_south_plains_war = {
+			index = 2120
+			male = {
+				1 = male_clothes_iroquois_doctor_cape
+				1 = male_clothes_iroquois_low_beadwork_noshirt
+				1 = male_clothes_iroquois_low_beadwork_shirt
+			}
+			female = {
+				4 = female_clothes_iroquois_noble_overcoat
+				1 = female_clothes_aztec_low_noble_huipilli
+			}
+			boy = {
+				1 = male_clothes_iroquois_high_beadscarf
+				1 = male_clothes_iroquois_low_beadwork
+				1 = male_clothes_iroquois_doctor_cape
+			}
+			girl = {
+				1 = female_clothes_iroquois_noble_overcoat
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {
+				1 = infant_cloth_swaddle_basic
+			}
+		}
+
+# Aridoamerica - mesoamerican hair, with mix of mesoamerican and iroquioan clothing sets
+
+		la_aridoamerica_commoner = {
+			index = 2121
+			male = {
+				1 = empty
+				1 = male_clothes_iroquois_low_beadwork_shirt
+				1 = male_clothes_aztec_common_tilmatl
+				1 = male_clothes_iroquois_doctor_cape
+			}
+			female = {
+				1 = female_clothes_iroquois_common_overcoat
+				1 = female_clothes_aztec_common_huipilli
+			}
+			boy = {
+				1 = male_clothes_iroquois_low_beadwork_shirt
+				1 = male_clothes_aztec_common_tilmatl
+			}
+			girl = {
+				1 = female_clothes_iroquois_common_overcoat
+				1 = female_clothes_aztec_common_huipilli
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {
+				1 = infant_cloth_swaddle_basic
+			}
+		}
+
+		la_aridoamerica_low_nobility = {
+			index = 2122
+			male = {
+				1 = male_clothes_iroquois_low_beadwork
+				1 = male_clothes_iroquois_low_beadwork_noshirt
+				2 = male_clothes_aztec_low_tilmatl
+			}
+			female = {
+				1 = female_clothes_iroquois_noble_overcoat
+				1 = female_clothes_aztec_low_noble_huipilli
+			}
+			boy = {
+				1 = male_clothes_iroquois_low_beadwork
+				1 = male_clothes_iroquois_low_beadwork_noshirt
+				2 = male_clothes_aztec_low_tilmatl
+			}
+			girl = {
+				1 = female_clothes_iroquois_common_overcoat
+				1 = female_clothes_aztec_low_noble_huipilli
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {
+				1 = infant_cloth_swaddle_basic
+			}
+		}
+
+		la_aridoamerica_high_nobility = {
+			index = 2123
+			male = {
+				1 = male_clothes_iroquois_high_beadscarf
+				1 = male_clothes_aztec_high_tilmatl
+			}
+			female = {
+				1 = female_clothes_iroquois_noble_overcoat
+				2 = female_clothes_aztec_high_noble_huipilli
+			}
+			boy = {
+				1 = male_clothes_iroquois_high_beadscarf
+				1 = male_clothes_iroquois_low_beadwork
+				1 = male_clothes_aztec_low_tilmatl
+			}
+			girl = {
+				1 = female_clothes_iroquois_noble_overcoat
+				2 = female_clothes_aztec_high_noble_huipilli
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {
+				1 = infant_cloth_swaddle_iroquois_noble
+			}
+		}
+
+		la_aridoamerica_royalty = {
+			index = 2124
+			male = {
+				1 = male_clothes_iroquois_high_beadscarf
+				1 = male_clothes_aztec_royal_tlatoani
+			}
+			female = {
+				1 = female_clothes_iroquois_noble_overcoat
+				2 = female_clothes_aztec_high_noble_huipilli
+			}
+			boy = {
+				1 = male_clothes_iroquois_high_beadscarf
+				1 = male_clothes_aztec_high_tilmatl
+			}
+			girl = {
+				1 = female_clothes_iroquois_noble_overcoat
+				2 = female_clothes_aztec_high_noble_huipilli
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {
+				1 = infant_cloth_swaddle_iroquois_noble
+			}
+		}
+
+		la_aridoamerica_imperial = {
+			index = 2125
+			male = {
+				1 = male_clothes_iroquois_imperial_shirt
+				1 = male_clothes_aztec_imperial_emerald
+			}
+			female = {
+				1 = female_clothes_iroquois_noble_overcoat
+				2 = female_clothes_aztec_high_noble_huipilli
+			}
+			boy = {
+				1 = male_clothes_iroquois_high_beadscarf
+				1 = male_clothes_aztec_high_tilmatl
+			}
+			girl = {
+				1 = female_clothes_iroquois_noble_overcoat
+				2 = female_clothes_aztec_high_noble_huipilli
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {
+				1 = infant_cloth_swaddle_iroquois_noble
+			}
+		}
+
+		la_aridoamerica_clergy = {
+			index = 2126
+			male = {
+				1 = male_clothes_iroquois_doctor_cape
+				1 = male_clothes_aztec_clergy_tilmatl
+			}
+			female = {
+				1 = female_clothes_iroquois_noble_overcoat
+				2 = female_clothes_aztec_high_noble_huipilli
+			}
+			boy = {
+				1 = male_clothes_iroquois_high_beadscarf
+				1 = male_clothes_aztec_clergy_tilmatl
+				1 = male_clothes_iroquois_doctor_cape
+			}
+			girl = {
+				1 = female_clothes_iroquois_noble_overcoat
+				2 = female_clothes_aztec_high_noble_huipilli
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {
+				1 = infant_cloth_swaddle_basic
+			}
+		}
+
+		la_aridoamerica_war = {
+			index = 2127
+			male = {
+				1 = male_clothes_iroquois_low_beadwork_noshirt
+				1 = male_clothes_aztec_war_tlahuiztli
+			}
+			female = {
+				1 = female_clothes_iroquois_noble_overcoat
+				2 = female_clothes_aztec_low_noble_huipilli
+			}
+			boy = {
+				1 = male_clothes_iroquois_high_beadscarf
+				2 = male_clothes_aztec_low_tilmatl
+				1 = male_clothes_iroquois_doctor_cape
+			}
+			girl = {
+				1 = female_clothes_iroquois_noble_overcoat
+				2 = female_clothes_aztec_low_noble_huipilli
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {
+				1 = infant_cloth_swaddle_basic
+			}
+		}
+
 	}
 
 }

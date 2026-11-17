@@ -21,6 +21,8 @@
 				OR = {
 					portrait_low_nobility_trigger = { CULTURE_GFX = pcn_gfx }
 					portrait_high_nobility_trigger = { CULTURE_GFX = pcn_gfx }
+					portrait_low_nobility_trigger = { CULTURE_GFX = pcn_south_gfx }
+					portrait_high_nobility_trigger = { CULTURE_GFX = pcn_south_gfx }
 				}
 				NOT = { portrait_wear_armor_trigger = yes }
 			}

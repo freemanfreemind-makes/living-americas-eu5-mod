@@ -1,47 +1,27 @@
-current_age = age_1_traditions
-
-# own_control_core
-# own_control_integrated
-# own_control_conquered
-# own_control_colony
-# own_core
-# own_conquered
-# own_integrated
-# own_colony
-# control_core
-# control
-# our_cores_conquered_by_others
-
 #10_countries Legend
 
 # Factions removed & files found in:
 
 # pcn_countries.txt
-		# Pacific Northwest - Kalapuya KLP to Tlingit TLG*
+		# Pacific Northwest - Kalapuya KLP to Tlingit TLG
 	# New Pacific Coast Nations Countries - Saanich WSN to Kaviag KVG
 
-# eastna_countries.txt
-		# Canada - Taontaenrat TRT to Mississage MSG*
-		# Lower Mississippi, Gulf Coast, & East Coast Nations - Coosa COO to Onghniaahra ONG*
-		# Mississippian Nations - Caddo CAD to Tula Caddoan TUA*
-		# great plains - Hinono'eino HNO to Wahpetunwan WPW*
-		# east coast - Mi'kmaq MIK to Kichesipirini KSP*
+# livam_countries.txt
+		# Canada - Taontaenrat TRT to Mississage MSG
+		# Lower Mississippi, Gulf Coast, & East Coast Nations - Coosa COO to Onghniaahra ONG
+		# Mississippian Nations - Caddo CAD to Tula Caddoan TUA
+		# great plains - Hinono'eino HNO to Wahpetunwan WPW
+		# east coast - Mi'kmaq MIK to Kichesipirini KSP
 	# New Living Americas Countries - Ilnu ILN to Lepai Ndé LPN
-
-# aridoamerica_countries.txt
-        # Aridoamerica - Acaxee ACX to K'itaish KIH*
-        # Southwest American Nations - Hisatsinom HTS to Tawakoni TWK*
+        # Aridoamerica - Acaxee ACX to K'itaish KIH
+        # Southwest American Nations - Hisatsinom HTS to Tawakoni TWK
     # New Living Americas Countries - Coahuilteco COH to Tokonohono COH6
-
-# mesoam_countries.txt
-		# Mesoamerica - P'urhipecherio TAR to Toquegua TOQ*
-		# Central America - Kuskatan KUS to Cabecar CBC*
-
-# southam_countries.txt
-		# Colombia - Tairona TAI to Kalinago KGN*
-		# Andes - Quito QTO to Quitor QTR*
-		# Brazil - Kuikuro KUI to Potiguara POT*
-		# Chaco & La Plata - Moxo MOX to Charrua CUA*
+		# Mesoamerica - P'urhipecherio TAR to Toquegua TOQ
+		# Central America - Kuskatan KUS to Cabecar CBC
+		# Colombia - Tairona TAI to Kalinago KGN
+		# Andes - Quito QTO to Quitor QTR
+		# Brazil - Kuikuro KUI to Potiguara POT
+		# Chaco & La Plata - Moxo MOX to Charrua CUA
 	# From patagonia expanded mod - Pehuenches PHS to Rapa Nui RPN
 
 
@@ -68,7 +48,7 @@ current_age = age_1_traditions
 #persia          56588   58295
 #caucasus        58296   59786
 #---------------
-#mississippi      59787   60392
+#mississippi     59787   60392
 #pacific coast   60393   60755   #part of pacific coast nations mod
 #pacific int.    60755   60803   #part of american southwest
 #gulf coast      60804   60853   added ishak and others
@@ -81,6 +61,24 @@ current_age = age_1_traditions
 #s. africa       61216   61527
 #oceania         61527   61927
 
+# Factions Start Here
+
+
+
+
+current_age = age_1_traditions
+
+# own_control_core
+# own_control_integrated
+# own_control_conquered
+# own_control_colony
+# own_core
+# own_conquered
+# own_integrated
+# own_colony
+# control_core
+# control
+# our_cores_conquered_by_others
 
 
 countries = {

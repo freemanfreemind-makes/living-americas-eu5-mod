@@ -388,7 +388,7 @@ countries = {
 
 
 	#Saanich
-	WSN = {
+	WSN0 = {
 
 		own_control_core = {
 			saanich
@@ -406,7 +406,7 @@ countries = {
 	}
 
 	#Chehalis
-	CIS = {
+	CIS0 = {
 
 		own_control_core = {
 			chehalis chala_at
@@ -424,7 +424,7 @@ countries = {
 	}
 
 	#Snohomish
-	SNO = {
+	SNO0 = {
 
 		own_control_core = {
 			skagit snohomish
@@ -514,7 +514,7 @@ countries = {
 	}
 
 	#Nisga'a
-	NGA = {
+	NGA0 = {
 
 		own_control_core = {
 			nisga_a k_alii_xkalaan
@@ -539,7 +539,7 @@ countries = {
 	}
 
 #Tillamook
-	TLK = {
+	TLK0 = {
 		own_control_core = {
 		tillamook
 		}
@@ -556,7 +556,7 @@ countries = {
 	}
 
 #Alsea
-	ALX = {
+	ALX0 = {
 		own_control_core = {
 		yaquina
 		}
@@ -573,7 +573,7 @@ countries = {
 	}
 
 #Coos
-	QUU = {
+	QUU0 = {
 		own_control_core = {
 		quuiich
 		}
@@ -590,7 +590,7 @@ countries = {
 	}
 
 #Nlakpamuk
-	NPK = {
+	NPK0 = {
 		own_control_core = {
 		skuppah nlaka_pamux scw_exmx
 		}
@@ -614,7 +614,7 @@ countries = {
 	}
 
 #Lillooet (St'át'imc)
-	LWT = {
+	LWT0 = {
 		own_control_core = {
 		leel_watr_ool tsala_ihmec st_at_imcets
 		}
@@ -641,7 +641,7 @@ countries = {
 	}
 
 #Tsilhqot'in
-	TQN = {
+	TQN0 = {
 	own_control_core = {
 		yunesit_in tl_etinqox_t_in elhdaqox_t_in tsi_del_del tl_esqox
 		}
@@ -663,7 +663,7 @@ countries = {
 	}
 
 #Wet'suwet'en
-	WST = {
+	WST0 = {
 	own_control_core = {
 		wet_suwet_en sguuxs hagwilget witset ts_il_kaz_koh nee_tahi_buhn skin_tyee
 		}
@@ -684,7 +684,7 @@ countries = {
 	}
 
 #Dakelh
-	DKL = {
+	DKL0 = {
 	own_control_core = {
 		nadleh_whuten yekooche nat_oot_en nak_azdlit_en tl_azt_en a_taw_bun_kut_en khelhghubunt_en
 		#lheidlit_en  nadleht_en cheslattat_en
@@ -763,7 +763,7 @@ countries = {
 	}
 
 #Secwépemc
-	SWP = {
+	SWP0 = {
 		own_control_core = {
 		tk_emlups stil_qw qw_ewt st_uxwtews skitsetsen sk_atsin splatsin
 		#llenllenet_ten esk_el stswecen_c xat_sull sexqeltqin simpcw
@@ -822,7 +822,7 @@ countries = {
 
 
 #Syilix
-	SLX = {
+	SLX0 = {
 		own_control_core = {
 		similkameen osoyoos okanagan n_pooh_le
 		}
@@ -843,7 +843,7 @@ countries = {
 	}
 
 #Sinixt
-	SNX = {
+	SNX0 = {
 		own_control_core = {
 		enselxcin snk_mip ntiltxitk illecillewaet swarakxen
 		}
@@ -867,7 +867,7 @@ countries = {
 	}
 
 #Ktunaxa
-	KTX = {
+	KTX0 = {
 		own_control_core = {
 		akisq_nuk ainu_nik ktunwakanmituk yakyu_ki aknuq_uk
 		#yaqan_nukiy aq_am akinkumasnuqit aqanqmi kananmituk
@@ -909,7 +909,7 @@ countries = {
 	}
 
 #Molalla
-	MLA = {
+	MLA0 = {
 		type = pop
 		add_pops_from_locations = {
 		giiwas meli_lema towarnehiooks tukspush south_molala
@@ -927,7 +927,7 @@ countries = {
 	}
 
 #Yakama
-	YKM = {
+	YKM0 = {
 		own_control_core = {
 		mamachatpam wanapum pa_kiut_lema
 		}
@@ -947,7 +947,7 @@ countries = {
 	}
 
 #Sinkiuse
-	SNK = {
+	SNK0 = {
 		own_control_core = {
 		nkee_us stata_ketux
 		}
@@ -967,7 +967,7 @@ countries = {
 	}
 
 #Sahaptin
-	SHT = {
+	SHT1 = {
 		own_control_core = {
 		takspaslama umatilla tayxlama
 		}
@@ -984,7 +984,7 @@ countries = {
 	}
 
 #Willetpoose
-	WLP = {
+	WLP0 = {
 		own_control_core = {
 		waluulapam liksiyu
 		}
@@ -1001,7 +1001,7 @@ countries = {
 	}
 
 #Palus
-	PLS = {
+	PLS0 = {
 		own_control_core = {
 		alpo_wa pa_lus_sa
 		}
@@ -1018,7 +1018,7 @@ countries = {
 	}
 
 #Sqeliz
-	SQZ = {
+	SQZ0 = {
 		own_control_core = {
 		scqescilni snt_t_ulix
 		}
@@ -1035,7 +1035,7 @@ countries = {
 	}
 
 #Alene
-	SCN = {
+	SCN0 = {
 		own_control_core = {
 		kaniksu benewah skitswish
 		}
@@ -1052,7 +1052,7 @@ countries = {
 	}
 
 #Qalispé
-	QLP = {
+	QLP0 = {
 		own_control_core = {
 		sletewsi kalispel qlispe
 		}
@@ -1069,7 +1069,7 @@ countries = {
 	}
 
 #Saleesh
-	SLH = {
+	SLH0 = {
 		own_control_core = {
 		#saleesh epixyu hungry_horse bad_rock niarada
 		missoula turah bitterroot deer_lodge granite
@@ -1103,7 +1103,7 @@ countries = {
 	}
 
 #Nimiipuu
-	NIM = {
+	NIM0 = {
 		type = pop
 		add_pops_from_locations = {
 		kamiahpu wallowa hinsepu asahkaiowaipu alpowna lamatama iyeesnime
@@ -1121,7 +1121,7 @@ countries = {
 	}
 
 #Banakwut
-	BNK = {
+	BNK0 = {
 		type = pop
 		add_pops_from_locations = {
 		shohopanaiti lemhi pohogwe koa_aga_itoka waradika yambadika
@@ -1139,7 +1139,7 @@ countries = {
 	}
 
 #Dukundeka
-	DKD = {
+	DKD0 = {
 		own_control_core = {
 		beaverhead ruby_valley penointikara gazzllatin fremont ashalaho tukudika
 		}
@@ -1161,7 +1161,7 @@ countries = {
 	}
 
 #Agaideka
-	AGD = {
+	AGD0 = {
 		own_control_core = {
 		agaidika leadore jefferson kamodika doyahinee red_rock elkhorn
 		}
@@ -1178,7 +1178,7 @@ countries = {
 }
 
 #Haivodeka
-	HVD = {
+	HVD0 = {
 		own_control_core = {
 		wapi richfield hazelton pohoko_ikkatee dembimbosaage so_so_goiw boa_ogoi
 		}
@@ -1195,7 +1195,7 @@ countries = {
 }
 
 #Penkwideka
-	PKD = {
+	PKD0 = {
 		own_control_core = {
 		nyssa payette yam_pah_pa yahandeka tipanuk yakwahnim_paa panati king_hill toponisw
 		}
@@ -1212,7 +1212,7 @@ countries = {
 }
 
 #Kuchun-deka
-	KCD = {
+	KCD0 = {
 		own_control_core = {
 		kuccuntikka teewinot tondzaosha guchuntikka sweetwater
 		bridger rock_springs flaming_gorge sinclair milk_creek wamsutter point_of_rocks
@@ -1243,7 +1243,7 @@ countries = {
 }
 
 #Numu
-	NMU = {
+	NMU0 = {
 		own_control_core = {
 		tinainu crook grant arock kidutokado chewaucan silver_lake
 		}
@@ -1323,7 +1323,7 @@ countries = {
 
 
 #Tututni
-	TTT = {
+	TTT0 = {
 		own_control_core = {
 		tututni ko_kwel
 		}
@@ -1340,7 +1340,7 @@ countries = {
 }
 
 #Takelma
-	TKL = {
+	TKL0 = {
 		own_control_core = {
 		etnemitane yulalona tak_elam
 		}
@@ -1363,7 +1363,7 @@ countries = {
 }
 
 #Ewksikni
-	EKK = {
+	EKK0 = {
 		type = pop
 		add_pops_from_locations = {
 		ewksikni mbosaksawaas
@@ -1382,7 +1382,7 @@ countries = {
 }
 
 #Tolowa
-	TOL2 = {
+	TOL0 = {
 		own_control_core = {
 		chidkhu
 		}
@@ -1398,7 +1398,7 @@ countries = {
 }
 
 #Yurok
-	OOH = {
+	OOH0 = {
 		own_control_core = {
 		oohl
 		}
@@ -1415,7 +1415,7 @@ countries = {
 }
 
 #Káruk
-	KRU = {
+	KRU0 = {
 		type = pop
 		add_pops_from_locations = {
 		karuk
@@ -1433,7 +1433,7 @@ countries = {
 }
 
 #Shasta
-	SST = {
+	SST0 = {
 		type = pop
 		add_pops_from_locations = {
 		waika siskiyou okwanuchu
@@ -1452,7 +1452,7 @@ countries = {
 }
 
 #Modokni
-	MDK = {
+	MDK0 = {
 		type = pop
 		add_pops_from_locations = {
 		modokni tollin
@@ -1471,7 +1471,7 @@ countries = {
 }
 
 #Wiyot
-	WYT = {
+	WYT0 = {
 		own_control_core = {
 		jaroujiji hoilkut
 		}
@@ -1488,7 +1488,7 @@ countries = {
 }
 
 #Hupa
-	HPA = {
+	HPA0 = {
 		type = pop
 		add_pops_from_locations = {
 		natinixwe
@@ -1506,7 +1506,7 @@ countries = {
 }
 
 #Tsnungwe
-	TNW = {
+	TNW0 = {
 		type = pop
 		add_pops_from_locations = {
 		tsnungwe
@@ -1524,7 +1524,7 @@ countries = {
 }
 
 #Wintu
-	WIN = {
+	WIN0 = {
 		type = pop
 		add_pops_from_locations = {
 		wintu amblu_kai
@@ -1543,7 +1543,7 @@ countries = {
 }
 
 #Achomawi
-	AMW = {
+	AMW0 = {
 		own_control_core = {
 		yana atsugewi achomawi
 		}
@@ -1568,7 +1568,7 @@ countries = {
 }
 
 #Maidu
-	MDU = {
+	MDU0 = {
 		type = pop
 		add_pops_from_locations = {
 		yahi konkow mountain_maidu
@@ -1612,7 +1612,7 @@ countries = {
 }
 
 #Mattole
-	MTL = {
+	MTL0 = {
 		own_control_core = {
 		mattole sinkyone tlokyhan
 		}
@@ -1629,7 +1629,7 @@ countries = {
 }
 
 #Nongatl
-	NNG = {
+	NNG0 = {
 		type = pop
 		add_pops_from_locations = {
 		nongatl wailaki
@@ -1647,7 +1647,7 @@ countries = {
 }
 
 #Yuki
-	YKI = {
+	YKI0 = {
 		type = pop
 		add_pops_from_locations = {
 		ukomno_om
@@ -1665,7 +1665,7 @@ countries = {
 }
 
 #Nomlaki
-	NML = {
+	NML0 = {
 		own_control_core = {
 		river_nomlaki hill_nomlaki
 		}
@@ -1691,7 +1691,7 @@ countries = {
 
 
 #Nisena'n
-	NSN = {
+	NSN0 = {
 		type = pop
 		add_pops_from_locations = {
 		mechoopda nisenan
@@ -1716,7 +1716,7 @@ countries = {
 }
 
 #Waashiw
-	WHW = {
+	WHW0 = {
 		own_control_core = {
 		tanalelti powalu toedokado tovusidokado waitikka
 		}
@@ -1739,7 +1739,7 @@ countries = {
 }
 
 #Pomo
-	PMO = {
+	PMO0 = {
 		own_control_core = {
 		kulanapan kashaya
 		}
@@ -1756,7 +1756,7 @@ countries = {
 }
 
 #Micewal
-	MWL = {
+	MWL0 = {
 		own_control_core = {
 		onasatis
 		}
@@ -1773,7 +1773,7 @@ countries = {
 }
 
 #Miwok
-	MWK = {
+	MWK0 = {
 		own_control_core = {
 		mewuk koloma kasumne
 		#mokelumne tuolomne nochu_ci
@@ -1791,7 +1791,7 @@ countries = {
 }
 
 #Patwin
-	PWN = {
+	PWN0 = {
 		own_control_core = {
 		korusi yo_loy suisin
 		#kasumne
@@ -1809,7 +1809,7 @@ countries = {
 }
 
 #Ohlone
-	OHL =  {
+	OHL0 =  {
 		own_control_core = {
 		chochenyo mutsun
 		#awaswas
@@ -1827,7 +1827,7 @@ countries = {
 }
 
 #Salina
-	SNA = {
+	SNA0 = {
 		own_control_core = {
 		tepotahal
 		}
@@ -1844,7 +1844,7 @@ countries = {
 }
 
 #Chumash
-	CMH =  {
+	CMH0 =  {
 		own_control_core = {
 		ineseno ventureno pimuu_nga
 		}
@@ -1861,7 +1861,7 @@ countries = {
 }
 
 #North Yokuts
-	NYK =  {
+	NYK0 =  {
 		own_control_core = {
 		yashikumne tawalimni chawchila noptinte
 		}
@@ -1883,7 +1883,7 @@ countries = {
 }
 
 #South Yokuts
-SYK = {
+SYK0 = {
 		own_control_core = {
 		tachi pitkachi koyeti
 		}
@@ -1909,7 +1909,7 @@ SYK = {
 }
 
 #Foothills Yokuts -pop-
-FYK = {
+FYK0 = {
 		type = pop
 		add_pops_from_locations = {
 		gashowu yawdanshi
@@ -1927,7 +1927,7 @@ FYK = {
 }
 
 #Tulumni
-TLI = {
+TLI0 = {
 		own_control_core = {
 		tulumni hometwoli
 		}
@@ -1953,7 +1953,7 @@ TLI = {
 }
 
 #Monachi -pop-
-MNH = {
+MNH0 = {
 		type = pop
 		add_pops_from_locations = {
 		kuzedika tubatulabam
@@ -1980,7 +1980,7 @@ MNH = {
 }
 
 #Tongva
-TNV = {
+TNV0 = {
 		own_control_core = {
 		yaanga kukamonga payomkawichum
 		}
@@ -1997,7 +1997,7 @@ TNV = {
 }
 
 #Taaqtam
-TAQ = {
+TAQ0 = {
 		own_control_core = {
 		kitanemuk taaqtam
 		}
@@ -2049,7 +2049,7 @@ KWS0 = {
 }
 
 #Táxliswet
-TXW = {
+TXW0 = {
 		own_control_core = {
 		iviatim
 		}
@@ -2075,7 +2075,7 @@ TXW = {
 }
 
 #Eyak
-	EYK = {
+	EYK0 = {
 		own_control_core = {
 		daxunhyuu
 		}
@@ -2089,7 +2089,7 @@ TXW = {
 	}
 
 #Chugash
-	CGH = {
+	CGH0 = {
 		own_control_core = {
 		taatiilaaq nuciiq caniqaq nanwalek
 		}
@@ -2103,7 +2103,7 @@ TXW = {
 	}
 
 #Dena'ina
-	DNN = {
+	DNN0 = {
 		own_control_core = {
 		kachemak kenai dgheyaytnu k_enakatnu susitna tyonek iliamna
 		}
@@ -2118,7 +2118,7 @@ TXW = {
 	}
 
 #Kaniag
-	KIG = {
+	KIG0 = {
 		own_control_core = {
 		chignik alinchak amalik swikshak
 		}
@@ -2133,7 +2133,7 @@ TXW = {
 	}
 
 #Ogul
-	OUL = {
+	OUL0 = {
 		own_control_core = {
 		aniakchak ugashik egegik qarr_unaq igiugig nuuriileng
 		}
@@ -2147,7 +2147,7 @@ TXW = {
 	}
 
 #Unalaska
-	UAK = {
+	UAK0 = {
 		own_control_core = {
 		kangi_asinaq qagiigun qagaan unimax qawalangin akuugun niigugis naahmigus qaxun sasignan amiq
 		}
@@ -2161,7 +2161,7 @@ TXW = {
 	}
 
 #Nushag
-	NHG = {
+	NHG0 = {
 		own_control_core = {
 		koliaganeq akokpaq aguyaq
 		}
@@ -2175,7 +2175,7 @@ TXW = {
 	}
 
 #Togiag
-	TGI = {
+	TGI0 = {
 		own_control_core = {
 		igushiq togiaq baleknagiq
 		}
@@ -2189,7 +2189,7 @@ TXW = {
 	}
 
 #Kuskokwag
-	KSG = {
+	KSG0 = {
 		own_control_core = {
 		kwigilingoq iiq mamterilleq kalskaq quinhagaq mamterat
 		}
@@ -2203,7 +2203,7 @@ TXW = {
 	}
 
 #Kaialig
-	KGM = {
+	KGM0 = {
 		own_control_core = {
 		nunapichuq kaghasuq tununaq niugtaq ce_vaq marayaarmiut imangaq
 		}
@@ -2217,7 +2217,7 @@ TXW = {
 	}
 
 #Unalig
-	ULG = {
+	ULG0 = {
 		own_control_core = {
 		qerrulliiq tapqaq unalakleet ungaliq
 		}
@@ -2231,7 +2231,7 @@ TXW = {
 	}
 
 #Malemiut
-	MMT = {
+	MMT0 = {
 		own_control_core = {
 		malemiut kuuyuk kuugaaluk kongashuk qikiqtagruk
 		}
@@ -2245,7 +2245,7 @@ TXW = {
 	}
 
 #Kinug
-	KGU = {
+	KGU0 = {
 		own_control_core = {
 		anakovik
 		}
@@ -2259,7 +2259,7 @@ TXW = {
 	}
 
 #Inupiaq
-	INP = {
+	INP0 = {
 		own_control_core = {
 		nuurvik uataaq kivualinagmut uivvak kali
 		}
@@ -2273,7 +2273,7 @@ TXW = {
 	}
 
 #Yupighyt
-	YPG = {
+	YPG0 = {
 		own_control_core = {
 		kitagnaq savoonga sivuqaq guvrel
 		}
@@ -2287,7 +2287,7 @@ TXW = {
 	}
 
 #Kaviag
-	KVG = {
+	KVG0 = {
 		own_control_core = {
 		sinjik nachirvik kigluaik
 		}

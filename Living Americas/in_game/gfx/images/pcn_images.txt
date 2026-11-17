@@ -25,7 +25,7 @@
 					has_culture_group = culture_group:yupik_group
 					has_culture_group = culture_group:salishan_group
 					has_culture_group = culture_group:wakashan_group
-					has_culture_group = culture_group:nadene_group
+					#has_culture_group = culture_group:nadene_group
 				}
 			}
 
@@ -51,8 +51,13 @@
 			any_ruling_countries = {
 				OR = {
 					tag = CNK
-					tag = YKM
-					tag = PLS
+					tag = YKM0
+					tag = PLS0
+					tag = TLG
+					tag = WST0
+					tag = DKL0
+					tag = DNN0
+					tag = EYK0
 				}
 			}
 
