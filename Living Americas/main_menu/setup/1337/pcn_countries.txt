@@ -3,8 +3,18 @@ countries = {
 
 # from original 10_countries.txt - Kalapuya KLP to Tlingit TLG
 
+# in pcn_countries.txt
+		# Pacific Northwest - Kalapuya KLP to Tlingit TLG
+			# Create new copy of 10_countries.txt when changes noted in patch notes and remove these factions and push to PCN mod git.
+			# This is covered in livam by the larger chunk of removed factions.
+	# New Pacific Coast Nations Countries - Saanich WSN0 to Hupe HUP0
+
+# NOTE: All new factions should end in a zero or number to prevent conflicts. Document any changes made in the appropriate tab of "Living Americas Mod To Do List.xlsx" in the root of living-americas-eu5-mod for this or PCN mod changes. Backport & commit any changes you make to pcn mod files to that git as well. Changes made to PCN git should also be commited to Living Americas git as well.
+
+
+
 #############################
-# Pacific Coast Nations - FreeManFreeMind mod
+# Pacific Coast Nations
 #############################
 
 	#Kalapuya
@@ -331,7 +341,7 @@ countries = {
 	TMH = {
 
 		own_control_core = {
-			gitxsanimaax  sm_algyax
+			sm_algyax nisga_a
 		}
 
 		court_language = tsimshian_language
@@ -344,6 +354,7 @@ countries = {
 			ruler = random
 			heir_selection = matrilineal_non_exclusive
 		}
+		capital = sm_algyax
 	}
 
 	#Xaayda
@@ -372,7 +383,7 @@ countries = {
 		}
 
 		court_language = nadene_language
-		capital = jilkaat
+		capital = taant_a
 
 		include = "amerindian_northwest_coast"
 		include = "expl_pcn_north_coast_alaska"
@@ -517,11 +528,11 @@ countries = {
 	NGA0 = {
 
 		own_control_core = {
-			nisga_a k_alii_xkalaan
+			gitxsanimaax k_alii_xkalaan
 		}
 
 		court_language = tsimshian_language
-		capital = nisga_a
+		capital = gitxsanimaax
 
 		include = "amerindian_northwest_coast"
 		include = "expl_pcn_north_coast"
@@ -1811,8 +1822,7 @@ countries = {
 #Ohlone
 	OHL0 =  {
 		own_control_core = {
-		chochenyo mutsun
-		#awaswas
+		chochenyo mutsun awaswas
 		}
 
 		court_language = penutian_language

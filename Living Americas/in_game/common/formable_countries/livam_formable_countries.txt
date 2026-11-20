@@ -535,7 +535,7 @@ MPI0_f ={
 }
 
 #Wuarpe - WUA
-WUA ={
+WUA0 ={
     level = 2
     required_locations_fraction = 0.6
     rule = plausible
@@ -547,10 +547,10 @@ WUA ={
     allow = {
 	}
 
-	name = WUA
-	flag = WUA
-	adjective = WUA_ADJ
-	tag = WUA
+	name = WUA0
+	flag = WUA0
+	adjective = WUA0_ADJ
+	tag = WUA0
 	color = map_warpe
 	locations = {
 		jaurua uco millcayac guentota huanacache uspallata zonda sankancete angualasto pivn_man_antu jachal ullum

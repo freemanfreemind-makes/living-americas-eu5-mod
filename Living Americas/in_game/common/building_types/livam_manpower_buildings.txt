@@ -34,8 +34,8 @@
 			icon_type = building_type
 			icon = warrior_lodge
 			weaponry = 0.15
-			leather = 0.05
-			cloth = 0.05
+			leather = 0.06
+			cloth = 0.08
 			category = building_maintenance
 		}
 	}

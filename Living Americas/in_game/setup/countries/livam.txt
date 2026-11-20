@@ -1,7 +1,7 @@
 ﻿# New Living Americas Factions
 
 #Ilnu
-ILN = {
+ILN0 = {
 	color = map_ilnu
 	color2 = rgb { 151 90 161 }
 
@@ -11,7 +11,7 @@ ILN = {
 }
 
 #Innu
-INU = {
+INU0 = {
 	color = map_innu
 	color2 = rgb { 212 129 225 }
 
@@ -21,7 +21,7 @@ INU = {
 }
 
 #Beothuk
-BTK = {
+BTK0 = {
 	color = map_beothuk
 	color2 = rgb { 112 98 114 }
 
@@ -31,7 +31,7 @@ BTK = {
 }
 
 #Dorset
-DRT = {
+DRT0 = {
 	color = map_dorset
 	color2 = rgb { 160 116 245 }
 
@@ -41,7 +41,7 @@ DRT = {
 }
 
 #Naskapi
-NKP = {
+NKP0 = {
 	color = map_naskapi
 	color2 = rgb { 233 186 240 }
 
@@ -51,7 +51,7 @@ NKP = {
 }
 
 #Iyiyiyu
-IYY = {
+IYY0 = {
 	color = map_iyiyiyu
 	color2 = rgb { 233 136 193 }
 
@@ -61,7 +61,7 @@ IYY = {
 }
 
 #Iyiniyu
-IYN = {
+IYN0 = {
 	color = map_iyiniyu
 	color2 = rgb { 135 76 111 }
 
@@ -71,7 +71,7 @@ IYN = {
 }
 
 #Ilili
-ILI = {
+ILI0 = {
 	color = map_ilili
 	color2 = rgb { 176 67 196 }
 
@@ -81,7 +81,7 @@ ILI = {
 }
 
 #Innini
-INN = {
+INN0 = {
 	color = map_innini
 	color2 = rgb { 170 97 146 }
 
@@ -91,7 +91,7 @@ INN = {
 }
 
 #Nehina
-NHA = {
+NHA0 = {
 	color = map_nehina
 	color2 = rgb { 151 164 205}
 
@@ -101,7 +101,7 @@ NHA = {
 }
 
 #Nihithaw
-NHT = {
+NHT0 = {
 	color = map_nihithaw
 	color2 = hsv { 0.24 0.86 0.38 }
 
@@ -111,7 +111,7 @@ NHT = {
 }
 
 #Inuit
-INT = {
+INT0 = {
 	color = map_inuit
 	color2 = rgb { 21 132 102 }
 
@@ -121,7 +121,7 @@ INT = {
 }
 
 #Tsuu'tina
-TTI = {
+TTI0 = {
 	color = map_tsuutina
 	color2 = rgb { 234 208 112 }
 
@@ -131,7 +131,7 @@ TTI = {
 }
 
 #Siksika
-SKS = {
+SKS0 = {
 	color = map_siksika
 	color2 = rgb { 130 2 77 }
 
@@ -141,7 +141,7 @@ SKS = {
 }
 
 #Akinaa
-AKA = {
+AKA0 = {
 	color = map_akainaa
 	color2 = rgb { 225 7 137 }
 
@@ -151,7 +151,7 @@ AKA = {
 }
 
 #Piikani
-PKN = {
+PKN0 = {
 	color = map_piikani
 	color2 = rgb { 192 124 152 }
 
@@ -161,7 +161,7 @@ PKN = {
 }
 
 #Mahmikiwini
-MMW = {
+MMW0 = {
 	color = map_mahmikiwini
 	color2 = rgb { 169 196 149 }
 
@@ -171,7 +171,7 @@ MMW = {
 }
 
 #Matiyinini
-MYN = {
+MYN0 = {
 	color = map_matiyinini
 	color2 = rgb { 69 109 119 }
 
@@ -181,7 +181,7 @@ MYN = {
 }
 
 #Asinikawithini
-AKH = {
+AKH0 = {
 	color = map_asinikawithini
 	color2 = rgb { 101 135 9 }
 
@@ -200,7 +200,7 @@ KTX1 = {
 }
 
 #Coahuilteco
-#COH = {
+#COH0 = {
 #	color = map_coahuilteco
 #	color2 = rgb { 100 036 036 }
 #
@@ -274,7 +274,7 @@ COH6 = {
 }
 
 #Lepai Ndé
-LPN = {
+LPN0 = {
 	color = map_lepai_nde
 	color2 = rgb { 198 166 100 }
 
@@ -630,7 +630,7 @@ PIU0 = {
 
 #Factions ported over from defunct Patagonia Expanded mod
 
-#MPC = {
+#MPC0 = {
 #	color = map_mapuche
 #	color2 = rgb { 16 41 202 }
 #
@@ -647,7 +647,7 @@ PIU0 = {
 #
 #}
 
-WLE = {
+WLE0 = {
 	color = map_williche
 	color2 = rgb { 215 223 0 }
 
@@ -659,7 +659,7 @@ WLE = {
 
 }
 
-RKC = {
+RKC0 = {
 	color = map_rankulche
 	color2 = rgb { 215 227 0 }
 
@@ -671,7 +671,7 @@ RKC = {
 
 }
 
-WTC = {
+WTC0 = {
 	color = map_wenteche
 	color2 = rgb { 215 283 0 }
 
@@ -683,7 +683,7 @@ WTC = {
 
 }
 
-NGC = {
+NGC0 = {
 	color = map_nagche
 	color2 = rgb { 215 223 0 }
 
@@ -695,7 +695,7 @@ NGC = {
 
 }
 
-PIK = {
+PIK0 = {
 	color = map_pikumche
 	color2 = rgb { 295 223 0 }
 
@@ -705,7 +705,7 @@ PIK = {
 }
 
 
-#PUS = {
+#PUS0 = {
 #	color = map_puelche
 #	color2 = rgb { 208 9 9 }
 #
@@ -715,7 +715,7 @@ PIK = {
 #}
 
 
-PHS = {
+PHS0 = {
 	color = map_pehuenche
 	color2 = rgb { 16 41 202 }
 
@@ -724,7 +724,7 @@ PHS = {
 
 }
 
-CUN = {
+CUN0 = {
 	color = map_cuncos
 	color2 = rgb { 16 41 202 }
 
@@ -734,7 +734,7 @@ CUN = {
 
 }
 
-COS = {
+COS0 = {
 	color = map_chonos
 	color2 = rgb { 208 9 9 }
 
@@ -745,7 +745,7 @@ COS = {
 }
 
 
-KWS = { #Kaweskar
+KWS1 = { #Kaweskar
 	color = map_kawesqar
 	color2 = rgb { 16 41 202 }
 
@@ -755,7 +755,7 @@ KWS = { #Kaweskar
 
 }
 
-SEK = {
+SEK0 = {
 	color = map_selknam
 	color2 = rgb { 16 41 202 }
 
@@ -766,7 +766,7 @@ SEK = {
 }
 
 
-YGH = {
+YGH0 = {
 	color = map_yaghan
 	color2 = rgb { 16 41 202 }
 
@@ -780,7 +780,7 @@ YGH = {
 
 }
 
-AOI = {
+AOI0 = {
 	color = map_aonikenk
 	color2 = rgb { 16 41 202 }
 
@@ -790,7 +790,7 @@ AOI = {
 
 }
 
-THN = {
+THN0 = {
 	color = map_teushen
 	color2 = rgb { 16 41 202 }
 
@@ -799,7 +799,7 @@ THN = {
 
 }
 
-POY = {
+POY0 = {
 	color = map_poyas
 	color2 = rgb { 16 41 202 }
 
@@ -808,7 +808,7 @@ POY = {
 
 }
 
-GKN = {
+GKN0 = {
 	color = map_gununa_kune
 	color2 = rgb { 16 41 202 }
 
@@ -818,7 +818,7 @@ GKN = {
 
 }
 
-GNK = {
+GNK0 = {
 	color = map_gennakenk
 	color2 = rgb { 16 41 202 }
 
@@ -828,7 +828,7 @@ GNK = {
 
 }
 
-MKK = {
+MKK0 = {
 	color = map_manekenk
 	color2 = rgb { 16 41 202 }
 
@@ -838,7 +838,7 @@ MKK = {
 
 }
 
-MCK = {
+MCK0 = {
 	color = map_mecharnuekenk
 	color2 = rgb { 16 41 202 }
 
@@ -848,7 +848,7 @@ MCK = {
 
 }
 
-HET = {
+HET0 = {
 	color = map_het
 	color2 = rgb { 16 41 202 }
 
@@ -858,7 +858,7 @@ HET = {
 
 }
 
-TTH = {
+TTH0 = {
 	color = map_taluhet
 	color2 = rgb { 16 41 202 }
 
@@ -868,7 +868,7 @@ TTH = {
 
 }
 
-CEE = {
+CEE0 = {
 	color = map_chechehet
 	color2 = rgb { 16 41 202 }
 
@@ -878,7 +878,7 @@ CEE = {
 
 }
 
-DET = {
+DET0 = {
 	color = map_didiuhet
 	color2 = rgb { 16 41 202 }
 
@@ -888,7 +888,7 @@ DET = {
 
 }
 
-QET = {
+QET0 = {
 	color = map_querandi
 	color2 = rgb { 16 41 202 }
 
@@ -898,7 +898,7 @@ QET = {
 
 }
 
-RPN = {
+RPN0 = {
 	color = map_rapa_nui
 	color2 = rgb { 215 223 0 }
 
@@ -909,7 +909,7 @@ RPN = {
 
 }
 
-CGS = {
+CGS0 = {
 	color = map_changos
 	color2 = rgb { 16 41 202 }
 
@@ -919,17 +919,16 @@ CGS = {
 
 }
 
-#WUA = {
+#WUA0 = {
 #	color = map_warpe
 #	color2 = rgb { 16 41 202 }
-
 #	culture_definition = warpe_culture
 #	religion_definition = tain_feyentun_religion
 #
 #
 #}
 
-LCN = {
+LCN0 = {
 	color = map_lickanantay
 	color2 = rgb { 215 223 0 }
 
@@ -940,7 +939,7 @@ LCN = {
 
 }
 
-#DGT = {
+#DGT0 = {
 #	color = map_diaguitas
 #	color2 = rgb { 214 223 0 }
 
@@ -951,7 +950,7 @@ LCN = {
 
 #}
 
-#CQY = {
+#CQY0 = {
 #	color = map_chiquiyanes
 #	color2 = rgb { 255 223 0 }
 #
@@ -962,7 +961,7 @@ LCN = {
 #
 #}
 
-#LLK = {
+#LLK0 = {
 #	color = map_allentiak
 #	color2 = rgb { 215 228 0 }
 #
@@ -973,7 +972,7 @@ LCN = {
 #
 #}
 
-UAE = {
+UAE0 = {
 	color = map_minuane
 	color2 = rgb { 215 293 0 }
 
@@ -984,7 +983,7 @@ UAE = {
 
 }
 
-HNI = {
+HNI0 = {
 	color = map_henia
 	color2 = rgb { 275 223 0 }
 
@@ -995,7 +994,7 @@ HNI = {
 
 }
 
-KAE = {
+KAE0 = {
 	color = map_kamiare
 	color2 = rgb { 215 263 0 }
 
@@ -1006,7 +1005,7 @@ KAE = {
 
 }
 
-CDS = {
+CDS0 = {
 	color = map_chandules
 	color2 = rgb { 215 243 0 }
 
@@ -1017,7 +1016,7 @@ CDS = {
 
 }
 
-#BHS = {
+#BHS0 = {
 #	color = map_bohanes
 #	color2 = rgb { 215 223 0 }
 #
@@ -1028,7 +1027,7 @@ CDS = {
 #
 #}
 
-LYN = {
+LYN0 = {
 	color = map_layana
 	color2 = rgb { 215 223 0 }
 

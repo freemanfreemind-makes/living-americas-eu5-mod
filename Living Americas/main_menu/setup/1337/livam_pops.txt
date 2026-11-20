@@ -1815,26 +1815,29 @@ cuencame = {
 nandeva = {
 	define_pop = {	type = soldiers	size = 0.200	culture = ava_culture	religion = tunpa_religion }
 	define_pop = {	type = nobles	size = 0.140	culture = ava_culture	religion = tunpa_religion }
-	define_pop = {	type = peasants	size = 5.140	culture = ava_culture	religion = tunpa_religion }
+	define_pop = {	type = peasants	size = 7.140	culture = ava_culture	religion = tunpa_religion }
+}
+sao_leopoldo = {
+	define_pop = {	type = peasants	size = 4.000	culture = ava_culture	religion = tunpa_religion }
 }
 umbu = {
-	define_pop = {	type = peasants	size = 3.140	culture = ava_culture	religion = tunpa_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = ava_culture	religion = tunpa_religion }
 	define_pop = {	type = tribesmen	size = 5.140	culture = ava_culture	religion = tunpa_religion }
 }
 tupancireta = {
-	define_pop = {	type = peasants	size = 3.140	culture = ava_culture	religion = tunpa_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = ava_culture	religion = tunpa_religion }
 }
 patos = {
-	define_pop = {	type = peasants	size = 3.140	culture = ava_culture	religion = tunpa_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = ava_culture	religion = tunpa_religion }
 }
 jacui = {
-	define_pop = {	type = peasants	size = 3.140	culture = ava_culture	religion = tunpa_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = ava_culture	religion = tunpa_religion }
 }
 ibicui = {
-	define_pop = {	type = peasants	size = 3.140	culture = ava_culture	religion = tunpa_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = ava_culture	religion = tunpa_religion }
 }
 uruguay = {
-	define_pop = {	type = peasants	size = 3.140	culture = ava_culture	religion = tunpa_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = ava_culture	religion = tunpa_religion }
 }
 
 
@@ -1846,73 +1849,113 @@ samaipata = {
 	define_pop = {	type = peasants	size = 5.140	culture = ava_culture	religion = tunpa_religion }
 }
 tomina = {
-	define_pop = {	type = peasants	size = 5.140	culture = ava_culture	religion = tunpa_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = ava_culture	religion = tunpa_religion }
 }
 huacareta = {
-	define_pop = {	type = peasants	size = 5.140	culture = ava_culture	religion = tunpa_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = ava_culture	religion = tunpa_religion }
 }
 pomabamba = {
-	define_pop = {	type = peasants	size = 5.140	culture = ava_culture	religion = tunpa_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = ava_culture	religion = tunpa_religion }
 }
 
 #Aimoré
 urucu = {
+	define_pop = {	type = peasants	size = 4.140	culture = kren_culture	religion = doi_wahire_religion }
+}
+aimore = {
 	define_pop = {	type = soldiers	size = 0.200	culture = kren_culture	religion = doi_wahire_religion }
 	define_pop = {	type = nobles	size = 0.140	culture = kren_culture	religion = doi_wahire_religion }
 	define_pop = {	type = peasants	size = 5.140	culture = kren_culture	religion = doi_wahire_religion }
 }
-aimore = {
-	define_pop = {	type = peasants	size = 5.140	culture = kren_culture	religion = doi_wahire_religion }
-}
 malalis = {
-	define_pop = {	type = peasants	size = 5.140	culture = kren_culture	religion = doi_wahire_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = kren_culture	religion = doi_wahire_religion }
 }
 nanuque = {
-	define_pop = {	type = peasants	size = 5.140	culture = kren_culture	religion = doi_wahire_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = kren_culture	religion = doi_wahire_religion }
 }
 borun = {
-	define_pop = {	type = peasants	size = 5.140	culture = kren_culture	religion = doi_wahire_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = kren_culture	religion = doi_wahire_religion }
 }
 
 #Kiriri
 kariri = {
 	define_pop = {	type = soldiers	size = 0.200	culture = kiriri_culture	religion = jurema_religion }
 	define_pop = {	type = nobles	size = 0.140	culture = kiriri_culture	religion = jurema_religion }
-	define_pop = {	type = peasants	size = 5.140	culture = kiriri_culture	religion = jurema_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = kiriri_culture	religion = jurema_religion }
+	define_pop = {	type = slaves	size = 1.140	culture = ava_culture	religion = namandu_religion }
+	define_pop = {	type = slaves	size = 1.140	culture = kren_culture	religion = doi_wahire_religion }
 }
 arakaiu = {
-	define_pop = {	type = peasants	size = 5.140	culture = kiriri_culture	religion = jurema_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = kiriri_culture	religion = jurema_religion }
 }
 karapoto = {
-	define_pop = {	type = peasants	size = 5.140	culture = kiriri_culture	religion = jurema_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = kiriri_culture	religion = jurema_religion }
 }
 kiriri = {
-	define_pop = {	type = peasants	size = 5.140	culture = kiriri_culture	religion = jurema_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = kiriri_culture	religion = jurema_religion }
 }
 yapuata = {
-	define_pop = {	type = peasants	size = 5.140	culture = kiriri_culture	religion = jurema_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = kiriri_culture	religion = jurema_religion }
 }
 
 #Potiguara
 potiguara = {
 	define_pop = {	type = soldiers	size = 0.200	culture = potiguara_culture	religion = namandu_religion }
 	define_pop = {	type = nobles	size = 0.140	culture = potiguara_culture	religion = namandu_religion }
-	define_pop = {	type = peasants	size = 5.140	culture = potiguara_culture	religion = namandu_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = potiguara_culture	religion = namandu_religion }
+	define_pop = {	type = slaves	size = 1.140	culture = ava_culture	religion = namandu_religion }
+	define_pop = {	type = slaves	size = 1.140	culture = kiriri_culture	religion = jurema_religion }
 }
 kaaysara = {
-	define_pop = {	type = peasants	size = 5.140	culture = potiguara_culture	religion = namandu_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = potiguara_culture	religion = namandu_religion }
 }
 paraiba = {
-	define_pop = {	type = peasants	size = 5.140	culture = potiguara_culture	religion = namandu_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = potiguara_culture	religion = namandu_religion }
 }
 monxoro = {
-	define_pop = {	type = peasants	size = 5.140	culture = potiguara_culture	religion = namandu_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = potiguara_culture	religion = namandu_religion }
 }
 payaku = {
-	define_pop = {	type = peasants	size = 5.140	culture = potiguara_culture	religion = namandu_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = potiguara_culture	religion = namandu_religion }
 }
 utuva = {
-	define_pop = {	type = peasants	size = 5.140	culture = potiguara_culture	religion = namandu_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = potiguara_culture	religion = namandu_religion }
+}
+
+#Carijo
+arroio = {
+	define_pop = {	type = peasants	size = 2.140	culture = kaxixo_culture	religion = tunpa_religion }
+}
+carijo = {
+	define_pop = {	type = peasants	size = 5.140	culture = kaxixo_culture	religion = tunpa_religion }
+}
+iaguarauna = {
+	define_pop = {	type = peasants	size = 2.140	culture = kaxixo_culture	religion = tunpa_religion }
+}
+
+#Layanes
+cunhambebe = {
+	define_pop = {	type = nobles	size = 0.140	culture = tupiniquim_culture	religion = namandu_religion }
+	define_pop = {	type = peasants	size = 5.140	culture = tupiniquim_culture	religion = namandu_religion }
+	define_pop = {	type = slaves	size = 1.140	culture = kiriri_culture	religion = jurema_religion }
+	define_pop = {	type = slaves	size = 1.140	culture = ava_culture	religion = namandu_religion }
+
+}
+ita_kua_y = {
+	define_pop = {	type = peasants	size = 2.140	culture = tupiniquim_culture	religion = namandu_religion }
+}
+
+#Xeta
+umuarama = {
+	define_pop = {	type = peasants	size = 5.140	culture = xeta_culture	religion = namandu_religion }
+}
+
+#Kaiowa
+ayvu_pora = {
+	define_pop = {	type = peasants	size = 3.140	culture = ava_culture	religion = namandu_religion }
+}
+pai_tavytera = {
+	define_pop = {	type = peasants	size = 2.140	culture = ava_culture	religion = namandu_religion }
 }
 
 }

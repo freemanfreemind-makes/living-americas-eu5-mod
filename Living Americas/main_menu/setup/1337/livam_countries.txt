@@ -1,36 +1,37 @@
 countries = {
 	countries = {
 
-	#from original 10_countries.txt
+# livam_countries.txt  Legend
 		# Canada - Taontaenrat TRT to Mississage MSG
 		# Lower Mississippi, Gulf Coast, & East Coast Nations - Coosa COO to Onghniaahra ONG
 		# Mississippian Nations - Caddo CAD to Tula Caddoan TUA
 		# great plains - Hinono'eino HNO to Wahpetunwan WPW
-
-	# New Living Americas Countries - Ilnu ILN to Lepai Ndé LPN
-
-	#from original 10_countries.txt
+		# east coast - Mi'kmaq MIK to Kichesipirini KSP
         # Aridoamerica - Acaxee ACX to K'itaish KIH
-        # Southwest American Nations - Hisatsinom HTS to K'itaish KIH
-        # Aridoamerican Gulf Coast - Ishak ISH to Tawakoni TWK
-
-    # New Living Americas Countries - Coahuilteco COH to Tokonohono COH6
-
-	#from original 10_countries.txt
+        # Southwest American Nations - Hisatsinom HTS to Tawakoni TWK
 		# Mesoamerica - P'urhipecherio TAR to Toquegua TOQ
 		# Central America - Kuskatan KUS to Cabecar CBC
-
-	#from original 10_countries.txt
 		# Colombia - Tairona TAI to Kalinago KGN
 		# Andes - Quito QTO to Quitor QTR
 		# Brazil - Kuikuro KUI to Potiguara POT
 		# Chaco & La Plata - Moxo MOX to Charrua CUA
+	# From patagonia expanded mod - Pehuenches PHS0 to Rapa Nui RPN0
+	# New Living Americas Countries - Ilnu ILN0 to Tanoan TAN0			North America
+	# New Living Americas Countries - Coahuilteco COH0 to Pericu PIU0	Aridoamerica
 
-	# From patagonia expanded mod - Pehuenches PHS to Rapa Nui RPN
+# in pcn_countries.txt
+		# Pacific Northwest - Kalapuya KLP to Tlingit TLG
+	# New Pacific Coast Nations Countries - Saanich WSN0 to Hupe HUP0
+
+# NOTE: All new factions should end in a zero or number to prevent conflicts. Document any changes made in the appropriate tab of "Living Americas Mod To Do List.xlsx" in the root of living-americas-eu5-mod for this or PCN mod changes. Backport & commit any changes you make to pcn mod files to that git as well.
+
+#############################
+# Living Americas
+#############################
 
 
 
-	#-------------------Canada-------------
+#-------------------Canada-------------
 	#Taontaenrat - TRT
 	TRT = { #??
 		own_control_core = {
@@ -290,7 +291,7 @@ countries = {
 		}
 	}
 
-	### Mississippi  & Gulf Coast Nations - Coosa COO to
+# Lower Mississippi, Gulf Coast, & East Coast Nations - Coosa COO to Onghniaahra ONG
 
 	#Coosa Paramount Chiefdom (De Soto)
 	COO = { #https://en.wikipedia.org/wiki/Coosa_chiefdom
@@ -2256,7 +2257,7 @@ countries = {
 		capital = niagara
 	}
 
-#-----------------Mississippian Nations-------------------
+# Mississippian Nations - Caddo CAD to Tula Caddoan TUA
 
 	#Caddo - CAD
 	#https://en.wikipedia.org/wiki/Caddo
@@ -3291,21 +3292,7 @@ countries = {
 		}
 	}
 
-
-
-
-
-# From aridoamerica_countries.txt
-	#from original 10_countries.txt
-        # Aridoamerica - Acaxee ACX to K'itaish KIH
-        # Southwest American Nations - Hisatsinom HTS to K'itaish KIH
-        # Aridoamerican Gulf Coast - Ishak ISH to Tawakoni TWK
-
-    # New Living Americas Countries - Coahuilteco COH to Tokonohono COH6
-
-
-
-	#-------------------------- Aridoamerica ----------------------------
+#-------------------------- Aridoamerica ----------------------------
 
 	#Acaxee - ACX
 	ACX = {
@@ -3903,11 +3890,7 @@ countries = {
 		}
 	}
 
-
-
-	#############################
-	##Southwest American Nations
-	#############################
+# Southwest American Nations - Hisatsinom HTS to Tawakoni TWK
 
 	#Hisatsinom
 	HTS = {
@@ -4041,16 +4024,7 @@ countries = {
 		}
 	}
 
-
-
-
-
-# From mesoam_countries.txt
-	#from original 10_countries.txt
-		# Mesoamerica - P'urhipecherio TAR to Toquegua TOQ
-		# Central America - Kuskatan KUS to Cabecar CBC
-
-	#-------------------------- Mesoamerica ----------------------------
+#-------------------------- Mesoamerica ----------------------------
 
 	#P'urhipecherio (Tarascan Empire) - TAR https://en.wikipedia.org/wiki/Pur%C3%A9pecha_Empire
 	TAR = {
@@ -7371,17 +7345,6 @@ countries = {
 		}
 	}
 
-
-#From southam_countries.txt
-	#from original 10_countries.txt
-		# Colombia - Tairona TAI to Kalinago KGN
-		# Andes - Quito QTO to Quitor QTR
-		# Brazil - Kuikuro KUI to Potiguara POT
-		# Chaco & La Plata - Moxo MOX to Charrua CUA
-
-	# From patagonia expanded mod - Pehuenches PHS to Rapa Nui RPN
-
-
 	#-------------------------- Colombia ----------------------------
 
 	#Tairona - TAI
@@ -7779,7 +7742,7 @@ countries = {
 		include = "caribbean_tribe"
 	}
 
-	#-------------------------- Andes ----------------------------###########################################################################################
+#-------------------------- Andes ----------------------------#
 
 
 	#Quito - QTO
@@ -8969,7 +8932,7 @@ countries = {
 		}
 	}
 
-		############# Brazil ###############
+############# Brazil ###############
 
 	#Kuikuro
 	KUI = {
@@ -9061,13 +9024,14 @@ countries = {
 		government = {
 			ruler = random
 		}
+		capital = carijo
 	}
 
 	#Ñandeva
 	NDV = {
 	type = army
 		own_control_core = {
-			akaray canindeyu curuguaty kaaguy_jehasapa kaarendy kuarepoti kyyindy mbya nemby takuru_puku tsiripa ygana yguazu
+			akaray kaaguy_jehasapa kaarendy kuarepoti kyyindy mbya nemby takuru_puku tsiripa ygana yguazu
 			agaes avaes itapua payubre taragui uruguay yapeyu
 			ibicui inhandui jeguakava nandeva
 			cacapava icabaqua tupancireta vacacai
@@ -9103,7 +9067,7 @@ countries = {
 	#Kaiowá
 	KIO = {
 		own_control_core = {
-			kaiowa ayvu_pora chiripa kaiwa maracaju pai_tavytera
+			kaiowa ayvu_pora chiripa kaiwa maracaju pai_tavytera canindeyu curuguaty
 		}
 
 		discovered_regions = {
@@ -9249,9 +9213,7 @@ countries = {
 	}
 
 
-#############################
 # Chaco
-#############################
 
 
 	#Moxo - MOX
@@ -9272,9 +9234,8 @@ countries = {
 		}
 	}
 
-#############################
+
 # La Plata
-#############################
 
 	#Mapuche - MPC
 	MPC = {
@@ -9321,7 +9282,7 @@ countries = {
 ######Taken from discontinued patagonia expanded mod.#####################
 
 	#Pehuenches
-	PHS = {
+	PHS0 = {
 		own_control_core = {
 
 			colipilli antinir_pilquinan buta_ranquil malal_hue
@@ -9341,7 +9302,7 @@ countries = {
 
 
 	#Pikumche - PIK
-	PIK = {
+	PIK0 = {
 		own_control_core = {
 
 			pikumche perquilauquen cauquen mawlen kuruko kolchawwe rangkawe
@@ -9360,7 +9321,7 @@ countries = {
 	}
 
 	#Williches - WLE
-	WLE = {
+	WLE0 = {
 		own_control_core = {
 
 			caurakawin pikunwijimapu
@@ -9379,7 +9340,7 @@ countries = {
 	}
 
 	#Wenteche - WTC
-	WTC = {
+	WTC0 = {
 		own_control_core = {
 
 			anelo newenken fisque_menuco
@@ -9398,7 +9359,7 @@ countries = {
 	}
 
 	#Nagche - NGC
-	NGC = {
+	NGC0 = {
 		own_control_core = {
 
 			chadileuvu chical_co vuta_chadihue
@@ -9417,7 +9378,7 @@ countries = {
 	}
 
 	#Rankulche - RKC
-	RKC = {
+	RKC0 = {
 		own_control_core = {
 
 			rankulche mamull_mapu viluco atuel
@@ -9436,7 +9397,7 @@ countries = {
 	}
 
 	#Kawesqar - KWS
-	KWS = {
+	KWS1 = {
 		type = pop
 		add_pops_from_locations = {
 			tawokser kelaelkces jautok kcewite malte saelam
@@ -9454,7 +9415,7 @@ countries = {
 	}
 
 	#Selknam - SEK
-	SEK = {
+	SEK0 = {
 		own_control_core = {
 
 			haiyuwel kolser wai hamhmam kauwes hamenk
@@ -9473,7 +9434,7 @@ countries = {
 	}
 
 	#Chonos - COS
-	COS = {
+	COS0 = {
 		own_control_core = {
 
 			caguatl achen chain_chaitun puyu_huapi koy_aike piren futra_lhewfu
@@ -9492,7 +9453,7 @@ countries = {
 	}
 
 	#Yaghan - YGH
-	YGH = {
+	YGH0 = {
 		type = pop
 		add_pops_from_locations = {
 
@@ -9512,7 +9473,7 @@ countries = {
 	}
 
 	#Cuncos - CUN
-	CUN = {
+	CUN0 = {
 		own_control_core = {
 
 			quiquilhue ancud quellon
@@ -9531,7 +9492,7 @@ countries = {
 	}
 
 	#Aonikenk - AOI
-	AOI = {
+	AOI0 = {
 		own_control_core = {
 
 			horsh_aiken ciaike enoo juni_aiken paine kehek_aike chalten kelt_aiken
@@ -9550,7 +9511,7 @@ countries = {
 	}
 
 	#Gununa kune/ Puelche - GKN
-	GKN = {
+	GKN0 = {
 		own_control_core = {
 
 			currumil kalfucura catan_lil
@@ -9569,7 +9530,7 @@ countries = {
 	}
 
 	#Poyas - POY
-	POY = {
+	POY0 = {
 		own_control_core = {
 
 			vuriloche curruhuinca norquinco puel_co
@@ -9588,7 +9549,7 @@ countries = {
 	}
 
 	#Teushen - THN
-	THN = {
+	THN0 = {
 		own_control_core = {
 
 			charkamak pari_aike kopolque
@@ -9607,7 +9568,7 @@ countries = {
 	}
 
 	#Gennakenk - GNK
-	GNK = {
+	GNK0 = {
 		own_control_core = {
 
 			choele_choel curu_leufvu cholle_cholle
@@ -9626,7 +9587,7 @@ countries = {
 	}
 
 	#Manekenk - MKK
-	MKK = {
+	MKK0 = {
 		own_control_core = {
 
 			nakenk masaks
@@ -9645,7 +9606,7 @@ countries = {
 	}
 
 	#Mecharnuekenk - MCK
-	MCK = {
+	MCK0 = {
 		own_control_core = {
 
 			nehuen_mulfun lee patagonia fem_mapu
@@ -9664,7 +9625,7 @@ countries = {
 	}
 
 	#Het - HET
-	HET = {
+	HET0 = {
 		own_control_core = {
 
 			wangulen rangkull_mapu trenquelauquen
@@ -9683,7 +9644,7 @@ countries = {
 	}
 
 	#Taluhet - TTH
-	TTH = {
+	TTH0 = {
 		own_control_core = {
 
 			lewfuko quemu_quemu
@@ -9702,7 +9663,7 @@ countries = {
 	}
 
 	#Chechehet - CEE
-	CEE = {
+	CEE0 = {
 		own_control_core = {
 
 			pillahuinco ucaln
@@ -9721,7 +9682,7 @@ countries = {
 	}
 
 	#Diduihet - DET
-	DET = {
+	DET0 = {
 		own_control_core = {
 
 			kla_rome_ko tandil
@@ -9740,7 +9701,7 @@ countries = {
 	}
 
 	#Querandi - QET
-	QET = {
+	QET0 = {
 		own_control_core = {
 
 			tapalquen calfuleufu
@@ -9759,7 +9720,7 @@ countries = {
 	}
 
 	#Changos - CGS
-	CGS = {
+	CGS0 = {
 		own_control_core = {
 
 			huasco qupayapu chanaral tatal antofagasta paposo cobija tocopilla iki_iki tarapaca tacna arica
@@ -9787,25 +9748,20 @@ countries = {
 	}
 
 	#Wuarpe - WUA
-	#WUA = {
+	#WUA0 = {
 	#	own_control_core = {
 	#		jaurua uco millcayac guentota huanacache uspallata zonda sankancete angualasto pivn_man_antu jachal ullum
-
 	#	}
-
 	#	include = "amerindian_tribe"
 	#	include = "expl_patagonia"
-
 	#	government = {
 	#		ruler = random
 	#	}
-
 	#	capital = uco
-
 	#}
 
 	#Diaguitas - DGT
-	#DGT = {
+	#DGT0 = {
 	#	type = pop
 	#	add_pops_from_locations = {
 	#		kellollampu pissis kolla antofalla fiambalao
@@ -9831,7 +9787,7 @@ countries = {
 	#}
 
 	#Lickanantay - LCN
-	LCN = {
+	LCN0 = {
 		type = pop
 		add_pops_from_locations = {
 			lickanantay susques puma lipi llica
@@ -9858,7 +9814,7 @@ countries = {
 	}
 
 	#Minuane - UAE
-	UAE = {
+	UAE0 = {
 		own_control_core = {
 
 			ituzaingo chivilco timbu carapachay
@@ -9877,7 +9833,7 @@ countries = {
 	}
 
 	#Henia - HNI
-	HNI = {
+	HNI0 = {
 		own_control_core = {
 
 			quisquisacate macaclita auleta siton gualas mogas caminigas
@@ -9911,7 +9867,7 @@ countries = {
 	}
 
 	#kamiare - KAE
-	KAE = {
+	KAE0 = {
 		own_control_core = {
 
 			popopis michilingue nogolma saleta naure kata_kuna
@@ -9945,7 +9901,7 @@ countries = {
 	}
 
 	#Chandules - CDS
-	CDS = {
+	CDS0 = {
 		own_control_core = {
 
 			tuvicha_mini tubicha_mini
@@ -9964,7 +9920,7 @@ countries = {
 	}
 
 	#Layana - LYN
-	LYN = {
+	LYN0 = {
 		own_control_core = {
 
 			marataiama cananeia iguape tamoio gohayo sao_sebastiao cunhambebe ita_kua_y y_uasu goana_para mage nheteroia kapiwary ararayu_aba
@@ -9989,12 +9945,12 @@ countries = {
 			ruler = random
 		}
 
-		capital = gohayo
+		capital = cunhambebe
 
 	}
 
 	#Rapa Nui - RPN
-	RPN = {
+	RPN0 = {
 		own_control_core = {
 			rapa_nui
 		}
@@ -10060,7 +10016,7 @@ countries = {
 #######################################
 
 #Ilnu
-	ILN = {
+	ILN0 = {
 		type = pop
 
 		add_pops_from_locations = {
@@ -10076,7 +10032,7 @@ countries = {
 	}
 
 #Innu
-	INU = {
+	INU0 = {
 		type = pop
 
 		add_pops_from_locations = {
@@ -10092,7 +10048,7 @@ countries = {
 	}
 
 #Beothuk
-	BTK = {
+	BTK0 = {
 		type = pop
 
 		add_pops_from_locations = {
@@ -10112,7 +10068,7 @@ countries = {
 	}
 
 #Dorset
-	DRT = {
+	DRT0 = {
 		type = pop
 
 		add_pops_from_locations = {
@@ -10129,7 +10085,7 @@ countries = {
 	}
 
 #Naskapi
-	NKP = {
+	NKP0 = {
 		type = pop
 
 		add_pops_from_locations = {
@@ -10145,7 +10101,7 @@ countries = {
 	}
 
 #Iyiyiyu
-	IYY = {
+	IYY0 = {
 		type = pop
 
 		add_pops_from_locations = {
@@ -10161,7 +10117,7 @@ countries = {
 	}
 
 #Iyiniyu
-	IYN = {
+	IYN0 = {
 		type = pop
 
 		add_pops_from_locations = {
@@ -10178,7 +10134,7 @@ countries = {
 	}
 
 #Ilili
-	ILI = {
+	ILI0 = {
 		type = pop
 
 		add_pops_from_locations = {
@@ -10194,7 +10150,7 @@ countries = {
 	}
 
 #Innini
-	INN = {
+	INN0 = {
 		type = pop
 
 		add_pops_from_locations = {
@@ -10210,7 +10166,7 @@ countries = {
 	}
 
 #Nehina
-	NHA = {
+	NHA0 = {
 		type = pop
 
 		add_pops_from_locations = {
@@ -10226,7 +10182,7 @@ countries = {
 	}
 
 #Nihithaw
-	NHT = {
+	NHT0 = {
 		own_control_core = {
 			des_nedhe numaykoos mistutikumak tadoule shethanei kapuskaypachik kiheewapiw wapiskau_sk kipahigan namew mistahi_sakahikan sakitawahk missinipi nunalla kapuskaywak opuskowin
 		}
@@ -10246,7 +10202,7 @@ countries = {
 	}
 
 #Inuit
-	INT = {
+	INT0 = {
 		own_control_core = {
 		tha_anne thaolintoa kinngait amadjuak kimmirut iqaluit iglunga pangnirtung
 		}
@@ -10408,7 +10364,7 @@ INV0 = {
 
 
 #Mahmikiwini
-	MMW = {
+	MMW0 = {
 		own_control_core = {
 		mechiso kawinaw chitek mantago oceko_sipiy onabeesh winnipegosis opaskwayak saskatchewan petaigan kistapinan wapisiw_sipihk
 		}
@@ -10428,7 +10384,7 @@ INV0 = {
 	}
 
 #Matiyinini
-	MYN = {
+	MYN0 = {
 		type = pop
 		add_pops_from_locations = {
 		ceepee ogiciza_wakpa pimicaskewyashik amisk_sipi kawatinook amisk_sakahikan wawaskesiwisakahikan
@@ -10451,7 +10407,7 @@ INV0 = {
 	}
 
 #Tsuu'tina
-	TTI = {
+	TTI0 = {
 		type = pop
 
 		add_pops_from_locations = {
@@ -10477,7 +10433,7 @@ INV0 = {
 	}
 
 #Siksika
-	SKS = {
+	SKS0 = {
 		type = pop
 		add_pops_from_locations = {
 		titaga amiskwaciwiy wetaskiwin notinito_sipiy amisk kisiskaciwani_sipiy manitowi_sakahikanihk wastina michichi wawaskesiw_sipiy ye_ya_xabine kiyiu miksiw_sipisis wibazoka_wakpa minichinas muskiki iskwao posakanaciwiy kinistino etomami
@@ -10502,7 +10458,7 @@ INV0 = {
 	}
 
 #Akinaa
-	AKA = {
+	AKA0 = {
 		type = pop
 		add_pops_from_locations = {
 		saamis wazihe minizuahe notukeu tugaske assapasca tacehubana wascana osukyuze itscheabine
@@ -10527,7 +10483,7 @@ INV0 = {
 	}
 
 #Piikani
-	PKN = {
+	PKN0 = {
 		type = pop
 		add_pops_from_locations = {
 		kwaskwuti kinuhsisuht wase_wakpa caba_wakpa hoskitaga canhewincasta cahe ski_iyo_he patgasa_wakpa suktogeja_o_ipa
@@ -10546,7 +10502,7 @@ INV0 = {
 	}
 
 #Asinikawithini
-	AKH = {
+	AKH0 = {
 		type = pop
 		add_pops_from_locations = {
 		atikwa wabaseemong maskwa manigotagan atikaki mukutawa kinosao_sipi echimamish kaministikowak eyapaysis
@@ -10589,7 +10545,7 @@ INV0 = {
 
 
 #Lepai Ndé
-	LPN = {
+	LPN0 = {
 		own_control_core = {
 			hupenuu atarque hoyu_ao_he hotoanaohe kiowa wahin_wakpa
 			tinde
@@ -10794,7 +10750,7 @@ TAN0 = {
 ################################################
 
 	#Coahuilteco
-	#COH = {
+	#COH0 = {
 		#own_control_core = {
 		#coospacam pilon
 		#huajuco cuanales gualeguas alazapa tilijais masacuajulam

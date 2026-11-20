@@ -33,9 +33,9 @@ diplomacy_manager = {
     scripted_mutual = { first = GUC second = TML type = alliance }
 
 #South America setup---- main goal, allow Qusqu to be more likely to succeed in forming inca empire.
-    #dependency = { first = CSU second = PIG subject_type = tributary }
+    dependency = { first = CSU second = PIG subject_type = vassal }
     #dependency = { first = CSU second = CNC subject_type = tributary }
-    dependency = { first = CSU second = KKE subject_type = tributary }
-    scripted_mutual = { first = CSU second = AYA type = alliance }
+    #dependency = { first = CSU second = KKE subject_type = tributary }
+    #scripted_mutual = { first = CSU second = AYA type = alliance }
 
 }

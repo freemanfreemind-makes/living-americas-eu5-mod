@@ -58,6 +58,7 @@
 					tag = DKL0
 					tag = DNN0
 					tag = EYK0
+					tag = TQN0
 				}
 			}
 

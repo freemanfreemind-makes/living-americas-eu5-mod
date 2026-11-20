@@ -21,14 +21,14 @@ TMH = { # Tsimishian
 
 NGA0 = { # Nisga'a
 	flag_definition = {
-		coa = NGA
+		coa = NGA0
 		priority = 1
 	}
 }
 
 NPK0 = { # Nlakapamuk
 	flag_definition = {
-		coa = NPK
+		coa = NPK0
 		priority = 1
 	}
 }

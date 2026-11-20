@@ -56,6 +56,7 @@ locations={
 	nandeva = { rank = rural_settlement		town_setup = warrior_tribe_military_settlement }
 	umbu = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
 	ibicui = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	sao_leopoldo = { rank = rural_settlement		town_setup = amazonian_rural_forest }
 	patos = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
 	jacui = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
 	tupancireta = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
@@ -68,25 +69,41 @@ locations={
 	huacareta = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
 	pomabamba = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
 
+	#Carijo
+	arroio = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	carijo = { rank = town		town_setup = amazonian_small_town }
+
+	#Layanes
+	cunhambebe = { rank = town		town_setup = amazonian_market_town }
+	ita_kua_y = { rank = rural_settlement		town_setup = amazonian_rural_forest }
+
+	#Xeta
+	umuarama = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+
+	#Kaiowa
+	ayvu_pora = { rank = town		town_setup = amazonian_small_town }
+	pai_tavytera = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	canindeyu = { rank = rural_settlement		town_setup = amazonian_small_settlement_2 }
+
 	#Aimore
-	#urucu = { rank = rural_settlement		town_setup = warrior_tribe_military_settlement }
-	#aimore = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
-	#malalis = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
-	#nanuque = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
-	#borun = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	urucu = { rank = rural_settlement		town_setup = amazonian_rural_forest }
+	aimore = { rank = town		town_setup = amazonian_small_town }
+	malalis = { rank = rural_settlement		town_setup = amazonian_rural_forest }
+	nanuque = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	borun = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
 
 	#Kiriri
-	#kariri = { rank = rural_settlement		town_setup = warrior_tribe_military_settlement }
-	#arakaiu = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
-	#karapoto = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
-	#kiriri = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
-	#yapuata = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	kariri = { rank = town		town_setup = amazonian_market_town }
+	arakaiu = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	karapoto = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	kiriri = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	yapuata = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
 
 	#Potiguara
-	#potiguara = { rank = rural_settlement		town_setup = warrior_tribe_military_settlement }
-	#kaaysara = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
-	#paraiba = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
-	#monxoro = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
-	#payaku = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	potiguara = { rank = town		town_setup = amazonian_market_town }
+	kaaysara = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	paraiba = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	monxoro = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
+	payaku = { rank = rural_settlement		town_setup = warrior_tribe_rural_settlement }
 
 }

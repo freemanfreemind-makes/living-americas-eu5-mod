@@ -111,13 +111,16 @@ sm_algyax = {
 	define_pop = {	type = slaves	size = 0.750	culture = tlingit_culture	religion = dene_totemism }
 }
 nisga_a = {
-	define_pop = {	type = tribesmen	size = 2.500	culture = tsimshian_culture	religion = dene_totemism }
-	define_pop = {	type = peasants	size = 2.500	culture = tsimshian_culture	religion = dene_totemism }
+	define_pop = {	type = tribesmen	size = 1.000	culture = tsimshian_culture	religion = dene_totemism }
+	define_pop = {	type = peasants	size = 1.000	culture = tsimshian_culture	religion = dene_totemism }
 }
 gitxsanimaax = {
-	define_pop = {	type = peasants	size = 1.500	culture = tsimshian_culture	religion = dene_totemism }
-	define_pop = {	type = tribesmen	size =1.500	culture = tsimshian_culture	religion = dene_totemism }
-	define_pop = {	type = slaves	size = 0.750	culture = tsimshian_culture	religion = dene_totemism }
+	define_pop = {	type = nobles	size = 0.020	culture = tsimshian_culture	religion = dene_totemism }
+	define_pop = {	type = clergy	size = 0.050	culture = tsimshian_culture	religion = dene_totemism }
+	define_pop = {	type = burghers	size = 0.500	culture = tsimshian_culture	religion = dene_totemism }
+	define_pop = {	type = peasants	size = 3.250	culture = tsimshian_culture	religion = dene_totemism }
+	define_pop = {	type = tribesmen	size = 3.000	culture = tsimshian_culture	religion = dene_totemism }
+	define_pop = {	type = slaves	size = 0.750	culture = tlingit_culture	religion = dene_totemism }
 }
 kiis_gwaay = {
 	define_pop = {	type = nobles	size = 0.020	culture = haida_culture	religion = dene_totemism }
@@ -134,8 +137,12 @@ saanya = {
 	define_pop = {	type = peasants	size = 1.000	culture = tlingit_culture	religion = dene_totemism }
 }
 taant_a = {
-	define_pop = {	type = tribesmen	size = 1.000	culture = tlingit_culture	religion = dene_totemism }
-	define_pop = {	type = peasants	size = 1.000	culture = tlingit_culture	religion = dene_totemism }
+	define_pop = {	type = nobles	size = 0.020	culture = tlingit_culture	religion = dene_totemism }
+	define_pop = {	type = clergy	size = 0.050	culture = tlingit_culture	religion = dene_totemism }
+	define_pop = {	type = burghers	size = 0.500	culture = tlingit_culture	religion = dene_totemism }
+	define_pop = {	type = peasants	size = 2.250	culture = tlingit_culture	religion = dene_totemism }
+	define_pop = {	type = tribesmen	size = 2.000	culture = tlingit_culture	religion = dene_totemism }
+	define_pop = {	type = slaves	size = 0.500	culture = haisla_culture	religion = dene_totemism }
 }
 shtax_heen = {
 	define_pop = {	type = tribesmen	size = 0.800	culture = tlingit_culture	religion = dene_totemism }
@@ -158,12 +165,8 @@ t_aaku = {
 	define_pop = {	type = peasants	size = 1.000	culture = tlingit_culture	religion = dene_totemism }
 }
 jilkaat = {
-	define_pop = {	type = nobles	size = 0.020	culture = tlingit_culture	religion = dene_totemism }
-	define_pop = {	type = clergy	size = 0.050	culture = tlingit_culture	religion = dene_totemism }
-	define_pop = {	type = burghers	size = 0.500	culture = tlingit_culture	religion = dene_totemism }
-	define_pop = {	type = peasants	size = 2.250	culture = tlingit_culture	religion = dene_totemism }
-	define_pop = {	type = tribesmen	size = 2.000	culture = tlingit_culture	religion = dene_totemism }
-	define_pop = {	type = slaves	size = 0.500	culture = haisla_culture	religion = dene_totemism }
+	define_pop = {	type = tribesmen	size = 1.000	culture = tlingit_culture	religion = dene_totemism }
+	define_pop = {	type = peasants	size = 1.000	culture = tlingit_culture	religion = dene_totemism }
 }
 aa_kw = {
 	define_pop = {	type = tribesmen	size = 0.800	culture = tlingit_culture	religion = dene_totemism }
