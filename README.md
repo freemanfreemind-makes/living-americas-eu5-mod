@@ -27,8 +27,3 @@ Features:
 Requires a semi-decent CPU to handle the extra factions.
 
 *ZERO AI is used in the creation of this or any of my mods. This is not an indictment, but a personal preference for this project; please respect this in any submissions made.*
-
-Development notes:
-V1.10 Developed using
-- EU5 version: 1.4.9,
-- OS version: Fedora Linux 45 (KDE workstation edition)
