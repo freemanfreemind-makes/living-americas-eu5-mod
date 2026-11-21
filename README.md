@@ -33,5 +33,5 @@ V1.9 Developed using
 - EU5 version: 1.4.5,
 - OS version: Fedora Linux 44 (KDE workstation edition)
 
-ZERO AI is used in the creation of this or any of my mods. 
-- This is not an indictment, but a personal preference for this project; please respect this in any submissions made.
+*ZERO AI is used in the creation of this or any of my mods.* 
+- *This is not an indictment, but a personal preference for this project; please respect this in any submissions made.*
