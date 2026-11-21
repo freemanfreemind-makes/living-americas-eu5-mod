@@ -5,11 +5,14 @@
 
 # Factions removed & files found in: ***line numbers of removed sections current to EU5 v1.4.9
 
-# Lines 43455 to 49063 removed from 00_countries.txt P'urhipecherio/TAR to Quitor/QTR for Living Americas mod - see livam_countries.txt
-# Lines 53206 to 53544 removed from 00_countries.txt Taontaenrat/TRT to Mississage/MSG for Living Americas mod - see livam_countries.txt
-# Lines 55879 to 58180 removed from 00_countries.txt Kuikuro/KUI to Onghniaahra/ONG for Living Americas mod - see livam_countries.txt
-# Lines 61388 to 62734 removed from 00_countries.txt Caddo/CAD to Charrua/CUA for Living Americas & Pacific Coast Nations mod - Kalapuya/KLP to Tlingit/TLG for pcn - see livam_countries.txt & pcn_countries.txt
+# Pacific Coast Nations
+	# Lines 61989 to 62291 removed from 00_countries.txt Kalapuya/KLP to Tlingit/TLG for Pacific Coast Nations mod - see pcn_countries.txt
 
+# Living Americas
+	# Lines 43455 to 49063 removed from 00_countries.txt P'urhipecherio/TAR to Quitor/QTR for Living Americas mod - see livam_countries.txt
+	# Lines 53206 to 53544 removed from 00_countries.txt Taontaenrat/TRT to Mississage/MSG for Living Americas mod - see livam_countries.txt
+	# Lines 55879 to 58180 removed from 00_countries.txt Kuikuro/KUI to Onghniaahra/ONG for Living Americas mod - see livam_countries.txt
+	# Lines 61388 to 62734 removed from 00_countries.txt Caddo/CAD to Charrua/CUA for Living Americas & Pacific Coast Nations mod - Kalapuya/KLP to Tlingit/TLG for pcn - see livam_countries.txt & pcn_countries.txt
 
 # 10_countries line numbers as of EU5 v1.3 ***may vary depending on update, but should be right area***
 #Region          Start   End
