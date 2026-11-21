@@ -2,9 +2,6 @@ Living Americas - a mod for Europa Universalis 5
 
 Steam Workshop Page: https://steamcommunity.com/sharedfiles/filedetails/?id=3735276532
 
-*ZERO AI is used in the creation of this or any of my mods.* 
-- *This is not an indictment, but a personal preference for this project; please respect this in any submissions made.*
-
 Fills out the new world with many historic nations, and when documentation doesn't exist plausible culture based nations, to both 
 - prevent colonising nations from ahistorically conquering the entirety of the continents 200 years in &
 - provide a challenge for players of both European and American factions.
@@ -29,7 +26,7 @@ Features:
 
 Requires a semi-decent CPU to handle the extra factions.
 
-As I've referenced and been inspired by so much he's had to say, check out Malcolm P.L. on youtube - he's an iroquios historian and experimental archeologist with a lot of amazing insights into the peoples of the eastern great lakes specific to this time period. It doesn't feel fair not to give credit to him: https://www.youtube.com/@MalcolmPL
+*ZERO AI is used in the creation of this or any of my mods. This is not an indictment, but a personal preference for this project; please respect this in any submissions made.*
 
 Development notes:
 V1.10 Developed using
