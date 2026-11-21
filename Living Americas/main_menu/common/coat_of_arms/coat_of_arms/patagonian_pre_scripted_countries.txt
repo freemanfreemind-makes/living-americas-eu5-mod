@@ -1,4 +1,4 @@
-MPC = { # Mapuche - Lautaro flag inspired (arranged to work in a 3:2 canvas)
+MPC0 = { # Mapuche - Lautaro flag inspired (arranged to work in a 3:2 canvas)
 	pattern = "pattern_solid.dds"
 	color1 = hsv360 	{	356 	70	60	} 
 	color2 = "black_secondary"
@@ -19,7 +19,7 @@ MPC = { # Mapuche - Lautaro flag inspired (arranged to work in a 3:2 canvas)
 		instance = { position = { 0.05 0.5 } scale = { 0.11 0.085 } }						
 	}	
 }
-MPC_Kultrun = { # Mapuche
+MPC0_Kultrun = { # Mapuche
 	pattern = "pattern_solid.dds"
 	color1 = hsv360 	{	185		42		42	} 
 	color2 = hsv360 	{	35		5		94	}
@@ -35,7 +35,7 @@ MPC_Kultrun = { # Mapuche
 	}	
 }
 
-MPC_reformed = { # Mapuche
+MPC0_reformed = { # Mapuche
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
 	color2 = "white"
@@ -47,7 +47,7 @@ MPC_reformed = { # Mapuche
 	}	
 }
 
-KWS_FLAG = { # Kawesqar
+KWS1_FLAG = { # Kawesqar
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
 
@@ -57,7 +57,7 @@ KWS_FLAG = { # Kawesqar
 	}	
 }
 
-AOI_FLAG = { # Aonikenk
+AOI0_FLAG = { # Aonikenk
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
 
@@ -67,7 +67,7 @@ AOI_FLAG = { # Aonikenk
 	}	
 }
 
-SEK_FLAG = { # Selknam
+SEK0_FLAG = { # Selknam
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
 
@@ -77,7 +77,7 @@ SEK_FLAG = { # Selknam
 	}	
 }
 
-YGH_FLAG = { # Yaghan
+YGH0_FLAG = { # Yaghan
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
 
@@ -87,7 +87,7 @@ YGH_FLAG = { # Yaghan
 	}	
 }
 
-GKN_FLAG = { # gununa Kune
+GKN0_FLAG = { # gununa Kune
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
 
@@ -97,7 +97,7 @@ GKN_FLAG = { # gununa Kune
 	}	
 }
 
-GKN_FLAG = { # gununa Kune
+GKN0_FLAG = { # gununa Kune
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
 
@@ -107,7 +107,7 @@ GKN_FLAG = { # gununa Kune
 	}	
 }
 
-PIK_FLAG = { # Pikumche
+PIK0_FLAG = { # Pikumche
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
 
@@ -117,7 +117,7 @@ PIK_FLAG = { # Pikumche
 	}	
 }
 
-PHS_FLAG = { # Pehuenche
+PHS0_FLAG = { # Pehuenche
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
 
@@ -127,7 +127,7 @@ PHS_FLAG = { # Pehuenche
 	}	
 }
 
-WLE_FLAG = { # Williche
+WLE0_FLAG = { # Williche
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
 
@@ -137,7 +137,7 @@ WLE_FLAG = { # Williche
 	}	
 }
 
-CGS_FLAG = { # Changos
+CGS0_FLAG = { # Changos
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
 
@@ -147,7 +147,7 @@ CGS_FLAG = { # Changos
 	}	
 }
 
-RPN_FLAG = { # Rapa nui
+RPN0_FLAG = { # Rapa nui
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
 
@@ -157,7 +157,7 @@ RPN_FLAG = { # Rapa nui
 	}	
 }
 
-WUA_FLAG = { # Wuarpe
+WUA0_FLAG = { # Wuarpe
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
 
@@ -167,7 +167,7 @@ WUA_FLAG = { # Wuarpe
 	}	
 }
 
-HET_FLAG = { # HET
+HET0_FLAG = { # HET
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
 
@@ -178,7 +178,7 @@ HET_FLAG = { # HET
 }
 
 
-POY_FLAG = { # Poyas
+POY0_FLAG = { # Poyas
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
 
@@ -188,7 +188,7 @@ POY_FLAG = { # Poyas
 	}	
 }
 
-CUN_FLAG = { # Cuncos
+CUN0_FLAG = { # Cuncos
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
 
@@ -198,7 +198,7 @@ CUN_FLAG = { # Cuncos
 	}	
 }
 
-COS_FLAG = { # Chonos
+COS0_FLAG = { # Chonos
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
 

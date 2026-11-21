@@ -1,6 +1,3 @@
-discovered_regions = {
-}
-
 discovered_areas = {
 	illinois_area
 	wisconsin_area
@@ -11,8 +8,4 @@ discovered_areas = {
 	iowa_area
 	arkansas_area
 	central_plains_area
-}
-
-discovered_provinces = {
-
 }

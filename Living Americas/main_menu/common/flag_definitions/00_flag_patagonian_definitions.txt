@@ -1,12 +1,12 @@
-﻿MPC = { # Mapuche
+﻿MPC0 = { # Mapuche
 	flag_definition = {
-		coa = MPC
+		coa = MPC0
 		priority = 1
 		
 		}
 		
 		flag_definition = {
-		coa = MPC_reformed
+		coa = MPC0_reformed
 		priority = 2
 		trigger = {
 			coa_def_republic_trigger = yes
@@ -15,7 +15,7 @@
 	}	
 	
 	flag_definition = {
-		coa = MPC_reformed
+		coa = MPC0_reformed
 		priority = 2
 		trigger = {
 			coa_def_monarchy_trigger = yes
@@ -24,7 +24,7 @@
 	}	
 	
 	flag_definition = {
-		coa = MPC_reformed
+		coa = MPC0_reformed
 		priority = 2
 		trigger = {
 			coa_def_theocracy_trigger = yes
@@ -33,107 +33,107 @@
 	}	
 }
 
-KWS = { # kawesqar
+KWS1 = { # kawesqar
 	flag_definition = {
-		coa = KWS_FLAG
+		coa = KWS0_FLAG
 		priority = 10001
 	}	
 }
 
-POY = { # Poyas
+POY0 = { # Poyas
 	flag_definition = {
-		coa = POY_FLAG
+		coa = POY0_FLAG
 		priority = 10001
 	}	
 }
 
-COS = { # Chonos
+COS0 = { # Chonos
 	flag_definition = {
-		coa = COS_FLAG
+		coa = COS0_FLAG
 		priority = 10001
 	}	
 }
 
-WUA = { # Wuarpes
+WUA0 = { # Wuarpes
 	flag_definition = {
-		coa = WUA_FLAG
+		coa = WUA0_FLAG
 		priority = 10001
 	}	
 }
 
-CUN = { # Cuncos
+CUN0 = { # Cuncos
 	flag_definition = {
-		coa = CUN_FLAG
+		coa = CUN0_FLAG
 		priority = 10001
 	}	
 }
 
-HET = { # Het
+HET0 = { # Het
 	flag_definition = {
-		coa = HET_FLAG
+		coa = HET0_FLAG
 		priority = 10001
 	}	
 }
 
-AOI = { # Aonikenk
+AOI0 = { # Aonikenk
 	flag_definition = {
-		coa = AOI_FLAG
+		coa = AOI0_FLAG
 		priority = 10001
 	}	
 }
 
-SEK = { # Selknam
+SEK0 = { # Selknam
 	flag_definition = {
-		coa = SEK_FLAG
+		coa = SEK0_FLAG
 		priority = 10001
 	}	
 }
 
-YGH = { # Yaghan
+YGH0 = { # Yaghan
 	flag_definition = {
-		coa = YGH_FLAG
+		coa = YGH0_FLAG
 		priority = 10001
 	}	
 }
 
-GKN = { # Gunnuna
+GKN0 = { # Gunnuna
 	flag_definition = {
-		coa = GKN_FLAG
+		coa = GKN0_FLAG
 		priority = 10001
 	}	
 }
 
-PIK = { # Pikumche
+PIK0 = { # Pikumche
 	flag_definition = {
-		coa = PIK_FLAG
+		coa = PIK0_FLAG
 		priority = 10001
 	}	
 }
 
-PHS = { # Pehuenches
+PHS0 = { # Pehuenches
 	flag_definition = {
-		coa = PHS_FLAG
+		coa = PHS0_FLAG
 		priority = 10001
 	}	
 }
 
-WLE = { # Williches
+WLE0 = { # Williches
 	flag_definition = {
-		coa = WLE_FLAG
+		coa = WLE0_FLAG
 		priority = 10001
 	}	
 }
 
-CGS = { # Changos
+CGS0 = { # Changos
 	flag_definition = {
-		coa = CGS_FLAG
+		coa = CGS0_FLAG
 		priority = 10001
 	}	
 }
 
-RPN = { # Rapa nui
+RPN0 = { # Rapa nui
 	flag_definition = {
-		coa = RPN_FLAG
+		coa = RPN0_FLAG
 		priority = 10001
 	}	
 }

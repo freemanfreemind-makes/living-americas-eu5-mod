@@ -1,3 +1,56 @@
+########################### 10_countries Legend ###############################################
+
+# When a new patch modifies original 10_countries.txt, create a copy in a new file and remove the four chunks of factions listed below. Copy the below headers and paste to the removed sections, edit line numbers as needed. Setting bookmarks to these is a good idea in your editor of choice. Copy and paste this info at the top of the new file after the change is made. Make sure to compare base game factions included in livam_countries and pcn_countries with the new changes and update as needed to include relevant updates and prevent game breaking bugs.
+
+
+# Factions removed & files found in: ***line numbers of removed sections current to EU5 v1.4.9
+
+# Pacific Coast Nations
+	# Lines 61989 to 62291 removed from 00_countries.txt Kalapuya/KLP to Tlingit/TLG for Pacific Coast Nations mod - see pcn_countries.txt
+
+# Living Americas
+	# Lines 43455 to 49063 removed from 00_countries.txt P'urhipecherio/TAR to Quitor/QTR for Living Americas mod - see livam_countries.txt
+	# Lines 53206 to 53544 removed from 00_countries.txt Taontaenrat/TRT to Mississage/MSG for Living Americas mod - see livam_countries.txt
+	# Lines 55879 to 58180 removed from 00_countries.txt Kuikuro/KUI to Onghniaahra/ONG for Living Americas mod - see livam_countries.txt
+	# Lines 61388 to 62734 removed from 00_countries.txt Caddo/CAD to Charrua/CUA for Living Americas & Pacific Coast Nations mod - Kalapuya/KLP to Tlingit/TLG for pcn - see livam_countries.txt & pcn_countries.txt
+
+# 10_countries line numbers as of EU5 v1.3 ***may vary depending on update, but should be right area***
+#Region          Start   End
+#mesoamerica     41951   45283
+#aridoamerica    45284   45860
+#columbia        45861   46283
+#andes           46284   47543
+#----------------
+#tibet           47544   49728
+#SE asia         49729   51109
+#bengal          51110   51686
+#----------------
+#canada          51687   52026	# Canada - Taontaenrat TRT to Mississage MSG
+#----------------
+#indonesia       52027   53900
+#central africa  53901   54276
+#----------------
+#brazil          54277   54580
+#great lakes     54582   56587   haudenausaunee 55403 - 55408
+#----------------
+#persia          56588   58295
+#caucasus        58296   59786
+#---------------
+#mississippi     59787   60392	# Lower Mississippi, Gulf Coast, & East Coast Nations - Coosa COO to Onghniaahra ONG
+#pacific coast   60393   60755   #part of pacific coast nations mod
+#pacific int.    60755   60803   #part of american southwest
+#gulf coast      60804   60853   added ishak and others
+#east plains     60854   60949   added Lakota & Nakoda
+#e. coast NA     60950   61145   added Mi'kmaq
+#----------------
+#chaco           61146   61170
+#chile           61171   61215
+#----------------
+#s. africa       61216   61527
+#oceania         61527   61927
+
+############################### Factions Start Here #############################################
+
 current_age = age_1_traditions
 
 # own_control_core
@@ -11,77 +64,6 @@ current_age = age_1_traditions
 # control_core
 # control
 # our_cores_conquered_by_others
-
-#10_countries Legend
-
-# Factions removed & files found in:
-
-# pcn_countries.txt
-		# Pacific Northwest - Kalapuya KLP to Tlingit TLG*
-	# New Pacific Coast Nations Countries - Saanich WSN to Kaviag KVG
-
-# eastna_countries.txt
-		# Canada - Taontaenrat TRT to Mississage MSG*
-		# Lower Mississippi, Gulf Coast, & East Coast Nations - Coosa COO to Onghniaahra ONG*
-		# Mississippian Nations - Caddo CAD to Tula Caddoan TUA*
-		# great plains - Hinono'eino HNO to Wahpetunwan WPW*
-		# east coast - Mi'kmaq MIK to Kichesipirini KSP*
-	# New Living Americas Countries - Ilnu ILN to Lepai Ndé LPN
-
-# aridoamerica_countries.txt
-        # Aridoamerica - Acaxee ACX to K'itaish KIH*
-        # Southwest American Nations - Hisatsinom HTS to Tawakoni TWK*
-    # New Living Americas Countries - Coahuilteco COH to Tokonohono COH6
-
-# mesoam_countries.txt
-		# Mesoamerica - P'urhipecherio TAR to Toquegua TOQ*
-		# Central America - Kuskatan KUS to Cabecar CBC*
-
-# southam_countries.txt
-		# Colombia - Tairona TAI to Kalinago KGN*
-		# Andes - Quito QTO to Quitor QTR*
-		# Brazil - Kuikuro KUI to Potiguara POT*
-		# Chaco & La Plata - Moxo MOX to Charrua CUA*
-	# From patagonia expanded mod - Pehuenches PHS to Rapa Nui RPN
-
-
-# 10_countries Legend - line numbers may vary depending on update
-
-#Region          Start   End
-#mesoamerica     41951   45283
-#aridoamerica    45284   45860
-#columbia        45861   46283
-#andes           46284   47543
-#----------------
-#tibet           47544   49728
-#SE asia         49729   51109
-#bengal          51110   51686
-#----------------
-#canada          51687   52026
-#----------------
-#indonesia       52027   53900
-#central africa  53901   54276
-#----------------
-#brazil          54277   54580
-#great lakes     54582   56587   haudenausaunee 55403 - 55408
-#----------------
-#persia          56588   58295
-#caucasus        58296   59786
-#---------------
-#mississippi      59787   60392
-#pacific coast   60393   60755   #part of pacific coast nations mod
-#pacific int.    60755   60803   #part of american southwest
-#gulf coast      60804   60853   added ishak and others
-#east plains     60854   60949   added Lakota & Nakoda
-#e. coast NA     60950   61145   added Mi'kmaq
-#----------------
-#chaco           61146   61170
-#chile           61171   61215
-#----------------
-#s. africa       61216   61527
-#oceania         61527   61927
-
-
 
 countries = {
 	countries = {
@@ -249,7 +231,7 @@ countries = {
 
 			# own_control_integrated, but culture accepted
 			tallinn narva padise rakvere rapla toolse vasknarva
-
+			
 			#still owned in skane
 			laholm asbo
 		}
@@ -258,7 +240,7 @@ countries = {
 		our_cores_conquered_by_others = {
 			varberg halmstad kungsbacka
 			ronneby bregne solvesborg
-			gladsax osby
+			gladsax osby 
 			helsingborg lund malmo
 		}
 
@@ -368,13 +350,13 @@ countries = {
 		tolerated_cultures = {
 			estonian
 		}
-
+		
 		# severly in debt, and a regency and such..
 		currency_data = {
 			gold = -500
 			government_power = 30
 		}
-
+		
 	}
 
 	SKE = {
@@ -384,7 +366,7 @@ countries = {
 			gladsax osby
 			helsingborg lund malmo
 		}
-
+		
 		our_cores_conquered_by_others = {
 			laholm asbo
 		}
@@ -436,26 +418,26 @@ countries = {
 			bergen fana kvinnherad ullensvang moster eidfjord nordhordland eid stryn sunnfjord sogndal aurland voss vik laerdal
 			vardal lillehammer valdres otta alvdal imsdalen hedmarksvidda
 			hamar kongsvinger elverum glommadal trysil amot tynset
-			troms trondenes senja bardodalen
+			troms trondenes senja bardodalen 
 			bodo birndal alstahaug gildeskal steigen langenes lofotr hamaroy ofoti
 			raisa porsanger hammerfest vardo
 
 			# Northern Isles
-			#shetland orkney
+			#shetland orkney 
 			torshavn
 		}
-
+		
 		own_control_integrated = {
 			varanger  alta
 			 deatnu   lebesby
 			kirkenes
-
+			  
 		}
 
 		accepted_cultures = {
 			norn_culture
 		}
-
+		
 		capital = oslo
 
 		country_rank = rank_kingdom
@@ -777,11 +759,11 @@ countries = {
 			ragnit tilsit mergentheim gumbinnen barten wegorzewo
 			gerdauen insterburg wehlau
 			labiau memel windenburg
-			elk nibork ryn_poland szczytno
+			elk nibork ryn_poland szczytno 
 			malbork
 			konigsberg brandenburg_prussia
 		}
-
+		
 		own_control_conquered = {
 			#Chełmno Land
 			brodnica grudziadz torun
@@ -856,7 +838,7 @@ countries = {
 	LIV = { #Livonian Order
 		own_control_core = {
 		}
-
+		
 		own_control_integrated = {
 			parnu  valmiera viljandi kaina valjala
 			karksi poltsamaa  kandava dobele bauska sigulda cesis aluksne
@@ -865,7 +847,7 @@ countries = {
 			paide
 			ventspils grobina kuldiga durbe
 		}
-
+		
 		include = "catholic_military_order"
 		include = "expl_northern_europe"
 
@@ -1292,7 +1274,7 @@ countries = {
 				character = bra_otto_iii_askanier start_date = 1266.6.3 end_date = 1267.10.9 regnal_number = 3
 				character = bra_johann_ii_askanier start_date = 1266.6.3 end_date = 1267.10.9 regnal_number = 2
 				character = bra_otto_iv_askanier start_date = 1266.6.3 end_date = 1267.10.9 regnal_number = 4
-				character = bra_konrad_i_askanier start_date = 1266.6.3 end_date = 1267.10.9 regnal_number = 1
+				character = bra_konrad_i_askanier start_date = 1266.6.3 end_date = 1267.10.9 regnal_number = 1 
 			}
 
 			ruler_term = {
@@ -1853,7 +1835,7 @@ countries = {
 			ruler_term = {	character = dan_canute_henriksen start_date = 1157.1.1 end_date = 1162.3.12 regnal_number = 2 }
 			ruler_term = {	character = dan_boris_henriksen start_date = 1162.3.12 end_date = 1167.1.1 regnal_number = 1 }
 			ruler_term = {	character = dan_christopher_valdemarsen start_date = 1167.1.1 end_date = 1173.6.15 regnal_number = 1 }
-
+			
 			ruler_term = { character = dan_valdemar_ii start_date = 1173.6.15 end_date = 1209.1.1 regnal_number = 2 }
 			ruler_term = {
 				character = dan_valdemar_ii start_date = 1209.1.1 end_date = 1218.1.1 regnal_number = 2
@@ -1922,7 +1904,7 @@ countries = {
 			ruler_term = { character = boh_rudolf_habsburg start_date = 1306.8.4 end_date = 1307.7.3 regnal_number = 1 }
 			ruler_term = { character = tir_henry_gorizia start_date = 1307.7.3 end_date = 1310.8.31 regnal_number = 1 }
 			ruler_term = { character = boh_john_luxembourg start_date = 1310.8.31 regnal_number = 1 }
-
+			
 			regnal_numbers = {
 				name_odoacer = 2
 				name_wenceslas = 3
@@ -2127,11 +2109,11 @@ countries = {
 			ruler_term = { character = kie_iziaslav_rurikovich start_date = 1052.10.4 end_date = 1054.2.20 regnal_number = 1 }
 			ruler_term = { character = nov_mstislav_izyaslavich_rurikovich start_date = 1054.2.20 end_date = 1069.1.1 regnal_number = 1 }
 			ruler_term = { character = kie_sviatopolk_ii_rurikovich start_date = 1078.5.30 end_date = 1087.11.22 regnal_number = 2 }
-
+			
 			#ruler_term = {	character = kie_rostislav_rurikovich start_date = 1154.1.1 end_date = 1154.1.1 regnal_number = 1	}
 			#ruler_term = { character = nov_svyatoslav_iii_vsevolodovich_rurikovich start_date = 1200.1.1 end_date = 1205.1.1 regnal_number = 1 }
 			#ruler_term = { character = nov_konstantin_vsevolodovich_rurikovich start_date = 1205.1.1 end_date = 1208.1.1 regnal_number = 1 }
-
+			
 			#ruler_term = { character = kie_mikhail_ii_vsevolodovich_rurikovich start_date = 1224.1.1 end_date = 1225.1.1  regnal_number = 1 }
 
 			#ruler_term = { character = psk_aleksandr_mikhailovich_rurikovich start_date = 1325.1.1 end_date = 1327.1.1 regnal_number = 1 }
@@ -2250,7 +2232,7 @@ countries = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 			ruler = blo_roman_mikhailovich_rurikovich
-
+			
 			ruler_term = { character = rso_gleb_vasilkovich_rurikovich start_date = 1238.1.1 end_date = 1278.12.13 regnal_number = 1 }
 			ruler_term = { character = blo_mikhail_glebovich_rurikovich start_date = 1278.12.13 end_date = 1279.1.1 regnal_number = 1 }
 			ruler_term = { character = rso_dmitry_borisovich_rurikovich start_date = 1279.1.1 end_date = 1286.1.1 regnal_number = 1 }
@@ -2317,11 +2299,11 @@ countries = {
 			start_regency_date = 1331.1.1
 			end_regency_date = 1346.1.1
 			heir = rso_andrei_fedorovich_rostovsky_rurikovich
-
+			
 			ruler_term = { character = kie_yaroslav_the_wise_rurikovich start_date = 978.1.1 end_date = 1010.1.1 regnal_number = 1 }
 			ruler_term = { character = rso_boris_vladimirovich_rurikovich start_date = 1010.1.1 end_date = 1015.1.1 regnal_number = 1 }
 			ruler_term = { character = vol_rostislav_vladimirovich_rurikovich start_date = 1052.10.4 end_date = 1056.1.1 regnal_number = 1 }
-
+			
 			ruler_term = { character = nov_konstantin_vsevolodovich_rurikovich start_date = 1208.1.1 end_date = 1218.2.2 regnal_number = 1 }
 			ruler_term = { character = rso_vasilko_konstantinovich_rurikovich start_date = 1218.2.2 end_date = 1238.3.4 regnal_number = 1 }
 			ruler_term = { character = rso_boris_vasilkovich_rurikovich start_date = 1238.3.4 end_date = 1277.9.16 regnal_number = 1 }
@@ -2474,7 +2456,7 @@ countries = {
 		}
 
 		own_control_integrated = {
-			kologriv kunozh kuzhbal manturovo nikolo_dor pyshchug
+			kologriv kunozh kuzhbal manturovo nikolo_dor pyshchug 
 		}
 
 		starting_technology_level = 3
@@ -2654,7 +2636,7 @@ countries = {
 			chernihiv liubech horodnia snovsk
 			rechytsa streshyn
 			gomel chachersk dobrush tereshkovichy volosovichy
-			bakhmach sosnytsia nizhyn
+			bakhmach sosnytsia nizhyn 
 		}
 
 		starting_technology_level = 3
@@ -2665,7 +2647,7 @@ countries = {
 			heir_selection = cognatic_primogeniture
 			ruler = bry_gleb_svyatoslavich_rurikovich
 
-
+			
 			ruler_term = { character = mrm_yaroslav_svyatoslavich_rurikovich start_date = 1123.1.1 end_date = 1127.1.1  regnal_number = 1 }
 
 			ruler_term = { character = kie_mikhail_ii_vsevolodovich_rurikovich start_date = 1223.1.1 end_date = 1246.1.1  regnal_number = 1 }
@@ -3106,7 +3088,7 @@ countries = {
 	#Principality of Murom
 	MRM = {
 		own_control_core = {
-			murom gorbatovo melenki tuma starodub_votsky shatur
+			murom gorbatovo melenki tuma starodub_votsky shatur 
 		}
 
 		own_control_integrated = {
@@ -3256,7 +3238,7 @@ countries = {
 	#Personal Union under Moscovy
 	VLR = {
 		own_control_core = {
-			vladimir moshok muromtsevo_murom osovets sudogda vlasovo yaropolch
+			vladimir moshok muromtsevo_murom osovets sudogda vlasovo yaropolch 
 		}
 
 		own_control_integrated = {
@@ -3269,9 +3251,9 @@ countries = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 			ruler = mos_ivan_i_danilovich_kalita_rurikovich
-
+			
 			#ruler_term = {	character = kie_vsevolod_iii_rurikovich start_date = 1176.6.20 end_date = 1212.4.15 regnal_number = 1	}
-			#ruler_term = { character = nov_konstantin_vsevolodovich_rurikovich start_date = 1216.1.1 end_date = 1218.1.1 regnal_number = 1 }
+			#ruler_term = { character = nov_konstantin_vsevolodovich_rurikovich start_date = 1216.1.1 end_date = 1218.1.1 regnal_number = 1 }	
 			#ruler_term = { character = nov_svyatoslav_iii_vsevolodovich_rurikovich start_date = 1246.1.1 end_date = 1248.1.1 regnal_number = 1 }
 			#ruler_term = { character = vlr_andrey_yaroslavich_rurikovich start_date = 1248.1.1 end_date = 1252.1.1 regnal_number = 1 }
 			#ruler_term = { character = kie_alexander_nevsky_rurikovich start_date = 1252.1.1 end_date = 1263.1.1 regnal_number = 1 }
@@ -3394,7 +3376,7 @@ countries = {
 			ruler_term = {	 character = psk_aleksandr_mikhailovich_rurikovich start_date = 1327.1.1 end_date = 1330.1.1 regnal_number = 1	}
 
 			ruler_term = {	 character = psk_aleksandr_mikhailovich_rurikovich start_date = 1331.1.1 regnal_number = 1	}
-
+		
 			centralization_vs_decentralization = 65
 			aristocracy_vs_plutocracy = 30
 			serfdom_vs_free_subjects = -20
@@ -3468,7 +3450,7 @@ countries = {
 			vyatka ust_cheptsa suna verkhoshizhemye orlov belozerye slobodskoy
 			oparino obyachevo lalsk vokhma
 			podosinovets omutninsk kholunitsky kobra nagorsk
-			nikolsky koksharov bolshaya_yakshanga
+			nikolsky koksharov bolshaya_yakshanga 
 		}
 
 		starting_technology_level = 3
@@ -3482,7 +3464,7 @@ countries = {
 				parliament_type = estate_parliament
 			}
 			ruler = random
-
+			
 			centralization_vs_decentralization = 65
 			aristocracy_vs_plutocracy = 30
 			serfdom_vs_free_subjects = -20
@@ -3547,16 +3529,16 @@ countries = {
 	PRM = {
 		own_control_core = {
 			cherdyn nyrob ust_kulom lupya chernaya troitsko_pechorsk vukyl ukhta kortkeros ust_vym zheshart
-			ust_sysola vizinga koygorodok kirs afanasyevo siva karagay nytva perm kungur
+			ust_sysola vizinga koygorodok kirs afanasyevo siva karagay nytva perm kungur 
 			beryozovka lysva kizel gubakha dobryanka solikamsk
-			usolye yusva chyormoz kudymkar kelich kosa_perm gayny
+			usolye yusva chyormoz kudymkar kelich kosa_perm gayny 
 			ochyor okhannoye chastye debyosy stepanenki
-			igra dondykar yakshur_bodya votkings sarapul mozhga izhevsk vavozh_mozhga
-			stelty falenki uni
+			igra dondykar yakshur_bodya votkings sarapul mozhga izhevsk vavozh_mozhga 
+			stelty falenki uni 
 		}
 
 		own_control_integrated = {
-			aspa suksun ust_kishert orda kasevo yanaul tatyshly saygatsky yelovo osa
+			aspa suksun ust_kishert orda kasevo yanaul tatyshly saygatsky yelovo osa 
 			yelabuga vyatskiye_polyany kilmez ural_nema
 		}
 
@@ -4005,7 +3987,7 @@ countries = {
 
 		add_pops_from_locations = {
 			gebergeyel khaiylmysh khaqmar shikashin yuldibay namjan atach ishkul kumak suyunduk tanalyk yaik meleuz
-			tabynsky ishimbay kapova_pesera zhetykol shoptikol kartaly uyskoye
+			tabynsky ishimbay kapova_pesera zhetykol shoptikol kartaly uyskoye 
 			bolshoy_ik ust_katav mesyagutovo zlatoust
 		}
 
@@ -4090,32 +4072,32 @@ countries = {
 			sighnaq asanas barchkend jand kamyskala sozak aksumbe gulshara kyzylkorgan ran tasty
 		}
 		own_control_integrated = {
-			usivka petrove kodak myshuryn_rih samarchyk pavlohrad oril ternivka adalaga berestyn
-			karlivka izium barvinkove donets_kharkiv zmiiv chuhuiv vovchansk nyzhnia_duvanka
-			bol_shaya_martynovka cheplak bolshoy_gashun dubovskoye ust_tsimla konstantinovsk
-			tatsinskaya tormosin kremenskaya kletskaya ust_medveditskaya nizhny_chir anna_russia
-			novaya_pokrovka semidesyatnoye zemlyansk rossosh borisoglebsk bannoye sadovoye
-			bolshaya_gribanovka buturlinovka verkhny_mamon zimnyatsky malodelskaya ilovlya
-			atkarsk lysye_gory yekaterinovka balanda rtishchevo balashov turki arkadak
-			sosnovy_ostrov malykovka novye_burasy tereshka petrovsk mechet stepanevka
-			sarai_al_jadid beljamen zenzevatka nagavskaya aksay rudnya_pontic danilovka
-			kotovo kamyshin goly_karamysh pologoye_zaymishche srednyaya_akhtuba bykovo
+			usivka petrove kodak myshuryn_rih samarchyk pavlohrad oril ternivka adalaga berestyn 
+			karlivka izium barvinkove donets_kharkiv zmiiv chuhuiv vovchansk nyzhnia_duvanka 
+			bol_shaya_martynovka cheplak bolshoy_gashun dubovskoye ust_tsimla konstantinovsk 
+			tatsinskaya tormosin kremenskaya kletskaya ust_medveditskaya nizhny_chir anna_russia 
+			novaya_pokrovka semidesyatnoye zemlyansk rossosh borisoglebsk bannoye sadovoye 
+			bolshaya_gribanovka buturlinovka verkhny_mamon zimnyatsky malodelskaya ilovlya 
+			atkarsk lysye_gory yekaterinovka balanda rtishchevo balashov turki arkadak 
+			sosnovy_ostrov malykovka novye_burasy tereshka petrovsk mechet stepanevka 
+			sarai_al_jadid beljamen zenzevatka nagavskaya aksay rudnya_pontic danilovka 
+			kotovo kamyshin goly_karamysh pologoye_zaymishche srednyaya_akhtuba bykovo 
 			elton zolotari berezhnovka kalmyk karatobe shyngyrlau aksay_pointic zhympity
-			terekti oral ryn saryadyn ushtagan sarayjuk kisikkamys kulagin talowski
-			astrakhan khosheutovo krasny_yar ganyushkino zamyany yenotayevka sapara
-			chernyye_zemli ikryanoye chyorny_yar nikolskoye_pontic malye_derbety
-			sadovoye_kalmykia ded_khulsun zavetnoye bolkhuny mikhaylovka_pontic
-			rechnoye bokey botkul zhanybek piterka krasny_kut_pontic mokrous
-			savinka rovnoye pokrovsk baronsk taskala dergachi chertanla alexandrov_gay
-			ozinki mechetnaya perelyub ivanteyevka balakovo dukhovnitskoye
-			sakminskoye_vodokhranilishche yershov dardeling mekletin kok_usn yashkul
-			iki_burul priyutnoye elista remontnoye gorodovikovsk raguli majar zelenokumsk arzgir levokumskoye
-			naurskaya kara_bazaar terekli_mekteb kurskaya kamysh_burun baytak ilek
-			kargaly_aktobe kobda irek tas_kichu kaynar shagiz tenteksor mavliberda
+			terekti oral ryn saryadyn ushtagan sarayjuk kisikkamys kulagin talowski 
+			astrakhan khosheutovo krasny_yar ganyushkino zamyany yenotayevka sapara 
+			chernyye_zemli ikryanoye chyorny_yar nikolskoye_pontic malye_derbety 
+			sadovoye_kalmykia ded_khulsun zavetnoye bolkhuny mikhaylovka_pontic 
+			rechnoye bokey botkul zhanybek piterka krasny_kut_pontic mokrous 
+			savinka rovnoye pokrovsk baronsk taskala dergachi chertanla alexandrov_gay 
+			ozinki mechetnaya perelyub ivanteyevka balakovo dukhovnitskoye 
+			sakminskoye_vodokhranilishche yershov dardeling mekletin kok_usn yashkul 
+			iki_burul priyutnoye elista remontnoye gorodovikovsk raguli majar zelenokumsk arzgir levokumskoye 
+			naurskaya kara_bazaar terekli_mekteb kurskaya kamysh_burun baytak ilek 
+			kargaly_aktobe kobda irek tas_kichu kaynar shagiz tenteksor mavliberda 
 			kiyl koptam uil emba atzhaksy shatyrlysay temir or_aktobe
 
 			orhei chilia cetatea_alba gura_galbenei sarata tighina chatyun kutarka sernur morki urzhum
-			lusta soldaia
+			lusta soldaia 
 			zainsk syun verkhneyarkeyevo
 			menzelinsk lower_aktanyshbash chalninsky_pochinok chekmagush chishmy
 			ulukulevo davlekanovo bizhbulyak turkmenevo sterlibashevo
@@ -4129,7 +4111,7 @@ countries = {
 			tarankol kyzylzhar presnowka staroye stanitsa_kokchetavskaya
 			shish muromtsevo ufa askino baltas
 			sartlan taskayevo kargat kainsky_pas kyshtovka
-			bursol kuchukskoye volchikha butyrskoe
+			bursol kuchukskoye volchikha butyrskoe 
 			krivoshchekovo kamen dovolnoye kozhevnikovo bolotnye
 			suzun berdsk chesnokovka kalmanka barnaul verkhotomsk kolchugino
 			mayma biysk
@@ -4139,14 +4121,14 @@ countries = {
 			alkhan_kala nazran dzhulat tatartup
 			promsa alatyr batyrevo
 			atrat altyshevo bolshoye_boldino shatki arzamas sarov lukoyanov krasnoslobodsk ruzayevka
-			insar temnikov tarbeevka zubova_polyana mokhcha nizhny_lomov zemetchino bondari
-			sergach chamzinka saransk lunino
+			insar temnikov tarbeevka zubova_polyana mokhcha nizhny_lomov zemetchino bondari 
+			sergach chamzinka saransk lunino 
 			pokrovskoye simbirsk cherdakly staraya_mayna melekess tetyushi sviyazhsk
 			atishchevo tsivilsk sharanga uren tonshayevo
 			bolshoye_murashkino kurmysh lyskovo perevoz sechenovo spasskoye_lyskovo
 			cheboksary kozmodemyansk alikovo vasilsursk pavlovo
 			vetluga semyonov khakhaly kovernino krasnye_baki raznezhye voskresenskoye varnavino
-			kadom ardatov
+			kadom ardatov 
 			ushkan koskuduk manysai shagan zhaksy_karasay
 			ketik_kala kabakty karatobe_mangyshlak kyzylkala
 			masat_ata beket_ata beki kenderli_kayasan koshkar_ata temir_baba
@@ -4155,23 +4137,23 @@ countries = {
 			vezir urgench
 			kazan laish calli mamadysh bogatye_saby oli_baraza dobyaz
 			yaransk kiknur kabachischi yoshkar_ola
-			bolghar cukataw bilyar almetyevsk
-			tabynsky ishimbay beloretsk
+			bolghar cukataw bilyar almetyevsk 
+			tabynsky ishimbay beloretsk 
 			buguruslan sergiyevsk
 			koshki kamyshla bolshoy_cheremshan staryi_amanak
 			samara shigony morkvash chebarkul miass
-			krasnaya_gorka belekes
+			krasnaya_gorka belekes 
 
 			ismail
 			tula_russia bogoroditsk arkhangelskoye kurkino donkov yelets talitsa_yelets gogol teshevka voronezh ukek
 			lipetsk usman mordovo zherdevka uvarovo kirsanov rasskazovo izberdey tambov ust_stanovykh_ryas
 			kozlov ust_livny terbuny kastornoye chernyanka alexeyevka opalkova
 			rovenki valuyki korocha belgorod rakitnoye muzhech sudzha oboyan
-			staroyuryevo morsha sasovo nikolskoye bazarny_syzgan karsun
+			staroyuryevo morsha sasovo nikolskoye bazarny_syzgan karsun 
 			mokshan chembar
 			serdobinskaya malaya_serdoba shemysheyka
 			penza gorodishche russky_kameshkir staraya_kulatka solovtsovo
-			troitskoye_kuroedovo
+			troitskoye_kuroedovo 
 			kasimov azeevo
 
 			meleuz kapova_pesera
@@ -4184,7 +4166,7 @@ countries = {
 			arykbalyk kak kokshetau shoindykol atbasar
 			kulykol zhetykol shoptikol siberia_tenteksor konildi
 			zharkol sasykkol kartaly alakol almenevo safkul shchuchye kargapolye kurtamysh
-			yetkul troitsk uyskoye
+			yetkul troitsk uyskoye 
 			bolshoy_ik ust_katav mesyagutovo zlatoust
 			chimgi_tura tugulym yalutorovsk shadrinsk
 			tsaryovo_gorodishche burayevo
@@ -4193,7 +4175,7 @@ countries = {
 			bratslav balta bershad drahushiv karabul savran
 			torhovytsia teplyk tsybuliv uman zavallia
 			vinnytsia buzhskyi pohrebyshche sokilets
-			armavir
+			armavir 
 
 			#Principality of Kursk
 			kursk fatezh kosozhichi olgov
@@ -4239,7 +4221,7 @@ countries = {
 		capital = sarai_al_jadid
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 		court_language = kipchak_language
 
 
@@ -4271,23 +4253,23 @@ countries = {
 	CRI = {
 		type = location
 		our_cores_conquered_by_others = {
-			qirq_yer qarasuvbazar seyitler solkhat kalay kezlev aqmecit jurchi or_qapi mapa susaco shanjir copa siba_circassia akhtar kalininskaya bryukhovetskaya
-			bzhedygu_kal ust_labinsk pavlovskaya tbilisskaya romanovsky_khutor qalancaq aslan_horod ordu_bazar rohat_kermen enice velyka_lepetykha hryshyne sloviansk
-			melitopol kyrylivka tokmak konski_vody kuchugur berdiansk taganrog velyka_novosilka domakha huliaipole shyrokyne vasylivka bakhmut lysychansk kreminna
-			oleksandrivka posad azok bagayevskaya shcherbinovka balzimachi kanevskaya starominskaya yegorlykskaya tana krasny_sulin shakhty rovenky kalmius
+			qirq_yer qarasuvbazar seyitler solkhat kalay kezlev aqmecit jurchi or_qapi mapa susaco shanjir copa siba_circassia akhtar kalininskaya bryukhovetskaya 
+			bzhedygu_kal ust_labinsk pavlovskaya tbilisskaya romanovsky_khutor qalancaq aslan_horod ordu_bazar rohat_kermen enice velyka_lepetykha hryshyne sloviansk 
+			melitopol kyrylivka tokmak konski_vody kuchugur berdiansk taganrog velyka_novosilka domakha huliaipole shyrokyne vasylivka bakhmut lysychansk kreminna 
+			oleksandrivka posad azok bagayevskaya shcherbinovka balzimachi kanevskaya starominskaya yegorlykskaya tana krasny_sulin shakhty rovenky kalmius 
 			kamenskaya semikarakorsk yundin gorodovikovsk raguli privolnoye belaya_glina peschanokopskoye novo_alexandrovskoye bezopasnoye ipatovo
 		}
-
+		
 		starting_technology_level = 3
 		include = "expl_mongols"
 		include = "eurasian_horde_not_present"
 		country_rank = rank_duchy
 
 		capital = tana
-
+		
 		religious_school = hanafi_school
-		government = {
-			mysticism_vs_jurisprudence = -15
+		government = { 
+			mysticism_vs_jurisprudence = -15 
 			laws = {
 				legal_code_law = sharia_law_policy
 				sharia_law = hanafi_policy
@@ -4300,22 +4282,22 @@ countries = {
 	NOG = {
 		type = location
 		our_cores_conquered_by_others = {
-			bokey zhanybek kalmyk karatobe shyngyrlau aksay_pointic zhympity terekti oral ryn ushtagan sarayjuk kisikkamys kulagin saryadyn talowski piterka
-			taskala dergachi chertanla alexandrov_gay ozinki sakminskoye_vodokhranilishche yershov baytak ilek kargaly_aktobe kobda irek ushkan koskuduk
-			manysai shagan zhaksy_karasay tas_kichu kaynar shagiz tenteksor mavliberda kiyl koptam uil emba atzhaksy shatyrlysay temir or_aktobe kath
-			khurgancha pulzhai qonirat shimbay xojeli khiva urgench kyat_kala nyzvar vezir masat_ata beket_ata beki kenderli_kayasan koshkar_ata temir_baba
-			ketik_kala kabakty karatobe_mangyshlak kyzylkala beleuli kyushe sam shuruk sisem_ata uchkuduk
+			bokey zhanybek kalmyk karatobe shyngyrlau aksay_pointic zhympity terekti oral ryn ushtagan sarayjuk kisikkamys kulagin saryadyn talowski piterka 
+			taskala dergachi chertanla alexandrov_gay ozinki sakminskoye_vodokhranilishche yershov baytak ilek kargaly_aktobe kobda irek ushkan koskuduk 
+			manysai shagan zhaksy_karasay tas_kichu kaynar shagiz tenteksor mavliberda kiyl koptam uil emba atzhaksy shatyrlysay temir or_aktobe kath 
+			khurgancha pulzhai qonirat shimbay xojeli khiva urgench kyat_kala nyzvar vezir masat_ata beket_ata beki kenderli_kayasan koshkar_ata temir_baba 
+			ketik_kala kabakty karatobe_mangyshlak kyzylkala beleuli kyushe sam shuruk sisem_ata uchkuduk 
 		}
-
+		
 		capital = sarayjuk
-
+		
 		starting_technology_level = 3
 		include = "expl_mongols"
 		include = "eurasian_horde_not_present"
 		country_rank = rank_duchy
 		religious_school = hanafi_school
-		government = {
-			mysticism_vs_jurisprudence = -15
+		government = { 
+			mysticism_vs_jurisprudence = -15 
 			laws = {
 				legal_code_law = sharia_law_policy
 				sharia_law = hanafi_policy
@@ -4324,26 +4306,26 @@ countries = {
 			}
 		}
 	}
-
+	
 	ATR = {
 		type = location
 		our_cores_conquered_by_others = {
-			bol_shaya_martynovka cheplak bolshoy_gashun dubovskoye ust_tsimla konstantinovsk tatsinskaya tormosin kremenskaya kletskaya ust_medveditskaya
-			oblivskaya nizhny_chir zimnyatsky malodelskaya ilovlya mechet stepanevka sarai_al_jadid beljamen zenzevatka nagavskaya aksay rudnya_pontic
-			danilovka kotovo kamyshin goly_karamysh astrakhan khosheutovo krasny_yar ganyushkino pologoye_zaymishche srednyaya_akhtuba bykovo elton
-			zolotari berezhnovka zamyany yenotayevka sapara chernyye_zemli ikryanoye chyorny_yar nikolskoye_pontic malye_derbety sadovoye_kalmykia
-			ded_khulsun zavetnoye bolkhuny mikhaylovka_pontic rechnoye botkul dardeling mekletin kok_usn yashkul iki_burul priyutnoye elista remontnoye savinka rovnoye
+			bol_shaya_martynovka cheplak bolshoy_gashun dubovskoye ust_tsimla konstantinovsk tatsinskaya tormosin kremenskaya kletskaya ust_medveditskaya 
+			oblivskaya nizhny_chir zimnyatsky malodelskaya ilovlya mechet stepanevka sarai_al_jadid beljamen zenzevatka nagavskaya aksay rudnya_pontic 
+			danilovka kotovo kamyshin goly_karamysh astrakhan khosheutovo krasny_yar ganyushkino pologoye_zaymishche srednyaya_akhtuba bykovo elton 
+			zolotari berezhnovka zamyany yenotayevka sapara chernyye_zemli ikryanoye chyorny_yar nikolskoye_pontic malye_derbety sadovoye_kalmykia 
+			ded_khulsun zavetnoye bolkhuny mikhaylovka_pontic rechnoye botkul dardeling mekletin kok_usn yashkul iki_burul priyutnoye elista remontnoye savinka rovnoye 
 		}
 		starting_technology_level = 3
 		include = "expl_mongols"
 		include = "eurasian_horde_not_present"
 		country_rank = rank_duchy
 		religious_school = hanafi_school
-
+		
 		capital = astrakhan
-
-		government = {
-			mysticism_vs_jurisprudence = -15
+		
+		government = { 
+			mysticism_vs_jurisprudence = -15 
 			laws = {
 				legal_code_law = sharia_law_policy
 				sharia_law = hanafi_policy
@@ -4385,7 +4367,7 @@ countries = {
 		}
 
 		own_control_integrated = {
-			tana
+			tana 
 		}
 
 		starting_technology_level = 3
@@ -4424,7 +4406,7 @@ countries = {
 			launceston truro bodmin
 			# channel
 			jersey
-			# france
+			# france			
 			abbeville montreuil #Ponthieu
 		}
 		own_control_conquered = {
@@ -4598,11 +4580,11 @@ countries = {
 		}
 		capital = wigmore
 		government = {
-			ruler_term = { character = eng_roger_mortimer_1st_earl_of_march start_date = 1330.11.29 end_date = 1330.11.29 regnal_number = 1 }
+			ruler_term = { character = eng_roger_mortimer_1st_earl_of_march start_date = 1330.11.29 end_date = 1330.11.29 regnal_number = 1 }			
 
 			regency = overlord_regency
 			active_regent = eng_edward_iii
-			start_regency_date = 1330.11.29
+			start_regency_date = 1330.11.29 
 			end_regency_date = 1350.3.5
 			heir = eng_roger_mortimer_2nd_earl_of_march
 		}
@@ -4647,7 +4629,7 @@ countries = {
 		capital = machynlleth
 
 		government = {
-			ruler_term = { character = eng_john_de_charlton_1st_baron_charlton start_date = 1309.1.1 regnal_number = 1 }
+			ruler_term = { character = eng_john_de_charlton_1st_baron_charlton start_date = 1309.1.1 regnal_number = 1 }	
 			ruler = eng_john_de_charlton_1st_baron_charlton
 		}
 		tolerated_cultures = { welsh }
@@ -4688,7 +4670,7 @@ countries = {
 		}
 		capital = pembroke
 
-		government = {
+		government = {		
 
 			regency = overlord_regency
 			active_regent = eng_edward_iii
@@ -4736,7 +4718,7 @@ countries = {
 
 
 	LAN = { #Palatinate of Lancaster
-		own_control_core = {
+		own_control_core = {			
 			lancaster blackburn liverpool preston manchester
 		}
 
@@ -4886,8 +4868,8 @@ countries = {
 	}
 
 	GWT = { # Gwent
-		our_cores_conquered_by_others = {
-			monmouth newport
+		our_cores_conquered_by_others = { 
+			monmouth newport 
 		}
 		include = "catholic_monarchy_welsh_releasable"
 		capital = monmouth
@@ -4979,7 +4961,7 @@ countries = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 			ruler = random
-
+			
 			laws = {
 				legal_code_law = civil_law_policy
 			}
@@ -5011,7 +4993,7 @@ countries = {
 				piracy_law = state_piracy_policy
 				legal_code_law = civil_law_policy
 			}
-
+			
 			land_vs_naval = 100
 			belligerent_vs_conciliatory = -30
 		}
@@ -5022,8 +5004,8 @@ countries = {
 		own_control_core = {
 			glasgow paisley dumbarton aberdeen dunbar banff dunfermline st_andrews dundee buchan mar inverurie stonehaven clackmannan aberfeldy irvine
 			oban inverary cowal forfar arbroath arran selkirk scone
-			dornoch durness tongue
-		}
+			dornoch durness tongue	
+		}	
 		own_control_conquered = {
 			thurso
 		}
@@ -5165,15 +5147,15 @@ countries = {
 			oban inverary cowal forfar arbroath arran selkirk scone
 
 			#Ross
-			dingwall gairloch ullapool
+			dingwall gairloch ullapool 
 		}
 
 		include = "expl_northern_europe"
 		starting_technology_level = 3
 		include = "catholic_monarchy"
-
+		
 		rebellion_demand = the_goals_of_balliol
-
+		
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
@@ -5283,7 +5265,7 @@ countries = {
 			laws = {
 				piracy_law = state_piracy_policy
 			}
-
+			
 			land_vs_naval = 100
 		}
 		capital = islay
@@ -5371,8 +5353,8 @@ countries = {
 		own_control_core = {
 			# the pale proper
 			dublin navan fingal drogheda dundalk
-
-			waterford wexford new_ross
+			
+			waterford wexford new_ross  
 		}
 		own_control_integrated = {
 			limerick cork
@@ -6094,7 +6076,7 @@ countries = {
 			}
 
 			reforms = {
-
+				
 			}
 
 			#Societal Values
@@ -6358,7 +6340,7 @@ countries = {
 			ruler = kli_arjun_pal_jadon
 
 			reforms = {
-
+				
 			}
 		}
 	}
@@ -6380,7 +6362,7 @@ countries = {
 			ruler = drw_motay_rao_chauhan
 
 			reforms = {
-
+				
 			}
 		}
 		tolerated_cultures = { shekhawati }
@@ -6425,7 +6407,7 @@ countries = {
 			ruler = random #Ruler unknown in 1337
 
 			reforms = {
-
+				
 			}
 		}
 		tolerated_cultures = {
@@ -6478,7 +6460,7 @@ countries = {
 			ruler = bha_bhairu_bhatti
 
 			reforms = {
-
+				
 			}
 		}
 
@@ -6499,10 +6481,10 @@ countries = {
 		include = "expl_india_hindu"
 		include = "indian_hindu_monarchy_no_coast"
 		government = {
-			ruler = random
+			ruler = random 
 
 			reforms = {
-
+				
 			}
 		}
 
@@ -6521,7 +6503,7 @@ countries = {
 		capital = rajouri
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 		#Ruler: Sirdar Khan / Ratan Singh
 
 		include = "indian_muslim_monarchy_no_coast"
@@ -6564,7 +6546,7 @@ countries = {
 			ruler = random
 			#Ruler: Unknown, was still independent when Mughals arrive in the area
 			reforms = {
-
+				
 			}
 		}
 
@@ -6593,7 +6575,7 @@ countries = {
 			}
 
 			reforms = {
-
+				
 			}
 		}
 	}
@@ -6615,7 +6597,7 @@ countries = {
 			ruler = cbh_siripat_thakial
 
 			reforms = {
-
+				
 			}
 		}
 		tolerated_cultures = {
@@ -6640,7 +6622,7 @@ countries = {
 			ruler = skt_ban_sen
 
 			reforms = {
-
+				
 			}
 		}
 
@@ -6684,7 +6666,7 @@ countries = {
 			ruler = bsp_sampurn_chandel
 
 			reforms = {
-
+				
 			}
 		}
 
@@ -6706,7 +6688,7 @@ countries = {
 			ruler = nrp_jas_pal_tanwar
 
 			reforms = {
-
+				
 			}
 		}
 
@@ -6724,10 +6706,10 @@ countries = {
 		include = "expl_india_hindu"
 		include = "indian_hindu_monarchy_no_coast"
 		government = {
-			ruler = random
+			ruler = random 
 
 			reforms = {
-
+				
 			}
 		}
 
@@ -6748,7 +6730,7 @@ countries = {
 			ruler = random #Unknown ruler in 1337
 
 			reforms = {
-
+				
 			}
 		}
 
@@ -6775,7 +6757,7 @@ countries = {
 			#Before 1540 individual rulers are not known, though some names are.
 
 			reforms = {
-
+				
 			}
 		}
 
@@ -6811,7 +6793,7 @@ countries = {
 			ruler = cab_madana_varman_mushana
 
 			reforms = {
-
+				
 			}
 		}
 	}
@@ -6834,7 +6816,7 @@ countries = {
 			ruler = random
 
 			reforms = {
-
+				
 			}
 		}
 	}
@@ -6862,7 +6844,7 @@ countries = {
 		tolerated_cultures = { chitrali }
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 	}
 
 	#SWT - Swat kingdom of Bajaur
@@ -6886,7 +6868,7 @@ countries = {
 		include = "indian_muslim_monarchy_no_coast_no_censor"
 		government = {
 
-			ruler = random
+			ruler = random 
 
 
 			laws = {
@@ -6899,7 +6881,7 @@ countries = {
 		 }
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 	}
 
 	#CRL - Urtsun
@@ -7071,7 +7053,7 @@ countries = {
 			heir = ksh_haidar_khan_lohara
 
 			reforms = {
-
+				
 			}
 		}
 
@@ -7135,7 +7117,7 @@ countries = {
 			ruler = jlw_nagji_jhala
 
 			reforms = {
-
+				
 			}
 		}
 	}
@@ -7155,7 +7137,7 @@ countries = {
 			ruler = ghl_mokhdaji_ranoji_guhila
 
 			reforms = {
-
+				
 			}
 
 			#Societal Values
@@ -7178,7 +7160,7 @@ countries = {
 			ruler = plt_nonghanji_arjanji_guhila
 
 			reforms = {
-
+				
 			}
 
 			#Societal Values
@@ -7203,7 +7185,7 @@ countries = {
 			ruler = jng_khengara_chudasama
 
 			reforms = {
-
+				
 			}
 
 			#Societal Values
@@ -7227,7 +7209,7 @@ countries = {
 			ruler = bhd_bhanji_jethwa
 
 			reforms = {
-
+				
 			}
 		}
 	}
@@ -7245,7 +7227,7 @@ countries = {
 			ruler = bhd_bhanji_jethwa
 
 			reforms = {
-
+				
 			}
 		}
 	}
@@ -7264,7 +7246,7 @@ countries = {
 			ruler = kut_mulvaji_jadeja
 
 			reforms = {
-
+				
 			}
 			#Societal Values
 			land_vs_naval = 50
@@ -7288,7 +7270,7 @@ countries = {
 
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 		include = "indian_muslim_monarchy_no_dharmic_dhimmi_no_coast_no_censor"
 		capital = sehwan
 
@@ -7324,7 +7306,7 @@ countries = {
 		capital = umarkot
 
 		government = {
-			ruler = random
+			ruler = random 
 
 			reforms = {
 				taluqdar_nobility
@@ -7374,7 +7356,7 @@ countries = {
 			}
 
 			reforms = {
-
+				
 			}
 		}
 	}
@@ -7393,7 +7375,7 @@ countries = {
 			ruler = bnd_prithviraj_singh_bundela
 
 			reforms = {
-
+				
 			}
 		}
 
@@ -7415,7 +7397,7 @@ countries = {
 			ruler = bgk_sohagdeva_baghela
 
 			reforms = {
-
+				
 			}
 		}
 
@@ -7435,10 +7417,10 @@ countries = {
 		include = "indian_hindu_monarchy_no_coast"
 		capital = mauganj
 		government = {
-			ruler = random
+			ruler = random 
 
 			reforms = {
-
+				
 			}
 		}
 	}
@@ -7478,7 +7460,7 @@ countries = {
 		include = "india_limited_monarchy"
 		capital = bonaigarh
 		government = {
-			ruler = random
+			ruler = random 
 
 			laws = {
 				administrative_system = feudal_administration
@@ -7503,7 +7485,7 @@ countries = {
 		include = "india_limited_monarchy"
 		capital = pal_lahara
 		government = {
-			ruler = random
+			ruler = random 
 
 			laws = {
 				administrative_system = feudal_administration
@@ -7523,13 +7505,13 @@ countries = {
 
 		own_control_integrated = {
 			sundergarh
-		}
+		} 
 
 		include = "expl_india_hindu"
 		include = "india_limited_monarchy"
 		capital = sarangarh
 		government = {
-			ruler = random
+			ruler = random 
 			laws = {
 				censorship = limited_censorship
 				education_masses_law = basic_religious_education
@@ -7638,7 +7620,7 @@ countries = {
 			ruler = jlr_kanhadadeva_chauhan
 
 			reforms = {
-
+				
 			}
 		}
 
@@ -7666,7 +7648,7 @@ countries = {
 			ruler = idr_kehar_rathore
 
 			reforms = {
-
+				
 			}
 		}
 	}
@@ -7693,7 +7675,7 @@ countries = {
 			ruler = dgr_dungar_singh_sisodia
 
 			reforms = {
-
+				
 			}
 		}
 	}
@@ -7711,7 +7693,7 @@ countries = {
 			ruler = cmn_rao_palansang_chauhan
 
 			reforms = {
-
+				
 			}
 		}
 
@@ -7760,7 +7742,7 @@ countries = {
 			ruler = mrw_chhadaji_rathore
 
 			reforms = {
-
+				
 			}
 		}
 	}
@@ -7778,7 +7760,7 @@ countries = {
 			ruler = mew_hammir_singh_sisodia
 
 			reforms = {
-
+				
 			}
 		}
 
@@ -7799,7 +7781,7 @@ countries = {
 			#In 1342 Mewar helped install the Hada Dynasty here.
 
 			reforms = {
-
+				
 			}
 		}
 
@@ -7823,7 +7805,7 @@ countries = {
 			ruler = dhu_jansi_deo_kachhwaha
 
 			reforms = {
-
+				
 			}
 		}
 
@@ -7871,7 +7853,7 @@ countries = {
 			ruler = gwa_kunwar_pal_tomara
 
 			reforms = {
-
+				
 			}
 		}
 	}
@@ -7969,7 +7951,7 @@ countries = {
 			ruler = goa_suriyadeva_kadamba
 
 			reforms = {
-
+				
 			}
 
 			#Societal Values
@@ -8133,7 +8115,7 @@ countries = {
 			ruler = random #Unknown in 1337
 
 			reforms = {
-
+				
 			}
 		}
 	}
@@ -8215,7 +8197,7 @@ countries = {
 				name_bhanu = 2
 			}
 			reforms = {
-
+				
 			}
 			laws = {
 				administrative_system = feudal_administration
@@ -8242,7 +8224,7 @@ countries = {
 		include = "india_limited_monarchy"
 		capital = keonjhar
 		government = {
-			ruler = random
+			ruler = random 
 
 			laws = {
 				administrative_system = feudal_administration
@@ -8267,7 +8249,7 @@ countries = {
 		include = "india_limited_monarchy"
 		capital = baripada
 		government = {
-			ruler = random
+			ruler = random 
 			#There are supposed to have been 31 rulers before 1660, but their names are unknown.
 
 			laws = {
@@ -8320,7 +8302,7 @@ countries = {
 		include = "india_limited_monarchy"
 		capital = nandapur
 		government = {
-			ruler = random
+			ruler = random 
 
 			laws = {
 				administrative_system = feudal_administration
@@ -8345,7 +8327,7 @@ countries = {
 		include = "india_limited_monarchy"
 		capital = kanker
 		government = {
-			ruler = random
+			ruler = random 
 			laws = {
 				censorship = limited_censorship
 				education_masses_law = basic_religious_education
@@ -8370,7 +8352,7 @@ countries = {
 			ruler = smv_rajanarayana_sambuvarayar
 
 			reforms = {
-
+				
 			}
 			laws = {
 				administrative_system = poligar_system_policy
@@ -8528,11 +8510,11 @@ countries = {
 		include = "indian_hindu_monarchy"
 		capital = kozhikode
 		government = {
-			ruler = random
+			ruler = random 
 
 
 			reforms = {
-
+				
 			}
 
 			#Societal Values
@@ -8550,11 +8532,11 @@ countries = {
 		include = "indian_hindu_monarchy"
 		capital = kannur
 		government = {
-			ruler = random
+			ruler = random 
 
 
 			reforms = {
-
+				
 			}
 
 			#Societal Values
@@ -8572,11 +8554,11 @@ countries = {
 		include = "indian_hindu_monarchy"
 		capital = kochi
 		government = {
-			ruler = random
+			ruler = random 
 
 
 			reforms = {
-
+				
 			}
 
 			#Societal Values
@@ -8594,10 +8576,10 @@ countries = {
 		include = "indian_hindu_monarchy"
 		capital = kollam
 		government = {
-			ruler = random
+			ruler = random 
 
 			reforms = {
-
+				
 			}
 
 			#Societal Values
@@ -8620,7 +8602,7 @@ countries = {
 			ruler = random #Unknown
 
 			reforms = {
-
+				
 			}
 
 			#Societal Values
@@ -8641,7 +8623,7 @@ countries = {
 			ruler = random #Unknown
 
 			reforms = {
-
+				
 			}
 
 			#Societal Values
@@ -8659,10 +8641,10 @@ countries = {
 		include = "indian_hindu_monarchy_no_coast"
 		capital = wayanad
 		government = {
-			ruler = random
+			ruler = random 
 
 			reforms = {
-
+				
 			}
 		}
 	}
@@ -8677,10 +8659,10 @@ countries = {
 		include = "indian_hindu_monarchy_no_coast"
 		capital = palghat
 		government = {
-			ruler = random
+			ruler = random 
 
 			reforms = {
-
+				
 			}
 		}
 
@@ -8700,10 +8682,10 @@ countries = {
 		include = "indian_hindu_monarchy_no_coast"
 		capital = kottarakkara
 		government = {
-			ruler = random
+			ruler = random 
 
 			reforms = {
-
+				
 			}
 		}
 	}
@@ -8721,7 +8703,7 @@ countries = {
 			ruler = tku_kumaran_iyakan_manikandan
 
 			reforms = {
-
+				
 			}
 
 			#Societal Values
@@ -8742,7 +8724,7 @@ countries = {
 			ruler = random #Unknown
 
 			reforms = {
-
+				
 			}
 		}
 	}
@@ -8758,10 +8740,10 @@ countries = {
 		include = "indian_hindu_monarchy_jain"
 		capital = kasaragod
 		government = {
-			ruler = random
+			ruler = random 
 
 			reforms = {
-
+				
 			}
 
 			laws = {
@@ -8787,10 +8769,10 @@ countries = {
 		include = "indian_hindu_monarchy_no_coast"
 		capital = karkala
 		government = {
-			ruler = random
+			ruler = random 
 
 			reforms = {
-
+				
 			}
 
 			laws = {
@@ -8826,7 +8808,7 @@ countries = {
 			ruler = jfn_martanda_cinkaiariyan_aryacakravarti
 
 			reforms = {
-
+				
 			}
 
 			#Societal Values
@@ -9756,7 +9738,7 @@ countries = {
 			ruler_term = {
 				character = fab_tommaso_i_chiavelli start_date = 1317.1.1 end_date = 1325.1.1 regnal_number = 1
 				character = fab_alberghetto_ii_chiavelli start_date = 1317.1.1 end_date = 1325.1.1 regnal_number = 2
-
+				
 			}
 			ruler_term = { character = fab_alberghetto_ii_chiavelli start_date = 1325.1.1 end_date = 1327.1.1 regnal_number = 2 }
 		}
@@ -9819,7 +9801,7 @@ countries = {
 
 	FER = {
 		own_control_core = {
-			comacchio ferrara ficarolo rovigo argenta
+			comacchio ferrara ficarolo rovigo argenta 
 		}
 
 		own_control_conquered = {
@@ -10200,7 +10182,7 @@ countries = {
 				character = gen_opizzino_spinola start_date = 1306.1.7 end_date = 1310.1.1 regnal_number = 0
 			}
 			ruler_term = { character = gen_opizzino_spinola start_date = 1310.1.1 end_date = 1311.1.1 regnal_number = 0 }
-
+			
 			ruler_term = { # Fieschi-Grimaldi Diarchy
 				character = gen_carlo_fieschi start_date = 1317.12.10 end_date = 1318.7.27 regnal_number = 0
 				character = gen_gaspare_grimaldi start_date = 1317.12.10 end_date = 1318.7.27 regnal_number = 0
@@ -10658,7 +10640,7 @@ countries = {
 		own_control_conquered = {
 			bergamo cortenuova clusone zogno #Republic of Bergamo
 			chiavenna #County of Chiavenna
-			como bormio lugano tresivio #County of Como
+			como bormio lugano tresivio #County of Como 
 			cremona casalmaggiore soncino #Republic of Cremona
 			lodi #Lordship of Lodi
 			arona novara domodossola varallo #Comune of Novara
@@ -11505,7 +11487,7 @@ countries = {
 		}
 
 		our_cores_conquered_by_others = {
-			argenta
+			argenta 
 		}
 
 		starting_technology_level = 3
@@ -11680,7 +11662,7 @@ countries = {
 			bourg_en_bresse belley chambery gex saint_jean_de_maurienne
 			moutiers evian
 			bage thoire
-			vienne
+			vienne 
 		}
 
 		starting_technology_level = 3
@@ -11801,7 +11783,7 @@ countries = {
 			heir_selection = cognatic_primogeniture
 			ruler = gnv_amedee_iii_geneve
 
-
+			
 			ruler_term = { character = gnv_amedee_ii_geneve start_date = 1280.1.1 end_date = 1308.5.22 regnal_number = 3 }
 			ruler_term = { character = gnv_guillaume_iii_geneve start_date = 1308.5.22 end_date = 1320.1.1 regnal_number = 3 }
 			ruler_term = { character = gnv_amedee_iii_geneve start_date = 1320.1.1 regnal_number = 3 }
@@ -11888,9 +11870,9 @@ countries = {
 				character = nap_charles_i_anjou start_date = 1266.1.6 end_date = 1266.2.26 regnal_number = 1
 				character = sic_manfredi_i_sicilia start_date = 1266.1.6 end_date = 1266.2.26 regnal_number = 1
 			}
-
+			
 			ruler_term = { character = nap_charles_i_anjou start_date = 1266.2.26 end_date = 1282.9.26 regnal_number = 1 }
-
+			
 			ruler_term = {
 				character = nap_charles_i_anjou start_date = 1282.9.26 end_date = 1282.11.26 regnal_number = 1
 				character = sic_costanza_ii_sicilia start_date = 1282.9.26 end_date = 1282.11.26 regnal_number = 2
@@ -12054,7 +12036,7 @@ countries = {
 		}
 
 		own_control_integrated = {
-			riva
+			riva 
 		}
 
 		government = {
@@ -12169,8 +12151,6 @@ countries = {
 			type = republic
 			heir_selection = podesta_elective
 
-			ruler_term = { character = gor_john_henry_iv_gorizia start_date = 1332.12.1 end_date = 1333.12.1 regnal_number = 0 }
-
 			reforms = {
 				signoria_reform
 			}
@@ -12266,7 +12246,7 @@ countries = {
 	VEN = {
 		own_control_core = {
 			venice chioggia
-			pola rovinj pag zadar split brac
+			pola rovinj pag zadar split brac sibenik
 		}
 
 		own_control_integrated = {
@@ -12467,7 +12447,7 @@ countries = {
 			feltre
 			castelfranco treviso belluno
 			rovereto
-			mestre
+			mestre 
 		}
 
 		starting_technology_level = 3
@@ -12602,7 +12582,7 @@ countries = {
 				name_roger = 1
 				name_manfred = 1
 			}
-
+			
 			reforms = {
 				ath_rule_of_the_catalans
 				partitio_reform
@@ -12630,12 +12610,12 @@ countries = {
 			damala ermioni kalamata kyparissia
 			andritsaina pontikokastro andravida corinth
 			vostitsa kalavryta xylokastro
-			nafpaktos
+			nafpaktos 
 		}
-
+		
 		our_cores_conquered_by_others = {
 			tripolitsa veligosti karytaina
-			chalandritsa patras
+			chalandritsa patras 
 		}
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -12695,7 +12675,7 @@ countries = {
 				name_john = 1
 				name_robert = 0 # Should be 1 if Co-Rulers are added
 			}
-
+			
 			reforms = {
 				ach_heirs_of_the_latin_empire
 				partitio_reform
@@ -12720,14 +12700,14 @@ countries = {
 		#dynasty = anjou_taranto_dynasty
 	}
 
-	PAT = {
+	PAT = { 
 		own_control_core = {
 			chalandritsa patras
 		}
 
 		own_control_integrated = {
 		}
-
+		
 		our_cores_conquered_by_others = {
 		}
 		starting_technology_level = 3
@@ -12754,7 +12734,7 @@ countries = {
 				name_rayner = 1
 				name_william = 1
 			}
-
+			
 			reforms = {
 				partitio_reform
 			}
@@ -12811,7 +12791,7 @@ countries = {
 				name_charles = 1
 				name_robert = 1
 			}
-
+			
 			reforms = {
 				partitio_reform
 			}
@@ -12822,7 +12802,7 @@ countries = {
 				lat_latin_crusader_elite
 			}
 		}
-
+		
 		tolerated_cultures = {
 			greek_culture
 		}
@@ -12860,7 +12840,7 @@ countries = {
 				name_catherine = 2
 				name_charles = 1
 			}
-
+			
 			reforms = {
 				partitio_reform
 			}
@@ -12907,7 +12887,7 @@ countries = {
 				name_william = 1
 				name_nicholas = 1
 			}
-
+			
 			reforms = {
 				partitio_reform
 			}
@@ -13408,7 +13388,7 @@ countries = {
 				autocracy
 				theme_system
 				kritai_katholikoi
-
+				
 				#Fate of the Phoenix
 				katepanata
 			}
@@ -13491,7 +13471,7 @@ countries = {
 			regnal_numbers = {
 				name_john = 1
 			}
-
+			
 			reforms = {
 				partitio_reform
 			}
@@ -13622,7 +13602,7 @@ countries = {
 			ruler = mtr_pal_mataranga
 
 			ruler_term = { character = mtr_pal_mataranga start_date = 1305.1.1 regnal_number = 1 }
-
+	
 			regnal_numbers = {
 				name_blaise = 1
 				name_paul = 1
@@ -13644,7 +13624,7 @@ countries = {
 			arilje brvenik medveda
 		}
 		own_control_integrated = {
-			koman has dukagjini lezha florina debar
+			koman has dukagjini lezha florina debar 
 			kocani strumica shtip
 		}
 		our_cores_conquered_by_others = {
@@ -13733,7 +13713,7 @@ countries = {
 			glamoc
 			vrhbosna konjic srebrenica doboj soli
 			jajce livno zenica kljuc srebrenik
-			kozara glaz teocak olovo borac makarska
+			kozara glaz teocak olovo borac makarska 
 		}
 
 		own_control_conquered = {
@@ -13958,11 +13938,11 @@ countries = {
 
 	CRO = {
 		own_control_core = {
-			sibenik kaseg knin novigrad crikvenica senj
+			kaseg knin novigrad crikvenica senj
 			bihac krk srb sinj otocac
 		}
 		our_cores_conquered_by_others = {
-			zadar split
+			zadar split sibenik
 		}
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -14050,7 +14030,7 @@ countries = {
 			tulcea harsova
 			archar lom gigen dobrolak svoge kostenets strelcha ruse kladentsi lyaskovets veliki_preslav ktenia constantia_bul elhovo
 			babadag cernavoda constanta enisala isaccea
-			visesav kozelj svrljig pirot tsaribrod
+			visesav kozelj svrljig pirot tsaribrod  
 			zemlungrad dupnitsa
 		}
 		own_control_integrated = {
@@ -14121,7 +14101,7 @@ countries = {
 				name_telerig = 1
 				name_kardam = 1
 				name_krum = 1
-				name_omurtag = 1
+				name_omurtag = 1	
 				name_presian = 2
 				name_boris = 2
 				name_waldemar = 1
@@ -14147,7 +14127,7 @@ countries = {
 				name_john.name_stephen = 1
 				name_john.name_alexander = 1
 			}
-
+			
 			reforms = {
 			}
 		}
@@ -14159,7 +14139,7 @@ countries = {
 			government_power = 40
 			war_exhaustion = 5
 		}
-
+		
 		tolerated_cultures = {
 			serbian
 			wallachian
@@ -14173,7 +14153,7 @@ countries = {
 
 	VID = {
 		our_cores_conquered_by_others = {
-			vidin archar kozelj kutlovitsa lom svrljig visesav vratsa
+			vidin archar kozelj kutlovitsa lom svrljig visesav vratsa 
 		}
 
 		starting_technology_level = 3
@@ -14221,7 +14201,7 @@ countries = {
 		}
 
 		tolerated_cultures = {
-
+			
 		}
 
 		country_rank = rank_duchy
@@ -14230,7 +14210,7 @@ countries = {
 
 	KVN = {
 		our_cores_conquered_by_others = {
-
+			
 		}
 
 		starting_technology_level = 3
@@ -14243,7 +14223,7 @@ countries = {
 
 			regnal_numbers = {
 			}
-
+			
 			land_vs_naval = 40
 		}
 
@@ -14274,13 +14254,13 @@ countries = {
 		}
 
 		tolerated_cultures = {
-
+			
 		}
 
 		country_rank = rank_duchy
 		capital = mystras
 	}
-
+	
 	ZTA = {
 		our_cores_conquered_by_others = {
 			podgorica bar_cg gradina kotor
@@ -14369,7 +14349,7 @@ countries = {
 				name_peter = 3
 				name_james = 2
 			}
-
+			
 			reforms = {
 				has_dlc = "d009_across_the_pillars"
 				cat_corts_catalanes_reform
@@ -14577,7 +14557,7 @@ countries = {
 			andalusi
 		}
 
-		accepted_cultures = {
+		accepted_cultures = { 
 			languedocien
 		}
 
@@ -14679,6 +14659,7 @@ countries = {
 				clergy_military_orders
 				#Commoners
 				cas_caballeros_villanos
+				ayuntamientos
 			}
 
 			laws = {
@@ -14704,15 +14685,15 @@ countries = {
 			exploration = 5
 		}
 
-		accepted_cultures = {
+		accepted_cultures = { 
 			leonese
-			galician
+			galician			
 			basque
 		}
-		tolerated_cultures = {
+		tolerated_cultures = { 
 			sephardi
 		}
-
+		
 	}
 
 	POR = {
@@ -14884,7 +14865,7 @@ countries = {
 				has_dlc = "d009_across_the_pillars"
 				lon_cortes_de_leon_reform
 			}
-
+		
 		}
 
 		country_rank = rank_kingdom
@@ -14986,7 +14967,14 @@ countries = {
 				jewish_physician_exemption
 				dhimmi_pact_of_umar
 				al_caid
+				andalusi_elite
 				treasury_rights
+			}
+			privilege = {
+				has_dlc = "d009_across_the_pillars"
+				gra_visirate
+				gra_ulema_council
+				gra_volunteers_of_faith
 			}
 			parliament = {
 				has_dlc = "d009_across_the_pillars"
@@ -15105,13 +15093,13 @@ countries = {
 			mercantilism_vs_free_trade = -30
 			quality_vs_quantity = -20
 			capital_economy_vs_traditional_economy = 80
-
+			
 		}
 
 		accepted_cultures = {
 			aragonese
 		}
-
+		
 		tolerated_cultures = {
 			gascon
 			sephardi
@@ -15301,6 +15289,20 @@ countries = {
 			provins
 			peyrusse entraigues st_affrique
 			allegre chalancon peyre chateauneuf_de_randon florac st_ambroix
+
+			#C. de Champagne
+			chateau_thierry broyes vertus nogent_sur_seine bar_sur_aube
+			chaumont vaucouleurs vitry_en_pertois troyes epernay menehould
+			rosnay choiseul
+
+			#Too small/unimportant appanages
+			guise hirson
+
+			#Too small/unimportant vassals (fiefs movants)
+			coucy marle #S. Coucy
+			brienne #C. Brienne
+			joinville #S. Joinville
+			grandpre #C. Grandpre
 		}
 		own_control_integrated = {
 			#Appanages
@@ -15311,19 +15313,10 @@ countries = {
 			talmont beauvoir mauleon_poitou
 
 			#C. de Champagne
-			chateau_thierry broyes vertus nogent_sur_seine bar_sur_aube
-			chaumont vaucouleurs vitry_en_pertois troyes epernay menehould
-			rosnay villemaur choiseul
-
-			#Too small/unimportant appanages
-			guise hirson
+			villemaur
 
 			#Too small/unimportant vassals (fiefs movants)
-			coucy marle #S. Coucy
 			saint_gaudens #Vic. des Quatre Valles
-			brienne #C. Brienne
-			joinville #S. Joinville
-			grandpre #C. Grandpre
 		}
 
 		own_control_conquered = {
@@ -15447,14 +15440,17 @@ countries = {
 			}
 		}
 
+		accepted_cultures = {
+			picard
+			champenais
+		}
+
 		tolerated_cultures = {
 			arpitan
 			languedocien
-			picard
 			gascon
 			burgundian
 			auvergnat
-			champenais
 			limousin
 			poitevin
 			saintongeais
@@ -16233,7 +16229,7 @@ countries = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 			ruler = foi_gaston_ii_foix
-
+			
 			ruler_term = { character = foi_roger_bernard_iii_foix start_date = 1240.4.26 end_date = 1302.3.3 regnal_number = 1 }
 			ruler_term = { character = foi_gaston_i_foix start_date = 1302.3.3 end_date = 1315.12.13 regnal_number = 8 }
 			ruler_term = { character = foi_gaston_ii_foix start_date = 1315.12.13 regnal_number = 9 }
@@ -16771,15 +16767,15 @@ countries = {
 			ruler_term = { character = com_arnaud_i_comminges start_date = 949.1.1 end_date = 957.1.1 regnal_number = 1 }
 			ruler_term = { character = com_roger_i_comminges start_date = 957.1.1 end_date = 979.1.1 regnal_number = 1 }
 			ruler_term = {
-				character = com_roger_i_comminges start_date = 979.1.1 end_date = 988.1.1 regnal_number = 1
+				character = com_roger_i_comminges start_date = 979.1.1 end_date = 988.1.1 regnal_number = 1 
 				character = com_arnaud_ii_comminges start_date = 979.1.1 end_date = 988.1.1 regnal_number = 2
 			}
 			ruler_term = {
-				character = com_roger_i_comminges start_date = 988.1.1 end_date = 1003.1.1 regnal_number = 1
+				character = com_roger_i_comminges start_date = 988.1.1 end_date = 1003.1.1 regnal_number = 1 
 				character = com_eudes_comminges start_date = 988.1.1 end_date = 1003.1.1 regnal_number = 1
 			}
 			ruler_term = {
-				character = com_roger_i_comminges start_date = 1003.1.1 end_date = 1012.1.1 regnal_number = 1
+				character = com_roger_i_comminges start_date = 1003.1.1 end_date = 1012.1.1 regnal_number = 1 
 				character = com_eudes_comminges start_date = 1003.1.1 end_date = 1012.1.1 regnal_number = 1
 				character = com_roger_ii_comminges start_date = 1003.1.1 end_date = 1012.1.1 regnal_number = 2
 			}
@@ -16914,14 +16910,14 @@ countries = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 			ruler = per_roger_bernard_perigord
-
+			
 			ruler_term = {
 				character = per_boson_i_perigord start_date = 975.1.1 end_date = 979.1.1 regnal_number = 1
 				character = per_helie_i_perigord start_date = 975.1.1 end_date = 979.1.1 regnal_number = 1
 				character = per_adalbert_i_perigord start_date = 975.1.1 end_date = 979.1.1 regnal_number = 1
 			}
 			ruler_term = {
-				character = per_boson_i_perigord start_date = 979.1.1 end_date = 988.1.1 regnal_number = 1
+				character = per_boson_i_perigord start_date = 979.1.1 end_date = 988.1.1 regnal_number = 1			
 				character = per_adalbert_i_perigord start_date = 979.1.1 end_date = 988.1.1 regnal_number = 1
 			}
 			ruler_term = { character = per_adalbert_i_perigord start_date = 988.1.1 end_date = 997.1.1 regnal_number = 1 }
@@ -17198,18 +17194,18 @@ countries = {
 			thouars beauvoir fontenay la_roche_sur_yon mauleon_poitou montaigu parthenay talmont
 			poitiers aulnay chatellerault lusignan montmorillon niort #Poitou
 			loudun #Loudun
-			la_rochelle #Aunis
+			la_rochelle #Aunis 
 			st_jean_dangely #Saintonge
 			angouleme cognac chabanais #Angouleme
 			chateauroux boussac #Deols
 			issoudun lignieres #Issoudun
 			gueret aubusson bellac bourganeuf brosse charroux rochechouart #La Marche
-			limoges aixe segur st_leonard
+			limoges aixe segur st_leonard 
 			turenne tulle ussel ventadour #Limousin
 			nontron thiviers
 			perigueux bergerac limeuil riberac sarlat #Perigord
 			chambon herment montaigut tour_auvergne
-			aurillac mauriac saint_flour
+			aurillac mauriac saint_flour 
 			clermont allegre brioude riom thiers vic_le_comte vodable #Auvergne
 			agen marmande montflanquin #Agenais
 			bazas condom nerac sauveterre_de_guyenne #Bazadais
@@ -18102,7 +18098,7 @@ countries = {
 			toulouse lisle_jourdain narbonne lavaur castelnaudary saint_pons beziers agde lodeve melgueil
 			nimes uzes french_ales castres rodez villefranche figeac cahors agen peyrusse entraigues peyre mende
 			lectoure montauban albi villemur lautrec verdun_sur_garonne montflanquin gourdon pamiers foix
-			mirepoix limoux carcassonne fenouillet montpellier chateauneuf_de_randon st_affrique millau
+			mirepoix limoux carcassonne fenouillet montpellier chateauneuf_de_randon st_affrique millau 
 			florac st_ambroix
 		}
 
@@ -18189,9 +18185,9 @@ countries = {
 	DAU = {
 		own_control_core = {
 			grenoble gap briancon pragelato
-			romans la_mure saint_marceilin
-			mevouillon villars
-			la_tour_du_pin
+			romans la_mure saint_marceilin 
+			mevouillon villars 
+			la_tour_du_pin 
 			faucigny sallanches #Barony of 	Faucigny
 		}
 
@@ -18903,7 +18899,7 @@ countries = {
 		court_language = church_slavonic_language
 
 		country_rank = rank_duchy
-		capital = targoviste
+		capital = arges
 	}
 
 	BIA = {	#Baia
@@ -18917,7 +18913,7 @@ countries = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 			ruler = random
-		}
+		}		
 		liturgical_language = church_slavonic_language
 		court_language = church_slavonic_language
 
@@ -18935,7 +18931,7 @@ countries = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 			ruler = random
-		}
+		}		
 		liturgical_language = church_slavonic_language
 		court_language = church_slavonic_language
 
@@ -18953,10 +18949,10 @@ countries = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 			ruler = random
-		}
+		}		
 		liturgical_language = church_slavonic_language
 		court_language = church_slavonic_language
-
+		
 		capital = chisinau
 	}
 
@@ -18971,10 +18967,10 @@ countries = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 			ruler = random
-		}
+		}		
 		liturgical_language = church_slavonic_language
 		court_language = church_slavonic_language
-
+		
 		capital = hotin
 	}
 
@@ -18989,10 +18985,10 @@ countries = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 			ruler = random
-		}
+		}		
 		liturgical_language = church_slavonic_language
 		court_language = church_slavonic_language
-
+		
 		capital = iasi
 	}
 
@@ -19007,10 +19003,10 @@ countries = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 			ruler = random
-		}
+		}		
 		liturgical_language = church_slavonic_language
 		court_language = church_slavonic_language
-
+		
 		capital = soroca
 	}
 
@@ -19025,10 +19021,10 @@ countries = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 			ruler = random
-		}
+		}		
 		liturgical_language = church_slavonic_language
 		court_language = church_slavonic_language
-
+		
 		capital = storozhynets
 	}
 
@@ -19133,7 +19129,7 @@ countries = {
 			regnal_numbers = {
 				name_william = 1
 			}
-
+			
 			reforms = {
 				partitio_reform
 			}
@@ -19201,7 +19197,7 @@ countries = {
 				name_bartholomew = 1
 				name_nicholas = 1
 			}
-
+			
 			reforms = {
 				partitio_reform
 			}
@@ -19224,7 +19220,7 @@ countries = {
 	ARG = { #Argos
 		own_control_core = {
 			argos nafplio
-			leukas vonitsa
+			leukas vonitsa 
 		}
 		our_cores_conquered_by_others = {
 			athens megara thebes atalanti livadeia gravia
@@ -19255,7 +19251,7 @@ countries = {
 				name_william = 1
 				name_walter = 2
 			}
-
+			
 			reforms = {
 				partitio_reform
 			}
@@ -19306,7 +19302,7 @@ countries = {
 
 			land_vs_naval = 30
 
-
+			
 			privilege = {
 
 				#Burghers
@@ -19330,9 +19326,9 @@ countries = {
 		own_control_core = {
 			negroponte kleisoura kymi oreos eretreia
 		}
-
+	
 		our_cores_conquered_by_others = {
-			karystos
+			karystos  
 		}
 
 		starting_technology_level = 3
@@ -19418,7 +19414,7 @@ countries = {
 				name_roger = 1
 				name_alphonse = 1
 			}
-
+			
 			reforms = {
 				partitio_reform
 			}
@@ -19438,7 +19434,7 @@ countries = {
 		capital = salona
 	}
 
-	TRO = { #Travunija
+	TRO = { #Travunija		
 		our_cores_conquered_by_others = {
 			trebinje
 		}
@@ -19562,6 +19558,13 @@ countries = {
 			privilege = {
 				has_dlc = "d009_across_the_pillars"
 				mor_andalusian_refugees
+				mor_makhzen_caids
+				mor_marabout_patronage
+				mor_gharb_war_tribes
+			}
+			reforms = {
+				has_dlc = "d009_across_the_pillars"
+				mor_marinid_zenata_confederation_reform
 			}
 			laws = {
 				amazigh_familial_connections = reliance_on_local_tribes
@@ -19589,7 +19592,7 @@ countries = {
 		capital = fez
 		dynasty = marinid_dynasty
 	}
-
+	
 	ALM = {
 		include = "expl_muslim_mediterranean"
 		include = "muslim_monarchy_not_present"
@@ -19784,9 +19787,9 @@ countries = {
 		own_control_core = {
 			bejaia el_kseur mansouria bouira kalaa_of_ait_abbas setif
 			annaba cheffia jijel el_milia skikda el_kala guelma collo tekouch
-
+			
 			constantine_ALG mila ngaous baghai dufanat bazer_sakhra tiffech tebessa meskiana tijis ikjan
-
+			
 			bordj_bou_arreridj
 		}
 
@@ -19794,7 +19797,7 @@ countries = {
 		include = "expl_muslim_mediterranean"
 		include = "muslim_monarchy_no_abrahamic_dhimmi"
 		country_rank = rank_duchy
-
+		
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
@@ -19813,7 +19816,7 @@ countries = {
 				name_zechariah = 1
 				name_abu_bakr = 1
 			}
-
+ 
 			laws = {
 				piracy_law = state_piracy_policy
 			}
@@ -20244,8 +20247,8 @@ countries = {
 		}
 
 		own_control_integrated = {
-			gabes ajim medenine
-			zuwarah tataouine zarzis
+			gabes ajim medenine 
+			zuwarah tataouine zarzis 
 		}
 
 		our_cores_conquered_by_others = {
@@ -20943,13 +20946,13 @@ countries = {
 	KAB = {
 		own_control_core = {
 			kaabu salemata iwol bafata farim
-			marsassoum geregia
+			marsassoum geregia 
 		}
 
 		own_control_integrated = {
 			gambia bintang diaboudior casamance tankular
 			bissau cacheu
-			wassu kabakama
+			wassu kabakama 
 		}
 
 		starting_technology_level = 3
@@ -20976,7 +20979,7 @@ countries = {
 		}
 		own_control_integrated = {
 			tichit aoudaghost tidjikja
-			banamba narena tabou_m
+			banamba narena tabou_m 
 		}
 
 		starting_technology_level = 3
@@ -21006,17 +21009,17 @@ countries = {
 		own_control_core = {
 			koumbi_saleh timbedra nema balle
 			sosso sagala mourdiah guire goumbou
-			sokolo timbuktu kare
+			sokolo timbuktu kare 
 		}
 		own_control_integrated = {
-			walata
+			walata 
 			taghaza taoudenni araouane
 		}
 		our_cores_conquered_by_others = {
 			diara
 			tichit aoudaghost tidjikja
 			nioro tourougoumbe diangounte_camara dioumara kolokani kourouninkoto
-			sandare banamba
+			sandare banamba 
 			kita narena tabou_m
 		}
 
@@ -21049,13 +21052,13 @@ countries = {
 
 	BMR = {
 		own_control_core = {
-			djenne san sanekuy bai
+			djenne san sanekuy bai 
 			segou bla koulikoro nyamina sansanding dioila
-			niono tenenkou
-			arlal bambara_maounde ngouma
-			dogo gargando korientze ras_el_ma safare soumpi
-			tindirma kabara goundam
-			kanibonzon sanga douentza bore
+			niono tenenkou 
+			arlal bambara_maounde ngouma 
+			dogo gargando korientze ras_el_ma safare soumpi 
+			tindirma kabara goundam 
+			kanibonzon sanga douentza bore 
 		}
 		own_control_integrated = {
 			koutiala
@@ -21106,7 +21109,7 @@ countries = {
 		religious_school = maliki_school
 		government = { mysticism_vs_jurisprudence = -5 }
 	}
-
+	
 	ZGH = {
 		own_control_core = {
 			dia
@@ -21134,7 +21137,7 @@ countries = {
 		own_control_core = {
 			kayes diamou
 			diawara ballou saraya
-			bafoulabe diakha
+			bafoulabe diakha 
 		}
 
 		own_control_integrated = {
@@ -21162,7 +21165,7 @@ countries = {
 		religious_school = maliki_school
 		government = { mysticism_vs_jurisprudence = -5 }
 	}
-
+	
 	TFK = {
 		own_control_core = {
 			borenta bourem bamba gossi
@@ -21197,14 +21200,14 @@ countries = {
 	MAL = {
 		own_control_core = {
 			niani dakadjalan kirina bamako dieribakoro siguiri kaba
-			niagassola
+			niagassola 
 			tengrela niena garalo massigui niantjila
 			nounkonkan kankan kouroussa tabon
-			kerouane mandiana
+			kerouane mandiana			
 		}
 
 		own_control_integrated = {
-			seydougou odienne
+			seydougou odienne 
 		}
 
 		starting_technology_level = 3
@@ -21344,7 +21347,7 @@ countries = {
 		own_control_core = {
 			podor walalde sioure golere salde agnam_civol silla
 			nguidjilone thilogne kanel waounde moudery kaedi matam
-			maghana bakel
+			maghana bakel 
 		}
 		our_cores_conquered_by_others = {
 		}
@@ -21549,13 +21552,13 @@ countries = {
 
 	SON = {
 		own_control_core = {
-			gao tondibi ansongo kukiya
-			hombori dorey
+			gao tondibi ansongo kukiya 
+			hombori dorey 
 			deou tessit kissi_loc gorouol mondoro aribinda
 		}
 		our_cores_conquered_by_others = {
 			borenta bourem bamba gossi
-			tadmekka
+			tadmekka 			
 			ayerou anzourou dargol gotheye namaro sikieye
 		}
 
@@ -21955,6 +21958,9 @@ countries = {
 
 			laws = {
 				sharia_law = maliki_policy
+			}
+			bureaucracies = {
+				{ type = bayt_al_mal_bureaucracy date = 1250.1.1 entrenchment = 50 }
 			}
 		}
 
@@ -22401,7 +22407,7 @@ countries = {
 		}
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 
 		capital = dahlak
 	}
@@ -22437,6 +22443,9 @@ countries = {
 
 			laws = {
 				sharia_law = shafii_policy
+			}
+			bureaucracies = {
+				{ type = bayt_al_mal_bureaucracy date = 1250.1.1 entrenchment = 50 }
 			}
 		}
 		religious_school = shafii_school
@@ -22494,7 +22503,7 @@ countries = {
 		}
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 
 		capital = seru
 	}
@@ -22721,6 +22730,9 @@ countries = {
 
 			laws = {
 				sharia_law = shafii_policy
+			}
+			bureaucracies = {
+				{ type = bayt_al_mal_bureaucracy date = 1250.1.1 entrenchment = 50 }
 			}
 		}
 		religious_school = shafii_school
@@ -22994,10 +23006,13 @@ countries = {
 			laws = {
 				sharia_law = shafii_policy
 			}
+			bureaucracies = {
+				{ type = bayt_al_mal_bureaucracy date = 1250.1.1 entrenchment = 50 }
+			}
 		}
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 
 		tolerated_cultures = {
 			sudanese_arab
@@ -23070,8 +23085,8 @@ countries = {
 
 		own_control_integrated = {
 			malha
-			el_obeid barah dilling kadugli teqali
-			ed_daein shakka
+			el_obeid barah dilling kadugli teqali 
+			ed_daein shakka 
 		}
 
 		starting_technology_level = 3
@@ -23262,14 +23277,14 @@ countries = {
 				iqta_law = lenient_taxation
 			}
 			bureaucracies = {
-				{ type = bayt_al_mal_bureaucracy date = 1250.1.1 entrenchment = 75s }
+				{ type = bayt_al_mal_bureaucracy date = 1250.1.1 entrenchment = 75 }
 				# Baybars I refined the Mamluk barid into a sophisticated relay-and-intelligence network.
 				{ type = barid_bureaucracy date = 1261.1.1 entrenchment = 75 }
 			}
 		}
 		religious_school = shafii_school #While Egypt today is mostly Hanafi, the $mamluks$ favored Shaafi over the rest
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 
 		tolerated_cultures = {
 			upper_egyptian_culture
@@ -23467,7 +23482,7 @@ countries = {
 		}
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 
 		tolerated_cultures = {
 			yao_culture
@@ -23506,7 +23521,7 @@ countries = {
 		}
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 
 		tolerated_cultures = {
 			swahili_culture
@@ -23537,7 +23552,7 @@ countries = {
 		}
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 
 		tolerated_cultures = {
 			swahili_culture
@@ -23585,7 +23600,7 @@ countries = {
 		}
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 
 		tolerated_cultures = {
 			shona_culture
@@ -23615,7 +23630,7 @@ countries = {
 		}
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 
 		capital = mombasa
 	}
@@ -23641,7 +23656,7 @@ countries = {
 		}
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 
 		capital = gedi
 	}
@@ -23666,7 +23681,7 @@ countries = {
 		}
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 
 		capital = ungwana
 	}
@@ -23691,7 +23706,7 @@ countries = {
 		}
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 
 		capital = lamu
 	}
@@ -23716,7 +23731,7 @@ countries = {
 		}
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 
 		capital = ras_mkumbuu
 	}
@@ -23742,7 +23757,7 @@ countries = {
 		}
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 
 		capital = zanzibar
 	}
@@ -23767,7 +23782,7 @@ countries = {
 		}
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 
 		capital = ngazidja
 	}
@@ -23795,7 +23810,7 @@ countries = {
 		}
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 
 		capital = angoche
 	}
@@ -23823,7 +23838,7 @@ countries = {
 		}
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 
 		capital = quelimane
 	}
@@ -23848,7 +23863,7 @@ countries = {
 		}
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 
 		tolerated_cultures = {
 			makhuwa_culture
@@ -24347,7 +24362,7 @@ countries = {
 		}
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 
 		capital = ambilobe
 	}
@@ -24590,7 +24605,7 @@ countries = {
 		capital = kibiro
 	}
 
-	#Buganda - BUG
+	#Buganda - BUG 
 	BUG = {
 		own_control_core = {
 			buganda buddu rubaga
@@ -24738,7 +24753,7 @@ countries = {
 			heir_selection = tribal_oldest_male
 			ruler = random
 		}
-
+		
 		capital = maasai
 	}
 
@@ -24872,7 +24887,7 @@ countries = {
 
 	SYG = { #Shenyang
 		own_control_core = {
-			liaoyang fushun_liaoyang hetu_ala jabiyan qinhe shenyang
+			liaoyang fushun_liaoyang hetu_ala jabiyan qinhe shenyang 
 			dingliao dandong donggo kuandian wanggika
 			gaizhou fuzhou_liaoyang jinzhou_dalian xiuyan zhuanghe
 			guangning kaicheng wangping yizhou_jinzhou
@@ -25014,7 +25029,7 @@ countries = {
 						type = boolean
 						identity = 1
 					}
-				}
+				} 
 			}
 		}
 
@@ -25152,7 +25167,7 @@ countries = {
 						type = boolean
 						identity = 1
 					}
-				}
+				} 
 			}
 		}
 		flag = "JAP_monarchy"
@@ -30421,8 +30436,8 @@ countries = {
 			ansu dingxing gaoyang_baoding laishui boye mancheng wanzhou_baoding qingyuan_baoding puyin tangxian gecheng xincheng_baoding shulu guixin yixian_yizhou
 			baochang songzhou shangdu dongliangting yixingzhou enhua fuzhou kuanhe_xingzhou niushan limin baitan weining chagannur taipingzhuang liuyuan xiabancheng huanzhou gaoyuan zhangsanying zhongdu
 			changyuan yuancheng baima_daming dongming nanle neihuang puyang qingfeng weixian xunxian
-			xiankang xingzhong lizhou daning_pingquan longshan huihe hezhong naiman pingquan chuanzhou wuping_daning shenshui fushu yizhou_jurchen
-			qinghe guangping handan yongnian mingshui quzhou
+			xiankang xingzhong lizhou daning_pingquan longshan huihe hezhong naiman pingquan chuanzhou wuping_daning shenshui fushu yizhou_jurchen 
+			qinghe guangping handan yongnian mingshui quzhou 
 			ningchang tongliao yehe
 			jiaohe qingchi dongguang fucheng_hejian liguo hejian jinghai tiaoxian leshou nanpi ningjin qingyun huichuan renqiu wuqiao suning dagu zhigu yanshan gucheng_jingzhou
 			guangzong renxian julu neiqiu shahe xingtai
@@ -30501,14 +30516,14 @@ countries = {
 			mingshan yandao rongjing
 
 			#Mongolia
-			avraga rahsaan_khad
+			avraga rahsaan_khad 
 			enhe_hada jiliu lower_gazimur merelka urov
 			choyrin_datsan bayan gazrin_chuluu takhilyn ulziit
 			tavan_tolgoi sumtiin zara_uul
 			jingzhou_dorbod bathahalak chahar muumyangan ulan_hua ulanchab
 			erenkhot avga baganuur khobootsar shuluun_khoboot_tsagaan sonod
 			bishreit dalay doloodyn_gobi ikh_narttin_chuluu saikhandulaan ulaanbadrakh
-			kyakhta khadanzaa
+			kyakhta khadanzaa 
 			selenge khimni ulenkhe zed zelterijin
 			amarbayas_galang bornuur eroo
 			sulkhari khilgo khilgoson ung
@@ -30531,7 +30546,7 @@ countries = {
 			nurchuu kuenga uryum
 			lingfang xuanhua_nanning ningpu
 
-			amgun dukin dzhuk imilen kerbi suluk
+			amgun dukin dzhuk imilen kerbi suluk 
 			nurgan bulava shantar torom tugur usalgin
 			achan nemptu simmi uninka xungake
 			kedar bitki evur pilda uschu
@@ -31047,14 +31062,14 @@ countries = {
 		type = army
 		own_control_core = {
 			kurchum kandysu kokpekty shar zyryan
-			arkat sarybulak
+			arkat sarybulak 
 			zmeinogorsk shemonayevskoye oskemen ust_kalmanka
-			altayskoye onguday ust_koksa smolenskoye
+			altayskoye onguday ust_koksa smolenskoye 
 		}
 
 		own_control_integrated = {
-			ayagoz
-			burqin jeminay
+			ayagoz 
+			burqin jeminay 
 			tsagaan_usun
 		}
 
@@ -31089,11 +31104,11 @@ countries = {
 			altayn_ovor_gobi naomao zuun_garyn_gobi
 			otegu_qulan bugat chikhan_agui tevsh_uul tsogt
 			tost_uul gaxun_gobi shargyn_gobi shira_qulusun
-			noyon_uul
-			niuquanzi
+			noyon_uul 
+			niuquanzi 
 		}
 		own_control_integrated = {
-			barkul santokhe khara_khoto naraan_chilaun
+			barkul santokhe khara_khoto naraan_chilaun 
 		}
 
 		starting_technology_level = 3
@@ -31106,7 +31121,7 @@ countries = {
 			ruler = random
 
 			reforms = {
-
+				
 			}
 		}
 		tolerated_cultures = {
@@ -31125,9 +31140,9 @@ countries = {
 			ulaamgom dzaigil erzin tes turuum
 			zagzuugiin_balgas altan_gadas chuluutyn delger_moron ider
 			khatgal eringiin uur
-			baibalyk kharkhul mori_baridag
+			baibalyk kharkhul mori_baridag 
 			khar_balgas tsetserleg
-			kaa
+			kaa 
 		}
 
 		own_control_integrated = {
@@ -31146,7 +31161,7 @@ countries = {
 			ruler = random
 
 			reforms = {
-
+				
 			}
 		}
 		tolerated_cultures = {
@@ -31162,8 +31177,8 @@ countries = {
 		own_control_core = {
 			khalzan_shireg baidrag biger boontsagaan khangal naran orog tuin
 			uliastai ogomoor teel zavkhan
-			haerhhana huysiyn tahiltyn_khotgot
-			tsagaan_agui
+			haerhhana huysiyn tahiltyn_khotgot 
+			tsagaan_agui 
 		}
 
 		starting_technology_level = 3
@@ -31176,7 +31191,7 @@ countries = {
 			ruler = random
 
 			reforms = {
-
+				
 			}
 		}
 		tolerated_cultures = {
@@ -31190,7 +31205,7 @@ countries = {
 	TRH = { #Torghut Horde
 		type = army
 		own_control_core = {
-			atanuul bodonch bulgan chinggil ulungur kara_irtysh
+			atanuul bodonch bulgan chinggil ulungur kara_irtysh 
 		}
 
 		starting_technology_level = 3
@@ -31203,7 +31218,7 @@ countries = {
 			ruler = random
 
 			reforms = {
-
+				
 			}
 		}
 		tolerated_cultures = {
@@ -31230,11 +31245,11 @@ countries = {
 			ruler = random
 
 			reforms = {
-
+				
 			}
 		}
 		tolerated_cultures = {
-
+			
 		}
 
 		capital = buren_khem
@@ -31248,7 +31263,7 @@ countries = {
 			lower_ulz upper_ulz yakhi
 			kherlen uguumur undurkhaan
 			khan_khentii tsokh
-			ingedei
+			ingedei 
 		}
 
 		starting_technology_level = 3
@@ -31269,7 +31284,7 @@ countries = {
 		country_rank = rank_kingdom
 
 		tolerated_cultures = {
-
+			
 		}
 
 		capital = balj
@@ -31280,10 +31295,10 @@ countries = {
 		own_control_core = {
 			avnagar chono khuuchid sangiin_dalai sorin_nuur ulgain uzemchin
 			haihaer kailu linhuang qingzhou_mongol xinkai
-			pingdisonglin quanning yingchang
-			tuliemao
+			pingdisonglin quanning yingchang 
+			tuliemao 
 			buir_nuur barun_xiabaer tamsabulag
-			matad sharga_uul
+			matad sharga_uul 
 		}
 
 		starting_technology_level = 3
@@ -31309,19 +31324,19 @@ countries = {
 
 		capital = qingzhou_mongol
 	}
-
+	
 	OTC = { #Otchigin Horde
 		type = army
 		own_control_core = {
 			chaghankhot gorlos huolin taluhe wafang
 			taizhou_jurchen buteha chol hurle
 			bayan_ula xuguit yimin
-			zhengjiatun
-			khalkh
-			hailar
-			talaha sart
+			zhengjiatun 
+			khalkh 
+			hailar 
+			talaha sart 
 		}
-
+		
 		own_control_integrated = {
 			nongan
 			zhaozhou_jurchen
@@ -31353,20 +31368,20 @@ countries = {
 
 		capital = taizhou_jurchen
 	}
-
+	
 	QAS = { #Qasar Horde
 		type = army
 		own_control_core = {
-			chit nibuchu tura uldurga
+			chit nibuchu tura uldurga 
 			qorqonaq_yubur aga boorj unda
-			upper_gazimur
-			baruun_tar_nuur tsagaan zyyn_tar_nuur
+			upper_gazimur 
+			baruun_tar_nuur tsagaan zyyn_tar_nuur 
 			abagaita gegen hasar khirkhira talman_boorj
-			dalai_nuur
+			dalai_nuur 
 		}
 
 		own_control_integrated = {
-			hulun
+			hulun 
 		}
 
 		starting_technology_level = 3
@@ -31400,7 +31415,7 @@ countries = {
 			kashgar artush barchuk maralbexi payzawat tokkuzak yingisar yopurga
 			khotan karakax keriya lop mazar_tagh qira
 			yarkand guma kargilik poskam
-			charchan niya
+			charchan niya 
 		}
 
 		starting_technology_level = 3
@@ -31429,7 +31444,7 @@ countries = {
 
 	BKH = { #Badakhshan
 		own_control_core = {
-			fayzabad jurm sar_sang zebak
+			fayzabad jurm sar_sang zebak 
 			qalai_khumb kham_bahar ragh vanch
 			shighnan gunt murghab oksu shiveh vamar
 			qila_panjeh ishkashim roshtqala sarhad
@@ -31475,7 +31490,7 @@ countries = {
 
 	SRL = { #Sarikol
 		own_control_core = {
-			sarikol akto kizilsu zarafshan
+			sarikol akto kizilsu zarafshan 
 		}
 
 		starting_technology_level = 3
@@ -33210,7 +33225,7 @@ countries = {
 		capital = mardin
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 	}
 
 	#Aydinids - AYD https://en.wikipedia.org/wiki/Aydinids
@@ -33246,7 +33261,7 @@ countries = {
 			greek_culture
 		}
 
-		country_rank = rank_county
+		country_rank = rank_county 
 
 		capital = birgi
 		religious_school = bektashi_school
@@ -33600,6 +33615,9 @@ countries = {
 
 				trunk_road_to_erzurum_privilege
 			}
+			bureaucracies = {
+				{ type = bayt_al_mal_bureaucracy date = 1300.1.1 entrenchment = 40 }
+			}
 		}
 
 		country_rank = rank_duchy
@@ -33618,11 +33636,11 @@ countries = {
 			mihaliccik sivrihisar bozan kaymaz
 			altintas emirdag seyitgazi
 			aslanapa emet simav tavsanli
-			usak banaz gediz seyhli sandikli
+			usak banaz gediz seyhli sandikli 
 		}
 
 		own_control_integrated = {
-			kutahya
+			kutahya 
 		}
 
 		starting_technology_level = 3
@@ -33931,7 +33949,7 @@ countries = {
 	#Sahipataids - SHP https://en.wikipedia.org/wiki/Sahib_Ataids
 	SHP = {
 		own_control_core = {
-			karahisar_i_sahib suhut bolvadin
+			karahisar_i_sahib suhut bolvadin 
 		}
 
 		include = "expl_eastern_europe"
@@ -33991,7 +34009,7 @@ countries = {
 			ahlat bargiri ercis
 			diyarbekir ergani
 			erzurum tercan
-			cermik bayburt
+			cermik bayburt 
 		}
 		own_control_integrated = {
 			mosul qayyarah tal_afar
@@ -34159,7 +34177,7 @@ countries = {
 		}
 
 		tolerated_cultures = {
-			syriac_culture
+			syriac_culture			
 		}
 
 		capital = duhok
@@ -34500,7 +34518,7 @@ countries = {
 	TRE = {
 		own_control_core = {
 			trebizond giresun gorele gumushane surmene
-			bayramlu unye
+			bayramlu unye  
 		}
 
 		own_control_integrated = {
@@ -34509,7 +34527,7 @@ countries = {
 
 		our_cores_conquered_by_others = {
 			khupati rize
-			akkus mesudiye terme
+			akkus mesudiye terme 
 		}
 
 		starting_technology_level = 3
@@ -34552,7 +34570,7 @@ countries = {
 
 		country_rank = rank_empire
 		capital = trebizond
-
+		
 		liturgical_language = koine_dialect
 
 		tolerated_cultures = {
@@ -34583,7 +34601,7 @@ countries = {
 
 			centralization_vs_decentralization = 10
 			aristocracy_vs_plutocracy = -30
-			serfdom_vs_free_subjects = 0
+			serfdom_vs_free_subjects = -50
 			traditionalist_vs_innovative = 10
 			spiritualist_vs_humanist = 10
 			mercantilism_vs_free_trade = -25
@@ -34636,6 +34654,9 @@ countries = {
 				sharia_law = hanafi_policy
 				harem_law = secluded_harem_policy
 			}
+			bureaucracies = {
+				{ type = bayt_al_mal_bureaucracy date = 1300.1.1 entrenchment = 40 }
+			}
 		}
 
 		tolerated_cultures = {
@@ -34646,6 +34667,7 @@ countries = {
 		capital = bursa
 		ai_advance_preference_tags = {
 			warfare = 1
+			land = 1
 		}
 		country_rank = rank_duchy
 
@@ -34843,7 +34865,7 @@ countries = {
 		capital = sanandaj
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 	}
 
 	#Domboli - DML
@@ -34899,7 +34921,7 @@ countries = {
 		capital = ujan
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 	}
 
 	#Hadhur - HDR
@@ -34925,7 +34947,7 @@ countries = {
 		capital = sulaymaniyah
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 	}
 
 	#Hasnuya - HNY
@@ -34951,7 +34973,7 @@ countries = {
 		capital = sahrazur
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 	}
 
 	#Kalhor - KLR
@@ -34981,7 +35003,7 @@ countries = {
 		capital = gilan_gharb
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 	}
 
 	#Kartawi - KTW
@@ -35007,7 +35029,7 @@ countries = {
 		capital = barza
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 	}
 
 	#Kelali - KEL
@@ -35037,7 +35059,7 @@ countries = {
 		capital = nahavand
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 	}
 
 	#Kurani - KRI
@@ -35063,7 +35085,7 @@ countries = {
 		capital = qasr_shirin
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 	}
 
 	#Merkewan - MKW
@@ -35089,7 +35111,7 @@ countries = {
 		capital = osnavieh
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 	}
 
 	#Rankali - RKL
@@ -35119,7 +35141,7 @@ countries = {
 		capital = kermanshah
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 	}
 
 	#Sabuli - SLI
@@ -35145,7 +35167,7 @@ countries = {
 		capital = mahabad
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 	}
 
 	#Saqiyya - SYY
@@ -35171,7 +35193,7 @@ countries = {
 		capital = kirkuk
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 	}
 
 	#Zebari - ZBR
@@ -35197,14 +35219,14 @@ countries = {
 		capital = qaladiza
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 	}
 
 	#Aq Qoyunlu - AQQ
 	AQQ = {
 		our_cores_conquered_by_others = {
 			harput adakli palu
-			bayburt
+			bayburt 
 		}
 
 		include = "expl_middle_east"
@@ -35223,7 +35245,7 @@ countries = {
 
 		capital = palu
 		religious_school = hanafi_school
-		government = { mysticism_vs_jurisprudence = -15 }
+		government = { mysticism_vs_jurisprudence = -15 }	
 	}
 
 	#Qara Qoyunlu - QAR
@@ -35249,7 +35271,7 @@ countries = {
 
 		capital = ercis
 		religious_school = hanafi_school
-		government = { mysticism_vs_jurisprudence = -15 }
+		government = { mysticism_vs_jurisprudence = -15 }	
 	}
 
 	#Al 'Alī - AAL
@@ -35278,7 +35300,7 @@ countries = {
 		}
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 	}
 
 	#Al Mira - AMR
@@ -35308,7 +35330,7 @@ countries = {
 		}
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 	}
 
 	#Al Fadl - FDL
@@ -35356,7 +35378,7 @@ countries = {
 		}
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 	}
 
 	#Döger - DGE
@@ -35384,7 +35406,7 @@ countries = {
 		}
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 	}
 	#-------------------------- Holy Roman Empire ----------------------------
 
@@ -37089,7 +37111,7 @@ countries = {
 		capital = siegen
 	}
 
-	NSD = {  # Nassau Dillenburg (North Germany)
+	NSD = {  # Nassau Dillenburg (North Germany)		
 		our_cores_conquered_by_others = {
 			dillenburg
 		}
@@ -37421,7 +37443,7 @@ countries = {
 		include = "expl_western_europe"
 		include = "expl_northern_europe"
 		include = "swiss_republic"
-		government = {
+		government = { 
 			ruler = random
 			laws = {
 				mining_law = nobles_mining_law
@@ -37673,7 +37695,7 @@ countries = {
 			}
 		}
 
-
+		
 		country_rank = rank_county
 		capital = balingen
 	}
@@ -38953,7 +38975,7 @@ countries = {
 		include = "expl_northern_europe"
 		include = "german_principality"
 		government = {
-
+		
 			ruler = gsw_johann_ii_the_bald
 
 			regnal_numbers = {
@@ -39055,7 +39077,7 @@ countries = {
 				character = gsw_nikolaus_ii_werle start_date = 1298.1.1 end_date = 1308.1.1 regnal_number = 2
 				character = gsw_heinrich_ii_werle start_date = 1298.1.1 end_date = 1308.1.1 regnal_number = 2
 			}
-			ruler_term = { character = gsw_nikolaus_ii_werle start_date = 1308.1.1 end_date = 1316.2.18 regnal_number = 2 }
+			ruler_term = { character = gsw_nikolaus_ii_werle start_date = 1308.1.1 end_date = 1316.2.18 regnal_number = 2 }			
 			ruler_term = {
 				character = gsw_johann_ii_the_bald start_date = 1316.2.18 regnal_number = 2
 				#character = gsw_johann_iii_werle_goldberg start_date = 1316.2.18 regnal_number = 3 # As Co-Ruler
@@ -40469,7 +40491,7 @@ countries = {
 			ruler = mdn_ludwig_von_braunschweig_luneburg
 
 			ruler_term = { character = mdn_ludwig_von_braunschweig_luneburg start_date = 1324.5.14 regnal_number = 1 }
-
+			
 			reforms = {
 				prince_bishopric_reform
 			}
@@ -40617,7 +40639,7 @@ countries = {
 			ruler_term = { character = lun_johann_i_braunschweig_luneburg start_date = 1269.1.1 end_date = 1277.12.13 regnal_number = 1 }
 			ruler_term = { character = lun_otto_ii_luneburg start_date = 1277.12.13 end_date = 1330.4.10 regnal_number = 2 }
 			ruler_term = {
-				character = lun_otto_iii_luneburg start_date = 1330.4.10 regnal_number = 3
+				character = lun_otto_iii_luneburg start_date = 1330.4.10 regnal_number = 3 
 				#character = lun_wilhelm_ii_luneburg start_date = 1330.4.10 regnal_number = 2 # As Co-Ruler
 			}
 
@@ -40697,7 +40719,7 @@ countries = {
 
 			ruler = gbh_heinrich_ii_braunschweig_grubenhagen
 
-			ruler_term = {
+			ruler_term = {				
 				character = gbh_heinrich_i_braunschweig_grubenhagen start_date = 1291.1.1 end_date = 1322.9.7 regnal_number = 1
 			}
 			ruler_term = {
@@ -40706,7 +40728,7 @@ countries = {
 				character = gbh_wilhelm_i_braunschweig_grubenhagen start_date = 1322.9.7 end_date = 1325.1.1 regnal_number = 1
 				character = gbh_johann_i_braunschweig_grubenhagen start_date = 1322.9.7 end_date = 1325.1.1 regnal_number = 1
 			}
-			ruler_term = {
+			ruler_term = {				
 				character = gbh_heinrich_ii_braunschweig_grubenhagen start_date = 1325.1.1 regnal_number = 2
 				#character = gbh_ernst_i_braunschweig_grubenhagen start_date = 1325.1.1 regnal_number = 1 #As Co-Ruler
 				#character = gbh_wilhelm_i_braunschweig_grubenhagen start_date = 1325.1.1 regnal_number = 1 #As Co-Ruler
@@ -40742,9 +40764,9 @@ countries = {
 			ruler = hdh_heinrich_iii_von_braunschweig_luneburg
 
 			ruler_term = { character = hdh_otto_i_braunschweig start_date = 1260.1.1 end_date = 1297.1.1 regnal_number = 1 }
-
+			
 			ruler_term = { character = hdh_heinrich_iii_von_braunschweig_luneburg start_date = 1331.1.1 regnal_number = 3 }
-
+			
 			regnal_numbers = {
 				name_otto = 2
 				name_henry = 3
@@ -40919,7 +40941,7 @@ countries = {
 			ruler = vrd_johannes_hake
 
 			ruler_term = { character = vrd_konrad_i_braunschweig start_date = 1269.5.4 end_date = 1300.9.15 regnal_number = 1 }
-
+			
 			reforms = {
 				prince_bishopric_reform
 			}
@@ -42090,7 +42112,7 @@ countries = {
 
 			ruler_term = {	character = glg_mechthild_von_braunschweig_luneburg start_date = 1310.12.11 end_date = 1318.4.26 regnal_number = 1 }
 			ruler_term = {	character = jaw_henryk_i_javorski start_date = 1337.1.1 regnal_number = 1	}
-
+			
 			regnal_numbers = {
 				name_henry = 1
 			}
@@ -43277,7 +43299,7 @@ countries = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 			ruler = random
-
+			
 			ruler_term = { character = msv_mikhail_rostislavich_rurikovich start_date = 1260.1.1  end_date = 1278.1.1 regnal_number = 1 }
 
 			ruler_term = { character = msv_roman_glebovich_rurikovich start_date = 1281.1.1  end_date = 1301.1.1 regnal_number = 1 }
@@ -43302,7 +43324,7 @@ countries = {
 		include = "expl_eastern_europe"
 		include = "lithuanian_monarchy"
 		government = {
-			ruler = smo_ivan_alexandrovich_rurikovich
+			ruler = smo_ivan_alexandrovich_rurikovich 
 
 			ruler_term = { character = smo_stanislav_vladimirovich_rurikovich start_date = 988.1.1 end_date = 1015.1.1 regnal_number = 1 }
 			ruler_term = { character = smo_vyacheslav_yaroslavich_rurikovich start_date = 1054.2.20 end_date = 1057.1.1 regnal_number = 1 }
@@ -43310,7 +43332,7 @@ countries = {
 
 			ruler_term = { character = kie_rostislav_rurikovich start_date = 1127.1.1 end_date = 1167.1.1 regnal_number = 1	}
 			ruler_term = { character = smo_david_rostislavich_rurikovich start_date = 1180.1.1 end_date = 1197.4.23 regnal_number = 1	}
-
+		
 			ruler_term = { character = kie_vladimir_iv_rurikovich start_date = 1212.1.1 end_date = 1219.1.1 regnal_number = 1	}
 			ruler_term = { character = smo_mstislav_davidovich_rurikovich start_date = 1219.1.1 end_date = 1230.4.23 regnal_number = 1	}
 
@@ -43353,13 +43375,13 @@ countries = {
 			#Black Ruthenia
 			mazyr buinovichi kalinkavichy pietrykaw rudobelka
 			#Chernihiv
-			melnya
+			melnya 
 			ichnia pryluky chornukhy
 			lypova_dolyna romen buryn sumy okhtyrka krasnopillia hadiach
 			glushkovo putyvl khotmyzh vilshana
 
 			yaroslavka yahotyn lutava opishnya hovtva kolomak
-		}
+		} 
 
 		include = "expl_eastern_europe"
 		include = "ruthenian_principality_no_coast"
@@ -43367,9 +43389,9 @@ countries = {
 			ruler = kie_teodoras_ivanovich_rurikovich
 
 			ruler_term = { character = kie_igor_rurikovich start_date = 912.1.1 end_date = 945.1.1 regnal_number = 1 }
-			ruler_term = {
+			ruler_term = { 
 				character = kie_saint_olga start_date = 945.1.1 end_date = 962.1.1 regnal_number = 1
-				character = kie_sviatoslav_rurikovich start_date = 945.1.1 end_date = 962.1.1 regnal_number = 1
+				character = kie_sviatoslav_rurikovich start_date = 945.1.1 end_date = 962.1.1 regnal_number = 1 
 			}
 			ruler_term = { character = kie_sviatoslav_rurikovich start_date = 962.1.1 end_date = 972.1.1 regnal_number = 1 }
 			ruler_term = { character = kie_yaropolk_rurikovich start_date = 972.1.1 end_date = 978.6.11 regnal_number = 1 }
@@ -43483,24 +43505,7 @@ countries = {
 		capital = kichkas
 	}
 
-	#-------------------------- Mesoamerica ----------------------------
-
-	#-------------------------- Central America ----------------------------
-# mesoam_countries.txt
-		# Mesoamerica - P'urhipecherio TAR to Toquegua TOQ
-		# Central America - Kuskatan KUS to Cabecar CBC
-
-	#-------------------------- Aridoamerica ----------------------------
-
-	#-------------------------- Colombia ----------------------------
-
-	#-------------------------- Andes ----------------------------
-# southam_countries.txt
-		# Colombia - Tairona TAI to Kalinago KGN*
-		# Andes - Quito QTO to Quitor QTR
-		# Brazil - Kuikuro KUI to Potiguara POT
-		# Chaco & La Plata - Moxo MOX to Charrua CUA
-	# From patagonia expanded mod - Pehuenches PHS to Rapa Nui RPN
+# Lines 43455 to 49063 removed from 00_countries.txt P'urhipecherio/TAR to Quitor/QTR for Living Americas mod - see livam_countries.txt
 
 	#-------------------------- Tibet and Xinjiang ----------------------------
 	TIB = { #Tibet
@@ -43704,10 +43709,10 @@ countries = {
 		}
 
 		own_control_integrated = {
-			almaliq gulja narat nilka tokkuztara bortala jing
-			kuytun urghtbulaq usu_xinjiang yangjibaliq kutubi ulan_us qanbalik
-			hoboksar gonganbao utbulaq zhekdeliq targabatay dahra_sasykkol emin
-			ilanbalyk koktuma toli
+			almaliq gulja narat nilka tokkuztara bortala jing 
+			kuytun urghtbulaq usu_xinjiang yangjibaliq kutubi ulan_us qanbalik 
+			hoboksar gonganbao utbulaq zhekdeliq targabatay dahra_sasykkol emin 
+			ilanbalyk koktuma toli 
 			ilibalyk koktal kayalyk tansyk
 		}
 
@@ -43841,7 +43846,7 @@ countries = {
 			qocho turpan lukchun pichan toksun
 			beshbalik dunla guchung mori
 			dashahai bailongdui miran loulan
-			karasahr bosten kumux
+			karasahr bosten kumux 
 			kurla bugur kuerchu
 			yuanhu
 			nazhi hami geziyandun
@@ -43850,7 +43855,7 @@ countries = {
 		}
 
 		own_control_integrated = {
-			yulduz
+			yulduz 
 		}
 
 		starting_technology_level = 3
@@ -44449,9 +44454,9 @@ countries = {
 		type = pop
 
 		add_pops_from_locations = {
-			yakesa amazar emuer mohe ollo urka gilyuy bryante mogot tukuringra tynda urkan humar kuanhe
+			yakesa amazar emuer mohe ollo urka gilyuy bryante mogot tukuringra tynda urkan humar kuanhe 
 			pangu sahar tahe aigun dalaiketun yilaha zhalong qiqihar arun bila laha nuomin mergen dobkuri
-			gan kuile menlu non enhe_hada jiliu lower_gazimur merelka upper_gazimur urov abagaita gegen
+			gan kuile menlu non enhe_hada jiliu lower_gazimur merelka upper_gazimur urov abagaita gegen 
 			hasar khirkhira talman_boorj khilgo ude_baikal khudan nibuchu ingedei tura qorqonaq_yubur aga
 			boorj unda silkari kara_shilka kuenga uryum baruun_tar_nuur lower_ulz zyyn_tar_nuur kyra narhata
 		}
@@ -44469,12 +44474,12 @@ countries = {
 		add_pops_from_locations = {
 			amgun dukin dzhuk imilen kerbi suluk torom tugur usalgin kedar bitki evur kukan sutara
 			amazar ollo urka gilyuy bryante mogot tukuringra tynda urkan bir_amur arkhara chenqing
-			nioman xunhe zhanhe gromatukha birma tehcha tom tygde yor selemde burunda buse kogan
-			mamyn nehru ulma upper_nioman akishma olongki tujun tyrma urgal djee argi dep kupuri
+			nioman xunhe zhanhe gromatukha birma tehcha tom tygde yor selemde burunda buse kogan 
+			mamyn nehru ulma upper_nioman akishma olongki tujun tyrma urgal djee argi dep kupuri 
 			mulmuga tok nibuchu chit nurchuu tura uldurga kuenga uryum ust_kut reka_tuba
-			nikolsky_pogost irkutsk_kazachinskoye dzerzhinskoye motygino taseyevo pashino bratsk
-			chuva kezhma upper_angara lower_angara educhanka yarkino manzaya boguchany chunoyar aban
-			udskoye	bolodek tul_kichan maya
+			nikolsky_pogost irkutsk_kazachinskoye dzerzhinskoye motygino taseyevo pashino bratsk 
+			chuva kezhma upper_angara lower_angara educhanka yarkino manzaya boguchany chunoyar aban 
+			udskoye	bolodek tul_kichan maya 
 		}
 
 		include = "expl_manchurian_tribe"
@@ -44558,7 +44563,7 @@ countries = {
 		type = pop
 
 		add_pops_from_locations = {
-			amgun dzhuk imilen nurgan bulava shantar torom tugur usalgin nanghaer idy_sakhalin
+			amgun dzhuk imilen nurgan bulava shantar torom tugur usalgin nanghaer idy_sakhalin 
 			porokotan wuliehe deren tumzhdin
 		}
 
@@ -44587,7 +44592,7 @@ countries = {
 		type = pop
 
 		add_pops_from_locations = {
-			yakesa emuer mohe ollo urka tynda urkan humar bir_amur kuanhe pangu tahe aigun chenqing
+			yakesa emuer mohe ollo urka tynda urkan humar bir_amur kuanhe pangu tahe aigun chenqing 
 			nioman xunhe zhanhe tehcha hulan hailun nemeri yilaha laha mergen dobkuri kuile	menlu non
 		}
 
@@ -44604,7 +44609,7 @@ countries = {
 		add_pops_from_locations = {
 			tongliao boduna zhaozhou_jurchen changchun taizhou_jurchen buteha chol hurle talaha dalaiketun
 			sart zhalong qiqihar arun bila nuomin chaghankhot gorlos huolin taluhe tuliemao wafang
-			zhengjiatun kailu xinkai buir_nuur khalkh dalai_nuur hailar	bayan_ula hulun xuguit yimin
+			zhengjiatun kailu xinkai buir_nuur khalkh dalai_nuur hailar	bayan_ula hulun xuguit yimin		
 		}
 
 		include = "expl_manchurian_tribe"
@@ -44632,7 +44637,7 @@ countries = {
 
 		add_pops_from_locations = {
 			boli nemptu simmi uninka xungake kema koppi samarginka urmi bidzhan bira kukan
-			kur sutara arkhara jiajin bayan_susu hvlan chalin taowen wanhufu wehe bikinka imanka
+			kur sutara arkhara jiajin bayan_susu hvlan chalin taowen wanhufu wehe bikinka imanka 
 			katen xunka	anchun namunka noto_ussuri lahasusu tulguur anju_nurgan nogule
 		}
 
@@ -44650,7 +44655,7 @@ countries = {
 
 		add_pops_from_locations = {
 			achan nemptu simmi uninka xungake kedar bitki evur pilda uschu kur xunka
-
+			
 		}
 
 		include = "expl_manchurian_tribe"
@@ -44665,7 +44670,7 @@ countries = {
 	#	type = pop
 #
 	#	add_pops_from_locations = {
-	#
+	#		
 	#	}
 #
 	#	include = "expl_manchurian_tribe"
@@ -44868,7 +44873,7 @@ countries = {
 
 	ODO = { #Odoli
 		own_control_core = {
-
+			
 		}
 
 		include = "expl_manchurian_tribe"
@@ -44961,7 +44966,7 @@ countries = {
 
 	FUY = { #Fuyu
 		own_control_core = {
-			dalaiketun
+			dalaiketun 
 		}
 
 		own_control_integrated = {
@@ -45023,7 +45028,7 @@ countries = {
 			heir_selection = ritual_selection
 		}
 	}
-
+	
 	TAS = { #Tashan
 		own_control_core = {
 			hulan
@@ -45222,7 +45227,7 @@ countries = {
 
 	MUU = { #Mulun
 		own_control_core = {
-
+			
 		}
 
 		include = "expl_manchurian_tribe"
@@ -45312,7 +45317,7 @@ countries = {
 
 	WNL = { #Wanlin
 		own_control_core = {
-
+			
 		}
 
 		include = "expl_manchurian_tribe"
@@ -45373,7 +45378,7 @@ countries = {
 
 	HIY = { #Haiyan
 		own_control_core = {
-			musan
+			musan 
 			gyeongseong buryeong gilju myeongcheon onseong heoryeong
 		}
 
@@ -45389,7 +45394,7 @@ countries = {
 
 	HLN = { #Halan
 		own_control_core = {
-			helong longjing
+			helong longjing 
 			hamheung dancheon bukcheong
 		}
 
@@ -45495,7 +45500,7 @@ countries = {
 
 	LEF = { #Lefu
 		own_control_core = {
-
+			
 		}
 
 		include = "expl_manchurian_tribe"
@@ -45860,7 +45865,7 @@ countries = {
 
 			ruler = suk_ngua_nam_thum
 		}
-
+		
 		accepted_cultures = {
 			lawa_culture
 		}
@@ -45965,7 +45970,7 @@ countries = {
 				education_masses_law = uneducated_masses_education
 			}
 		}
-
+		
 		accepted_cultures = {
 			lawa_culture
 			mon_culture
@@ -46078,7 +46083,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 
 		capital = kedah
 	}
@@ -46239,7 +46244,7 @@ countries = {
 	MUA = { #Muang Sua
 		own_control_core = {
 			muang_sua ban_luang_cheng hongsa muang_et muang_kham muang_lang muang_thaeng muang_xay nam_xuang phongsali
-			phonsavan xam_neua
+			phonsavan xam_neua 
 		}
 
 		own_control_integrated = {
@@ -46321,7 +46326,7 @@ countries = {
 		government = {
 			ruler = random
 		}
-
+		
 		accepted_cultures = {
 			kado_culture
 		}
@@ -46386,7 +46391,7 @@ countries = {
 		government = {
 			ruler = random
 		}
-
+		
 	}
 
 	HHP = { #Hsawn Hsup
@@ -46542,7 +46547,7 @@ countries = {
 		}
 
 		own_control_integrated = {
-
+			
 		}
 
 		include = "south_east_asia_monarchy_no_coast"
@@ -46685,20 +46690,20 @@ countries = {
 
 		add_pops_from_locations = {
 			anyuan_lianzhou ruxi xiaodong baishan anding_mashan yongshun lingfang shanglin qianjiang_binzhou
-			yining yongfu guishun xiaozhenan zhenan_guishun ningpu yongning_hengzhou qianlong xilong
-			bada ceheng machang zhenfeng maping liucheng wuxian_liuzhou yangshou laibin luorong dayaoshan
-			lipu yangshuo nandan bama donglan zhishan nadi liuzhai
-			xuanhua_nanning langning wuyuan_nanning yishan anhua_huanjiang hechi sien
-			xincheng_xincheng libo rongshui changan luocheng tongdao_rongzhou sicheng xilin
-			wangmu lucheng luodian tongle siming pingxiang_pingxiang shangsi qianlong_siming
-			chongshan longzhou_longzhou mingying doukang guwan laian_tianzhou baise sienzhou
-			tianzhou tangxing guizhou_xunzhou watang annan xinxing_annan xincheng_annan puding guangsuoling
-			dingnan_anshun kangzuo xibao zhenning dushan guizhou_guizhou jinzhu xintian bafan suidong
-			longli weiqing pingyue maxia puan_puan huangcaoba anlong shuixi shuicheng pingba
-			zhijin guangnan bangban boai fuzhou_guangnan zhehong shizong
-			qiubei wucao bazhai lihua jiaha jiaohua nanlang weimo xisa luoxiong
-			shaxi wengshui van_don lang_son loc_chau quang_uyen that_nguyen van_kiep quy_hoa
-			thuy_vi van_ban thai_nguyen bac_thai_nguyen cam_hoa tuyen_hoa vo_nhai tuyen_quang bao_lac
+			yining yongfu guishun xiaozhenan zhenan_guishun ningpu yongning_hengzhou qianlong xilong 
+			bada ceheng machang zhenfeng maping liucheng wuxian_liuzhou yangshou laibin luorong dayaoshan 
+			lipu yangshuo nandan bama donglan zhishan nadi liuzhai 
+			xuanhua_nanning langning wuyuan_nanning yishan anhua_huanjiang hechi sien 
+			xincheng_xincheng libo rongshui changan luocheng tongdao_rongzhou sicheng xilin 
+			wangmu lucheng luodian tongle siming pingxiang_pingxiang shangsi qianlong_siming 
+			chongshan longzhou_longzhou mingying doukang guwan laian_tianzhou baise sienzhou 
+			tianzhou tangxing guizhou_xunzhou watang annan xinxing_annan xincheng_annan puding guangsuoling 
+			dingnan_anshun kangzuo xibao zhenning dushan guizhou_guizhou jinzhu xintian bafan suidong 
+			longli weiqing pingyue maxia puan_puan huangcaoba anlong shuixi shuicheng pingba 
+			zhijin guangnan bangban boai fuzhou_guangnan zhehong shizong 
+			qiubei wucao bazhai lihua jiaha jiaohua nanlang weimo xisa luoxiong 
+			shaxi wengshui van_don lang_son loc_chau quang_uyen that_nguyen van_kiep quy_hoa 
+			thuy_vi van_ban thai_nguyen bac_thai_nguyen cam_hoa tuyen_hoa vo_nhai tuyen_quang bao_lac 
 			binh_lam binh_nguyen dai_man thu_vat
 		}
 
@@ -46764,7 +46769,7 @@ countries = {
 		}
 
 		own_control_integrated = {
-
+			
 		}
 
 		include = "south_east_asia_monarchy"
@@ -46815,7 +46820,7 @@ countries = {
 			kracheh  sampheak_borak tboung_khmum
 			cat_tien   di_dinh song_be
 			panduranga  bal_cattinon camp_po_thit chan_bo kampong_sraka_trey
-			angkor_knong rong_damrel tuol_ta_mouk
+			angkor_knong rong_damrel tuol_ta_mouk 
 		}
 		capital = banlung
 
@@ -46831,8 +46836,8 @@ countries = {
 
 		add_pops_from_locations = {
 			apui ia kon_tum samriddhipuri
-			ban_don  dak_lak
-			aryaru bang_keng ha_va_nguon
+			ban_don  dak_lak 
+			aryaru bang_keng ha_va_nguon 
 			doh_kromum lumphat
 		}
 		capital = apui
@@ -46951,7 +46956,7 @@ countries = {
 		add_pops_from_locations = {
 			yuanling madi_yuanling luxi bomoping xinhua_guizhou badong cili shimen tianping
 			dayong shizhou datian_shizhou lichuan rongmei sanmao zhonglu
-			shinan changyang yongshun_yongshun guzhang shangxi baojing wuzhai
+			shinan changyang yongshun_yongshun guzhang shangxi baojing wuzhai 
 			wuchuan_sinan longquanping yinjiang tixi jianshi pengshui qianjiang_shaoqing youyang xiushan
 			zhenzhou shizhu
 		}
@@ -46987,19 +46992,19 @@ countries = {
 		type = pop
 
 		add_pops_from_locations = {
-			luxi xinhua_guizhou badong yongping suining_jing tianzhu datian_shizhou lichuan
-			rongmei sanmao zhonglu shinan chengbu yongshun_yongshun guzhang shangxi baojing wuzhai
-			mayang xilong ceheng machang zhenfeng libo rongshui tongdao_rongzhou wangmu luodian
-			annan xinxing_annan xincheng_annan puding guangsuoling dingnan_anshun kangzuo xibao zhenning duyun
-			bazhai_duyun dushan pingzhu lantu guizhou_guizhou jinzhu xintian bafan suidong
-			longli weiqing liping xiajiang guzhou qingjiang_liping tonggu_liping taigong
-			yongcong pingyue kaili maxia puan_puan huangcaoba anlong lemin wuchuan_sinan longquanping
-			shiqian yinjiang taipengruodong qiongshui panqiao zhenyuan_sizhou dizhai caoni
-			cengtai dafang dagu_shunyuan shuixi longchang jinji tongren wuluo tixi shuicheng
-			pingba zhijin huozhu shizong xisha xisa luoxiong zhanyi
-			youdian yiliang fumin luquan bozhou wujiang_bozhou shaxi luoji yunlian
-			rongxian zhehai muli pengshui daguan yongshan wusa zhaoban heizhang huangping
-			baini wengshui rongshan yongning gulin luojiao mangbu guihua youyang xiushan
+			luxi xinhua_guizhou badong yongping suining_jing tianzhu datian_shizhou lichuan 
+			rongmei sanmao zhonglu shinan chengbu yongshun_yongshun guzhang shangxi baojing wuzhai 
+			mayang xilong ceheng machang zhenfeng libo rongshui tongdao_rongzhou wangmu luodian 
+			annan xinxing_annan xincheng_annan puding guangsuoling dingnan_anshun kangzuo xibao zhenning duyun 
+			bazhai_duyun dushan pingzhu lantu guizhou_guizhou jinzhu xintian bafan suidong 
+			longli weiqing liping xiajiang guzhou qingjiang_liping tonggu_liping taigong 
+			yongcong pingyue kaili maxia puan_puan huangcaoba anlong lemin wuchuan_sinan longquanping 
+			shiqian yinjiang taipengruodong qiongshui panqiao zhenyuan_sizhou dizhai caoni 
+			cengtai dafang dagu_shunyuan shuixi longchang jinji tongren wuluo tixi shuicheng 
+			pingba zhijin huozhu shizong xisha xisa luoxiong zhanyi 
+			youdian yiliang fumin luquan bozhou wujiang_bozhou shaxi luoji yunlian 
+			rongxian zhehai muli pengshui daguan yongshan wusa zhaoban heizhang huangping 
+			baini wengshui rongshan yongning gulin luojiao mangbu guihua youyang xiushan 
 			zhengan zhenzhou suiyang bochuan
 		}
 
@@ -47028,21 +47033,21 @@ countries = {
 		type = pop
 
 		add_pops_from_locations = {
-			xibao puan_puan lemin caoni cengtai dafang dagu_shunyuan shuixi jinji shuicheng
-			zhijin huozhu beisheng langqu jinshajiang yongning_baisheng ningfan
-			heyang jiangchuan lunan xinxing weichu dingyuan_chuxiong zhennan midu dingbian_shunning nanan menghua
-			binchuan yangbei yunnan guangxi shizong qiubei mile wucao nalou situo luokong
-			heqing kainan baodian zheledian kunyang anning chenggong
-			yimen jianshui ami xisha tonghai shiping pingdian malongtalang xie
-			gengma mengmeng yinshaluo mengzi lihua jiaha mengding_mengzi jiaohua weimo nanning
-			kedu luoxiong zhanyi malong_qujing luoshan_qujing luliang shunning baotong youdian
+			xibao puan_puan lemin caoni cengtai dafang dagu_shunyuan shuixi jinji shuicheng 
+			zhijin huozhu beisheng langqu jinshajiang yongning_baisheng ningfan 
+			heyang jiangchuan lunan xinxing weichu dingyuan_chuxiong zhennan midu dingbian_shunning nanan menghua 
+			binchuan yangbei yunnan guangxi shizong qiubei mile wucao nalou situo luokong 
+			heqing kainan baodian zheledian kunyang anning chenggong 
+			yimen jianshui ami xisha tonghai shiping pingdian malongtalang xie 
+			gengma mengmeng yinshaluo mengzi lihua jiaha mengding_mengzi jiaohua weimo nanning 
+			kedu luoxiong zhanyi malong_qujing luoshan_qujing luliang shunning baotong youdian 
 			sime niuwu puri_simao yaozhou dayao juque yongchang_yongchang zhenkang shidian rouyuan
-			 yuanjiang_yuanjiang talang tongguan_yuanjiang kunming lufeng yiliang songming fumin
-			 weiyuan mengtong mengban_weiyuan hequ_wuding luquan rende yuanmou runyan mala
-			 pingchuan zuosuo bozhou zizhou shaxi yunlian qijiang dechang
-			 huili huichuan_dechang mingyi dongchuan qiaojia tangdan zhehai emei muli kheong waerhdje
-			 hanyuan suzhou lugu qiongbu shimian zhenxi_lizhou mahu lizhou_mahu
-			 leibo mabian muchuan jianchang_sichuan kuozhou puge beishe wumeng daguan luozuoguan
+			 yuanjiang_yuanjiang talang tongguan_yuanjiang kunming lufeng yiliang songming fumin 
+			 weiyuan mengtong mengban_weiyuan hequ_wuding luquan rende yuanmou runyan mala 
+			 pingchuan zuosuo bozhou zizhou shaxi yunlian qijiang dechang 
+			 huili huichuan_dechang mingyi dongchuan qiaojia tangdan zhehai emei muli kheong waerhdje 
+			 hanyuan suzhou lugu qiongbu shimian zhenxi_lizhou mahu lizhou_mahu 
+			 leibo mabian muchuan jianchang_sichuan kuozhou puge beishe wumeng daguan luozuoguan 
 			 yongshan wusa zhaoban heizhang baurang yongning gulin luojiao mangbu guihua
 		}
 
@@ -47083,7 +47088,7 @@ countries = {
 		court_language = persian_language
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 		government = {
 			ruler = sgn_bahram_khan
 
@@ -47137,7 +47142,7 @@ countries = {
 		court_language = persian_language
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 		government = {
 			ruler = stn_shamsuddin_ilyas_shah
 
@@ -47181,13 +47186,13 @@ countries = {
 
 	KMA = { #Kamata
 		own_control_core = {
-			kamatapur
-			barpeta bijni dhubri durjaya goalpara hajo kokrajhar
+			kamatapur 
+			barpeta bijni dhubri durjaya goalpara hajo kokrajhar 
 		}
 
 		own_control_integrated = {
 			birpara koch_bihar
-			bordowa tezpur rowta guwahati
+			bordowa tezpur rowta guwahati 
 		}
 
 		include = "expl_india_hindu"
@@ -47292,7 +47297,7 @@ countries = {
 		include = "indian_muslim_monarchy_no_coast"
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 		government = {
 			ruler = trf_syed_shah_nasiruddin
 
@@ -47642,14 +47647,7 @@ countries = {
 		capital = male_atoll
 	}
 
-
-	#-------------------Canada------------- Taontaenrat TRT to Mississage MSG see eastna_countries.txt
-# eastna_countries.txt
-		# Canada - Taontaenrat TRT to Mississage MSG
-		# Lower Mississippi, Gulf Coast, & East Coast Nations - Coosa COO to Onghniaahra ONG
-		# Mississippian Nations - Caddo CAD to Tula Caddoan TUA
-		# great plains - Hinono'eino HNO to Wahpetunwan WPW
-	# New Living Americas Countries - Ilnu ILN to Lepai Ndé LPN
+# Lines 53206 to 53544 removed from 00_countries.txt Taontaenrat/TRT to Mississage/MSG for Living Americas mod - see livam_countries.txt
 
 	#-------------------------- Indonesia ----------------------------
 
@@ -47790,7 +47788,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 
 		include = "expl_china"
 		include = "expl_indonesian_trade_route"
@@ -47819,7 +47817,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 
 		include = "expl_china"
 		include = "expl_indonesian_trade_route"
@@ -47841,7 +47839,7 @@ countries = {
 		tolerated_cultures = {
 			malay_culture
 		}
-
+		
 		capital = pasai
 	}
 
@@ -47855,7 +47853,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 
 		include = "expl_china"
 		include = "expl_indonesian_trade_route"
@@ -47981,7 +47979,7 @@ countries = {
 			menggala gunung_sugih hulu_mesuji kotabumi mesuji tiyuh_tuha
 			lampung kalianda krui liwa_lampung palas_pasemah sukadana_lampung
 			kota_kapur badau koba pangkalpinang
-			lalan tenggulang perbatasan
+			lalan tenggulang perbatasan 
 		}
 
 		own_control_integrated = {
@@ -48015,7 +48013,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 
 		include = "expl_china"
 		include = "expl_indonesian_trade_route"
@@ -48225,7 +48223,7 @@ countries = {
 
 	BEI = { #Brunei
 		own_control_core = {
-			berune api_api padas pegalan
+			berune api_api padas pegalan 
 		}
 		own_control_integrated = {
 			hulu_limbang hulu_padas trusan
@@ -48264,7 +48262,7 @@ countries = {
 
 	MNU = { #Melanau
 		own_control_core = {
-			igan julau mukah sarikei tatau
+			igan julau mukah sarikei tatau 
 		}
 
 		own_control_integrated = {
@@ -48497,7 +48495,7 @@ countries = {
 		own_control_core = {
 			malangke palopo luwu malili
 			kalumpang kurri_kurri toraja
-			bungi matano
+			bungi matano 
 		}
 
 		own_control_integrated = {
@@ -49135,9 +49133,9 @@ countries = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 			ruler = random
-
+			
 			reforms = {
-				mandala_system
+				mandala_system	
 			}
 		}
 
@@ -49265,7 +49263,7 @@ countries = {
 
 	BTU = { #Butuan
 		own_control_core = {
-			butuan
+			butuan 
 		}
 
 		own_control_integrated = {
@@ -49281,9 +49279,9 @@ countries = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 			ruler = random
-
+			
 			reforms = {
-				mandala_system
+				mandala_system	
 			}
 		}
 
@@ -49297,7 +49295,7 @@ countries = {
 
 	MGD = { #Wenduling (Maguindanao)
 		own_control_core = {
-			kuta_watu
+			kuta_watu 
 		}
 
 		own_control_integrated = {
@@ -49478,7 +49476,7 @@ countries = {
 	}
 
 	#Waigeo
-	WGE = {
+	WGE = { 
 		type = pop
 
 		add_pops_from_locations = {
@@ -49496,7 +49494,7 @@ countries = {
 	}
 
 	#Maden
-	MAD = {
+	MAD = { 
 		type = pop
 
 		add_pops_from_locations = {
@@ -49514,7 +49512,7 @@ countries = {
 	}
 
 	#Misool
-	MSL = {
+	MSL = { 
 		type = pop
 
 		add_pops_from_locations = {
@@ -49984,34 +49982,9 @@ countries = {
 		}
 	}
 
+# Lines 55879 to 58180 removed from 00_countries.txt Kuikuro/KUI to Onghniaahra/ONG for Living Americas mod - see livam_countries.txt
 
-	############# Brazil ###############
-# southam_countries.txt
-		# Colombia - Tairona TAI to Kalinago KGN
-		# Andes - Quito QTO to Quitor QTR
-		# Brazil - Kuikuro KUI to Potiguara POT
-		# Chaco & La Plata - Moxo MOX to Charrua CUA
-	# From patagonia expanded mod - Pehuenches PHS to Rapa Nui RPN
-
-
-
-
-	### Lower Mississippi, Gulf Coast, & East Coast Nations: Coosa COO to Onghniaahra ONG
-# eastna_countries.txt
-		# Canada - Taontaenrat TRT to Mississage MSG*
-		# Lower Mississippi, Gulf Coast, & East Coast Nations - Coosa COO to Onghniaahra ONG
-		# Mississippian Nations - Caddo CAD to Tula Caddoan TUA
-		# great plains - Hinono'eino HNO to Wahpetunwan WPW
-	# New Living Americas Countries - Ilnu ILN to Lepai Ndé LPN
-
-
-
-
-
-
-
-
-		#Persia
+#Persia
 
 	CHB = { #Chobanids
 		type = army
@@ -50271,6 +50244,9 @@ countries = {
 
 			ruler = krt_mu_izz_uddin_husayn_ibn_ghiyath_uddin
 
+			bureaucracies = {
+				{ type = bayt_al_mal_bureaucracy date = 1200.1.1 entrenchment = 75 }
+			}
 		}
 
 		tolerated_cultures = {
@@ -50352,7 +50328,7 @@ countries = {
 			khorasani_culture
 			farsi_culture
 			adhari_culture
-			semnani_culture
+			semnani_culture	
 		}
 
 		country_rank = rank_kingdom
@@ -50546,7 +50522,7 @@ countries = {
 
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 		capital = hormuz
 	}
 
@@ -50621,7 +50597,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 		dynasty = eshaqvand_dynasty
 		capital = fuman
 	}
@@ -50650,7 +50626,7 @@ countries = {
 
 		religious_school = hanbali_school
 		government = { mysticism_vs_jurisprudence = 40 }
-
+		
 		dynasty = naservand_dynasty
 		capital = lahijan
 	}
@@ -50679,7 +50655,7 @@ countries = {
 
 		religious_school = hanbali_school
 		government = { mysticism_vs_jurisprudence = 40 }
-
+		
 		dynasty = naservand_dynasty
 		capital = langarud
 	}
@@ -50708,7 +50684,7 @@ countries = {
 
 		religious_school = hanbali_school
 		government = { mysticism_vs_jurisprudence = 40 }
-
+		
 		dynasty = eshaqvand_dynasty
 		capital = rasht
 	}
@@ -50769,7 +50745,7 @@ countries = {
 	BDS = { #Baduspanids
 		own_control_core = {
 			kojur chalus tonekabon
-			rey karaj
+			rey karaj 
 		}
 
 		own_control_integrated = {
@@ -50829,7 +50805,7 @@ countries = {
 
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 		capital = kalmat
 		dynasty = hot_dynasty
 		court_language = persian_language
@@ -50861,7 +50837,7 @@ countries = {
 
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 		capital = bampur
 		dynasty = rind_lashari_dynasty
 		court_language = persian_language
@@ -50892,7 +50868,7 @@ countries = {
 
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 		capital = buleda
 		dynasty = buledai_dynasty
 		court_language = persian_language
@@ -50922,7 +50898,7 @@ countries = {
 
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 		capital = awaran
 		dynasty = bizenjo_dynasty
 		court_language = persian_language
@@ -50954,7 +50930,7 @@ countries = {
 
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 		capital = khuzdar
 		dynasty = jat_dynasty
 		court_language = persian_language
@@ -50980,7 +50956,7 @@ countries = {
 
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 		capital = kalat
 		dynasty = mirwari_dynasty
 		court_language = persian_language
@@ -51038,7 +51014,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 		capital = lar
 		dynasty = miladid_dynasty
 	}
@@ -51068,7 +51044,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 		capital = hamadan
 	}
 
@@ -51092,7 +51068,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 		capital = qom
 	}
 
@@ -51116,7 +51092,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 		capital = kashan
 	}
 
@@ -51172,7 +51148,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 		capital = nishapur
 	}
 
@@ -51197,7 +51173,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 		capital = esfarayen
 	}
 
@@ -51222,7 +51198,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 		capital = sabzevar
 	}
 
@@ -51251,7 +51227,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 		capital = qaen
 	}
 
@@ -51275,7 +51251,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 		capital = merv
 	}
 
@@ -51303,7 +51279,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 		capital = salameh
 	}
 
@@ -51345,7 +51321,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 		country_rank = rank_kingdom
 		capital = basra
 	}
@@ -51382,7 +51358,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 		capital = ghazni
 	}
 
@@ -51425,7 +51401,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 		capital = kabul
 	}
 
@@ -51460,7 +51436,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 		capital = deh_kundi
 	}
 
@@ -51494,7 +51470,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 		capital = maymana
 	}
 
@@ -51529,7 +51505,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 		capital = andkhoy
 	}
 
@@ -51566,7 +51542,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 		capital = balkh
 	}
 
@@ -51602,7 +51578,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 		capital = akhsisek
 	}
 
@@ -51617,7 +51593,7 @@ countries = {
 		}
 
 		own_control_integrated = {
-			khiva kyat_kala nyzvar
+			khiva kyat_kala nyzvar 
 			kath
 		}
 
@@ -51646,7 +51622,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 		capital = samarkand
 	}
 
@@ -51680,7 +51656,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 		capital = vakhs
 	}
 
@@ -51715,7 +51691,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 		capital = khujand
 	}
 
@@ -51734,7 +51710,7 @@ countries = {
 		}
 
 		own_control_integrated = {
-			costa tuapse
+			costa tuapse 
 		}
 
 		our_cores_conquered_by_others = {
@@ -51935,7 +51911,7 @@ countries = {
 
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 		capital = baku
 		tolerated_cultures = {
 			azeri_culture
@@ -51965,7 +51941,7 @@ countries = {
 
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 		capital = khunzakh
 	}
 
@@ -51993,7 +51969,7 @@ countries = {
 
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 		capital = tarki
 	}
 
@@ -52093,7 +52069,7 @@ countries = {
 
 	CPA = { #Copa
 		own_control_core = {
-			copa akhtar
+			copa akhtar 
 		}
 
 		starting_technology_level = 3
@@ -52133,7 +52109,7 @@ countries = {
 
 	HYT = { #Hytuk
 		own_control_core = {
-			shanjir siba_circassia khadyzhi
+			shanjir siba_circassia khadyzhi 
 		}
 
 		starting_technology_level = 3
@@ -52151,7 +52127,7 @@ countries = {
 
 	KDA = { #Kabardia
 		own_control_core = {
-			kuzhyb shkhancheriekhabl
+			kuzhyb shkhancheriekhabl 
 		}
 
 		starting_technology_level = 3
@@ -52228,7 +52204,7 @@ countries = {
 
 		religious_school = hanafi_school
 		government = { mysticism_vs_jurisprudence = -15 }
-
+		
 		capital = shaki
 		tolerated_cultures = {
 			azeri_culture
@@ -52494,7 +52470,7 @@ countries = {
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
-
+		
 
 		country_rank = rank_kingdom
 		capital = zabid
@@ -52660,7 +52636,7 @@ countries = {
 
 		religious_school = hanbali_school
 		government = { mysticism_vs_jurisprudence = 40 }
-
+		
 		capital = hail
 	}
 
@@ -52690,7 +52666,7 @@ countries = {
 
 		religious_school = hanbali_school
 		government = { mysticism_vs_jurisprudence = 40 }
-
+		
 
 		capital = dumat_al_jandal
 
@@ -52746,7 +52722,7 @@ countries = {
 
 		religious_school = hanbali_school
 		government = { mysticism_vs_jurisprudence = 40 }
-
+		
 
 		capital = tayma
 
@@ -52775,7 +52751,7 @@ countries = {
 
 		religious_school = hanbali_school
 		government = { mysticism_vs_jurisprudence = 40 }
-
+		
 
 		capital = khalis_medina
 
@@ -52862,7 +52838,7 @@ countries = {
 
 		religious_school = hanbali_school
 		government = { mysticism_vs_jurisprudence = 40 }
-
+		
 
 		capital = taif
 	}
@@ -52891,7 +52867,7 @@ countries = {
 
 		religious_school = hanbali_school
 		government = { mysticism_vs_jurisprudence = 40 }
-
+		
 		dynasty = al_zayid_dynasty
 
 		capital = aqiq_banu_uqayi
@@ -52957,7 +52933,7 @@ countries = {
 
 		religious_school = hanbali_school
 		government = { mysticism_vs_jurisprudence = 40 }
-
+		
 
 		capital = tabalah
 	}
@@ -52983,7 +52959,7 @@ countries = {
 
 		religious_school = hanbali_school
 		government = { mysticism_vs_jurisprudence = 40 }
-
+		
 
 		capital = yabrin
 	}
@@ -53148,7 +53124,7 @@ countries = {
 
 		religious_school = hanbali_school
 		government = { mysticism_vs_jurisprudence = 40 }
-
+		
 
 		capital = unaizah
 
@@ -53180,7 +53156,7 @@ countries = {
 
 		religious_school = hanbali_school
 		government = { mysticism_vs_jurisprudence = 40 }
-
+		
 
 		capital = as_suwaydirah
 
@@ -53208,81 +53184,13 @@ countries = {
 
 		religious_school = hanbali_school
 		government = { mysticism_vs_jurisprudence = 40 }
-
+		
 
 		capital = madin_bani_sulaym
 
 	}
 
-
-
-
-
-
-# Nations of the Americas #####################
-
-#-----------------Mississippian Nations------------------- Caddo CAD to Tula Caddoan TUA see eastna_countries.txt
-    # eastna_countries.txt
-		# Canada - Taontaenrat TRT to Mississage MSG
-		# Lower Mississippi, Gulf Coast, & East Coast Nations - Coosa COO to Onghniaahra ONG
-		# Mississippian Nations - Caddo CAD to Tula Caddoan TUA
-		# great plains - Hinono'eino HNO to Wahpetunwan WPW
-	# New Living Americas Countries - Ilnu ILN to Lepai Ndé LPN
-
-
-	#########################
-	# PCN Mod - Don't touch - make requirement for mod
-	########################
-# pcn_countries.txt
-		# Pacific Northwest - Kalapuya KLP to Tlingit TLG
-	# New Pacific Coast Nations Countries - Saanich WSN to Kaviag KVG
-
-	#############################
-	##Southwest American Nations #see aridoamerica_countries.txt
-	#############################
-#-------------------Aridoamerica Gulf Coast---------------- #see aridoamerica_countries.txt
-    # aridoamerica_countries.txt
-        # Aridoamerica - Acaxee ACX to K'itaish KIH
-        # Southwest American Nations - Hisatsinom HTS to K'itaish KIH
-        # Aridoamerican Gulf Coast - Ishak ISH to Tawakoni TWK
-    # New Living Americas Countries - Coahuilteco COH to Tokonohono COH6
-
-#-----------------Great plains---------------- #see eastna_countries.txt
-#-----------------East Coast------------------ #see eastna_countries.txt
-    # eastna_countries.txt
-            # Canada - Taontaenrat TRT to Mississage MSG*
-            # Lower Mississippi, Gulf Coast, & East Coast Nations - Coosa COO to Onghniaahra ONG*
-            # Mississippian Nations - Caddo CAD to Tula Caddoan TUA*
-            # great plains - Hinono'eino HNO to Wahpetunwan WPW*
-            # east coast - Mi'kmaq MIK to Kichesipirini KSP*
-        # New Living Americas Countries - Ilnu ILN to Lepai Ndé LPN
-
-
-
-#############################
-# Chaco #see southam_countries.txt
-#############################
-
-#############################
-# La Plata #see southam_countries.txt
-#############################
-# southam_countries.txt
-		# Colombia - Tairona TAI to Kalinago KGN
-		# Andes - Quito QTO to Quitor QTR
-		# Brazil - Kuikuro KUI to Potiguara POT
-		# Chaco & La Plata - Moxo MOX to Charrua CUA
-	# From patagonia expanded mod - Pehuenches PHS to Rapa Nui RPN
-
-#-------------------# Southwest American Nations---------------- #see aridoamerica_countries.txt
-
-
-
-
-
-
-
-
-
+# Lines 61388 to 62734 removed from 00_countries.txt Caddo/CAD to Charrua/CUA for Living Americas & Pacific Coast Nations mod - see livam_countries.txt & pcn_countries.txt
 
 #############################
 # South Africa
@@ -53983,7 +53891,7 @@ countries = {
 		add_pops_from_locations = {
 			vanua_levu qelelevu_atoll taveuni vanua_balavu_atoll
 			moce_atoll kabara_atoll fulaga_atoll
-
+			
 		}
 
 		include = "polynesian_tribe"

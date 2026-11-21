@@ -1,0 +1,4 @@
+﻿la_arctic_coa_gfx = {
+	priority = 1 # coa
+	culture_tag = la_arctic_coa_gfx
+}

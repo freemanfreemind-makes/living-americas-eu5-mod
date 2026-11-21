@@ -1,6 +1,3 @@
-discovered_regions = {
-}
-
 discovered_areas = {
 	labrador_area
 	nunavik_area
@@ -18,9 +15,5 @@ discovered_areas = {
 	hudson_bay_sea_zones_area
 	labrador_sea_area
 	great_lakes_sea_zones_area
-}
-
-discovered_provinces = {
-
 }
 

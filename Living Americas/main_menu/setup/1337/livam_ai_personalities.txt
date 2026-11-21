@@ -1,6 +1,3 @@
-
-
-
 countries = {
 	countries = {
 
@@ -19,22 +16,23 @@ countries = {
 
 		# Cautious: risk-averse, prefer safe diplomacy over war
 		#HAB = { ai_personality = ai_cautious }  # Austria / Habsburgs
-		ADR = { ai_personality = ai_cautious }  # neutral
-		NHT = { ai_personality = ai_cautious }
-		MMW = { ai_personality = ai_cautious }
+		#ADR = { ai_personality = ai_cautious }  # neutral
+		NHT0 = { ai_personality = ai_cautious }
+		MMW0 = { ai_personality = ai_cautious }
 
 
 		# Opportunistic: exploit others' weaknesses; trade-focused
 		#POR = { ai_personality = ai_opportunistic }  # Portugal
-		TLX = { ai_personality = ai_opportunistic }  # Tlaxcallan - Rival of Tenōchtitlan
-		PEO = { ai_personality = ai_opportunistic }
-		KKA = { ai_personality = ai_opportunistic }
-		CSU = { ai_personality = ai_opportunistic }  # Qusqu/Tiwantinsuyu/Incan Empire
-		TNC = { ai_personality = ai_opportunistic }  # Tenōchtitlan / Aztec Empire
+		#TLX = { ai_personality = ai_opportunistic }  # Tlaxcallan - Rival of Tenōchtitlan
+		#PEO = { ai_personality = ai_opportunistic }
+		#KKA = { ai_personality = ai_opportunistic }
+		#CSU = { ai_personality = ai_opportunistic }  # Qusqu/Tiwantinsuyu/Incan Empire
+		#TNC = { ai_personality = ai_opportunistic }  # Tenōchtitlan / Aztec Empire
 
 		# Isolationist: internally focused, avoid foreign entanglement
 		#MNG = { ai_personality = ai_isolationist }  # Ming China
-		INT = { ai_personality = ai_isolationist }  # Inuit
+		INT0 = { ai_personality = ai_isolationist }  # Inuit
+		ADR = { ai_personality = ai_isolationist }  # neutral
 
 		# Friendly: diplomacy-first, build alliances and accept fair peace
 		#PAP = { ai_personality = ai_friendly }  # Papal States

@@ -1,7 +1,3 @@
-discovered_regions = {
-}
-
-
 discovered_areas = {
 	florida_area
 	alabama_area

@@ -1,0 +1,623 @@
+﻿accessory_genes = {
+
+	INJECT_OR_CREATE:headwear = {
+
+		la_arctic_commoner = {
+			index = 2100
+			male = {
+				1 = empty
+				1 = male_headwear_chinese_low_straw_hat
+			}
+			female = {
+				1 = empty
+				1 = male_headwear_chinese_low_straw_hat
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		la_arctic_low_nobility = {
+			index = 2101
+			male = {
+				3 = male_headwear_chinese_low_straw_hat
+				1 = male_headwear_german_elector_cap_ermine
+				2 = empty
+			}
+			female = {
+				1 = empty
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		la_arctic_high_nobility = {
+			index = 2102
+			male = {
+				1 = male_headwear_chinese_low_straw_hat
+				1 = male_headwear_german_elector_cap_ermine
+				1 = empty
+			}
+			female = {
+				1 = empty
+				1 = male_headwear_chinese_low_straw_hat
+				1 = male_headwear_german_elector_cap_ermine
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		la_arctic_royalty = {
+			index = 2103
+			male = {
+				1 = male_headwear_iroquois_royal_leather_crown
+				1 = male_headwear_german_elector_cap_ermine
+			}
+			female = {
+				1 = male_headwear_german_elector_cap_ermine
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		la_arctic_imperial = {
+			index = 2104
+			male = {
+				1 = male_headwear_german_elector_cap_ermine
+			}
+			female = {
+				1 = male_headwear_german_elector_cap_ermine
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		#pcn_clergy = {
+		#	index = 2105
+		#	male = {
+		#		1 = male_headwear_iroquois_falsefacemask
+		#	}
+		#	female = {
+		#		1 = empty
+		#	}
+		#	boy = {
+		#		1 = empty
+		#	}
+		#	girl = {
+		#		1 = empty
+		#	}
+		#	adolescent_boy = boy
+		#	adolescent_girl = girl
+		#	infant = {}
+		#}
+
+		la_arctic_war = {
+			index = 2106
+			male = {
+				1 = male_headwear_chinese_low_straw_hat
+			}
+			female = {
+				1 = male_headwear_chinese_low_straw_hat
+				1 = empty
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+#Northern Great Plains - mostly basic iroquios set with jewelery added
+
+		la_north_plains_commoner = {
+			index = 2107
+			male = {
+				2 = empty
+				1 = male_headwear_iroquois_low_headband
+			}
+			female = {
+				1 = empty
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		la_north_plains_low_nobility = {
+			index = 2108
+			male = {
+				1 = male_headwear_iroquois_low_headband
+				1 = male_headwear_iroquois_low_headband_feathered
+				1 = male_headwear_iroquois_low_feathered_bun
+				3 = empty
+			}
+			female = {
+				1 = empty
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		la_north_plains_high_nobility = {
+			index = 2109
+			male = {
+				2 = male_headwear_iroquois_high_feathered_bun
+				1 = empty
+			}
+			female = {
+				1 = empty
+			}
+			boy = {
+				1 = child_headwear_iroquois_high_pearls_headband
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		la_north_plains_royalty = {
+			index = 2110
+			male = {
+				1 = male_headwear_iroquois_royal_leather_crown
+				1 = male_headwear_iroquois_high_feathered_bun
+			}
+			female = {
+				1 = empty
+			}
+			boy = {
+				1 = child_headwear_iroquois_high_pearls_headband
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		la_north_plains_imperial = {
+			index = 2111
+			male = {
+				1 = male_headwear_iroquois_imperial_silver_crown
+			}
+			female = {
+				1 = empty
+			}
+			boy = {
+				1 = child_headwear_iroquois_high_pearls_headband
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		la_north_plains_clergy = {
+			index = 2112
+			male = {
+				1 = male_headwear_iroquois_high_feathered_bun
+			}
+			female = {
+				1 = empty
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		la_north_plains_war = {
+			index = 2113
+			male = {
+				1 = male_headwear_iroquois_high_feathered_bun
+				1 = empty
+			}
+			female = {
+				1 = empty
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+# Southern Great Plains - mostly iroquioan set mixed with a few mesoamerican elements & shirtlessness more common.
+
+		la_south_plains_commoner = {
+			index = 2114
+			male = {
+				2 = empty
+				1 = male_headwear_iroquois_low_headband
+			}
+			female = {
+				1 = empty
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		la_south_plains_low_nobility = {
+			index = 2115
+			male = {
+				1 = male_headwear_iroquois_low_headband
+				1 = male_headwear_iroquois_low_headband_feathered
+				1 = male_headwear_iroquois_low_feathered_bun
+				3 = empty
+			}
+			female = {
+				1 = empty
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				3 = empty
+				1 = female_headwear_aztec_low_pearls_circlet
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		la_south_plains_high_nobility = {
+			index = 2116
+			male = {
+				2 = male_headwear_iroquois_high_feathered_bun
+				1 = empty
+			}
+			female = {
+				1 = empty
+				1 = female_headwear_aztec_low_pearls_circlet
+			}
+			boy = {
+				1 = child_headwear_iroquois_high_pearls_headband
+				1 = empty
+			}
+			girl = {
+				1 = empty
+				1 = female_headwear_aztec_low_pearls_circlet
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		la_south_plains_royalty = {
+			index = 2117
+			male = {
+				1 = male_headwear_iroquois_royal_leather_crown
+				1 = male_headwear_iroquois_high_feathered_bun
+			}
+			female = {
+				1 = female_headwear_aztec_low_pearls_circlet
+			}
+			boy = {
+				1 = child_headwear_iroquois_high_pearls_headband
+				1 = empty
+			}
+			girl = {
+				1 = female_headwear_aztec_low_pearls_circlet
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		la_south_plains_imperial = {
+			index = 2118
+			male = {
+				1 = male_headwear_iroquois_imperial_silver_crown
+			}
+			female = {
+				1 = female_headwear_aztec_low_pearls_circlet
+			}
+			boy = {
+				1 = child_headwear_iroquois_high_pearls_headband
+			}
+			girl = {
+				1 = female_headwear_aztec_low_pearls_circlet
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		la_south_plains_clergy = {
+			index = 2119
+			male = {
+				1 = male_headwear_iroquois_high_feathered_bun
+				1 = empty
+			}
+			female = {
+				1 = empty
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		la_south_plains_war = {
+			index = 2120
+			male = {
+				1 = male_headwear_iroquois_high_feathered_bun
+				1 = empty
+			}
+			female = {
+				1 = empty
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+# Aridoamerica - mesoamerican hair, with mix of mesoamerican and iroquioan clothing sets
+
+		la_aridoamerica_commoner = {
+			index = 2121
+			male = {
+				4 = empty
+				1 = male_headwear_iroquois_low_headband
+				1 = male_headwear_aztec_low_turban
+			}
+			female = {
+				1 = empty
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		la_aridoamerica_low_nobility = {
+			index = 2122
+			male = {
+				1 = male_headwear_iroquois_low_headband
+				1 = male_headwear_aztec_low_turban
+				3 = empty
+			}
+			female = {
+				1 = empty
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		la_aridoamerica_high_nobility = {
+			index = 2123
+			male = {
+				1 = male_headwear_iroquois_high_feathered_bun
+				1 = male_headwear_aztec_high_triangle_band
+			}
+			female = {
+				1 = empty
+				1 = female_headwear_aztec_low_pearls_circlet
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		la_aridoamerica_royalty = {
+			index = 2124
+			male = {
+				1 = male_headwear_aztec_royal_circlet
+				1 = male_headwear_iroquois_high_feathered_bun
+			}
+			female = {
+				1 = female_headwear_aztec_low_pearls_circlet
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		la_aridoamerica_imperial = {
+			index = 2125
+			male = {
+				1 = male_headwear_iroquois_imperial_silver_crown
+				1 = male_headwear_aztec_imperial_tall_gem
+			}
+			female = {
+				1 = female_headwear_aztec_royal_golden_crown
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = female_headwear_aztec_low_pearls_circlet
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		la_aridoamerica_clergy = {
+			index = 2126
+			male = {
+				1 = male_headwear_iroquois_high_feathered_bun
+				1 = empty
+			}
+			female = {
+				1 = empty
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+		la_aridoamerica_war = {
+			index = 2127
+			male = {
+				1 = male_headwear_iroquois_high_feathered_bun
+				1 = male_headwear_aztec_low_turban
+				1 = empty
+			}
+			female = {
+				1 = empty
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+	}
+
+	INJECT_OR_CREATE:headwear_additive = {
+		la_arctic_jewellery_low = {
+			index = 110
+			male = {
+				3 = empty
+				1 = male_headwear_aztec_jewellery_01_jade_earrings
+			}
+			female = male
+			boy = male
+			girl = female
+			adolescent_boy = male
+			adolescent_girl = female
+			infant = male
+		}
+
+		la_north_plains_jewellery_low = {
+			index = 111
+			male = {
+				3 = empty
+				1 = male_headwear_aztec_jewellery_01_jade_earrings
+				1 = male_headwear_aztec_jewellery_01_earrings
+			}
+			female = male
+			boy = male
+			girl = female
+			adolescent_boy = male
+			adolescent_girl = female
+			infant = male
+		}
+	}
+
+
+
+
+}

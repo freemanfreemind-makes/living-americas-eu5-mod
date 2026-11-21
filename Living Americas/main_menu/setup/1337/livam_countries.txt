@@ -1,48 +1,37 @@
 countries = {
 	countries = {
 
-	#from original 10_countries.txt
+# livam_countries.txt  Legend
 		# Canada - Taontaenrat TRT to Mississage MSG
 		# Lower Mississippi, Gulf Coast, & East Coast Nations - Coosa COO to Onghniaahra ONG
 		# Mississippian Nations - Caddo CAD to Tula Caddoan TUA
 		# great plains - Hinono'eino HNO to Wahpetunwan WPW
-
-	# New Living Americas Countries - Ilnu ILN to Lepai Ndé LPN
-
-	#from original 10_countries.txt
+		# east coast - Mi'kmaq MIK to Kichesipirini KSP
         # Aridoamerica - Acaxee ACX to K'itaish KIH
-        # Southwest American Nations - Hisatsinom HTS to K'itaish KIH
-        # Aridoamerican Gulf Coast - Ishak ISH to Tawakoni TWK
-
-    # New Living Americas Countries - Coahuilteco COH to Tokonohono COH6
-
-	#from original 10_countries.txt
+        # Southwest American Nations - Hisatsinom HTS to Tawakoni TWK
 		# Mesoamerica - P'urhipecherio TAR to Toquegua TOQ
 		# Central America - Kuskatan KUS to Cabecar CBC
-
-	#from original 10_countries.txt
 		# Colombia - Tairona TAI to Kalinago KGN
 		# Andes - Quito QTO to Quitor QTR
 		# Brazil - Kuikuro KUI to Potiguara POT
 		# Chaco & La Plata - Moxo MOX to Charrua CUA
+	# From patagonia expanded mod - Pehuenches PHS0 to Rapa Nui RPN0
+	# New Living Americas Countries - Ilnu ILN0 to Tanoan TAN0			North America
+	# New Living Americas Countries - Coahuilteco COH0 to Pericu PIU0	Aridoamerica
 
-	# From patagonia expanded mod - Pehuenches PHS to Rapa Nui RPN
+# in pcn_countries.txt
+		# Pacific Northwest - Kalapuya KLP to Tlingit TLG
+	# New Pacific Coast Nations Countries - Saanich WSN0 to Hupe HUP0
 
+# NOTE: All new factions should end in a zero or number to prevent conflicts. Document any changes made in the appropriate tab of "Living Americas Mod To Do List.xlsx" in the root of living-americas-eu5-mod for this or PCN mod changes. Backport & commit any changes you make to pcn mod files to that git as well.
 
-
-
-# From eastna_countries.txt
-	#from original 10_countries.txt
-		# Canada - Taontaenrat TRT to Mississage MSG
-		# Lower Mississippi, Gulf Coast, & East Coast Nations - Coosa COO to Onghniaahra ONG
-		# Mississippian Nations - Caddo CAD to Tula Caddoan TUA
-		# great plains - Hinono'eino HNO to Wahpetunwan WPW
-
-	# New Living Americas Countries - Ilnu ILN to Lepai Ndé LPN
-
+#############################
+# Living Americas
+#############################
 
 
-	#-------------------Canada-------------
+
+#-------------------Canada-------------
 	#Taontaenrat - TRT
 	TRT = { #??
 		own_control_core = {
@@ -134,6 +123,7 @@ countries = {
 		}
 		capital = kanagio
 	}
+
 	#Tionontate
 	TIO = {#https://en.wikipedia.org/wiki/Petun
 		own_control_core = {
@@ -186,7 +176,7 @@ countries = {
 	}
 
 	#Stadacona
-	STD = {#https://en.wikipedia.org/wiki/Stadacona https://en.wikipedia.org/wiki/St._Lawrence_Iroquoians
+	STD = {#https://en.wikipedia.org/wiki/Stadacona https://en.wikipedia.org/wiki/St._Lawrence_Iroquoians ahwendoe
 		type = pop
 
 		add_pops_from_locations = {
@@ -301,7 +291,7 @@ countries = {
 		}
 	}
 
-	### Mississippi  & Gulf Coast Nations - Coosa COO to
+# Lower Mississippi, Gulf Coast, & East Coast Nations - Coosa COO to Onghniaahra ONG
 
 	#Coosa Paramount Chiefdom (De Soto)
 	COO = { #https://en.wikipedia.org/wiki/Coosa_chiefdom
@@ -350,6 +340,7 @@ countries = {
 		court_language = muskogee_language
 		capital = coweta
 	}
+
 	#Tuckabatchee
 	TUC = {
 		own_control_core = {
@@ -365,6 +356,7 @@ countries = {
 		court_language = muskogee_language
 		capital = tuckabutche
 	}
+
 	#Eufaula Muscogee
 	EUF = {
 		own_control_core = {
@@ -380,6 +372,7 @@ countries = {
 		court_language = muskogee_language
 		capital = eufaula
 	}
+
 	#Capachequi Paramount Chiefdom (De Soto)
 	CPQ = {
 		own_control_core = {
@@ -395,6 +388,7 @@ countries = {
 		court_language = muskogee_language
 		capital = capachequi
 	}
+
 	#Toa Paramount Chiefdom (De Soto)
 	TOA = {
 		own_control_core = {
@@ -410,6 +404,7 @@ countries = {
 		court_language = muskogee_language
 		capital = toa
 	}
+
 	#Ocute Paramount Chiefdom (De Soto)
 	OCT = {
 		own_control_core = {
@@ -440,6 +435,7 @@ countries = {
 		court_language = muskogee_language
 		capital = mikasuki
 	}
+
 	#Alabama-Albaamaha
 	ALA = {
 		own_control_core = {
@@ -455,6 +451,7 @@ countries = {
 		court_language = muskogee_language
 		capital = apafalaya
 	}
+
 	#Koasati-Cousshata
 	KST = {
 		own_control_core = {
@@ -470,6 +467,7 @@ countries = {
 		court_language = muskogee_language
 		capital = cussate
 	}
+
 	#Choctaw-Chatha
 	CHC = {
 		own_control_core = {
@@ -487,6 +485,7 @@ countries = {
 		capital = taliepacana
 
 	}
+
 	#Chickasaw-Chickasha
 	CHS = {
 		own_control_core = {
@@ -603,6 +602,7 @@ countries = {
 		court_language = muskogee_language
 		capital = apalachee
 	}
+
 	#Guale
 	GUL = {
 		own_control_core = {
@@ -684,14 +684,14 @@ countries = {
 		capital = charquis
 	}
 
-#Ppanka Ponca, Kincaid Site https://en.wikipedia.org/wiki/Kincaid_Mounds_State_Historic_Site
+	#Ppanka Ponca, Kincaid Site https://en.wikipedia.org/wiki/Kincaid_Mounds_State_Historic_Site
 	PPK = {
 		own_control_core = {
 			mitchigamea
 		}
 		own_control_conquered = {
 		chepoussa ochechiton st_francois_mts
-		kaskaskia
+		#kaskaskia
 		}
 
 		include = "amerindian_tribe_settled"
@@ -720,7 +720,7 @@ countries = {
 		capital = obion
 	}
 
-#Guwahiyi/Keowee Lower Towns Cherokee
+	#Guwahiyi/Keowee Lower Towns Cherokee
 	GWY = {
 		own_control_core = {
 			italwa keowee oolenoy tugaloo nacoochee estatoe
@@ -1437,6 +1437,7 @@ countries = {
 			ruler = random
 		}
 	}
+
 	#Doeg
 	DOE = {
 		type = pop
@@ -2189,7 +2190,8 @@ countries = {
 	#Agojuda
 	#https://muse.jhu.edu/pub/4/article/11612
 	AGJ = {
-		own_control_core = {
+		type = pop
+		add_pops_from_locations = {
 			toniato gananoque cataraqui opinicon napanee kaniatarahontsi ahkwesasne_ny
 		}
 
@@ -2255,7 +2257,7 @@ countries = {
 		capital = niagara
 	}
 
-#-----------------Mississippian Nations-------------------
+# Mississippian Nations - Caddo CAD to Tula Caddoan TUA
 
 	#Caddo - CAD
 	#https://en.wikipedia.org/wiki/Caddo
@@ -2301,15 +2303,17 @@ countries = {
 			peewareewa
 			meramec
 			pahatsi
+			kaskaskia
 		}
 
 		our_cores_conquered_by_others = {
 			tamaroa
 			peewareewa
 			meramec
-			kaskaskia kaskankaham chepoussa ochechiton st_francois_mts
+			kaskankaham chepoussa ochechiton st_francois_mts
 			nudarcha wimihsoorita nodaway
 			peoria
+			#kaskaskia
 		}
 
 		starting_technology_level = 1
@@ -2372,13 +2376,10 @@ countries = {
 		}
 
 		discovered_areas = {
-			#east_coast_region
 			northwestern_ontario_area
 			eastern_ontario_area
 			western_ontario_area
 			northern_ontario_area
-			#lower_canada_area
-			#quebec_area
 			illinois_area
 			wisconsin_area
 			michigan_area
@@ -2397,9 +2398,7 @@ countries = {
 			iowa_area
 			arkansas_area
 			central_plains_area
-			#texas_area
 			great_lakes_sea_zones_area
-			#gulf_of_mexico_area
 		}
 
 		tolerated_cultures = {
@@ -3293,428 +3292,7 @@ countries = {
 		}
 	}
 
-######################################
-# New Living Americas Countries - Ilnu ILN to Lepai Ndé LPN
-#######################################
-
-#Ilnu
-	ILN = {
-		type = pop
-
-		add_pops_from_locations = {
-			nicabau chigoubiche kanishushteu ashuapmushuan ouiatchouaniche metabetchouane mistassibi samaqua ouasimesca shipshaw chicoutimi outapimiskou tchitogama peribonka onistagane onatchiway itomamo pipmuacan kitchesatsiou manouanis manouane tadoussac essipit pessamit betsiamites piletisipuk ouiauirabugu mistecapiu toulnustouc capotigamau manicouagan mouchalagane tetepisca
-		}
-
-		include = "amerindian_east_coast_tribe_maritimes"
-		include = "expl_amerindian_canadian_shield"
-
-		government = {
-			ruler = random
-		}
-	}
-
-#Innu
-	INU = {
-		type = pop
-
-		add_pops_from_locations = {
-		uashat pigou mingan aguanish natashquan kegaska coacoachou mecatina napetipi red_bay catucto ikkatuluk uivvatok natsitok inutsualak aivitok tikigaksuagusik kenamu misha_shipu sheshatshiu kamassekutinat menutinau kauipushkakamat nipissu winokapau kamassekuakamat upuahpukau uanaman manapakuaniskau muhaukamau atikonak kepimits ashuanipi shabogamo opocopa caopacho kapuameut nipissis nipisso notiskuan anticosti natigostec
-		}
-
-		include = "amerindian_east_coast_tribe_maritimes"
-		include = "expl_amerindian_canadian_shield"
-
-		government = {
-			ruler = random
-		}
-	}
-
-#Beothuk
-	BTK = {
-		type = pop
-
-		add_pops_from_locations = {
-			gosaoie nogamsig amasipukwek sibook maqtewey nukamkiajijk mollyhuajeck mekwiskajk akilasiewakik walnaypek upsukdaskooch wipetikil naskwotchu mekapisk eimastukwek wli_qospem pgotapesg meelpaeg kutapuskuj epwikek
-			belle_isle baie_verte placentia bacalhieu cape_spear cape_race miquelon
-		}
-
-		include = "amerindian_east_coast_tribe_maritimes"
-
-		discovered_areas = {
-		labrador_area
-		}
-		government = {
-			ruler = random
-		}
-	}
-
-#Dorset
-	DRT = {
-		type = pop
-
-		add_pops_from_locations = {
-		tessuialluk aillik kaipokok agvituk ukasikalik nunainguk aulatsivik okak napaktok kingmirtok kuujjuaq nastapoka wiyashakimi qingaaluk kuujjuarapik navchak tupirvialuit kangiqsualujjuaq qurlutuq qikirtajuaq sanikiluaq
-		koroc tupialuviniq
-		}
-
-		include = "amerindian_tribe"
-		include = "expl_amerindian_canadian_shield"
-
-		government = {
-			ruler = random
-		}
-	}
-
-#Naskapi
-	NKP = {
-		type = pop
-
-		add_pops_from_locations = {
-		ushkau_nipi mishikamau mushuau mistinatuakamau uashekanau siimitalik imaapik kamusawawasich attikamagen petitsikapau kawachikamasu katataskatikw misinichikw mistanipi caniapiscau chipisipi kawachisakau kawawasukutisich kaypikupau mistinatwayasu kamiskayachuuch otelnuk wayustikw kasakaupuyau koskoak kasuswapaskau natuak kuuvik kausseskait
-		}
-
-		include = "amerindian_tribe"
-		include = "expl_amerindian_canadian_shield"
-
-		government = {
-			ruler = random
-		}
-	}
-
-#Iyiyiyu
-	IYY = {
-		type = pop
-
-		add_pops_from_locations = {
-		atikuan chisasibi maquatua mistimakan pitchibourenik caisaboscai chistamikap nasacauso neoskweskau cauouatstacau misask wahemen naococane nichicun enchukamao mahnahwoonan
-		}
-
-		include = "amerindian_tribe"
-		include = "expl_amerindian_canadian_shield"
-
-		government = {
-			ruler = random
-		}
-	}
-
-#Iyiniyu
-	IYN = {
-		type = pop
-
-		add_pops_from_locations = {
-		nottaway nistam kaipeshimushich waskaganish nemasca kamashikamach ouagama soscumica maicasagi waswanipi opemisca opawica chibougamau mistissini mistassiniish nestaocano machisque temiscamie cawachagamite shipastouk natastan kapitukamach kauakiekamatsh sivukutaitiarruvik
-		missicabi olimisk
-		}
-
-		include = "amerindian_tribe"
-		include = "expl_amerindian_canadian_shield"
-
-		government = {
-			ruler = random
-		}
-	}
-
-#Ilili
-	ILI = {
-		type = pop
-
-		add_pops_from_locations = {
-		attawapiskat otadaonanis kashechewan wapiskau moosonee kagawask kinosheo pagashi tchakashapug kwetabohigan wawiyastan abimatinu takwata nahma buskegau wakusimi kapuskasing otapingshewee tionaga nemegosenda mattawishkwia missinaibi kabinakagami nagagami achikamii mammamattawa watistiguam pagwachuan ginoogaming namewaminikan kaitotikwia wabinosh ombabika kagianagami makokibatan ogoki wabimeig mesagami akimiski
-		}
-
-		include = "amerindian_tribe"
-		include = "expl_amerindian_canadian_shield"
-
-		government = {
-			ruler = random
-		}
-	}
-
-#Innini
-	INN = {
-		type = pop
-
-		add_pops_from_locations = {
-		ekwan patchepawapoka lakitusaki kinusheo wabuk ministik shagamu washeo winisk asheweig tabasokwia shibogama wunnumin wapikopa wapitotem pichinamei petawanga atikokiwam matapesatakun miniss waaninaawangang obishikokaang wabigoon winnange
-		}
-
-		include = "amerindian_tribe"
-		include = "expl_amerindian_canadian_shield"
-
-		government = {
-			ruler = random
-		}
-	}
-
-#Nehina
-	NHA = {
-		type = pop
-
-		add_pops_from_locations = {
-		niskibi kamisak kichekokotic machichi kanaskipenaski nunatonowago poskatinak anipitapiskow pikwitonei sowunusiske wapusk
-		}
-
-		include = "amerindian_tribe"
-		include = "expl_amerindian_canadian_shield"
-
-		government = {
-			ruler = random
-		}
-	}
-
-#Nihithaw
-	NHT = {
-		own_control_core = {
-			des_nedhe numaykoos mistutikumak tadoule shethanei kapuskaypachik kiheewapiw wapiskau_sk kipahigan namew mistahi_sakahikan sakitawahk missinipi nunalla kapuskaywak opuskowin
-		}
-
-		include = "amerindian_tribe"
-		include = "expl_amerindian_canadian_shield"
-		include = "expl_amerindian_great_plains_east"
-
-		discovered_areas = {
-		athabasca_area
-		saskatchewan_area
-		}
-
-		government = {
-			ruler = random
-		}
-	}
-
-#Inuit
-	INT = {
-		own_control_core = {
-		tha_anne thaolintoa kinngait amadjuak kimmirut iqaluit iglunga pangnirtung
-		}
-
-		include = "amerindian_tribe"
-		include = "expl_amerindian_arctic"
-
-		government = {
-			ruler = random
-		}
-		capital = iqaluit
-	}
-
-#Mahmikiwini
-	MMW = {
-		own_control_core = {
-		mechiso kawinaw chitek mantago oceko_sipiy onabeesh winnipegosis opaskwayak saskatchewan petaigan kistapinan wapisiw_sipihk
-		}
-
-		include = "amerindian_tribe"
-		include = "expl_amerindian_great_plains_east"
-
-		discovered_areas = {
-		keewatin_n_area
-		athabasca_area
-		saskatchewan_area
-		}
-
-		government = {
-			ruler = random
-		}
-	}
-
-#Matiyinini
-	MYN = {
-		type = pop
-		add_pops_from_locations = {
-		ceepee ogiciza_wakpa pimicaskewyashik amisk_sipi kawatinook amisk_sakahikan wawaskesiwisakahikan
-		}
-
-		include = "amerindian_tribe"
-		include = "expl_amerindian_great_plains_east"
-
-		discovered_areas = {
-		keewatin_n_area
-		athabasca_area
-		saskatchewan_area
-		upper_missouri_area
-		badlands_area
-		}
-
-		government = {
-			ruler = random
-		}
-	}
-
-#Tsuu'tina
-	TTI = {
-		type = pop
-
-		add_pops_from_locations = {
-		pembina_ab apetowun asiniwaciy kamspikihteek ayahciyiniw_sakahikan tawatinaw sakwatamau
-		}
-
-		include = "amerindian_tribe"
-
-		discovered_areas = {
-		athabasca_area
-		columbia_interior_area
-		cascadia_area
-		saskatchewan_area
-		red_river_area
-		iowa_area
-		upper_missouri_area
-		badlands_area
-		}
-
-		government = {
-			ruler = random
-		}
-	}
-
-#Siksika
-	SKS = {
-		type = pop
-		add_pops_from_locations = {
-		titaga amiskwaciwiy wetaskiwin notinito_sipiy amisk kisiskaciwani_sipiy manitowi_sakahikanihk wastina michichi wawaskesiw_sipiy ye_ya_xabine kiyiu miksiw_sipisis wibazoka_wakpa minichinas muskiki iskwao posakanaciwiy kinistino etomami
-		}
-
-		include = "amerindian_tribe"
-
-		discovered_areas = {
-		athabasca_area
-		columbia_interior_area
-		cascadia_area
-		saskatchewan_area
-		red_river_area
-		iowa_area
-		upper_missouri_area
-		badlands_area
-		}
-
-		government = {
-			ruler = random
-		}
-	}
-
-#Akinaa
-	AKA = {
-		type = pop
-		add_pops_from_locations = {
-		saamis wazihe minizuahe notukeu tugaske assapasca tacehubana wascana osukyuze itscheabine
-		}
-
-		include = "amerindian_tribe"
-
-		discovered_areas = {
-		athabasca_area
-		columbia_interior_area
-		cascadia_area
-		saskatchewan_area
-		red_river_area
-		iowa_area
-		upper_missouri_area
-		badlands_area
-		}
-
-		government = {
-			ruler = random
-		}
-	}
-
-#Piikani
-	PKN = {
-		type = pop
-		add_pops_from_locations = {
-		kwaskwuti kinuhsisuht wase_wakpa caba_wakpa hoskitaga canhewincasta cahe ski_iyo_he patgasa_wakpa suktogeja_o_ipa
-		}
-
-		include = "amerindian_tribe"
-		include = "expl_amerindian_great_plains"
-
-		discovered_areas = {
-		rockies_area
-		}
-
-		government = {
-			ruler = random
-		}
-	}
-
-#Asinikawithini
-	AKH = {
-		type = pop
-		add_pops_from_locations = {
-		atikwa wabaseemong maskwa manigotagan atikaki mukutawa kinosao_sipi echimamish kaministikowak eyapaysis
-		}
-
-		include = "amerindian_tribe"
-		include = "expl_amerindian_canadian_shield"
-		include = "expl_amerindian_great_plains_east"
-
-		government = {
-			ruler = random
-		}
-	}
-
-#Stoney/Niitsitapi
-	KTX1 = {
-		type = pop
-		add_pops_from_locations = {
-			ya_kti_ki shunda wabamun aknuq_uk kananaskis netook waskasoo
-			mokowan okotoks ijathibe_wapta keoma makhabn inotonniicaah insaombi wakpa_juk_ana etzikom poyiitahtai kinaksisahtai apahtoksipisskan
-		}
-
-		court_language = ktunaxa_language
-
-		include = "amerindian_tribe"
-
-		discovered_areas = {
-		cascadia_area
-		saskatchewan_area
-		upper_missouri_area
-		badlands_area
-		red_river_area
-		athabasca_area
-		}
-
-		government = {
-			ruler = random
-		}
-	}
-
-
-#Lepai Ndé
-	LPN = {
-		own_control_core = {
-			hupenuu atarque hoyu_ao_he hotoanaohe kiowa wahin_wakpa
-			tinde apispaha mutsisooni_yohe heeyoteyoo
-		}
-
-		include = "amerindian_tribe"
-
-		discovered_areas = {
-		natahende_area
-		central_plains_area
-		high_plains_area
-		rockies_area
-		great_basin_area
-		shiewhibak_area
-		guachichil_area
-		texas_area
-		}
-
-		government = {
-			ruler = random
-			heir_selection = matrilineal_non_exclusive
-		}
-	}
-
-# From aridoamerica_countries.txt
-	#from original 10_countries.txt
-        # Aridoamerica - Acaxee ACX to K'itaish KIH
-        # Southwest American Nations - Hisatsinom HTS to K'itaish KIH
-        # Aridoamerican Gulf Coast - Ishak ISH to Tawakoni TWK
-
-    # New Living Americas Countries - Coahuilteco COH to Tokonohono COH6
-
-
-
-	#-------------------------- Aridoamerica ----------------------------
+#-------------------------- Aridoamerica ----------------------------
 
 	#Acaxee - ACX
 	ACX = {
@@ -3974,7 +3552,8 @@ countries = {
 
 	#Hopi - HOP https://en.wikipedia.org/wiki/Hopi
 	HOP = {
-		own_control_core = {
+		type = pop
+		add_pops_from_locations = {
 			walpi shungopavi
 			orayvi tu_dotlizh_ndee
 		}
@@ -3991,7 +3570,8 @@ countries = {
 
 	#Diné - DNE https://en.wikipedia.org/wiki/Navajo
 	DNE = {
-		own_control_core = {
+		type = pop
+		add_pops_from_locations = {
 			chinili tse_bitai dinetah tselgaii moanunts winimuc to_aheedliinii
 		}
 
@@ -4310,11 +3890,7 @@ countries = {
 		}
 	}
 
-
-
-	#############################
-	##Southwest American Nations
-	#############################
+# Southwest American Nations - Hisatsinom HTS to Tawakoni TWK
 
 	#Hisatsinom
 	HTS = {
@@ -4349,7 +3925,7 @@ countries = {
 	NWV = {
 		type = pop
 		add_pops_from_locations = {
-			havasu ivanpah moapa
+			havasu ivanpah moapa pah_rimpi
 		}
 
 		include = "amerindian_tribe_northwestern"
@@ -4448,235 +4024,7 @@ countries = {
 		}
 	}
 
-#####################################
-# New Living Americas Countries
-#####################################
-
-	#Coahuilteco
-	#COH = {
-		#own_control_core = {
-		#coospacam pilon
-		#huajuco cuanales gualeguas alazapa tilijais masacuajulam
-		#cachopostales tsel_tatli_dsha koke_metchesko_laha cabias
-		#yeme chichitames cauitaome chisos espopolames muruam gueiquesales
-		#aranama chayopin yanaguana saxop_wan_pupako atajal tchesha
-		#ndawe_qoha bobole tu_sis_nde tonkawa
-		#tickanwatic tza_wan_pupako ajehuac_yana sana_tx
-		#cantona toho palaquechare yojuane mayeye
-		#patiri
-		#}
-
-		#discovered_regions = {
-			#aridoamerica_region
-		#}
-
-		#include = "amerindian_tribe_northwestern"
-		#include = "expl_amerindian_aridoamerica"
-		#government = {
-			#ruler = random
-		#}
-
-	#}
-
-	#Alazapa
-	COH1 = {
-		type = pop
-		add_pops_from_locations = {
-		coospacam pilon
-		huajuco cuanales gualeguas alazapa tilijais masacuajulam
-		}
-
-		discovered_regions = {
-			aridoamerica_region
-		}
-
-		include = "amerindian_tribe_northwestern"
-		include = "expl_amerindian_aridoamerica"
-
-		discovered_areas = {
-			kentucky_area
-			tennessee_area
-			louisiana_area
-			mississippi_area
-			alabama_area
-			missouri_area
-			arkansas_area
-			central_plains_area
-			texas_area
-			gulf_of_mexico_area
-		}
-
-		government = {
-			ruler = random
-		}
-
-	}
-
-	#Chisos
-	COH2 = {
-		type = pop
-		add_pops_from_locations = {
-		yeme chichitames cauitaome chisos espopolames muruam gueiquesales tu_sis_nde
-		}
-
-		discovered_regions = {
-			aridoamerica_region
-		}
-
-		include = "amerindian_tribe_northwestern"
-		include = "expl_amerindian_aridoamerica"
-
-		discovered_areas = {
-			kentucky_area
-			tennessee_area
-			louisiana_area
-			mississippi_area
-			alabama_area
-			missouri_area
-			arkansas_area
-			central_plains_area
-			texas_area
-			gulf_of_mexico_area
-		}
-
-		government = {
-			ruler = random
-		}
-
-	}
-
-
-	#Cacaxtles
-	COH3 = {
-		type = pop
-		add_pops_from_locations = {
-		cachopostales tsel_tatli_dsha koke_metchesko_laha cabias ndawe_qoha bobole
-		}
-
-		discovered_regions = {
-			aridoamerica_region
-		}
-
-		include = "amerindian_tribe_northwestern"
-		include = "expl_amerindian_aridoamerica"
-
-		discovered_areas = {
-			kentucky_area
-			tennessee_area
-			louisiana_area
-			mississippi_area
-			alabama_area
-			missouri_area
-			arkansas_area
-			central_plains_area
-			texas_area
-			gulf_of_mexico_area
-		}
-
-		government = {
-			ruler = random
-		}
-
-	}
-
-	#Payeye
-	COH4 = {
-		type = pop
-		add_pops_from_locations = {
-		aranama chayopin yanaguana saxop_wan_pupako atajal tchesha tonkawa
-		tickanwatic tza_wan_pupako ajehuac_yana sana_tx
-		}
-
-		discovered_regions = {
-			aridoamerica_region
-		}
-
-		include = "amerindian_tribe_northwestern"
-		include = "expl_amerindian_aridoamerica"
-
-		discovered_areas = {
-			kentucky_area
-			tennessee_area
-			louisiana_area
-			mississippi_area
-			alabama_area
-			missouri_area
-			arkansas_area
-			central_plains_area
-			texas_area
-			gulf_of_mexico_area
-		}
-
-		government = {
-			ruler = random
-		}
-
-	}
-
-
-	#Tickanwatic
-	COH5 = {
-		type = pop
-		add_pops_from_locations = {
-		nixgu ayadaldapa ne_shuta chinali iriirakiicuhat honih_hiyo_he kuhtsutuuka
-		}
-
-		discovered_regions = {
-			aridoamerica_region
-		}
-
-		include = "amerindian_tribe_northwestern"
-		include = "expl_amerindian_great_plains"
-		government = {
-			ruler = random
-		}
-
-	}
-
-
-	#Tokonohono
-	COH6 = {
-		type = pop
-		add_pops_from_locations = {
-		cantona toho palaquechare yojuane mayeye
-		patiri
-		}
-
-		discovered_regions = {
-			aridoamerica_region
-		}
-
-		include = "amerindian_tribe_northwestern"
-		include = "expl_amerindian_aridoamerica"
-
-		discovered_areas = {
-			kentucky_area
-			tennessee_area
-			louisiana_area
-			mississippi_area
-			alabama_area
-			missouri_area
-			arkansas_area
-			central_plains_area
-			texas_area
-			gulf_of_mexico_area
-		}
-
-		government = {
-			ruler = random
-		}
-
-	}
-
-
-
-
-# From mesoam_countries.txt
-	#from original 10_countries.txt
-		# Mesoamerica - P'urhipecherio TAR to Toquegua TOQ
-		# Central America - Kuskatan KUS to Cabecar CBC
-
-	#-------------------------- Mesoamerica ----------------------------
+#-------------------------- Mesoamerica ----------------------------
 
 	#P'urhipecherio (Tarascan Empire) - TAR https://en.wikipedia.org/wiki/Pur%C3%A9pecha_Empire
 	TAR = {
@@ -7997,17 +7345,6 @@ countries = {
 		}
 	}
 
-
-#From southam_countries.txt
-	#from original 10_countries.txt
-		# Colombia - Tairona TAI to Kalinago KGN
-		# Andes - Quito QTO to Quitor QTR
-		# Brazil - Kuikuro KUI to Potiguara POT
-		# Chaco & La Plata - Moxo MOX to Charrua CUA
-
-	# From patagonia expanded mod - Pehuenches PHS to Rapa Nui RPN
-
-
 	#-------------------------- Colombia ----------------------------
 
 	#Tairona - TAI
@@ -8405,7 +7742,7 @@ countries = {
 		include = "caribbean_tribe"
 	}
 
-	#-------------------------- Andes ----------------------------###########################################################################################
+#-------------------------- Andes ----------------------------#
 
 
 	#Quito - QTO
@@ -9245,8 +8582,8 @@ countries = {
 	#Settled Pop based
 	CBY = {
 		own_control_core = {
-			uyo_uyo tampo puquina ichuna churajon
-			#arequipa yanque
+			tampo puquina
+			#arequipa yanque uyo_uyo ichuna churajon
 		}
 
 		include = "andean_tribe"
@@ -9595,7 +8932,7 @@ countries = {
 		}
 	}
 
-		############# Brazil ###############
+############# Brazil ###############
 
 	#Kuikuro
 	KUI = {
@@ -9687,13 +9024,14 @@ countries = {
 		government = {
 			ruler = random
 		}
+		capital = carijo
 	}
 
 	#Ñandeva
 	NDV = {
 	type = army
 		own_control_core = {
-			akaray canindeyu curuguaty kaaguy_jehasapa kaarendy kuarepoti kyyindy mbya nemby takuru_puku tsiripa ygana yguazu
+			akaray kaaguy_jehasapa kaarendy kuarepoti kyyindy mbya nemby takuru_puku tsiripa ygana yguazu
 			agaes avaes itapua payubre taragui uruguay yapeyu
 			ibicui inhandui jeguakava nandeva
 			cacapava icabaqua tupancireta vacacai
@@ -9729,7 +9067,7 @@ countries = {
 	#Kaiowá
 	KIO = {
 		own_control_core = {
-			kaiowa ayvu_pora chiripa kaiwa maracaju pai_tavytera
+			kaiowa ayvu_pora chiripa kaiwa maracaju pai_tavytera canindeyu curuguaty
 		}
 
 		discovered_regions = {
@@ -9875,9 +9213,7 @@ countries = {
 	}
 
 
-#############################
 # Chaco
-#############################
 
 
 	#Moxo - MOX
@@ -9898,9 +9234,8 @@ countries = {
 		}
 	}
 
-#############################
+
 # La Plata
-#############################
 
 	#Mapuche - MPC
 	MPC = {
@@ -9937,10 +9272,17 @@ countries = {
 		}
 	}
 
+
+
+###################################
+## New Living Americas Countries ##
+###################################
+
+
 ######Taken from discontinued patagonia expanded mod.#####################
 
 	#Pehuenches
-	PHS = {
+	PHS0 = {
 		own_control_core = {
 
 			colipilli antinir_pilquinan buta_ranquil malal_hue
@@ -9960,7 +9302,7 @@ countries = {
 
 
 	#Pikumche - PIK
-	PIK = {
+	PIK0 = {
 		own_control_core = {
 
 			pikumche perquilauquen cauquen mawlen kuruko kolchawwe rangkawe
@@ -9979,7 +9321,7 @@ countries = {
 	}
 
 	#Williches - WLE
-	WLE = {
+	WLE0 = {
 		own_control_core = {
 
 			caurakawin pikunwijimapu
@@ -9998,7 +9340,7 @@ countries = {
 	}
 
 	#Wenteche - WTC
-	WTC = {
+	WTC0 = {
 		own_control_core = {
 
 			anelo newenken fisque_menuco
@@ -10017,7 +9359,7 @@ countries = {
 	}
 
 	#Nagche - NGC
-	NGC = {
+	NGC0 = {
 		own_control_core = {
 
 			chadileuvu chical_co vuta_chadihue
@@ -10036,7 +9378,7 @@ countries = {
 	}
 
 	#Rankulche - RKC
-	RKC = {
+	RKC0 = {
 		own_control_core = {
 
 			rankulche mamull_mapu viluco atuel
@@ -10055,7 +9397,7 @@ countries = {
 	}
 
 	#Kawesqar - KWS
-	KWS = {
+	KWS1 = {
 		type = pop
 		add_pops_from_locations = {
 			tawokser kelaelkces jautok kcewite malte saelam
@@ -10073,7 +9415,7 @@ countries = {
 	}
 
 	#Selknam - SEK
-	SEK = {
+	SEK0 = {
 		own_control_core = {
 
 			haiyuwel kolser wai hamhmam kauwes hamenk
@@ -10092,7 +9434,7 @@ countries = {
 	}
 
 	#Chonos - COS
-	COS = {
+	COS0 = {
 		own_control_core = {
 
 			caguatl achen chain_chaitun puyu_huapi koy_aike piren futra_lhewfu
@@ -10111,7 +9453,7 @@ countries = {
 	}
 
 	#Yaghan - YGH
-	YGH = {
+	YGH0 = {
 		type = pop
 		add_pops_from_locations = {
 
@@ -10131,7 +9473,7 @@ countries = {
 	}
 
 	#Cuncos - CUN
-	CUN = {
+	CUN0 = {
 		own_control_core = {
 
 			quiquilhue ancud quellon
@@ -10150,7 +9492,7 @@ countries = {
 	}
 
 	#Aonikenk - AOI
-	AOI = {
+	AOI0 = {
 		own_control_core = {
 
 			horsh_aiken ciaike enoo juni_aiken paine kehek_aike chalten kelt_aiken
@@ -10169,7 +9511,7 @@ countries = {
 	}
 
 	#Gununa kune/ Puelche - GKN
-	GKN = {
+	GKN0 = {
 		own_control_core = {
 
 			currumil kalfucura catan_lil
@@ -10188,7 +9530,7 @@ countries = {
 	}
 
 	#Poyas - POY
-	POY = {
+	POY0 = {
 		own_control_core = {
 
 			vuriloche curruhuinca norquinco puel_co
@@ -10207,7 +9549,7 @@ countries = {
 	}
 
 	#Teushen - THN
-	THN = {
+	THN0 = {
 		own_control_core = {
 
 			charkamak pari_aike kopolque
@@ -10226,7 +9568,7 @@ countries = {
 	}
 
 	#Gennakenk - GNK
-	GNK = {
+	GNK0 = {
 		own_control_core = {
 
 			choele_choel curu_leufvu cholle_cholle
@@ -10245,7 +9587,7 @@ countries = {
 	}
 
 	#Manekenk - MKK
-	MKK = {
+	MKK0 = {
 		own_control_core = {
 
 			nakenk masaks
@@ -10264,7 +9606,7 @@ countries = {
 	}
 
 	#Mecharnuekenk - MCK
-	MCK = {
+	MCK0 = {
 		own_control_core = {
 
 			nehuen_mulfun lee patagonia fem_mapu
@@ -10283,7 +9625,7 @@ countries = {
 	}
 
 	#Het - HET
-	HET = {
+	HET0 = {
 		own_control_core = {
 
 			wangulen rangkull_mapu trenquelauquen
@@ -10302,7 +9644,7 @@ countries = {
 	}
 
 	#Taluhet - TTH
-	TTH = {
+	TTH0 = {
 		own_control_core = {
 
 			lewfuko quemu_quemu
@@ -10321,7 +9663,7 @@ countries = {
 	}
 
 	#Chechehet - CEE
-	CEE = {
+	CEE0 = {
 		own_control_core = {
 
 			pillahuinco ucaln
@@ -10340,7 +9682,7 @@ countries = {
 	}
 
 	#Diduihet - DET
-	DET = {
+	DET0 = {
 		own_control_core = {
 
 			kla_rome_ko tandil
@@ -10359,7 +9701,7 @@ countries = {
 	}
 
 	#Querandi - QET
-	QET = {
+	QET0 = {
 		own_control_core = {
 
 			tapalquen calfuleufu
@@ -10378,11 +9720,11 @@ countries = {
 	}
 
 	#Changos - CGS
-	CGS = {
+	CGS0 = {
 		own_control_core = {
 
-			huasco qupayapu chanaral tatal antofagasta paposo cobija tocopilla iki_iki tarapaca tacna arica chaucalana
-			#kileqollo
+			huasco qupayapu chanaral tatal antofagasta paposo cobija tocopilla iki_iki tarapaca tacna arica
+			#kileqollo chaucalana
 		}
 
 		discovered_areas = {
@@ -10406,68 +9748,60 @@ countries = {
 	}
 
 	#Wuarpe - WUA
-	#WUA = {
+	#WUA0 = {
 	#	own_control_core = {
 	#		jaurua uco millcayac guentota huanacache uspallata zonda sankancete angualasto pivn_man_antu jachal ullum
+	#	}
+	#	include = "amerindian_tribe"
+	#	include = "expl_patagonia"
+	#	government = {
+	#		ruler = random
+	#	}
+	#	capital = uco
+	#}
+
+	#Diaguitas - DGT
+	#DGT0 = {
+	#	type = pop
+	#	add_pops_from_locations = {
+	#		kellollampu pissis kolla antofalla fiambalao
 
 	#	}
 
-	#	include = "amerindian_tribe"
-	#	include = "expl_patagonia"
+	#	discovered_areas = {
+	#		ngulumapu_area
+	#		moqoit_area
+	#		cuyo_area
+	#		atacama_area
+	#		qullaw_area
+	#		andes_sea_zones_area
+	#	}
 
+	#	include = "amerindian_tribe"
 	#	government = {
 	#		ruler = random
 	#	}
 
-	#	capital = uco
+	#	capital = pissis
 
 	#}
 
-	#Diaguitas - DGT
-	DGT = {
+	#Lickanantay - LCN
+	LCN0 = {
 		type = pop
 		add_pops_from_locations = {
-			kellollampu pissis kolla antofalla fiambalao
-
+			lickanantay susques puma lipi llica
+			#tulor ckara_ama loa cochinoca toara
 		}
 
 		discovered_areas = {
 			ngulumapu_area
-			moqoit_area
-			cuyo_area
-			atacama_area
-			qullaw_area
-			andes_sea_zones_area
-		}
-
-		include = "amerindian_tribe"
-		government = {
-			ruler = random
-		}
-
-		capital = pissis
-
-	}
-
-	#Lickanantay - LCN
-	LCN = {
-		own_control_core = {
-			lickanantay susques puma tulor ckara_ama lipi llica loa
-			#cochinoca toara
-		}
-
-		discovered_areas = {
-			#patagonia_area
-			#puelmapu_area
-			ngulumapu_area
-			#pampa_area
 			moqoit_area
 			cuyo_area
 			atacama_area
 			qullaw_area
 			chala_area
 			andes_sea_zones_area
-			#la_plata_sea_zones_area
 		}
 
 		include = "amerindian_tribe"
@@ -10480,7 +9814,7 @@ countries = {
 	}
 
 	#Minuane - UAE
-	UAE = {
+	UAE0 = {
 		own_control_core = {
 
 			ituzaingo chivilco timbu carapachay
@@ -10499,7 +9833,7 @@ countries = {
 	}
 
 	#Henia - HNI
-	HNI = {
+	HNI0 = {
 		own_control_core = {
 
 			quisquisacate macaclita auleta siton gualas mogas caminigas
@@ -10533,7 +9867,7 @@ countries = {
 	}
 
 	#kamiare - KAE
-	KAE = {
+	KAE0 = {
 		own_control_core = {
 
 			popopis michilingue nogolma saleta naure kata_kuna
@@ -10567,7 +9901,7 @@ countries = {
 	}
 
 	#Chandules - CDS
-	CDS = {
+	CDS0 = {
 		own_control_core = {
 
 			tuvicha_mini tubicha_mini
@@ -10586,10 +9920,12 @@ countries = {
 	}
 
 	#Layana - LYN
-	LYN = {
+	LYN0 = {
 		own_control_core = {
 
-			sao_sebastiao gohayo tamoio paraibuna piratininga cunhambebe ita_kua_y y_uasu goana_para mage ararayu_aba kapiwary nheteroia mokaie nova_friburgo marataiama jerubatuba sao_roque
+			marataiama cananeia iguape tamoio gohayo sao_sebastiao cunhambebe ita_kua_y y_uasu goana_para mage nheteroia kapiwary ararayu_aba
+
+			paraibuna piratininga mokaie nova_friburgo jerubatuba sao_roque
 
 		}
 
@@ -10609,12 +9945,12 @@ countries = {
 			ruler = random
 		}
 
-		capital = gohayo
+		capital = cunhambebe
 
 	}
 
 	#Rapa Nui - RPN
-	RPN = {
+	RPN0 = {
 		own_control_core = {
 			rapa_nui
 		}
@@ -10672,6 +10008,1278 @@ countries = {
 		capital = rapa_nui
 
 	}
+
+
+
+######################################
+# New Living Americas Countries - Ilnu ILN to Lepai Ndé LPN
+#######################################
+
+#Ilnu
+	ILN0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			nicabau chigoubiche kanishushteu ashuapmushuan ouiatchouaniche metabetchouane mistassibi samaqua ouasimesca shipshaw chicoutimi outapimiskou tchitogama peribonka onistagane onatchiway itomamo pipmuacan kitchesatsiou manouanis manouane tadoussac essipit pessamit betsiamites piletisipuk ouiauirabugu mistecapiu toulnustouc capotigamau manicouagan mouchalagane tetepisca
+		}
+
+		include = "amerindian_east_coast_tribe_maritimes"
+		include = "expl_amerindian_canadian_shield"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Innu
+	INU0 = {
+		type = pop
+
+		add_pops_from_locations = {
+		uashat pigou mingan aguanish natashquan kegaska coacoachou mecatina napetipi red_bay catucto ikkatuluk uivvatok natsitok inutsualak aivitok tikigaksuagusik kenamu misha_shipu sheshatshiu kamassekutinat menutinau kauipushkakamat nipissu winokapau kamassekuakamat upuahpukau uanaman manapakuaniskau muhaukamau atikonak kepimits ashuanipi shabogamo opocopa caopacho kapuameut nipissis nipisso notiskuan anticosti natigostec
+		}
+
+		include = "amerindian_east_coast_tribe_maritimes"
+		include = "expl_amerindian_canadian_shield"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Beothuk
+	BTK0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			gosaoie nogamsig amasipukwek sibook maqtewey nukamkiajijk mollyhuajeck mekwiskajk akilasiewakik walnaypek upsukdaskooch wipetikil naskwotchu mekapisk eimastukwek wli_qospem pgotapesg meelpaeg kutapuskuj epwikek
+			belle_isle baie_verte placentia bacalhieu cape_spear cape_race
+			#miquelon
+		}
+
+		include = "amerindian_east_coast_tribe_maritimes"
+
+		discovered_areas = {
+		labrador_area
+		}
+		government = {
+			ruler = random
+		}
+	}
+
+#Dorset
+	DRT0 = {
+		type = pop
+
+		add_pops_from_locations = {
+		tessuialluk aillik kaipokok agvituk ukasikalik nunainguk aulatsivik okak napaktok kingmirtok kuujjuaq nastapoka wiyashakimi qingaaluk kuujjuarapik navchak  kangiqsualujjuaq qurlutuq qikirtajuaq sanikiluaq tupialuviniq
+		#koroc tupirvialuit
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_amerindian_canadian_shield"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Naskapi
+	NKP0 = {
+		type = pop
+
+		add_pops_from_locations = {
+		ushkau_nipi mishikamau mushuau mistinatuakamau uashekanau siimitalik imaapik kamusawawasich attikamagen petitsikapau kawachikamasu katataskatikw misinichikw mistanipi caniapiscau chipisipi kawachisakau kawawasukutisich kaypikupau mistinatwayasu kamiskayachuuch otelnuk wayustikw kasakaupuyau koskoak kasuswapaskau natuak kuuvik kausseskait
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_amerindian_canadian_shield"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Iyiyiyu
+	IYY0 = {
+		type = pop
+
+		add_pops_from_locations = {
+		atikuan chisasibi maquatua mistimakan pitchibourenik caisaboscai chistamikap nasacauso neoskweskau cauouatstacau misask wahemen naococane nichicun enchukamao mahnahwoonan
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_amerindian_canadian_shield"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Iyiniyu
+	IYN0 = {
+		type = pop
+
+		add_pops_from_locations = {
+		nottaway nistam kaipeshimushich waskaganish nemasca kamashikamach ouagama soscumica maicasagi waswanipi opemisca opawica chibougamau mistissini mistassiniish nestaocano machisque temiscamie cawachagamite shipastouk natastan kapitukamach kauakiekamatsh sivukutaitiarruvik
+		missicabi olimisk
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_amerindian_canadian_shield"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Ilili
+	ILI0 = {
+		type = pop
+
+		add_pops_from_locations = {
+		attawapiskat otadaonanis kashechewan wapiskau moosonee kagawask kinosheo pagashi tchakashapug kwetabohigan wawiyastan abimatinu takwata nahma buskegau wakusimi kapuskasing otapingshewee tionaga nemegosenda mattawishkwia missinaibi kabinakagami nagagami achikamii mammamattawa watistiguam pagwachuan ginoogaming namewaminikan kaitotikwia wabinosh ombabika kagianagami makokibatan ogoki wabimeig mesagami akimiski
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_amerindian_canadian_shield"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Innini
+	INN0 = {
+		type = pop
+
+		add_pops_from_locations = {
+		ekwan patchepawapoka lakitusaki kinusheo wabuk ministik shagamu washeo winisk asheweig tabasokwia shibogama wunnumin wapikopa wapitotem pichinamei petawanga atikokiwam matapesatakun miniss waaninaawangang obishikokaang wabigoon winnange
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_amerindian_canadian_shield"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Nehina
+	NHA0 = {
+		type = pop
+
+		add_pops_from_locations = {
+		niskibi kamisak kichekokotic machichi kanaskipenaski nunatonowago poskatinak anipitapiskow pikwitonei sowunusiske wapusk
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_amerindian_canadian_shield"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Nihithaw
+	NHT0 = {
+		own_control_core = {
+			des_nedhe numaykoos mistutikumak tadoule shethanei kapuskaypachik kiheewapiw wapiskau_sk kipahigan namew mistahi_sakahikan sakitawahk missinipi nunalla kapuskaywak opuskowin
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_amerindian_canadian_shield"
+		include = "expl_amerindian_great_plains_east"
+
+		discovered_areas = {
+		athabasca_area
+		saskatchewan_area
+		}
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Inuit
+	INT0 = {
+		own_control_core = {
+		tha_anne thaolintoa kinngait amadjuak kimmirut iqaluit iglunga pangnirtung
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_amerindian_arctic"
+
+		government = {
+			ruler = random
+		}
+		capital = iqaluit
+	}
+
+#Denesoliné
+DSL0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			sakawyiniw thilane_hot_ine ot_esh_otchore methye misekumaw gani_koe tipinuwak athabasca kai_theli_ke_hot_inne tethul tazin tatinnai nueltin mistahi thlewiaza kasba dubawnt abitau thoa natalkai klewi deskenetlata tronka_chua thubun lutselk_e nonacho tatsan
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_arctic_interior"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Dane-zaa
+DNZ0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			ksituan mushikitee wabasca mikkwa
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_arctic_interior"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Dunezza
+DZA0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			unjegah tsa_tinne chinchaga beatton
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_arctic_interior"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Tsatsaotine
+TTN0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			soombak_e utsingi kahochella
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_arctic_interior"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Dehcho
+DHC0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			ford_liard nahanni wrigley fort_simpson jean_marie_river kakisa tucho tu_nedhe
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_arctic_interior"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Tlicho
+TCH0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			hottah_ti game_ti wha_ti wekwee_ti wecho tidee
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_arctic_interior"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Sahtu
+SHT0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			good_hope norman_wells tuyetah tulita blackwater
+			colville tirato ehdacho tugacho edaula
+			mahony deline sahoyue turili kwita_tla
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_arctic_interior"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Inuiannait
+IUT0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			kamut kogluktok qurliqtuq
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_amerindian_arctic"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Inuviluq
+INV0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			aklaviq inuviq tuktoyukiuq
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_amerindian_arctic"
+
+		government = {
+			ruler = random
+		}
+	}
+
+
+#Mahmikiwini
+	MMW0 = {
+		own_control_core = {
+		mechiso kawinaw chitek mantago oceko_sipiy onabeesh winnipegosis opaskwayak saskatchewan petaigan kistapinan wapisiw_sipihk
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_amerindian_great_plains_east"
+
+		discovered_areas = {
+		keewatin_n_area
+		athabasca_area
+		saskatchewan_area
+		}
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Matiyinini
+	MYN0 = {
+		type = pop
+		add_pops_from_locations = {
+		ceepee ogiciza_wakpa pimicaskewyashik amisk_sipi kawatinook amisk_sakahikan wawaskesiwisakahikan
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_amerindian_great_plains_east"
+
+		discovered_areas = {
+		keewatin_n_area
+		athabasca_area
+		saskatchewan_area
+		upper_missouri_area
+		badlands_area
+		}
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Tsuu'tina
+	TTI0 = {
+		type = pop
+
+		add_pops_from_locations = {
+		pembina_ab apetowun asiniwaciy kamspikihteek ayahciyiniw_sakahikan tawatinaw sakwatamau
+		}
+
+		include = "amerindian_tribe"
+
+		discovered_areas = {
+		athabasca_area
+		columbia_interior_area
+		cascadia_area
+		saskatchewan_area
+		red_river_area
+		iowa_area
+		upper_missouri_area
+		badlands_area
+		}
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Siksika
+	SKS0 = {
+		type = pop
+		add_pops_from_locations = {
+		titaga amiskwaciwiy wetaskiwin notinito_sipiy amisk kisiskaciwani_sipiy manitowi_sakahikanihk wastina michichi wawaskesiw_sipiy ye_ya_xabine kiyiu miksiw_sipisis wibazoka_wakpa minichinas muskiki iskwao posakanaciwiy kinistino etomami
+		}
+
+		include = "amerindian_tribe"
+
+		discovered_areas = {
+		athabasca_area
+		columbia_interior_area
+		cascadia_area
+		saskatchewan_area
+		red_river_area
+		iowa_area
+		upper_missouri_area
+		badlands_area
+		}
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Akinaa
+	AKA0 = {
+		type = pop
+		add_pops_from_locations = {
+		saamis wazihe minizuahe notukeu tugaske assapasca tacehubana wascana osukyuze itscheabine
+		}
+
+		include = "amerindian_tribe"
+
+		discovered_areas = {
+		athabasca_area
+		columbia_interior_area
+		cascadia_area
+		saskatchewan_area
+		red_river_area
+		iowa_area
+		upper_missouri_area
+		badlands_area
+		}
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Piikani
+	PKN0 = {
+		type = pop
+		add_pops_from_locations = {
+		kwaskwuti kinuhsisuht wase_wakpa caba_wakpa hoskitaga canhewincasta cahe ski_iyo_he patgasa_wakpa suktogeja_o_ipa
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_amerindian_great_plains"
+
+		discovered_areas = {
+		rockies_area
+		}
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Asinikawithini
+	AKH0 = {
+		type = pop
+		add_pops_from_locations = {
+		atikwa wabaseemong maskwa manigotagan atikaki mukutawa kinosao_sipi echimamish kaministikowak eyapaysis
+		}
+
+		include = "amerindian_tribe"
+		include = "expl_amerindian_canadian_shield"
+		include = "expl_amerindian_great_plains_east"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Stoney/Niitsitapi
+	KTX1 = {
+		type = pop
+		add_pops_from_locations = {
+			ya_kti_ki shunda wabamun aknuq_uk kananaskis netook waskasoo
+			mokowan okotoks ijathibe_wapta keoma makhabn inotonniicaah insaombi wakpa_juk_ana etzikom poyiitahtai kinaksisahtai apahtoksipisskan
+		}
+
+		court_language = ktunaxa_language
+
+		include = "amerindian_tribe"
+
+		discovered_areas = {
+		cascadia_area
+		saskatchewan_area
+		upper_missouri_area
+		badlands_area
+		red_river_area
+		athabasca_area
+		}
+
+		government = {
+			ruler = random
+		}
+	}
+
+
+#Lepai Ndé
+	LPN0 = {
+		own_control_core = {
+			hupenuu atarque hoyu_ao_he hotoanaohe kiowa wahin_wakpa
+			tinde
+			#apispaha mutsisooni_yohe heeyoteyoo
+		}
+
+		include = "amerindian_tribe"
+
+		discovered_areas = {
+		natahende_area
+		central_plains_area
+		high_plains_area
+		rockies_area
+		great_basin_area
+		shiewhibak_area
+		guachichil_area
+		texas_area
+		}
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+
+#Ka'igwu
+KWA0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			kyaiyesisahtai baashalapache aluutashe huupalikooche xuahceesh_annappiio skaapirox aahkawirahkata iichiilikaaashaashe ksai_yohe wit_anowi_yohe notameohmeshehse
+		}
+
+		include = "amerindian_tribe"
+
+
+		discovered_regions = {
+			great_plains_region
+			west_coast_region
+			aridoamerica_region
+		}
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Yat Tindé
+YTD0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			paiyo_he ohktouna wotapio hisse_yoyi_yoe oevemanaho minii_yohe
+		}
+
+		include = "amerindian_tribe"
+
+		discovered_regions = {
+			great_plains_region
+			west_coast_region
+			aridoamerica_region
+		}
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Hendé
+HND0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			so_taeo_o nih_iitkotousi_l ce_eiinox neenowuxoote_i niineniiniicie wasin_wakpa
+		}
+
+		include = "amerindian_tribe"
+
+		discovered_regions = {
+			great_plains_region
+			west_coast_region
+			aridoamerica_region
+		}
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Tindé
+TND0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			beesowuunenno phankeska_wakpa ononio_he veoneohe mano_iyo_he ponoeohe
+		}
+
+		include = "amerindian_tribe"
+
+		discovered_regions = {
+			great_plains_region
+			west_coast_region
+			aridoamerica_region
+		}
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Indé
+IDE0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			meneeohe medicine_bow hehvaitaneo
+		}
+
+		include = "amerindian_tribe"
+
+		discovered_regions = {
+			great_plains_region
+			west_coast_region
+			aridoamerica_region
+		}
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Nuuchi
+NHI0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			pahva_nits toompahnahwach cumumba sahpeech yoowetum
+			wasatch uncompaghre
+			nuchiu tavaputs yapudttka uintah taveewach pahdteeahnooch
+			ouray dagett moffat routt savery basawunena
+		}
+
+		include = "amerindian_tribe"
+
+		discovered_regions = {
+			great_plains_region
+			west_coast_region
+			aridoamerica_region
+		}
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Naadahendé
+NDH0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			tinde apispaha mutsisooni_yohe heeyoteyoo
+		}
+
+		include = "amerindian_tribe"
+
+		discovered_regions = {
+			great_plains_region
+			west_coast_region
+			aridoamerica_region
+		}
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Tanoan
+TAN0 = {
+		type = pop
+
+		add_pops_from_locations = {
+			na_isha taviwac kahpota moghwachi
+		}
+
+		include = "amerindian_tribe"
+
+		discovered_regions = {
+			great_plains_region
+			west_coast_region
+			aridoamerica_region
+		}
+
+		government = {
+			ruler = random
+		}
+	}
+
+
+################################################
+# New Living Americas Countries - Aridoamerica #
+################################################
+
+	#Coahuilteco
+	#COH0 = {
+		#own_control_core = {
+		#coospacam pilon
+		#huajuco cuanales gualeguas alazapa tilijais masacuajulam
+		#cachopostales tsel_tatli_dsha koke_metchesko_laha cabias
+		#yeme chichitames cauitaome chisos espopolames muruam gueiquesales
+		#aranama chayopin yanaguana saxop_wan_pupako atajal tchesha
+		#ndawe_qoha bobole tu_sis_nde tonkawa
+		#tickanwatic tza_wan_pupako ajehuac_yana sana_tx
+		#cantona toho palaquechare yojuane mayeye
+		#patiri
+		#}
+
+		#discovered_regions = {
+			#aridoamerica_region
+		#}
+
+		#include = "amerindian_tribe_northwestern"
+		#include = "expl_amerindian_aridoamerica"
+		#government = {
+			#ruler = random
+		#}
+
+	#}
+
+	#Alazapa
+	COH1 = {
+		type = pop
+		add_pops_from_locations = {
+		coospacam pilon
+		huajuco cuanales gualeguas alazapa tilijais masacuajulam
+		}
+
+		discovered_regions = {
+			aridoamerica_region
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+
+		discovered_areas = {
+			kentucky_area
+			tennessee_area
+			louisiana_area
+			mississippi_area
+			alabama_area
+			missouri_area
+			arkansas_area
+			central_plains_area
+			texas_area
+			gulf_of_mexico_area
+		}
+
+		government = {
+			ruler = random
+		}
+
+	}
+
+	#Chisos
+	COH2 = {
+		type = pop
+		add_pops_from_locations = {
+		yeme chichitames cauitaome chisos espopolames muruam gueiquesales tu_sis_nde
+		}
+
+		discovered_regions = {
+			aridoamerica_region
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+
+		discovered_areas = {
+			kentucky_area
+			tennessee_area
+			louisiana_area
+			mississippi_area
+			alabama_area
+			missouri_area
+			arkansas_area
+			central_plains_area
+			texas_area
+			gulf_of_mexico_area
+		}
+
+		government = {
+			ruler = random
+		}
+
+	}
+
+
+	#Cacaxtles
+	COH3 = {
+		type = pop
+		add_pops_from_locations = {
+		cachopostales tsel_tatli_dsha koke_metchesko_laha cabias ndawe_qoha bobole
+		}
+
+		discovered_regions = {
+			aridoamerica_region
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+
+		discovered_areas = {
+			kentucky_area
+			tennessee_area
+			louisiana_area
+			mississippi_area
+			alabama_area
+			missouri_area
+			arkansas_area
+			central_plains_area
+			texas_area
+			gulf_of_mexico_area
+		}
+
+		government = {
+			ruler = random
+		}
+
+	}
+
+	#Payeye
+	COH4 = {
+		type = pop
+		add_pops_from_locations = {
+		aranama chayopin yanaguana saxop_wan_pupako atajal tchesha tonkawa
+		tickanwatic tza_wan_pupako ajehuac_yana sana_tx
+		}
+
+		discovered_regions = {
+			aridoamerica_region
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+
+		discovered_areas = {
+			kentucky_area
+			tennessee_area
+			louisiana_area
+			mississippi_area
+			alabama_area
+			missouri_area
+			arkansas_area
+			central_plains_area
+			texas_area
+			gulf_of_mexico_area
+		}
+
+		government = {
+			ruler = random
+		}
+
+	}
+
+
+	#Tickanwatic
+	COH5 = {
+		type = pop
+		add_pops_from_locations = {
+		nixgu ayadaldapa ne_shuta chinali iriirakiicuhat honih_hiyo_he kuhtsutuuka
+		}
+
+		discovered_regions = {
+			aridoamerica_region
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_great_plains"
+		government = {
+			ruler = random
+		}
+
+	}
+
+
+	#Tokonohono
+	COH6 = {
+		type = pop
+		add_pops_from_locations = {
+		cantona toho palaquechare yojuane mayeye
+		patiri
+		}
+
+		discovered_regions = {
+			aridoamerica_region
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+
+		discovered_areas = {
+			kentucky_area
+			tennessee_area
+			louisiana_area
+			mississippi_area
+			alabama_area
+			missouri_area
+			arkansas_area
+			central_plains_area
+			texas_area
+			gulf_of_mexico_area
+		}
+
+		government = {
+			ruler = random
+		}
+
+	}
+
+#Yoli
+YLI0 = {
+		type = pop
+		add_pops_from_locations = {
+			tehua namiquipa xicahua yoli coyame tu_e_dine_de julime pinanaca dzithinahnde
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Toboso
+TBS0 = {
+		type = pop
+		add_pops_from_locations = {
+			cacalotito sisimbles
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Irritila
+ITL0 = {
+		type = pop
+		add_pops_from_locations = {
+			osatayogliglas guazapayogliglas
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Esto'k Gna
+EKG0 = {
+		type = pop
+		add_pops_from_locations = {
+			estok_gna tugumlepen tinapihuaya piguique cacaxtles
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Karankawa
+KNW0 = {
+		type = pop
+		add_pops_from_locations = {
+			copane mariame karankawa capoque
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Otomitl
+OTL0 = {
+		type = pop
+		add_pops_from_locations = {
+			otomi
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Uza
+UZA0 = {
+		type = pop
+		add_pops_from_locations = {
+			tangamanga huaxcama pame uza tanchaycha jalpan
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Náayeri
+NYI0 = {
+		type = pop
+		add_pops_from_locations = {
+			acaponeta nayarit
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Cochimi
+CMI0 = {
+		type = pop
+		add_pops_from_locations = {
+			nakipa cochimi mti_pa cadegomo
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Comcaac
+CMC0 = {
+		type = pop
+		add_pops_from_locations = {
+			xiica_xnaai_iic_coii comcaac tahejoc xiica_hai_iic_coii
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Hualapai
+HLP0 = {
+		type = pop
+		add_pops_from_locations = {
+			havasubaaja hwalbay aha_macav
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Yavapai
+YVP0 = {
+		type = pop
+		add_pops_from_locations = {
+			dolkabaya yavpe wipukba
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Xalychidom
+XLD0 = {
+		type = pop
+		add_pops_from_locations = {
+			halchidoma
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Kwatsáan
+KWT0 = {
+		type = pop
+		add_pops_from_locations = {
+			kwatsaan
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Piipaash
+PPH0 = {
+		type = pop
+		add_pops_from_locations = {
+			piipaash
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Kumeyaay
+KMY0 = {
+		type = pop
+		add_pops_from_locations = {
+			kumeyaay
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Paipai
+PPI0 = {
+		type = pop
+		add_pops_from_locations = {
+			akwaala
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Ko'leew
+KLW0 = {
+		type = pop
+		add_pops_from_locations = {
+			koleeu
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Mongui
+MGI0 = {
+		type = pop
+		add_pops_from_locations = {
+			monqui
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Guaicura
+GCA0 = {
+		type = pop
+		add_pops_from_locations = {
+			guaycura
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
+#Pericu
+PIU0 = {
+		type = pop
+		add_pops_from_locations = {
+			yenecamu
+		}
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_amerindian_aridoamerica"
+		include = "expl_mesoamerica"
+		government = {
+			ruler = random
+		}
+	}
+
 
 
 }

@@ -2,12 +2,6 @@ international_organization_manager = {
 	#################################################################
 	# 					Tribal Confederation						#
 	#################################################################
-	#Confederation against Cahokia, evidence shows city was attacked, testing if this works.
-	#add_international_organization = {
-		#type = tribal_confederation
-		#creation_date = 1337.1.1
-		#members = { WZZ UMO PPK KAW PIA WEA KKH KHK NCH WGH TSW PTW CYS KSK PEO TMW CSQ UGX }
-	#}
 
 	#Trialing cultural confederations to add some balance without a mix of alliances
 
@@ -25,7 +19,7 @@ international_organization_manager = {
 		members = { ADR ONG KEN ERI HON WRO OSG MAS STD }
 		}
 
-	Anishinabe
+	#Anishinabe
 	add_international_organization = {
 		type = tribal_confederation
 		creation_date = 1337.1.1
@@ -75,13 +69,13 @@ international_organization_manager = {
 		}
 
 	#Tutelo
-		#add_international_organization = {
-		type = tribal_confederation
-		creation_date = 1337.1.1
-		members = { TTL WCM CFQ JOA MTN OFO TKS TSO MNC }
-		}
+	#	#add_international_organization = {
+	#	type = tribal_confederation
+	#	creation_date = 1337.1.1
+	#	members = { TTL WCM CFQ JOA MTN OFO TKS TSO MNC }
+	#	}
 
-	Cherokee
+	#Cherokee
 		add_international_organization = {
 		type = tribal_confederation
 		creation_date = 1337.1.1
@@ -95,12 +89,12 @@ international_organization_manager = {
 	#	members = { MCG CSB GUL YMS HIT APA EUF CPQ TOA OCT COW TUC COO ALA KST KSK }
 	#	}
 
-	Chickasaw Choctaw
-		#add_international_organization = {
-		type = tribal_confederation
-		creation_date = 1337.1.1
-		members = { CHS CTT MBL ACL CHC QUZ PCH }
-		}
+	#Chickasaw Choctaw
+	#	#add_international_organization = {
+	#	type = tribal_confederation
+	#	creation_date = 1337.1.1
+	#	members = { CHS CTT MBL ACL CHC QUZ PCH }
+	#	}
 
 	#Timucua
 		add_international_organization = {
@@ -137,7 +131,7 @@ international_organization_manager = {
 		members = { UMO WZZ KAW UGX PPK }
 		}
 
-	Myaamia
+	#Myaamia
 		add_international_organization = {
 		type = tribal_confederation
 		creation_date = 1337.1.1
@@ -158,12 +152,12 @@ international_organization_manager = {
 	#	members = { CAD KIH NST KDW TUA CYS TVY KTK PTW KIA TSW SII SHH }
 	#	}
 
-	Dakota
-		#add_international_organization = {
-		type = tribal_confederation
-		creation_date = 1337.1.1
-		members = { LKT NDA BKT STW WKH WPW IUW IKW }
-		}
+	#Dakota
+	#	#add_international_organization = {
+	#	type = tribal_confederation
+	#	creation_date = 1337.1.1
+	#	members = { LKT NDA BKT STW WKH WPW IUW IKW }
+	#	}
 
 	#Tsetsehasahese
 		add_international_organization = {
@@ -190,35 +184,35 @@ international_organization_manager = {
 		add_international_organization = {
 		type = tribal_confederation
 		creation_date = 1337.1.1
-		members = { SKS PKN AKA }
+		members = { SKS0 PKN0 AKA0 }
 		}
 
 	#Cree - Plains
 		add_international_organization = {
 		type = tribal_confederation
 		creation_date = 1337.1.1
-		members = { MMW MYN NHT AKH NHA }
+		members = { MMW0 MYN0 NHT0 AKH0 NHA0 }
 		}
 
 	#Cree - Woodland
 		add_international_organization = {
 		type = tribal_confederation
 		creation_date = 1337.1.1
-		members = { ILI INN IYN IYY }
+		members = { ILI0 INN0 IYN0 IYY0 }
 		}
 
 	#Cree - Eastern
 		add_international_organization = {
 		type = tribal_confederation
 		creation_date = 1337.1.1
-		members = { ILN INU NKP BTK }
+		members = { ILN0 INU0 NKP0 BTK0 }
 		}
 
 	#Inuit
 		add_international_organization = {
 		type = tribal_confederation
 		creation_date = 1337.1.1
-		members = { INT DRT INP MMT KGU KVG }
+		members = { INT0 DRT0 INP0 MMT0 KGU0 KVG0 }
 		}
 
 	#Pueblo - Keres
@@ -232,7 +226,7 @@ international_organization_manager = {
 		add_international_organization = {
 		type = tribal_confederation
 		creation_date = 1337.1.1
-		members = { TAO TST OHK TNN }
+		members = { TAO TST OHK TNN TAN0 }
 		}
 
 	#Pueblo - Desert
@@ -246,7 +240,7 @@ international_organization_manager = {
 		add_international_organization = {
 		type = tribal_confederation
 		creation_date = 1337.1.1
-		members = { NUW NWV }
+		members = { NUW NWV NHI0 }
 		}
 
 	#Coahuilteco

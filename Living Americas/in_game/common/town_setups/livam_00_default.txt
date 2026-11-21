@@ -13,7 +13,6 @@ south_east_woodlands_city = {
 mississippian_town = {
 	temple = 1
 	market_village = 1
-	stone_quarry = 1
 	tools_guild = 1
 }
 
@@ -22,9 +21,13 @@ mississippian_small_town = {
 	market_village = 1
 }
 
-east_coast_town = {
+mississippian_rural_settlement = {
 	market_village = 1
 	stone_quarry = 1
+}
+
+east_coast_town = {
+	market_village = 1
 	tools_guild = 1
 }
 
@@ -32,14 +35,43 @@ east_coast_small_town = {
 	market_village = 1
 }
 
+east_coast_rural_settlement = {
+	stone_quarry = 1
+}
+
 warrior_tribe_military_settlement = {
 	warrior_society = 1
-	market_village = 1
+	market_village = 3
 	stone_quarry = 1
 	tools_guild = 1
 }
 
 warrior_tribe_rural_settlement = {
+	market_village = 1
 	forest_village = 1
-	lumber_mill = 1
+}
+
+amazonian_small_town = {
+	market_village = 1
+	cloth_guild = 1
+	tannery = 1
+}
+
+amazonian_small_settlement_2 = {
+	forest_village = 1
+	cloth_guild = 1
+	tar_kiln = 1
+}
+
+amazonian_rural_forest = {
+	forest_village = 1
+	tar_kiln = 1
+}
+
+amazonian_market_town = {
+		market_village = 1
+		tools_guild = 1
+		slave_market = 1
+		cloth_guild = 1
+		tannery = 1
 }

@@ -1,6 +1,3 @@
-discovered_regions = {
-}
-
 discovered_areas = {
 	missouri_area
 	illinois_area

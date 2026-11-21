@@ -51,8 +51,6 @@ moingwena = {
 	define_pop = {	type = tribesmen	size = 0.883	culture = osage_culture	religion = mississippian_ceremonial }
 }
 
-
-
 # Beothuk
 miquelon = {
 	define_pop = {	type = tribesmen	size = 0.183	culture = beothuk_culture	religion = midewiwin_religion }
@@ -64,6 +62,1698 @@ tupirvialuit = {
 }
 koroc = {
 	define_pop = {	type = tribesmen	size = 0.183	culture = dorset_culture	religion = totemism }
+}
+
+# Avoyel
+kisatchie = {
+	define_pop = {	type = tribesmen	size = 0.245	culture = avoyel_culture	religion = mississippian_ceremonial }
+}
+
+
+# Florida
+
+timucua = {
+	define_pop = {	type = tribesmen	size = 0.301	culture = timucua_culture	religion = mississippian_ceremonial }
+}
+malapaz = {
+	define_pop = {	type = tribesmen	size = 0.241	culture = timucua_culture	religion = mississippian_ceremonial }
+}
+uriutina = {
+	define_pop = {	type = tribesmen	size = 0.301	culture = timucua_culture	religion = mississippian_ceremonial }
+}
+napituca = {
+}
+mayaca = {
+	define_pop = {	type = tribesmen	size = 0.400	culture = timucua_culture	religion = mississippian_ceremonial }
+}
+utina = {
+	define_pop = {	type = tribesmen	size = 0.400	culture = timucua_culture	religion = mississippian_ceremonial }
+}
+itaraholata = {
+	define_pop = {	type = tribesmen	size = 0.400	culture = timucua_culture	religion = mississippian_ceremonial }
+}
+jororo = {
+	define_pop = {	type = tribesmen	size = 0.400	culture = timucua_culture	religion = mississippian_ceremonial }
+}
+acuera = {
+	define_pop = {	type = tribesmen	size = 0.400	culture = timucua_culture	religion = mississippian_ceremonial }
+}
+surruque = {
+	define_pop = {	type = tribesmen	size = 0.400	culture = timucua_culture	religion = mississippian_ceremonial }
+}
+ho_bay = {
+	define_pop = {	type = tribesmen	size = 0.400	culture = ais_culture	religion = mississippian_ceremonial }
+}
+mayaimi = {
+	define_pop = {	type = tribesmen	size = 0.400	culture = calusa_culture	religion = mississippian_ceremonial }
+}
+ais = {
+	define_pop = {	type = tribesmen	size = 0.400	culture = ais_culture	religion = mississippian_ceremonial }
+}
+guacata = {
+	define_pop = {	type = tribesmen	size = 0.400	culture = calusa_culture	religion = mississippian_ceremonial }
+}
+tequesta = {
+	define_pop = {	type = tribesmen	size = 0.400	culture = calusa_culture	religion = mississippian_ceremonial }
+}
+guarungube = {
+	define_pop = {	type = tribesmen	size = 0.400	culture = calusa_culture	religion = mississippian_ceremonial }
+}
+tequemapo = {
+	define_pop = {	type = tribesmen	size = 0.400	culture = calusa_culture	religion = mississippian_ceremonial }
+}
+okeechobee = {
+	define_pop = {	type = tribesmen	size = 0.400	culture = calusa_culture	religion = mississippian_ceremonial }
+}
+caloosahatchee = {
+	define_pop = {	type = tribesmen	size = 0.400	culture = calusa_culture	religion = mississippian_ceremonial }
+}
+uriparacoxi = {
+	define_pop = {	type = tribesmen	size = 0.400	culture = calusa_culture	religion = mississippian_ceremonial }
+}
+potano = {
+	define_pop = {	type = tribesmen	size = 0.400	culture = timucua_culture	religion = mississippian_ceremonial }
+}
+vicela = {
+	define_pop = {	type = tribesmen	size = 0.400	culture = timucua_culture	religion = mississippian_ceremonial }
+}
+uqueten = {
+	define_pop = {	type = tribesmen	size = 0.400	culture = timucua_culture	religion = mississippian_ceremonial }
+}
+tocaste = {
+	define_pop = {	type = tribesmen	size = 0.400	culture = tocobaga_culture	religion = mississippian_ceremonial }
+}
+guazoco = {
+	define_pop = {	type = tribesmen	size = 0.400	culture = tocobaga_culture	religion = mississippian_ceremonial }
+}
+mocozo = {
+	define_pop = {	type = tribesmen	size = 0.400	culture = tocobaga_culture	religion = mississippian_ceremonial }
+}
+ozita = {
+	define_pop = {	type = tribesmen	size = 0.400	culture = tocobaga_culture	religion = mississippian_ceremonial }
+}
+
+
+
+
+
+
+# Great Lakes & Manitoba Lakes
+
+
+
+
+
+
+#Taontaenrat
+scanonaenrat = {
+#
+}
+tkaronto = {
+	define_pop = {	type = tribesmen	size = 0.559	culture = taontaenrat_culture	religion = iroquoian_totemism }
+}
+missinihe = {
+#
+}
+tetioneshohon = {
+#
+}
+
+# Attigneenongnahac
+ganneious = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = attigneenongnahac_culture	religion = iroquoian_totemism }
+}
+ganaraska = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = attigneenongnahac_culture	religion = iroquoian_totemism }
+}
+quinte = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = attigneenongnahac_culture	religion = iroquoian_totemism }
+}
+otonabee = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = attigneenongnahac_culture	religion = iroquoian_totemism }
+}
+ouentarionk = {
+#
+}
+oshawa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = attigneenongnahac_culture	religion = iroquoian_totemism }
+}
+scugog = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = attigneenongnahac_culture	religion = iroquoian_totemism }
+}
+haskaont = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = attigneenongnahac_culture	religion = iroquoian_totemism }
+}
+
+# Arendaronon
+kawartha = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = arendaronon_culture	religion = iroquoian_totemism }
+}
+mazinaw = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = arendaronon_culture	religion = iroquoian_totemism }
+}
+skootamatta = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = arendaronon_culture	religion = iroquoian_totemism }
+}
+kamaniskeg = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = arendaronon_culture	religion = iroquoian_totemism }
+}
+catchacoma = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = arendaronon_culture	religion = iroquoian_totemism }
+}
+kashagawigamog = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = arendaronon_culture	religion = iroquoian_totemism }
+}
+cahiague = {
+#
+}
+
+# Agojuda
+cataraqui = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = agojuda_culture	religion = iroquoian_totemism }
+}
+toniato = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = agojuda_culture	religion = iroquoian_totemism }
+}
+gananoque = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = agojuda_culture	religion = iroquoian_totemism }
+}
+opinicon = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = agojuda_culture	religion = iroquoian_totemism }
+}
+napanee = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = agojuda_culture	religion = iroquoian_totemism }
+}
+ahkwesasne_ny = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = agojuda_culture	religion = iroquoian_totemism }
+}
+kaniatarahontsi = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = agojuda_culture	religion = iroquoian_totemism }
+}
+
+
+# Osheaga
+kahwenoke = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = osheaga_culture	religion = iroquoian_totemism }
+}
+hochelaga = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = osheaga_culture	religion = iroquoian_totemism }
+}
+kemoimenahan = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = osheaga_culture	religion = iroquoian_totemism }
+}
+ahkwesasne = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = osheaga_culture	religion = iroquoian_totemism }
+}
+otennienontant = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = osheaga_culture	religion = iroquoian_totemism }
+}
+makigotekw = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = osheaga_culture	religion = iroquoian_totemism }
+}
+
+
+# Maisouna
+loigan_sibo = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = maisouna_culture	religion = iroquoian_totemism }
+}
+wachilmezi = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = maisouna_culture	religion = iroquoian_totemism }
+}
+andawaohie = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = maisouna_culture	religion = iroquoian_totemism }
+}
+masolian = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = maisouna_culture	religion = iroquoian_totemism }
+}
+wolinak = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = maisouna_culture	religion = iroquoian_totemism }
+}
+nebesek = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = maisouna_culture	religion = iroquoian_totemism }
+}
+ekwentondie = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = maisouna_culture	religion = iroquoian_totemism }
+}
+yamachiche = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = maisouna_culture	religion = iroquoian_totemism }
+}
+
+# Stadacona
+kikonteku = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = stadaconan_culture	religion = iroquoian_totemism }
+}
+kamitsisit = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = stadaconan_culture	religion = iroquoian_totemism }
+}
+etchemin = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = stadaconan_culture	religion = iroquoian_totemism }
+}
+stadacona = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = stadaconan_culture	religion = iroquoian_totemism }
+}
+ontaretse = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = stadaconan_culture	religion = iroquoian_totemism }
+}
+ahwendoe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = stadaconan_culture	religion = iroquoian_totemism }
+}
+ondaonnentakwi = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = stadaconan_culture	religion = iroquoian_totemism }
+}
+aunona = {
+#
+}
+taoondewake = {
+#
+}
+kouate = {
+#
+}
+
+# Ataronchronon
+kaotia = {
+#
+}
+cognashene = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ataronchronon_culture	religion = iroquoian_totemism }
+}
+kahshe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ataronchronon_culture	religion = iroquoian_totemism }
+}
+
+# Onyotaaka
+nikahionhwakowa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = onyotaaka_culture	religion = iroquoian_totemism }
+}
+oswegatchie = {
+	define_pop = {	type = tribesmen	size = 0.599	culture = onyotaaka_culture	religion = iroquoian_totemism }
+}
+niiohehsane = {
+	define_pop = {	type = tribesmen	size = 0.399	culture = onyotaaka_culture	religion = iroquoian_totemism }
+}
+
+# Onghniaahra
+thahnawate = {
+	define_pop = {	type = tribesmen	size = 0.401	culture = onghniaahra_culture	religion = iroquoian_totemism }
+}
+ahouenro = {
+	define_pop = {	type = tribesmen	size = 0.401	culture = onghniaahra_culture	religion = iroquoian_totemism }
+}
+
+# Kiwigapawa
+sandusky = {
+	define_pop = {	type = tribesmen	size = 0.341	culture = kiwigapawa_culture	religion = midewiwin_religion }
+}
+maumee = {
+	define_pop = {	type = tribesmen	size = 0.341	culture = kiwigapawa_culture	religion = midewiwin_religion }
+}
+qusquasrundee = {
+	define_pop = {	type = tribesmen	size = 0.341	culture = kiwigapawa_culture	religion = midewiwin_religion }
+}
+shapoquate = {
+	define_pop = {	type = tribesmen	size = 0.301	culture = kiwigapawa_culture	religion = midewiwin_religion }
+}
+
+
+
+# Ojibwe
+pogamasing = {
+#
+}
+eskimanetigon = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ojibwe_culture	religion = midewiwin_religion }
+}
+mississagi = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ojibwe_culture	religion = midewiwin_religion }
+}
+baawitigong = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ojibwe_culture	religion = midewiwin_religion }
+}
+batchawana = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ojibwe_culture	religion = midewiwin_religion }
+}
+agawa_superior = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ojibwe_culture	religion = midewiwin_religion }
+}
+gaamiskwaabikaang = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ojibwe_culture	religion = midewiwin_religion }
+}
+chequamegon = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ojibwe_culture	religion = midewiwin_religion }
+}
+ontonagon = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ojibwe_culture	religion = midewiwin_religion }
+}
+keweenaw = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ojibwe_culture	religion = midewiwin_religion }
+}
+mackinac = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ojibwe_culture	religion = midewiwin_religion }
+}
+tahquamenon = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ojibwe_culture	religion = midewiwin_religion }
+}
+manistique = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ojibwe_culture	religion = midewiwin_religion }
+}
+ishpeming = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ojibwe_culture	religion = midewiwin_religion }
+}
+mackinac = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ojibwe_culture	religion = midewiwin_religion }
+}
+keweenaw = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ojibwe_culture	religion = midewiwin_religion }
+}
+manistique = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ojibwe_culture	religion = midewiwin_religion }
+}
+ishpeming = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ojibwe_culture	religion = midewiwin_religion }
+}
+
+#Odawa Culture
+menesetung = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = odawa_culture	religion = midewiwin_religion }
+}
+saugeen = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = odawa_culture	religion = midewiwin_religion }
+}
+dehskan_ziibi = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = odawa_culture	religion = midewiwin_religion }
+}
+nochemoweniing = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = odawa_culture	religion = midewiwin_religion }
+}
+manitoulin = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = odawa_culture	religion = midewiwin_religion }
+}
+asiniike = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = odawa_culture	religion = midewiwin_religion }
+}
+saganing = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = odawa_culture	religion = midewiwin_religion }
+}
+cheboygan = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = odawa_culture	religion = midewiwin_religion }
+}
+
+#nakawe culture
+michipicoten = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nakawe_culture	religion = midewiwin_religion }
+}
+manitowik = {
+#
+}
+pekatek = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nakawe_culture	religion = midewiwin_religion }
+}
+aguasabon = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nakawe_culture	religion = midewiwin_religion }
+}
+nipigon = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nakawe_culture	religion = midewiwin_religion }
+}
+kaministiquia = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nakawe_culture	religion = midewiwin_religion }
+}
+kakabeka = {
+#
+}
+neebing = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nakawe_culture	religion = midewiwin_religion }
+}
+minong = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nakawe_culture	religion = midewiwin_religion }
+}
+saganaga = {
+#
+}
+
+# Missisage
+shawanaga = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = missisage_culture	religion = midewiwin_religion }
+}
+magnetawan = {
+#
+}
+memesagamesing = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = missisage_culture	religion = midewiwin_religion }
+}
+wemitigoj = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = missisage_culture	religion = midewiwin_religion }
+}
+
+#Mamaceqtaw
+chicagon = {
+	define_pop = {	type = tribesmen	size = 0.241	culture = mamaceqtaw_culture	religion = midewiwin_religion }
+}
+peshtigo = {
+	define_pop = {	type = tribesmen	size = 0.401	culture = mamaceqtaw_culture	religion = midewiwin_religion }
+}
+whaypaw = {
+	define_pop = {	type = tribesmen	size = 0.561	culture = mamaceqtaw_culture	religion = midewiwin_religion }
+}
+
+# Mahmikiwini
+oceko_sipiy = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = mahmikiwini_culture	religion = midewiwin_religion }
+}
+mantago = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = mahmikiwini_culture	religion = midewiwin_religion }
+}
+chitek = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = mahmikiwini_culture	religion = midewiwin_religion }
+}
+kawinaw = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = mahmikiwini_culture	religion = midewiwin_religion }
+}
+mechiso = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = mahmikiwini_culture	religion = midewiwin_religion }
+}
+
+# Asinikawithini
+kinosao_sipi = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = asinikawithini_culture	religion = midewiwin_religion }
+}
+manigotagan = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = asinikawithini_culture	religion = midewiwin_religion }
+}
+atikaki = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = asinikawithini_culture	religion = midewiwin_religion }
+}
+mukutawa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = asinikawithini_culture	religion = midewiwin_religion }
+}
+
+# Nihithaw
+kapuskaypachik = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nihithaw_culture	religion = midewiwin_religion }
+}
+wapiskau_sk = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nihithaw_culture	religion = midewiwin_religion }
+}
+kiheewapiw = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nihithaw_culture	religion = midewiwin_religion }
+}
+
+
+# Great Plains
+
+
+
+tanico = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tula_culture	religion = mississippian_ceremonial }
+}
+quipana = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tula_culture	religion = mississippian_ceremonial }
+}
+tula_ark = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tula_culture	religion = mississippian_ceremonial }
+}
+utiangue = {
+#
+}
+tutilcoya = {
+#
+}
+anoixi = {
+#
+}
+cayas = {
+#
+}
+satsukhdin = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = cayas_culture	religion = mississippian_ceremonial }
+}
+wahzhazhe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = cayas_culture	religion = mississippian_ceremonial }
+}
+unica = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = cayas_culture	religion = mississippian_ceremonial }
+}
+tamaroa = {
+#
+}
+wyaconda = {
+#
+}
+oahaha = {
+#
+}
+emasulia = {
+#
+}
+chariton = {
+#
+}
+meramec = {
+#}
+}
+pahatsi = {
+#
+}
+tanwakanwakaghe = {
+#
+}
+utsehta = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = pitahwarita_culture	religion = great_plains_shamanism }
+}
+nikhdhintanwan = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = cayas_culture	religion = mississippian_ceremonial }
+}
+intapushe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = cayas_culture	religion = mississippian_ceremonial }
+}
+ni_okaska = {
+	define_pop = {	type = tribesmen	size = 0.201	culture = osage_culture	religion = mississippian_ceremonial }
+}
+towosaghy = {
+#
+}
+chepoussa = {
+#
+}
+cholohollay = {
+#
+}
+st_francois_mts = {
+#
+}
+nodaway = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tsawi_culture	religion = great_plains_shamanism }
+}
+nudarcha = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tsawi_culture	religion = great_plains_shamanism }
+}
+wimihsoorita = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tsawi_culture	religion = great_plains_shamanism }
+}
+hokah = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = wahpetunwan_culture	religion = mississippian_ceremonial }
+}
+wapkawazioju = {
+#
+}
+owatonna = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ithanktunwan_culture	religion = great_plains_shamanism }
+}
+hahawakpa = {
+#
+}
+lahontan = {
+#
+}
+minnetonka = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = sisithunwan_culture	religion = mississippian_ceremonial }
+}
+wabezi = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = bdewekhantunwan_culture	religion = mississippian_ceremonial }
+}
+kagiwigwan = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = sotaeoo_culture	religion = midewiwin_religion }
+}
+shingwako = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = sotaeoo_culture	religion = midewiwin_religion }
+}
+winnibigoshish = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = sotaeoo_culture	religion = midewiwin_religion }
+}
+bemidji = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = sotaeoo_culture	religion = midewiwin_religion }
+}
+lake_winnibigoshish = {
+}
+mahkato = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ithanktunwanna_culture	religion = great_plains_shamanism }
+}
+watonwan = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ithanktunwan_culture	religion = great_plains_shamanism }
+}
+shetek = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = lahkota_culture	religion = great_plains_shamanism }
+}
+chanshayapi = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ithanktunwanna_culture	religion = great_plains_shamanism }
+}
+tipsinah = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ithanktunwanna_culture	religion = great_plains_shamanism }
+}
+kandiyohi = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ithanktunwanna_culture	religion = great_plains_shamanism }
+}
+tchan_sansan = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nakoda_culture	religion = great_plains_shamanism }
+}
+kiyuska = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nakoda_culture	religion = great_plains_shamanism }
+}
+pabaska = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nueta_culture	religion = great_plains_shamanism }
+}
+chagu = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = sahnish_culture	religion = great_plains_shamanism }
+}
+oyate_shisha = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = lahkota_culture	religion = great_plains_shamanism }
+}
+wakmua_oin = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = sahnish_culture	religion = great_plains_shamanism }
+}
+igmu = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = lahkota_culture	religion = great_plains_shamanism }
+}
+kampeska = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = lahkota_culture	religion = great_plains_shamanism }
+}
+mnihaha = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = lahkota_culture	religion = great_plains_shamanism }
+}
+okobojo = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = sahnish_culture	religion = great_plains_shamanism }
+}
+pocasse = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nueta_culture	religion = great_plains_shamanism }
+}
+unkpatina = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = lahkota_culture	religion = great_plains_shamanism }
+}
+manatara = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = hiraaca_culture	religion = great_plains_shamanism }
+}
+maanaagi_iixodagish = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = hiraaca_culture	religion = great_plains_shamanism }
+}
+ruhptare = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nueta_culture	religion = great_plains_shamanism }
+}
+moingwena = {
+#
+}
+coiracoentanon = {
+#
+}
+wapsipinicon = {
+#
+}
+ocheyedan = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ithanktunwan_culture	religion = great_plains_shamanism }
+}
+penaca = {
+#
+}
+moskwawakwa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = waghtochtatta_culture	religion = mississippian_ceremonial }
+}
+iowa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = waghtochtatta_culture	religion = mississippian_ceremonial }
+}
+kiosaquay = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = waghtochtatta_culture	religion = mississippian_ceremonial }
+}
+inyanshashawatpa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ithanktunwan_culture	religion = great_plains_shamanism }
+}
+pahotcha = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = waghtochtatta_culture	religion = mississippian_ceremonial }
+}
+nishnabotna = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tsawi_culture	religion = great_plains_shamanism }
+}
+monona = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = lahkota_culture	religion = great_plains_shamanism }
+}
+tchankasndata = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = lahkota_culture	religion = great_plains_shamanism }
+}
+mathoskabde = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = sisithunwan_culture	religion = mississippian_ceremonial }
+}
+ginebig = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = bdewekhantunwan_culture	religion = mississippian_ceremonial }
+}
+misi_zaaga_igan = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = bdewekhantunwan_culture	religion = mississippian_ceremonial }
+}
+minnewawa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = bdewekhantunwan_culture	religion = mississippian_ceremonial }
+}
+mille_lacs_lake = {
+}
+nemadji = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tsetsehesahese_culture	religion = midewiwin_religion }
+}
+wissakode = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tsetsehesahese_culture	religion = midewiwin_religion }
+}
+makoua = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tsetsehesahese_culture	religion = midewiwin_religion }
+}
+kitchigumi = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tsetsehesahese_culture	religion = midewiwin_religion }
+}
+koochiching = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tsetsehesahese_culture	religion = midewiwin_religion }
+}
+miskwaagamiiwi = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tsetsehesahese_culture	religion = midewiwin_religion }
+}
+mesabi = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tsetsehesahese_culture	religion = midewiwin_religion }
+}
+neemannee = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tsetsehesahese_culture	religion = midewiwin_religion }
+}
+kawishiwi = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tsetsehesahese_culture	religion = midewiwin_religion }
+}
+red_lake = {
+}
+vermillion_lake = {
+}
+marapa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nueta_culture	religion = great_plains_shamanism }
+}
+cerwecerna = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = sahnish_culture	religion = great_plains_shamanism }
+}
+shichah = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = sahnish_culture	religion = great_plains_shamanism }
+}
+kaya_paha = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = sahnish_culture	religion = great_plains_shamanism }
+}
+sicangu = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = skiri_culture	religion = great_plains_shamanism }
+}
+waziblo = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = skiri_culture	religion = great_plains_shamanism }
+}
+wetarhoo = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = hinonoeino_culture	religion = midewiwin_religion }
+}
+hinyankaga = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = hinonoeino_culture	religion = midewiwin_religion }
+}
+badlands_sd_n = {
+}
+shanha = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = hinonoeino_culture	religion = midewiwin_religion }
+}
+mistaiyohe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = hinonoeino_culture	religion = midewiwin_religion }
+}
+he_sapa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nanwuinenan_culture	religion = midewiwin_religion }
+}
+awaxaawi_ishiibisha = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nanwuinenan_culture	religion = midewiwin_religion }
+}
+histahayo = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = hinonoeino_culture	religion = midewiwin_religion }
+}
+neesihushaanu = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = hinonoeino_culture	religion = midewiwin_religion }
+}
+skahuukaawiat = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = hinonoeino_culture	religion = midewiwin_religion }
+}
+iyawakagapi = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = hinonoeino_culture	religion = midewiwin_religion }
+}
+matootonha = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nueta_culture	religion = great_plains_shamanism }
+}
+nd_badlands = {
+}
+chakadee_wakpa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ashshipite_culture	religion = great_plains_shamanism }
+}
+wahasah = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ashshipite_culture	religion = great_plains_shamanism }
+}
+badlands_mt = {
+}
+waahukaahaanu = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ashshipite_culture	religion = great_plains_shamanism }
+}
+wit_anowi_yohe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kaigwu_culture	religion = great_plains_shamanism }
+}
+moehe_yoe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ashalaho_culture	religion = great_plains_shamanism }
+}
+ihkowom_iyo_he = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ashalaho_culture	religion = great_plains_shamanism }
+}
+ksai_yohe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kaigwu_culture	religion = great_plains_shamanism }
+}
+mitsiadazi = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ashalaho_culture	religion = great_plains_shamanism }
+}
+skaapirox = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kaigwu_culture	religion = great_plains_shamanism }
+}
+buaxaxxaashe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = yapahruka_culture	religion = paiute_shamanism }
+}
+aahkawirahkata = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kaigwu_culture	religion = great_plains_shamanism }
+}
+aashbiliihkupe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = yapahruka_culture	religion = paiute_shamanism }
+}
+iichiilikaaashaashe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kaigwu_culture	religion = great_plains_shamanism }
+}
+little_belt_mountains = {
+}
+itkanaahtuusu = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nanwuinenan_culture	religion = midewiwin_religion }
+}
+e_ometaeso = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nanwuinenan_culture	religion = midewiwin_religion }
+}
+heviksnipahis = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nanwuinenan_culture	religion = midewiwin_religion }
+}
+mo_ohta_vo_honaaeva = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nanwuinenan_culture	religion = midewiwin_religion }
+}
+notameohmeshehse = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kaigwu_culture	religion = great_plains_shamanism }
+}
+iisaxpuatahcheeaashe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kuhtsutuuka_culture	religion = paiute_shamanism }
+}
+aashbikkaashee = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kuhtsutuuka_culture	religion = paiute_shamanism }
+}
+ishpiialawaache = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kuhtsutuuka_culture	religion = paiute_shamanism }
+}
+bighorn_mountains = {
+}
+awatixa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = hiraaca_culture	religion = great_plains_shamanism }
+}
+adixoodagoorahareesh = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = hiraaca_culture	religion = great_plains_shamanism }
+}
+koostaaka = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = hiraaca_culture	religion = great_plains_shamanism }
+}
+amahami = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = hiraaca_culture	religion = great_plains_shamanism }
+}
+suktogeja_o_ipa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = piikani_culture	religion = midewiwin_religion }
+}
+patgasa_wakpa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = piikani_culture	religion = midewiwin_religion }
+}
+baliisshe_aashe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ashshipite_culture	religion = great_plains_shamanism }
+}
+minisose = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ashshipite_culture	religion = great_plains_shamanism }
+}
+ski_iyo_he = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = piikani_culture	religion = midewiwin_religion }
+}
+hoskitaga = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = piikani_culture	religion = midewiwin_religion }
+}
+kinuhsisuht = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = piikani_culture	religion = midewiwin_religion }
+}
+wase_wakpa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = piikani_culture	religion = midewiwin_religion }
+}
+caba_wakpa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = piikani_culture	religion = midewiwin_religion }
+}
+badlands_mt_2 = {
+}
+e_omita_i = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ashalaho_culture	religion = great_plains_shamanism }
+}
+xuahceesh_annappiio = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kaigwu_culture	religion = great_plains_shamanism }
+}
+huupalikooche = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kaigwu_culture	religion = great_plains_shamanism }
+}
+aluutashe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kaigwu_culture	religion = great_plains_shamanism }
+}
+baashalapache = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kaigwu_culture	religion = great_plains_shamanism }
+}
+aashise = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = hupe_culture	religion = paiute_shamanism }
+}
+binmatshua = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = yapahruka_culture	religion = paiute_shamanism }
+}
+cuthuhogwa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = yapahruka_culture	religion = paiute_shamanism }
+}
+great_belt_mountains = {
+}
+kinaksisahtai = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ktunaxa_culture	religion = paiute_shamanism }
+}
+kyaiyesisahtai = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kaigwu_culture	religion = great_plains_shamanism }
+}
+onnikisisaahtaayi = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = hupe_culture	religion = paiute_shamanism }
+}
+mahpahpahazhhah = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = hupe_culture	religion = paiute_shamanism }
+}
+nataeosueti = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = hupe_culture	religion = paiute_shamanism }
+}
+rockies_mt = {
+}
+poyiitahtai = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ktunaxa_culture	religion = paiute_shamanism }
+}
+wakpa_juk_ana = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ktunaxa_culture	religion = midewiwin_religion }
+}
+etzikom = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ktunaxa_culture	religion = paiute_shamanism }
+}
+kwaskwuti = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = piikani_culture	religion = midewiwin_religion }
+}
+cahe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = piikani_culture	religion = midewiwin_religion }
+}
+canhewincasta = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = piikani_culture	religion = midewiwin_religion }
+}
+shuntaneshnanga = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tsawi_culture	religion = great_plains_shamanism }
+}
+kansas = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = pitahwarita_culture	religion = great_plains_shamanism }
+}
+monecato = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = pitahwarita_culture	religion = great_plains_shamanism }
+}
+kirarutah = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = pitahwarita_culture	religion = great_plains_shamanism }
+}
+nepahalla = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = pitahwarita_culture	religion = great_plains_shamanism }
+}
+neosho = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = pitahwarita_culture	religion = great_plains_shamanism }
+}
+manhukdhintanwan = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = pitahwarita_culture	religion = great_plains_shamanism }
+}
+nanzewaspe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = cayas_culture	religion = mississippian_ceremonial }
+}
+wasetihoge = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kitkehaki_culture	religion = great_plains_shamanism }
+}
+etzanoa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = taovaya_culture	religion = great_plains_shamanism }
+}
+quivira = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = taovaya_culture	religion = great_plains_shamanism }
+}
+harahey = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kitkehaki_culture	religion = great_plains_shamanism }
+}
+ninescah = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = taovaya_culture	religion = great_plains_shamanism }
+}
+ayadaldapa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tickanwatic_culture	religion = great_plains_shamanism }
+}
+ne_shuta = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tickanwatic_culture	religion = great_plains_shamanism }
+}
+ne_miskua = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kitkehaki_culture	religion = great_plains_shamanism }
+}
+kaw = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kitkehaki_culture	religion = great_plains_shamanism }
+}
+aahkawiraahkata = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kitkehaki_culture	religion = great_plains_shamanism }
+}
+panenetah = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kitkehaki_culture	religion = great_plains_shamanism }
+}
+kaiurskuta = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kitkehaki_culture	religion = great_plains_shamanism }
+}
+headdhetanwan = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = cayas_culture	religion = mississippian_ceremonial }
+}
+wakhakukdhin = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = cayas_culture	religion = mississippian_ceremonial }
+}
+pasukhdin = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = taovaya_culture	religion = mississippian_ceremonial }
+}
+tulsa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = taovaya_culture	religion = great_plains_shamanism }
+}
+tawehash = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tula_culture	religion = mississippian_ceremonial }
+}
+chikaskia = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = taovaya_culture	religion = great_plains_shamanism }
+}
+guichita = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kitikitish_culture	religion = great_plains_shamanism }
+}
+wewoka = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = taovaya_culture	religion = great_plains_shamanism }
+}
+washita = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = taovaya_culture	religion = great_plains_shamanism }
+}
+ouachita_ok = {
+}
+kiamichi = {
+#
+}
+hawaastatkiicu = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kitikitish_culture	religion = great_plains_shamanism }
+}
+nigitai = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kitikitish_culture	religion = great_plains_shamanism }
+}
+kicpahat = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kitikitish_culture	religion = great_plains_shamanism }
+}
+gulvau = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kitikitish_culture	religion = great_plains_shamanism }
+}
+oktahutchee = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = taovaya_culture	religion = great_plains_shamanism }
+}
+nixgu = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tickanwatic_culture	religion = great_plains_shamanism }
+}
+niobrara = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = sahnish_culture	religion = great_plains_shamanism }
+}
+aowa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = lahkota_culture	religion = great_plains_shamanism }
+}
+waha_tunga = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = skiri_culture	religion = great_plains_shamanism }
+}
+kits_ixta = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tsawi_culture	religion = great_plains_shamanism }
+}
+kickatari = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = skiri_culture	religion = great_plains_shamanism }
+}
+mnitanka = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = skiri_culture	religion = great_plains_shamanism }
+}
+minatare = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = skiri_culture	religion = great_plains_shamanism }
+}
+omaha = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tsawi_culture	religion = great_plains_shamanism }
+}
+nemaha = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tsawi_culture	religion = great_plains_shamanism }
+}
+nebraska = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tsawi_culture	religion = great_plains_shamanism }
+}
+ni_haunchi_to = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tsawi_culture	religion = great_plains_shamanism }
+}
+kanpeska = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = skiri_culture	religion = great_plains_shamanism }
+}
+kus_lecha = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = skiri_culture	religion = great_plains_shamanism }
+}
+kickatus = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = skiri_culture	religion = great_plains_shamanism }
+}
+ickari_kitsu = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = skiri_culture	religion = great_plains_shamanism }
+}
+nutanke = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = skiri_culture	religion = great_plains_shamanism }
+}
+pitahauerat = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = pitahwarita_culture	religion = great_plains_shamanism }
+}
+hehvaitaneo = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = inde_culture	religion = dene_shamanism }
+}
+laramie_range = {
+}
+meneeohe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = inde_culture	religion = dene_shamanism }
+}
+medicine_bow = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = inde_culture	religion = dene_shamanism }
+}
+wotapio = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = yattinde_culture	religion = great_plains_shamanism }
+}
+so_taeo_o = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = hende_culture	religion = dene_shamanism }
+}
+oevemanaho = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = yattinde_culture	religion = dene_shamanism }
+}
+ohktouna = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = yattinde_culture	religion = great_plains_shamanism }
+}
+hisse_yoyi_yoe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = yattinde_culture	religion = great_plains_shamanism }
+}
+hisiometaneo = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nanwuinenan_culture	religion = midewiwin_religion }
+}
+paiyo_he = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = yattinde_culture	religion = great_plains_shamanism }
+}
+niineniiniicie = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = hende_culture	religion = dene_shamanism }
+}
+neenowuxoote_i = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = hende_culture	religion = dene_shamanism }
+}
+ce_eiinox = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = hende_culture	religion = dene_shamanism }
+}
+nih_iitkotousi_l = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = hende_culture	religion = dene_shamanism }
+}
+phankeska_wakpa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tinde_culture	religion = dene_shamanism }
+}
+ononio_he = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tinde_culture	religion = dene_shamanism }
+}
+wasin_wakpa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = hende_culture	religion = dene_shamanism }
+}
+veoneohe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tinde_culture	religion = dene_shamanism }
+}
+mano_iyo_he = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tinde_culture	religion = dene_shamanism }
+}
+mutsisooni_yohe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = naadahende_culture	religion = dene_shamanism }
+}
+heeyoteyoo = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = naadahende_culture	religion = dene_shamanism }
+}
+ponoeohe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tinde_culture	religion = dene_shamanism }
+}
+wishkahuunu = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = skiri_culture	religion = great_plains_shamanism }
+}
+mahohevahoe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kitkehaki_culture	religion = great_plains_shamanism }
+}
+beesowuunenno = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tinde_culture	religion = dene_totemism }
+}
+minii_yohe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = yattinde_culture	religion = dene_shamanism }
+}
+wiskapella = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kitkehaki_culture	religion = great_plains_shamanism }
+}
+chitolah = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kitkehaki_culture	religion = great_plains_shamanism }
+}
+nanwacinahaana = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kitkehaki_culture	religion = great_plains_shamanism }
+}
+opaskwayak = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = mahmikiwini_culture	religion = midewiwin_religion }
+}
+wapisiw_sipihk = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = mahmikiwini_culture	religion = midewiwin_religion }
+}
+winnipegosis = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = mahmikiwini_culture	religion = midewiwin_religion }
+}
+lake_winnipegosis = {
+}
+swan_lake = {
+}
+red_deer_lake = {
+}
+wazihe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = akainaa_culture	religion = midewiwin_religion }
+}
+minizuahe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = akainaa_culture	religion = midewiwin_religion }
+}
+wibazoka_wakpa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = siksika_culture	religion = midewiwin_religion }
+}
+minichinas = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = siksika_culture	religion = midewiwin_religion }
+}
+tugaske = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = akainaa_culture	religion = midewiwin_religion }
+}
+notukeu = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = akainaa_culture	religion = midewiwin_religion }
+}
+miksiw_sipisis = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = siksika_culture	religion = midewiwin_religion }
+}
+kiyiu = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = siksika_culture	religion = midewiwin_religion }
+}
+manitowi_sakahikanihk = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = siksika_culture	religion = midewiwin_religion }
+}
+ye_ya_xabine = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = siksika_culture	religion = midewiwin_religion }
+}
+ogiciza_wakpa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = matiyinini_culture	religion = midewiwin_religion }
+}
+pimicaskewyashik = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = matiyinini_culture	religion = midewiwin_religion }
+}
+ceepee = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = matiyinini_culture	religion = midewiwin_religion }
+}
+saskatchewan = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = mahmikiwini_culture	religion = midewiwin_religion }
+}
+kistapinan = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = mahmikiwini_culture	religion = midewiwin_religion }
+}
+petaigan = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = mahmikiwini_culture	religion = midewiwin_religion }
+}
+porcupine_hills = {
+}
+notinito_sipiy = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = siksika_culture	religion = midewiwin_religion }
+}
+wetaskiwin = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = siksika_culture	religion = midewiwin_religion }
+}
+amisk = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = siksika_culture	religion = midewiwin_religion }
+}
+kisiskaciwani_sipiy = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = siksika_culture	religion = midewiwin_religion }
+}
+amiskwaciwiy = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = siksika_culture	religion = midewiwin_religion }
+}
+titaga = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = siksika_culture	religion = midewiwin_religion }
+}
+wabamun = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ktunaxa_culture	religion = midewiwin_religion }
+}
+apahtoksipisskan = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ktunaxa_culture	religion = paiute_shamanism }
+}
+mokowan = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ktunaxa_culture	religion = paiute_shamanism }
+}
+ijathibe_wapta = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ktunaxa_culture	religion = paiute_shamanism }
+}
+kananaskis = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ktunaxa_culture	religion = paiute_shamanism }
+}
+okotoks = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ktunaxa_culture	religion = paiute_shamanism }
+}
+inotonniicaah = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ktunaxa_culture	religion = paiute_shamanism }
+}
+saamis = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = akainaa_culture	religion = midewiwin_religion }
+}
+insaombi = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ktunaxa_culture	religion = midewiwin_religion }
+}
+makhabn = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ktunaxa_culture	religion = paiute_shamanism }
+}
+waskasoo = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ktunaxa_culture	religion = paiute_shamanism }
+}
+netook = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ktunaxa_culture	religion = paiute_shamanism }
+}
+keoma = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ktunaxa_culture	religion = paiute_shamanism }
+}
+michichi = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = siksika_culture	religion = midewiwin_religion }
+}
+wawaskesiw_sipiy = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = siksika_culture	religion = midewiwin_religion }
+}
+wastina = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = siksika_culture	religion = midewiwin_religion }
+}
+shunda = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ktunaxa_culture	religion = paiute_shamanism }
+}
+pembina_ab = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tsuutina_culture	religion = dene_shamanism }
+}
+ya_kti_ki = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ktunaxa_culture	religion = paiute_shamanism }
+}
+apetowun = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tsuutina_culture	religion = dene_shamanism }
+}
+onabeesh = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = mahmikiwini_culture	religion = midewiwin_religion }
+}
+tootinaowaziibeeng = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = haaninin_culture	religion = midewiwin_religion }
+}
+kinosota = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nakoda_culture	religion = great_plains_shamanism }
+}
+lake_dauphin = {
+}
+lake_manitoba = {
+}
+kihi = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = haaninin_culture	religion = midewiwin_religion }
+}
+sihabi = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = haaninin_culture	religion = midewiwin_religion }
+}
+sipiweske = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nakoda_culture	religion = great_plains_shamanism }
+}
+waskada = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = haaninin_culture	religion = midewiwin_religion }
+}
+winnipeg = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nakoda_culture	religion = great_plains_shamanism }
+}
+mnisaton = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nakoda_culture	religion = great_plains_shamanism }
+}
+mihkwakamiwi_sipiy = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nakoda_culture	religion = great_plains_shamanism }
+}
+pikwedina_sagaomam = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tsetsehesahese_culture	religion = midewiwin_religion }
+}
+maskwa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = asinikawithini_culture	religion = midewiwin_religion }
+}
+osukyuze = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = akainaa_culture	religion = midewiwin_religion }
+}
+hepa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = haaninin_culture	religion = midewiwin_religion }
+}
+canuba_wakpa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = haaninin_culture	religion = midewiwin_religion }
+}
+muskiki = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = siksika_culture	religion = midewiwin_religion }
+}
+kinistino = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = siksika_culture	religion = midewiwin_religion }
+}
+etomami = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = siksika_culture	religion = midewiwin_religion }
+}
+kamsack = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = haaninin_culture	religion = midewiwin_religion }
+}
+quill_lakes = {
+}
+iskwao = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = siksika_culture	religion = midewiwin_religion }
+}
+tacehubana = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = akainaa_culture	religion = midewiwin_religion }
+}
+wascana = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = akainaa_culture	religion = midewiwin_religion }
+}
+posakanaciwiy = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = siksika_culture	religion = midewiwin_religion }
+}
+katepwewi = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = haaninin_culture	religion = midewiwin_religion }
+}
+assapasca = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = akainaa_culture	religion = midewiwin_religion }
+}
+old_wives_lake = {
+}
+pikwedina = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tsetsehesahese_culture	religion = midewiwin_religion }
+}
+kimodakiwi = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = sotaeoo_culture	religion = midewiwin_religion }
+}
+ajawewesitagun = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = sotaeoo_culture	religion = midewiwin_religion }
+}
+manomin = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = sotaeoo_culture	religion = midewiwin_religion }
+}
+gawakomitigweia = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nakoda_culture	religion = great_plains_shamanism }
+}
+mustinka = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ithanktunwanna_culture	religion = great_plains_shamanism }
+}
+tewaukon = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = ithanktunwanna_culture	religion = great_plains_shamanism }
+}
+maitomoni_ohe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nakoda_culture	religion = great_plains_shamanism }
+}
+mekinock = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nakoda_culture	religion = great_plains_shamanism }
+}
+pembina = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nakoda_culture	religion = great_plains_shamanism }
+}
+minnewaukan = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nakoda_culture	religion = great_plains_shamanism }
+}
+mirixubaash = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = nakoda_culture	religion = great_plains_shamanism }
+}
+devil_lake = {
+}
+saakak_hukaahaanu = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = haaninin_culture	religion = midewiwin_religion }
+}
+metigoshe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = haaninin_culture	religion = midewiwin_religion }
+}
+itscheabine = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = akainaa_culture	religion = midewiwin_religion }
+}
+hupenuu = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = lepai_nde_culture	religion = dene_shamanism }
+}
+hoyu_ao_he = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = lepai_nde_culture	religion = dene_shamanism }
+}
+atarque = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = lepai_nde_culture	religion = dene_shamanism }
+}
+kiowa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = lepai_nde_culture	religion = dene_totemism }
+}
+hotoanaohe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = lepai_nde_culture	religion = dene_shamanism }
+}
+wahin_wakpa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = lepai_nde_culture	religion = dene_shamanism }
+}
+chinali = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tickanwatic_culture	religion = great_plains_shamanism }
+}
+honih_hiyo_he = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tickanwatic_culture	religion = great_plains_shamanism }
+}
+iriirakiicuhat = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tickanwatic_culture	religion = great_plains_shamanism }
+}
+mah_hom = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kitikitish_culture	religion = great_plains_shamanism }
+}
+oohkoi_yohe = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = kitikitish_culture	religion = great_plains_shamanism }
+}
+kuhtsutuuka = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = tickanwatic_culture	religion = great_plains_shamanism }
+}
+
+
+# Caddo Peoples
+ya_ttaish = {
+	define_pop = {	type = tribesmen	size = 0.226	culture = caddo_culture	religion = mississippian_ceremonial }
+}
+calcasieu = {
+}
+doustioni = {
+}
+ouachita = {
+}
+nanatsoho = {
+}
+naguatex = {
+}
+catalte = {
+}
+aguacay = {
+}
+amaye = {
+}
+chaguate = {
+}
+kiamichi = {
+}
+aays = {
+}
+nasoni = {
+	define_pop = {	type = tribesmen	size = 0.367	culture = caddo_culture	religion = mississippian_ceremonial }
+}
+lacane = {
+	define_pop = {	type = tribesmen	size = 0.225	culture = caddo_culture	religion = mississippian_ceremonial }
+}
+nisohone = {
+	define_pop = {	type = tribesmen	size = 0.341	culture = caddo_culture	religion = mississippian_ceremonial }
+}
+nadakuh = {
+	define_pop = {	type = tribesmen	size = 0.245	culture = caddo_culture	religion = mississippian_ceremonial }
+}
+nabiti = {
+	define_pop = {	type = tribesmen	size = 0.482	culture = caddo_culture	religion = mississippian_ceremonial }
+}
+nacao = {
+}
+nacogdoches = {
+	define_pop = {	type = tribesmen	size = 0.220	culture = caddo_culture	religion = mississippian_ceremonial }
+}
+naconiche = {
+	define_pop = {	type = tribesmen	size = 0.295	culture = caddo_culture	religion = mississippian_ceremonial }
+}
+ayish = {
+}
+haynay = {
+	define_pop = {	type = tribesmen	size = 0.240	culture = caddo_culture	religion = mississippian_ceremonial }
+}
+nacachau = {
+	define_pop = {	type = tribesmen	size = 0.220	culture = caddo_culture	religion = mississippian_ceremonial }
+}
+nabaydacu = {
+	define_pop = {	type = tribesmen	size = 0.480	culture = caddo_culture	religion = mississippian_ceremonial }
+}
+nakono = {
+	define_pop = {	type = tribesmen	size = 0.220	culture = caddo_culture	religion = mississippian_ceremonial }
+}
+
+
+# Naadahende
+tinde = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = naadahende_culture	religion = dene_shamanism }
+}
+apispaha = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = naadahende_culture	religion = dene_shamanism }
+}
+
+# Aridoamerica
+
+shiewhibak = {
+	define_pop = {	type = tribesmen	size = 0.507	culture = keres_culture	religion = kachina_religion }
+}
+
+# West Gulf Coast
+tugumlepen = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = comecrudo_culture	religion = coahuilteco_religion }
+}
+estok_gna = {
+	define_pop = {	type = tribesmen	size = 0.171	culture = comecrudo_culture	religion = coahuilteco_religion }
+}
+cacaxtles = {
+	define_pop = {	type = tribesmen	size = 0.141	culture = comecrudo_culture	religion = coahuilteco_religion }
+}
+tinapihuaya = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = comecrudo_culture	religion = coahuilteco_religion }
+}
+piguique = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = comecrudo_culture	religion = coahuilteco_religion }
+}
+capoque = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = karankawa_culture	religion = atakapa_religion }
+}
+karankawa = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = karankawa_culture	religion = karankawa_religion }
+}
+copane = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = karankawa_culture	religion = karankawa_religion }
+}
+mariame = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = karankawa_culture	religion = karankawa_religion }
+}
+
+# Ishak
+ciwat = {
+#
+}
+otse = {
+#
+}
+tsikip = {
+#
+}
+ishak = {
+	define_pop = {	type = tribesmen	size = 0.400	culture = atakapa_culture	religion = atakapa_religion }
+}
+han = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = atakapa_culture	religion = atakapa_religion }
+}
+orcoquisac = {
+	define_pop = {	type = tribesmen	size = 0.400	culture = atakapa_culture	religion = atakapa_religion }
+}
+caux = {
+	define_pop = {	type = tribesmen	size = 0.400	culture = atakapa_culture	religion = atakapa_religion }
+}
+toyal = {
+	define_pop = {	type = tribesmen	size = 0.999	culture = atakapa_culture	religion = atakapa_religion }
+}
+pachina = {
+#
 }
 
 
@@ -125,26 +1815,29 @@ cuencame = {
 nandeva = {
 	define_pop = {	type = soldiers	size = 0.200	culture = ava_culture	religion = tunpa_religion }
 	define_pop = {	type = nobles	size = 0.140	culture = ava_culture	religion = tunpa_religion }
-	define_pop = {	type = peasants	size = 5.140	culture = ava_culture	religion = tunpa_religion }
+	define_pop = {	type = peasants	size = 7.140	culture = ava_culture	religion = tunpa_religion }
+}
+sao_leopoldo = {
+	define_pop = {	type = peasants	size = 4.000	culture = ava_culture	religion = tunpa_religion }
 }
 umbu = {
-	define_pop = {	type = peasants	size = 3.140	culture = ava_culture	religion = tunpa_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = ava_culture	religion = tunpa_religion }
 	define_pop = {	type = tribesmen	size = 5.140	culture = ava_culture	religion = tunpa_religion }
 }
 tupancireta = {
-	define_pop = {	type = peasants	size = 3.140	culture = ava_culture	religion = tunpa_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = ava_culture	religion = tunpa_religion }
 }
 patos = {
-	define_pop = {	type = peasants	size = 3.140	culture = ava_culture	religion = tunpa_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = ava_culture	religion = tunpa_religion }
 }
 jacui = {
-	define_pop = {	type = peasants	size = 3.140	culture = ava_culture	religion = tunpa_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = ava_culture	religion = tunpa_religion }
 }
 ibicui = {
-	define_pop = {	type = peasants	size = 3.140	culture = ava_culture	religion = tunpa_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = ava_culture	religion = tunpa_religion }
 }
 uruguay = {
-	define_pop = {	type = peasants	size = 3.140	culture = ava_culture	religion = tunpa_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = ava_culture	religion = tunpa_religion }
 }
 
 
@@ -156,73 +1849,113 @@ samaipata = {
 	define_pop = {	type = peasants	size = 5.140	culture = ava_culture	religion = tunpa_religion }
 }
 tomina = {
-	define_pop = {	type = peasants	size = 5.140	culture = ava_culture	religion = tunpa_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = ava_culture	religion = tunpa_religion }
 }
 huacareta = {
-	define_pop = {	type = peasants	size = 5.140	culture = ava_culture	religion = tunpa_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = ava_culture	religion = tunpa_religion }
 }
 pomabamba = {
-	define_pop = {	type = peasants	size = 5.140	culture = ava_culture	religion = tunpa_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = ava_culture	religion = tunpa_religion }
 }
 
 #Aimoré
 urucu = {
+	define_pop = {	type = peasants	size = 4.140	culture = kren_culture	religion = doi_wahire_religion }
+}
+aimore = {
 	define_pop = {	type = soldiers	size = 0.200	culture = kren_culture	religion = doi_wahire_religion }
 	define_pop = {	type = nobles	size = 0.140	culture = kren_culture	religion = doi_wahire_religion }
 	define_pop = {	type = peasants	size = 5.140	culture = kren_culture	religion = doi_wahire_religion }
 }
-aimore = {
-	define_pop = {	type = peasants	size = 5.140	culture = kren_culture	religion = doi_wahire_religion }
-}
 malalis = {
-	define_pop = {	type = peasants	size = 5.140	culture = kren_culture	religion = doi_wahire_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = kren_culture	religion = doi_wahire_religion }
 }
 nanuque = {
-	define_pop = {	type = peasants	size = 5.140	culture = kren_culture	religion = doi_wahire_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = kren_culture	religion = doi_wahire_religion }
 }
 borun = {
-	define_pop = {	type = peasants	size = 5.140	culture = kren_culture	religion = doi_wahire_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = kren_culture	religion = doi_wahire_religion }
 }
 
 #Kiriri
 kariri = {
 	define_pop = {	type = soldiers	size = 0.200	culture = kiriri_culture	religion = jurema_religion }
 	define_pop = {	type = nobles	size = 0.140	culture = kiriri_culture	religion = jurema_religion }
-	define_pop = {	type = peasants	size = 5.140	culture = kiriri_culture	religion = jurema_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = kiriri_culture	religion = jurema_religion }
+	define_pop = {	type = slaves	size = 1.140	culture = ava_culture	religion = namandu_religion }
+	define_pop = {	type = slaves	size = 1.140	culture = kren_culture	religion = doi_wahire_religion }
 }
 arakaiu = {
-	define_pop = {	type = peasants	size = 5.140	culture = kiriri_culture	religion = jurema_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = kiriri_culture	religion = jurema_religion }
 }
 karapoto = {
-	define_pop = {	type = peasants	size = 5.140	culture = kiriri_culture	religion = jurema_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = kiriri_culture	religion = jurema_religion }
 }
 kiriri = {
-	define_pop = {	type = peasants	size = 5.140	culture = kiriri_culture	religion = jurema_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = kiriri_culture	religion = jurema_religion }
 }
 yapuata = {
-	define_pop = {	type = peasants	size = 5.140	culture = kiriri_culture	religion = jurema_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = kiriri_culture	religion = jurema_religion }
 }
 
 #Potiguara
 potiguara = {
 	define_pop = {	type = soldiers	size = 0.200	culture = potiguara_culture	religion = namandu_religion }
 	define_pop = {	type = nobles	size = 0.140	culture = potiguara_culture	religion = namandu_religion }
-	define_pop = {	type = peasants	size = 5.140	culture = potiguara_culture	religion = namandu_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = potiguara_culture	religion = namandu_religion }
+	define_pop = {	type = slaves	size = 1.140	culture = ava_culture	religion = namandu_religion }
+	define_pop = {	type = slaves	size = 1.140	culture = kiriri_culture	religion = jurema_religion }
 }
 kaaysara = {
-	define_pop = {	type = peasants	size = 5.140	culture = potiguara_culture	religion = namandu_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = potiguara_culture	religion = namandu_religion }
 }
 paraiba = {
-	define_pop = {	type = peasants	size = 5.140	culture = potiguara_culture	religion = namandu_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = potiguara_culture	religion = namandu_religion }
 }
 monxoro = {
-	define_pop = {	type = peasants	size = 5.140	culture = potiguara_culture	religion = namandu_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = potiguara_culture	religion = namandu_religion }
 }
 payaku = {
-	define_pop = {	type = peasants	size = 5.140	culture = potiguara_culture	religion = namandu_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = potiguara_culture	religion = namandu_religion }
 }
 utuva = {
-	define_pop = {	type = peasants	size = 5.140	culture = potiguara_culture	religion = namandu_religion }
+	define_pop = {	type = peasants	size = 4.140	culture = potiguara_culture	religion = namandu_religion }
+}
+
+#Carijo
+arroio = {
+	define_pop = {	type = peasants	size = 2.140	culture = kaxixo_culture	religion = tunpa_religion }
+}
+carijo = {
+	define_pop = {	type = peasants	size = 5.140	culture = kaxixo_culture	religion = tunpa_religion }
+}
+iaguarauna = {
+	define_pop = {	type = peasants	size = 2.140	culture = kaxixo_culture	religion = tunpa_religion }
+}
+
+#Layanes
+cunhambebe = {
+	define_pop = {	type = nobles	size = 0.140	culture = tupiniquim_culture	religion = namandu_religion }
+	define_pop = {	type = peasants	size = 5.140	culture = tupiniquim_culture	religion = namandu_religion }
+	define_pop = {	type = slaves	size = 1.140	culture = kiriri_culture	religion = jurema_religion }
+	define_pop = {	type = slaves	size = 1.140	culture = ava_culture	religion = namandu_religion }
+
+}
+ita_kua_y = {
+	define_pop = {	type = peasants	size = 2.140	culture = tupiniquim_culture	religion = namandu_religion }
+}
+
+#Xeta
+umuarama = {
+	define_pop = {	type = peasants	size = 5.140	culture = xeta_culture	religion = namandu_religion }
+}
+
+#Kaiowa
+ayvu_pora = {
+	define_pop = {	type = peasants	size = 3.140	culture = ava_culture	religion = namandu_religion }
+}
+pai_tavytera = {
+	define_pop = {	type = peasants	size = 2.140	culture = ava_culture	religion = namandu_religion }
 }
 
 }

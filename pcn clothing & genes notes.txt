@@ -1,0 +1,155 @@
+Clothing and Gene additions/changes for pcn and livam mods
+
+file locations
+    models
+    - main_menu/gfx/portraits/accessories #sets poses and other data for accessories
+        - not needed until new clothing items introduced.
+    - in_game/gfx/models/portraits/attachments #model files for clothing sets
+        - use existing where possible to start
+
+    scripts & templates
+    - in_game/common/genes/0X_genes_accessories_XXXX.txt            #setting a clothing or accessory set for a culture
+    - main_menu/gfx/portraits/portrait_modifiers                    #setting cultures and selecting templates for classes
+    - in_game/common/scripted_triggers/XX_clothing_triggers.txt     #setting condition triggers, sub culture, estate, birth year, etc.
+
+Order to create:
+
+1. in_game/gfx/graphical_culture_types/
+    a. mod_name_graphical_culture_types.txt #define tag, set priority and ethnicity
+
+2. in_game/common/genes/0X_genes_accessories_XXXX.txt
+    a. mod_name_genes_accessories_headwear - hats and jewelery
+    b. mod_name_genes_accessories_clothes
+    c. mod_name_genes_accessories_hair
+    d. mod_name_genes_accessories_beards
+
+3. main_menu/gfx/portraits/portrait_modifiers
+    a. mod_name_headwear
+    b. mod_name_clothes
+    c. mod_name_headwear_additive
+    d. mod_name_beards
+
+4. in_game/common/ethnicities
+    a. if needed create new ethnicity by copying existing and modifying.
+    b. 00_ethnicities_mod_name - add in new hair genes
+
+5. in_game/common/cultures/
+    a. region_name.txt #select which cultures will recieve the new clothing set and/or ethnicity
+
+
+
+pcn ethnicity/gfx
+
+    add clothing
+        gene: headwear
+        #male
+        - male_headwear_chinese_low_straw_hat
+            - copy from indochina_low_nobility
+            -
+        - male_headwear_german_elector_cap_ermine
+            - decent standin for crown of the area until model can be made
+        - male_headwear_syrian_commoner_felt_cap
+            - standin for common cold weather cap
+        - male_headwear_aztec_low_turban
+        - male_headwear_aztec_high_triangle_band
+            - use for southern coastal nations and pueblo nations
+        - male_headwear_iroquois_low_headband
+        - male_headwear_iroquois_low_headband_mirrored
+        - male_headwear_ashanti_war_scale_cap
+            - another decent standin for crown until model can be made
+
+        #female
+        - female_headwear_aztec_low_pearls_circlet
+            - use for southern coastal nations
+
+        gene: headwear_additive (jewelery)
+        - male_headwear_aztec_jewelery_01_earrings
+        - male_headwear_aztec_jewelery_01_jade_earrings
+
+        gene: face_paint
+        - face_paint_iroquois
+
+        gene: clothes
+        #male
+        - male_clothes_iroquois_low_beadwork
+        - male_clothes_iroquois_low_beadwork_shirt
+        - male_clothes_iroquois_royal_bear_hunter
+        - male_clothes_syrian_common_jillaba
+            - maybe - best plain shirt
+        - male_clothes_syrian_peasant_thawb
+        - male_clothes_syrian_lamellar_armor
+            - maybe for alaskan and north coast nations
+        - male_clothes_aztec_common_tilmatl
+            - southern nations
+        - male_clothes_aztec_low_tilmatl
+            - southern nations
+        - male_clothes_ashanti_war_scale_armor
+            - maybe: really need proper models.
+
+        #male child
+        - male_clothes_iroquois_low_beadwork_shirt
+        - male_clothes_aztec_common_tilmatl
+            - southern nations
+        - male_clothes_aztec_low_tilmatl
+            - southern nations
+        - male_clothes_iroquois_high_beadscarf
+            - southern nations
+
+
+        #female
+        - female_clothes_iroquois_common_overcoat
+        - female_clothes_iroquois_noble_overcoat
+        - female_clothes_german_nun_robe
+            - maybe
+        - female_breast_wrap
+            - southern areas
+        - female_clothes_aztec_high_noble_huipilli
+            - southern areas
+
+
+
+
+    add hairstyles
+    gene: hair_styles
+    #male
+        - male_han_chinese_hair_bun_tie
+            - set to use with male_headwear_chinese_low_straw_hat
+        - male_german_hair_crown_long_back
+            - set to use with male_headwear_chinese_low_straw_hat
+        - male_hair_aztec_hair_bob_long
+        - male_german_hair_crown_regular
+        - male_german_hair_crown_long_bald
+    #male child
+        - boy_short_hair_a
+        - male_syrian_hair_curly_regular
+        - boy_aztec_bob_short
+        - boy_german_hair_bob_short
+
+    #female
+        - female_iroquois_straight_parted_hair
+        - female_hair_long_basic
+        - female_deccan_straight_back_hair
+        - female_german_braid_hair_behind
+        - female_hair_chinese_bun_loose
+        - female_german_hair_long_crown
+    #female child
+        - female_hair_long_basic
+
+    add beards
+        gene: beards
+        - beard_german_long_01
+        - beard_german_short_01
+        - beard_asian_full_manchu
+        - beard_german_mustache_01
+
+
+
+pcn & north_american gfx
+
+    add clothing
+        gene: capes
+        - male_capes_german_royal_tabard
+            - add to andean factions
+
+    add hairstyles
+

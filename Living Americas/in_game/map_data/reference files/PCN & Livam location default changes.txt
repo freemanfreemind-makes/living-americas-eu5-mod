@@ -1,0 +1,3 @@
+#Lines to change in "default.txt"
+
+#dorset_province = { not_eligible_for_dynamic_country_name = yes poole weymouth dorchester

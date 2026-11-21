@@ -1,0 +1,119 @@
+﻿la_headwear_additive = {
+	usage = game
+	selection_behavior = weighted_random
+	priority = 1
+
+	## JEWELERY
+
+	la_arctic_jewellery_low = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear_additive
+				template = la_arctic_jewellery_low
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				OR = {
+					portrait_low_nobility_trigger = { CULTURE_GFX = la_arctic_gfx }
+					portrait_high_nobility_trigger = { CULTURE_GFX = la_arctic_gfx }
+				}
+				NOT = { portrait_wear_armor_trigger = yes }
+			}
+		}
+	}
+
+
+	la_northeast_jewellery_low = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear_additive
+				template = la_arctic_jewellery_low
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				OR = {
+					portrait_low_nobility_trigger = { CULTURE_GFX = la_northeast_gfx }
+					portrait_high_nobility_trigger = { CULTURE_GFX = la_northeast_gfx }
+				}
+				NOT = { portrait_wear_armor_trigger = yes }
+			}
+		}
+	}
+
+	la_north_plains_jewellery_low = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear_additive
+				template = la_north_plains_jewellery_low
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				OR = {
+					portrait_low_nobility_trigger = { CULTURE_GFX = la_north_plains_gfx }
+					portrait_high_nobility_trigger = { CULTURE_GFX = la_north_plains_gfx }
+				}
+				NOT = { portrait_wear_armor_trigger = yes }
+			}
+		}
+	}
+
+	la_south_plains_jewellery_low = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear_additive
+				template = la_north_plains_jewellery_low
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				OR = {
+					portrait_low_nobility_trigger = { CULTURE_GFX = la_south_plains_gfx }
+					portrait_high_nobility_trigger = { CULTURE_GFX = la_south_plains_gfx }
+				}
+				NOT = { portrait_wear_armor_trigger = yes }
+			}
+		}
+	}
+
+	la_aridoamerica_jewellery_low = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear_additive
+				template = la_north_plains_jewellery_low
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				OR = {
+					portrait_low_nobility_trigger = { CULTURE_GFX = la_aridoamerica_gfx }
+					portrait_high_nobility_trigger = { CULTURE_GFX = la_aridoamerica_gfx }
+				}
+				NOT = { portrait_wear_armor_trigger = yes }
+			}
+		}
+	}
+
+}
